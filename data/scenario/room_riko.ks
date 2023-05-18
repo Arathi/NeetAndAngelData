@@ -5,7 +5,7 @@
 [bg storage="black.png" time="1000"]
 [bgmovie storage="mov_65_1.webm" time="1000"]
 #
-莉子ちゃんの部屋にやってきた[p]
+来到了莉子的房间[p]
 
 ;■莉子ちゃん会話
 ;ランダム数値の取り出し
@@ -17,47 +17,47 @@ tf.rand = Math.floor( Math.random() * 6)
 [if exp="tf.rand == 0"]
 #莉子
 [playse storage="riko/rk65_001.ogg" buf="0"]
-おじさん、ゲームでもする？[p]
+大叔，玩游戏吗？[p]
 [endif]
 ;■会話1
 [if exp="tf.rand == 1"]
 #莉子
 [playse storage="riko/rk65_002.ogg" buf="0"]
-おじさん、莉子にいやらしいことしようとしてるでしょ！[p]
+大叔，你是想对莉子做些下流的事吧！[p]
 [endif]
 ;■会話2
 [if exp="tf.rand == 2"]
 #莉子
 [playse storage="riko/rk65_003.ogg" buf="0"]
-莉子に逢いにきたの？[p]
+你是来见莉子的吗[p]
 [endif]
 ;■会話3
 [if exp="tf.rand == 3"]
 #莉子
 [playse storage="riko/rk65_004.ogg" buf="0"]
-おじさん莉子の事がそんなに好きなの？[r]
-もう、しょうがないから相手してあげる[p]
+大叔你那么喜欢莉子吗[r]
+真是的，没办法了，我会陪你的[p]
 [endif]
 ;■会話4
 [if exp="tf.rand == 4"]
 #莉子
 [playse storage="riko/rk65_005.ogg" buf="0"]
-おじさん、宿題やってよ！　でも、おじさんわかるかな？[p]
+大叔，做作业吧！ 但是，你会吗大叔？[p]
 [endif]
 ;■会話5
 [if exp="tf.rand == 5"]
 #莉子
 [playse storage="riko/rk65_006.ogg" buf="0"]
-莉子漫画読んでるんだけど！[r]
-おじさんがどうしてもって言うなら相手してあげてもいいけど[p]
+莉子我在看漫画呢[r]
+如果大叔要做的话，我可以陪你[p]
 [endif]
 
 ;■主人公選択肢
 #
-さて、どうしようかな[p]
-[glink  color="pink" size="20"  x="800"  width="300"  y="200"  text="莉子ちゃんとエッチ"  target="*riko_room_h"]
+接下来干嘛呢[p]
+[glink  color="pink" size="20"  x="800"  width="300"  y="200"  text="和莉子做爱"  target="*riko_room_h"]
 [if exp="f.riko_h >= 50 && f.uniform_h == undefined"]
-[glink  color="pink" size="20"  x="800"  width="300"  y="300"  text="莉子ちゃん制服着てエッチ"  target="*uniform_h"]
+[glink  color="pink" size="20"  x="800"  width="300"  y="300"  text="让莉子穿着制服做爱"  target="*uniform_h"]
 [endif]
 [s]
 
@@ -77,17 +77,17 @@ tf.rand = Math.floor( Math.random() * 3)
 [if exp="tf.rand == 0"]
 #莉子
 [playse storage="riko/rk68_001.ogg" buf="0"]
-痛くしないでね[p]
+不要弄疼我哦[p]
 [endif]
 [if exp="tf.rand == 1"]
 #莉子
 [playse storage="riko/rk68_002.ogg" buf="0"]
-おじさん優しくだよ！[p]
+大叔你要温柔点[p]
 [endif]
 [if exp="tf.rand == 2"]
 #莉子
 [playse storage="riko/rk68_003.ogg" buf="0"]
-おじさん……いいよ[p]
+大叔……可以哦[p]
 [endif]
 [endif]
 ;***********************************************************************************************************************
@@ -101,17 +101,17 @@ tf.rand = Math.floor( Math.random() * 3)
 [if exp="tf.rand == 0"]
 #莉子
 [playse storage="riko/rk68_005.ogg" buf="0"]
-おじさんがどうしてもって言うならいいよ[p]
+大叔想怎么做就怎么做吧[p]
 [endif]
 [if exp="tf.rand == 1"]
 #莉子
 [playse storage="riko/rk68_006.ogg" buf="0"]
-おじさんエッチしたいの？[p]
+大叔你想做色色的事吗[p]
 [endif]
 [if exp="tf.rand == 2"]
 #莉子
 [playse storage="riko/rk68_004.ogg" buf="0"]
-莉子…………エッチ好きかも[p]
+莉子我………或许喜欢H[p]
 [endif]
 [endif]
 ;***********************************************************************************************************************
@@ -125,17 +125,17 @@ tf.rand = Math.floor( Math.random() * 3)
 [if exp="tf.rand == 0"]
 #莉子
 [playse storage="riko/rk68_007.ogg" buf="0"]
-おじさん、ここに挿れたい？[p]
+大叔，你想插进这里吗？[p]
 [endif]
 [if exp="tf.rand == 1"]
 #莉子
 [playse storage="riko/rk68_008.ogg" buf="0"]
-莉子…………はやくエッチしたい[p]
+莉子我……想快点做H的事[p]
 [endif]
 [if exp="tf.rand == 2"]
 #莉子
 [playse storage="riko/rk68_010.ogg" buf="0"]
-おじさん挿れて……[p]
+大叔插进来吧……[p]
 [endif]
 [endif]
 ;***********************************************************************************************************************
@@ -149,17 +149,17 @@ tf.rand = Math.floor( Math.random() * 3)
 [if exp="tf.rand == 0"]
 #莉子
 [playse storage="riko/rk68_012.ogg" buf="0"]
-莉子、もう我慢できないの[p]
+莉子，已经忍不住了[p]
 [endif]
 [if exp="tf.rand == 1"]
 #莉子
 [playse storage="riko/rk68_013.ogg" buf="0"]
-おじさん早く挿れてよ！[p]
+大叔快点插啊[p]
 [endif]
 [if exp="tf.rand == 2"]
 #莉子
 [playse storage="riko/rk68_011.ogg" buf="0"]
-おじさん、はやく……[p]
+大叔，快……[p]
 [endif]
 [endif]
 #
@@ -168,21 +168,21 @@ tf.rand = Math.floor( Math.random() * 3)
 ;■精力判別　20以下だと不能
 [if exp="f.energy < 20"]
 ……[l]……[l]……[p]
-あっ……あれ？……[p]
-おかしいな……[p]
-た……立たない……[p]
+啊……咦？……[p]
+真奇怪啊……[p]
+怎么回事？无法勃起……[p]
 …………[p]
 [bg storage="black.png" time="0"]
 [stop_bgmovie time="2000"]
 [bgmovie storage="mov_65_2.webm"]
 #莉子
 [playse storage="riko/rk68_062.ogg" buf="0"]
-おじさん、そんな時もあるよ……[p]
+大叔，也有这样的时候呢……[p]
 #
 [stop_bgmovie]
 [bg storage="room_night.png" time="1000"]
 [uiwindows]
-部屋に戻ってきた[p]
+回到了房间[p]
 
 [jump storage="main.ks" target="*night_choice"]
 [endif]
@@ -204,7 +204,7 @@ tf.rand = Math.floor( Math.random() * 3)
 ;■90以上  座位3 側位4
 ;■95以上  後背位4
 
-;■一時変数 tf.posture [体位動画、事後動画、遅いレート、普通レート、早いレート,射精動画]
+;■一時変数 tf.posture [体位動画，事後動画，遅いレート，普通レート，早いレート,射精動画]
 [eval exp="tf.riko_posture = []"]
 ;■0　正常位１
 [eval exp="tf.riko_posture[0] = ['mov_68_11.webm','mov_68_31.webm',1,1.3,1.6,'mov_68_40.webm']"]
@@ -258,45 +258,45 @@ tf.rand = Math.floor( Math.random() * 3)
 [if exp="f.riko_h >= 85"]
  [glink  color="pink" size="15"  x="250"  width="150"  y="50"  text="正常位4"  target="*riko_room_movie" exp="tf.posture = 15]"]
 [endif]
-[glink  color="pink" size="15"  x="20"  width="150"  y="160"  text="側位１"  target="*riko_room_movie" exp="tf.posture = 3"]
+[glink  color="pink" size="15"  x="20"  width="150"  y="160"  text="侧位１"  target="*riko_room_movie" exp="tf.posture = 3"]
 [if exp="f.riko_h >= 30"]
- [glink  color="pink" size="15"  x="60"  width="150"  y="195"  text="側位２"  target="*riko_room_movie" exp="tf.posture = 4"]
+ [glink  color="pink" size="15"  x="60"  width="150"  y="195"  text="侧位２"  target="*riko_room_movie" exp="tf.posture = 4"]
 [endif]
 [if exp="f.riko_h >= 50"]
- [glink  color="pink" size="15"  x="100"  width="150"  y="230"  text="側位３"  target="*riko_room_movie" exp="tf.posture = 5"]
+ [glink  color="pink" size="15"  x="100"  width="150"  y="230"  text="侧位３"  target="*riko_room_movie" exp="tf.posture = 5"]
 [endif]
 [if exp="f.riko_h >= 90"]
- [glink  color="pink" size="15"  x="250"  width="150"  y="160"  text="側位4"  target="*riko_room_movie" exp="tf.posture = 16"]
+ [glink  color="pink" size="15"  x="250"  width="150"  y="160"  text="侧位4"  target="*riko_room_movie" exp="tf.posture = 16"]
 [endif]
 [if exp="f.riko_h >= 20"]
- [glink  color="pink" size="15"  x="20"  width="150"  y="270"  text="後背位１"  target="*riko_room_movie" exp="tf.posture = 6"]
+ [glink  color="pink" size="15"  x="20"  width="150"  y="270"  text="后背位１"  target="*riko_room_movie" exp="tf.posture = 6"]
 [endif]
 [if exp="f.riko_h >= 55"]
- [glink  color="pink" size="15"  x="60"  width="150"  y="305"  text="後背位２"  target="*riko_room_movie" exp="tf.posture = 7"]
+ [glink  color="pink" size="15"  x="60"  width="150"  y="305"  text="后背位２"  target="*riko_room_movie" exp="tf.posture = 7"]
 [endif]
 [if exp="f.riko_h >= 65"]
- [glink  color="pink" size="15"  x="100"  width="150"  y="340"  text="後背位3"  target="*riko_room_movie" exp="tf.posture = 10"]
+ [glink  color="pink" size="15"  x="100"  width="150"  y="340"  text="后背位3"  target="*riko_room_movie" exp="tf.posture = 10"]
 [endif]
 [if exp="f.riko_h >= 90"]
- [glink  color="pink" size="15"  x="250"  width="150"  y="270"  text="後背位4"  target="*riko_room_movie" exp="tf.posture = 17"]
+ [glink  color="pink" size="15"  x="250"  width="150"  y="270"  text="后背位4"  target="*riko_room_movie" exp="tf.posture = 17"]
 [endif]
 [if exp="f.riko_h >= 60"]
- [glink  color="pink" size="15"  x="20"  width="150"  y="380"  text="騎乗位1"  target="*riko_room_movie" exp="tf.posture = 8"]
+ [glink  color="pink" size="15"  x="20"  width="150"  y="380"  text="乘骑位1"  target="*riko_room_movie" exp="tf.posture = 8"]
 [endif]
 [if exp="f.riko_h >= 70"]
- [glink  color="pink" size="15"  x="60"  width="150"  y="415"  text="騎乗位2"  target="*riko_room_movie" exp="tf.posture = 11"]
+ [glink  color="pink" size="15"  x="60"  width="150"  y="415"  text="乘骑位2"  target="*riko_room_movie" exp="tf.posture = 11"]
 [endif]
 [if exp="f.riko_h >= 85"]
- [glink  color="pink" size="15"  x="100"  width="150"  y="450"  text="騎乗位3"  target="*riko_room_movie" exp="tf.posture = 12"]
+ [glink  color="pink" size="15"  x="100"  width="150"  y="450"  text="乘骑位3"  target="*riko_room_movie" exp="tf.posture = 12"]
 [endif]
 [if exp="f.riko_h >= 75"]
- [glink  color="pink" size="15"  x="20"  width="150"  y="490"  text="座位1"  target="*riko_room_movie" exp="tf.posture = 9"]
+ [glink  color="pink" size="15"  x="20"  width="150"  y="490"  text="坐位1"  target="*riko_room_movie" exp="tf.posture = 9"]
 [endif]
 [if exp="f.riko_h >= 80"]
- [glink  color="pink" size="15"  x="60"  width="150"  y="525"  text="座位2"  target="*riko_room_movie" exp="tf.posture = 13"]
+ [glink  color="pink" size="15"  x="60"  width="150"  y="525"  text="坐位2"  target="*riko_room_movie" exp="tf.posture = 13"]
 [endif]
 [if exp="f.riko_h >= 90"]
- [glink  color="pink" size="15"  x="100"  width="150"  y="560"  text="座位3"  target="*riko_room_movie" exp="tf.posture = 14"]
+ [glink  color="pink" size="15"  x="100"  width="150"  y="560"  text="坐位3"  target="*riko_room_movie" exp="tf.posture = 14"]
 [endif]
 [s]
 
@@ -479,7 +479,7 @@ pic.style.webkitFilter = "saturate(600%)";
 [cm]
 [clearfix]
 [layopt layer="message0" visible="true"]
-うっ……あっ、いっ……いく！
+唔……啊，射……射了！
 [wait time="2000"]
 [jump target="*syasei"]
 [endif]
@@ -735,7 +735,7 @@ pic.style.webkitFilter = "saturate(600%)";
   [eval exp="tf.ikisou = 0"]
   [playse storage="riko/rk68_026.ogg" buf="0" loop="true"]
  [endif]
- [endif] 
+[endif] 
 
 ;***********************************************************************************************************************
 [wait time="2000"]
@@ -772,23 +772,23 @@ tf.rand = Math.floor( Math.random() * 2)
 [if exp="tf.rand == 0"]
 #莉子
 [playse storage="riko/rk68_048.ogg" buf="0"]
-おじさん、痛かった[p]
+大叔，很痛[p]
 #
-ごめんね莉子ちゃん[r]
-最初の内は遅くしたほうがいいかな[p]
+对不起，莉子[r]
+最开始还是慢一点比较好吗[p]
 [endif]
 [if exp="tf.rand == 1"]
 #莉子
 [playse storage="riko/rk68_049.ogg" buf="0"]
-おじさん、これ気持ちよくなるの？[p]
+大叔，这个会舒服吗？[p]
 #
-もっと優しくするからね莉子ちゃん[r]
-最初の内は遅くしたほうがいいかな[p]
+下次我会更温柔的莉子[r]
+最开始还是慢一点比较好吗[p]
 [endif]
 [if exp="tf.rand == 2"]
 #莉子
 [playse storage="riko/rk68_050.ogg" buf="0"]
-もっと優しくしてよ！[p]
+再温柔一点哦！[p]
 [endif]
 ;●莉子エッチ度増加
 [eval exp="f.riko_h = f.riko_h + 4 "]
@@ -803,17 +803,17 @@ tf.rand = Math.floor( Math.random() * 3)
 [if exp="tf.rand == 0"]
 #莉子
 [playse storage="riko/rk68_051.ogg" buf="0"]
-なんか変な感じだった[p]
+感觉好奇怪啊[p]
 [endif]
 [if exp="tf.rand == 1"]
 #莉子
 [playse storage="riko/rk68_052.ogg" buf="0"]
-ちょっと気持ちよかったかも[p]
+也许变的有点舒服了[p]
 [endif]
 [if exp="tf.rand == 2"]
 #莉子
 [playse storage="riko/rk68_053.ogg" buf="0"]
-これ……好きかも[p]
+这个……也许喜欢[p]
 [endif]
 ;●莉子エッチ度増加
 [eval exp="f.riko_h = f.riko_h + 5 "]
@@ -828,12 +828,12 @@ tf.rand = Math.floor( Math.random() * 2)
 [if exp="tf.rand == 0"]
 #莉子
 [playse storage="riko/rk68_056.ogg" buf="0"]
-莉子……もうだめ……[p]
+莉子……已经不行了……[p]
 [endif]
 [if exp="tf.rand == 1"]
 #莉子
 [playse storage="riko/rk68_058.ogg" buf="0"]
-おじさん、莉子の事好き？[p]
+大叔，你喜欢莉子吗？[p]
 [endif]
 ;●莉子エッチ度増加
 [eval exp="f.riko_h = f.riko_h + 7 "]
@@ -848,17 +848,17 @@ tf.rand = Math.floor( Math.random() * 3)
 [if exp="tf.rand == 0"]
 #莉子
 [playse storage="riko/rk68_054.ogg" buf="0"]
-エッチって気持ちいいんだね[p]
+H真舒服啊[p]
 [endif]
 [if exp="tf.rand == 1"]
 #莉子
 [playse storage="riko/rk68_055.ogg" buf="0"]
-莉子すごい気持ちよかった[p]
+莉子好舒服啊[p]
 [endif]
 [if exp="tf.rand == 2"]
 #莉子
 [playse storage="riko/rk68_057.ogg" buf="0"]
-おじさん……気持ちよかった……[p]
+大叔……太舒服了……[p]
 [endif]
 ;●莉子エッチ度増加
 [eval exp="f.riko_h = f.riko_h + 6 "]
@@ -873,17 +873,17 @@ tf.rand = Math.floor( Math.random() * 3)
 [if exp="tf.rand == 0"]
 #莉子
 [playse storage="riko/rk68_059.ogg" buf="0"]
-おじさんだけ気持ちよくなってる[p]
+只有大叔在舒服[p]
 [endif]
 [if exp="tf.rand == 1"]
 #莉子
 [playse storage="riko/rk68_060.ogg" buf="0"]
-莉子……もっとしたかった[p]
+莉子……我还想做更多[p]
 [endif]
 [if exp="tf.rand == 2"]
 #莉子
 [playse storage="riko/rk68_061.ogg" buf="0"]
-もうおわりなの？[p]
+已经结束了吗？[p]
 [endif]
 ;●莉子エッチ度増加
 [eval exp="f.riko_h = f.riko_h + 4 "]
@@ -912,7 +912,7 @@ tf.rand = Math.floor( Math.random() * 3)
 #
 [bg storage="room_night.png" time="1000"]
 [uiwindows]
-部屋に戻ってきた[p]
+回到了房间[p]
 
 [jump storage="main.ks" target="*night_choice"]
 
@@ -921,50 +921,50 @@ tf.rand = Math.floor( Math.random() * 3)
 *uniform_h
 #莉子
 [playse storage="riko/rk26_001.ogg" buf="0"]
-おじさん莉子とエッチな事したくて来たんでしょ[r]
-このロリコン[p]
+大叔是想和莉子做色情的事而来的吧[r]
+你这个萝莉控[p]
 #
-莉子ちゃん、我慢できなくて……[p]
+莉子，我忍不住了……[p]
 #莉子
 [playse storage="riko/rk26_002.ogg" buf="0"]
-ふ～ん……おじさん、莉子の事好き？[p]
+嗯……大叔，你喜欢莉子吗?[p]
 #
-莉子ちゃん、大好きだよ[r]
-莉子ちゃんの事ばかり考えてる[p]
+莉子，我很喜欢你。[r]
+整天都只想着莉子的事[p]
 #莉子
 [playse storage="riko/rk26_003_1.ogg" buf="0"]
-どうしよっかな～[r]
-……また気持ちよくしてくれたら……いいよ[p]
+该怎么办呢~[r]
+……如果还能让我舒服的话……可以哦[p]
 #
-莉子ちゃん、お願いがあるんだ[r]
-またあの制服を着てくれないかな[p]
+莉子，我有个请求。[r]
+能再穿上那件制服吗?[p]
 #莉子
 [playse storage="riko/rk26_004.ogg" buf="0"]
-え～！おじさんの、変態！[r]
-……向こうをむいてて[p]
+大叔喜欢的制服哦![r]
+莉子可爱吗?[p]
 [stop_bgmovie time="500"]
 [freeimage layer="2" time="0"]
 [bgmovie storage="mov_84_10.webm" time="1000"]
 #莉子
 [playse storage="riko/rk26_005.ogg" buf="0"]
-おじさんの好きな制服だよ！[r]
-莉子、可愛い？[p]
+叔叔喜欢的制服哦![r]
+莉子，可爱吗?[p]
 #
-莉子ちゃん、可愛いよ[r]
-莉子ちゃんの制服、可愛くてたまらない・・[p]	
-莉子ちゃん……パンツも見せて[p]
+莉子，好可爱啊[r]
+莉子的制服，可爱得不得了……[p]	
+莉子……内裤也给我看看[p]
 [stop_bgmovie time="500"]
 [bgmovie storage="mov_84_9.webm" time="1000"]
 #莉子
 [playse storage="riko/rk26_006.ogg" buf="0"]
-おじさん……子供パンツ見て興奮してる……変なの[p]
+大叔……看到小孩子的内裤会兴奋……真奇怪[p]
 #
-莉子ちゃんが可愛いからしかたがないよ[p]
-莉子ちゃん……もう……我慢できないよ……[r]
-莉子ちゃんのオマンコに挿れたい[p]
+莉子太可爱了，没办法[p]
+莉子……已经……忍不住了……[r]
+想插入莉子的小穴[p]
 #莉子
 [playse storage="riko/rk26_010.ogg" buf="0"]
-うん……痛くしないでね[p]
+嗯……不要弄疼我啊[p]
 [stop_bgmovie time="1000"]
 
 [cm]
@@ -985,8 +985,8 @@ tf.rand = Math.floor( Math.random() * 3)
 ;主人公精力減少
 [eval exp="f.energy = f.energy - 30"]
 #
-莉子ちゃんとの制服エッチ[r]
-気持ちよかった！[p]
-また今度着てもらおう[p]
+和莉子穿制服做爱[r]
+真舒服啊![p]
+下次再让她穿吧[p]
 [jump  target="*riko_room_end"]
 

@@ -7,7 +7,7 @@
 ;体力減少
 [eval exp="f.hp = f.hp - 10"]
 [mask time="500"]
-;桜子消去
+;樱子消去
 #
 [chara_hide name="sakurako"]
 @bg storage ="library.png" time=0"
@@ -19,20 +19,20 @@
 ;--１回目の判別
 [if exp="f.library_fast == undefined"]
 #
-虹色図書館にやってきた[p]
-学生がよく勉強してるから莉菜ちゃん来てるかも[p]
-漫画も置いてあるから暇つぶしにはいいかな[p]
-漫画を読みに莉子ちゃんとか来てるかな[p]
+来到了虹色图书馆[p]
+学生们都在这学习，莉菜有可能会来[p]
+也有漫画，这样消磨时间也不错吧？[p]
+莉子是来看漫画的吧[p]
 [eval exp="f.library_fast = true"]
 [else]
 #
-図書館にやってきた[p]
+来到图书馆[p]
 [endif]
 
 
 ;-キャラクター判別
 ;配列変数 f.library_day を日付で判別
-;0 桜子　１　莉子　２　莉菜　３　静江
+;0 樱子　１　莉子　２　莉菜　３　静江
 [if exp="f.library_day[f.day] == 0"]
 [call storage="sakurako.ks" target="*sakurako_library"]
 [return]
@@ -55,32 +55,32 @@
 ;-図書館イベント　莉子-----------------------------------------------------------------------------------------
 *riko_library
 
-;桜子会話呼び出し
+;樱子会話呼び出し
 [call storage="sakurako.ks" target="*sakurako_riko_goout"]
 
 ;--①
 [if exp="f.riko_library == undefined || f.riko_library == 1"]
 #
-あれ?莉子ちゃんだ、まさか図書館にいるなんて[p]
+咦？是莉子，没想到你会在图书馆里[p]
 [bg storage="library/img17_00.png" time="1000"]
 #莉子
 [playse storage="riko/rk17_001.ogg" buf="0"]
-あっ、おじさん[p]
+啊，大叔[p]
 #
-ああ、図書館には漫画もあるもんね！[p]
+啊，图书馆里也有漫画啊！[p]
 #莉子
 [playse storage="riko/rk17_002.ogg" buf="0"]
-り、莉子だって本ぐらい読むもん！[p]
+莉子也会看书的！[p]
 #
-今何読んでるの？[p]
+在看什么书？[p]
 [bg storage="library/img17_01.png" time="1000"]
 #莉子
 [playse storage="riko/rk17_003.ogg" buf="0"]
-ま、漫画……[p]
+漫，漫画……[p]
 #
 [bg storage ="library.png" time=1000]
-莉子ちゃんは先に帰ったけど[p]
-この後どうしようかな？[p]
+莉子先回去了[p]
+之后该怎么办呢？[p]
 [eval exp="tf.place = 1"]
 ;莉子ちゃん好感度UP
 [riko_f]
@@ -92,27 +92,27 @@
 ;--②
 [if exp="f.riko_library == 2"]
 #
-あっ、莉子ちゃんだ！莉子ちゃ～ん[p]
+啊，是莉子！莉子酱~[p]
 [bg storage="library/img17_04.png" time="1000"]
 #莉子
 [playse storage="riko/rk17_004.ogg" buf="0"]
-おじさん！[p]
+大叔![p]
 #
-何してるの？また漫画？[p]
+你在做什么?又是漫画?[p]
 #莉子
 [playse storage="riko/rk17_005.ogg" buf="0"]
-今、友達と自由研究で調べものしてるから本読んでます～[r]
-漫画じゃないです～[p]
+现在，和朋友一起做自由研究的调查，正在看书。[r]
+不是漫画~[p]
 #
-友達？どの子？[p]
+朋友?哪一位?[p]
 #莉子
 [playse storage="riko/rk17_006.ogg" buf="0"]
-あそこの机にいる子達……ってロリコンに合わせる訳ないでしょ！[p]
+那边桌子上的孩子们……怎么可能告诉萝莉控嘛！[p]
 [bg storage="library/img17_03.png" time="1000"]
 [playse storage="riko/rk17_007.ogg" buf="0"]
-ちょっと！莉子はね学校では優等生なんだから！こっちにきたら通報するからね！[p]
+等等！莉子在学校可是个优等生，来这边的话我会报警的[p]
 #
-は……はい……了解です……[p]
+好……好的……我知道了……[p]
 ;莉子ちゃん好感度UP
 [riko_f]
 [eval exp="tf.place = 1"]
@@ -125,17 +125,17 @@
 [bg storage="library/img17_05.png" time="1000"]
 #莉子
 [playse storage="riko/rk17_008.ogg" buf="0"]
-あっおじさんだ！[p]
+啊，大叔![p]
 #
-やあ、莉子ちゃん[p]
+喂，莉子[p]
 #莉子
 [playse storage="riko/rk17_009.ogg" buf="0"]
-おじさん、図書館にエッチな本はないからね！[p]
+大叔，图书馆里没有色色的书哦![p]
 #
-わかってるよ![p]
+我知道![p]
 [bg storage ="library.png" time=1000]
 #
-莉子ちゃんはもう帰っちゃったし……[p]
+莉子已经回去了……[p]
 
 ;莉子ちゃん好感度UP
 [riko_f]
@@ -148,24 +148,24 @@
 [if exp="f.riko_library == 4"]
 [bg storage="library/img17_06.png" time="1000"]
 #
-莉子ちゃん、珍しく勉強？[p]
+莉子，难得的在学习吗？[p]
 #莉子
 [playse storage="riko/rk17_010.ogg" buf="0"]
-莉子は優等生だから、勉強もするのよ！[p]
+莉子是优等生，也会学习的![p]
 #
-あっ！消しゴム落ちたよ！[p]
+啊!橡皮掉了![p]
 [bg storage="library/img17_07.png" time="1000"]
-(おお！パンツ丸見え！)[p]
+(噢!露出内裤!)[p]
 [bg storage="library/img17_08.png" time="1000"]
 #莉子
 [playse storage="riko/rk17_011.ogg" buf="0"]
-おじさん、今パンツ見たでしょ！[p]
+大叔，你刚才看到内裤了吧![p]
 #
-えっ！[p]
-み、みてないよ！[p]
-（何でわかった？）[p]
+诶！[p]
+没看哟！[p]
+（你怎么知道的？）[p]
 [bg storage ="library.png" time=1000]
-莉子ちゃん勉強は終わってもう帰ったみたいだし[p]
+莉子学习结束，好像已经回去了。[p]
 
 ;莉子ちゃん好感度UP
 [riko_f]
@@ -178,15 +178,15 @@
 [if exp="f.riko_library == 5"]
 [bg storage="library/img17_05.png" time="1000"]
 #
-莉子ちゃん[p]
+莉子[p]
 #莉子
 [playse storage="riko/rk17_012.ogg" buf="0"]
-あっ！おじさん[p]
+啊!大叔[p]
 #
-もう帰るけど,一緒に帰る？[p]
+我要回去了，你要一起回去吗？[p]
 #莉子
 [playse storage="riko/rk17_013.ogg" buf="0"]
-ほっとくと危険だから一緒に帰ってあげる[p]
+放着不管的话很危险，我跟你一起回去吧[p]
 
 ;莉子ちゃん好感度UP
 [riko_f]
@@ -202,20 +202,20 @@
 ;-図書館イベント　莉菜-----------------------------------------------------------------------------------------
 *rina_library
 
-;桜子会話呼び出し
+;樱子会話呼び出し
 [call storage="sakurako.ks" target="*sakurako_rina_goout"]
 
 ;--①
 [if exp="f.rina_library == undefined || f.rina_library == 1"]
 #
 [bg storage="library/img18_00.png" time="1000"]
-莉菜ちゃんだ！[p]
-友達と勉強中かな……[p]
-邪魔しないようにしよう[p]
+是莉菜啊[p]
+是在和朋友学习吧……[p]
+还是不要去打扰了[p]
 
 [bg storage ="library.png" time=1000]
 
-かるく会釈してその場を離れた[p]
+悄悄的离开了现场[p]
 [eval exp="tf.place = 1"]
 ;莉子ちゃん好感度UP
 [rina_f]
@@ -228,13 +228,13 @@
 [if exp="f.rina_library == 2"]
 #
 [bg storage="library/img18_01.png" time="1000"]
-あっ、莉菜ちゃん！勉強？[p]
+啊，莉菜!学习?[p]
 #莉菜
 [playse storage="rina/rn18_003.ogg" buf="0"]
-お兄さん！ええ、今度テストがあるので[p]
-でも、もう帰ろうと思ってたので一緒に帰ります？[p]
+哥哥！嗯，因为这次有考试[p]
+但是，我想回去了，要一起回去吗？[p]
 #
-うん、そうだね[p]
+嗯，好啊[p]
 
 [eval exp="tf.place = 1"]
 ;莉子ちゃん好感度UP
@@ -249,18 +249,18 @@
 ;--③
 [if exp="f.rina_library == 3"]
 #
-莉菜ちゃんがいる[p]
+莉菜在[p]
 [bg storage="library/img18_02.png" time="1000"]
-何の本読んでるのかな？恋愛小説とか[p]
+你在看什么书呢？恋爱小说之类的[p]
 [bg storage="library/img18_03.png" time="1000"]
-"プロが教えるお掃除術１００選"[p]
-……莉菜ちゃんらしいな[p]
+专业教授清洁术100选[p]
+……很有莉菜的风格啊[p]
 [bg storage="library/img18_01.png" time="1000"]
 #莉菜
 [playse storage="rina/rn18_005.ogg" buf="0"]
-お兄さん、今帰りですか？[p]
+哥哥，你现在要回去吗？[p]
 #
-うん、一緒に帰ろうか[p]
+嗯，一起回去吧。[p]
 
 [eval exp="tf.place = 1"]
 ;莉子ちゃん好感度UP

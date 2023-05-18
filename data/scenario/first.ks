@@ -1,12 +1,12 @@
 ;一番最初に呼び出されるファイル
 
-[title name="にーとと天使とえっちな家族"]
+[title name="死宅与天使与淫荡家族 1.13.F&D 汉化版"]
 
 [stop_keyconfig]
 
 
 ;ティラノスクリプトが標準で用意している便利なライブラリ群
-;コンフィグ、CG、回想モードを使う場合は必須
+;コンフィグ，CG，回想モードを使う場合は必須
 @call storage="tyrano.ks"
 
 ;ゲームで必ず必要な初期化処理はこのファイルに記述するのがオススメ
@@ -37,7 +37,7 @@
 [ptext layer="2" text="&f.day + '日'" x="1000" y="25" size="19" shadow="0x000000" width = "150" align = "right"]
 ;曜日
 [ptext layer="2" text="&f.week[f.oneweek]" x="1160" y="25" size="19" shadow="0x000000"]
-[ptext layer="2" text="&f.money + '円'" x="1070" y="50" size="19" shadow="0x000000"  width = "150" align = "right" name="money"]
+[ptext layer="2" text="&f.money + '日元'" x="1070" y="50" size="19" shadow="0x000000"  width = "150" align = "right" name="money"]
 [endmacro]
 ;***********************************************************************************************************************
 ;お金アニメ

@@ -3,13 +3,12 @@
 [cm]
 [clearfix]
 [freeimage layer="0" page="fore"]
-[freeimage layer="1"]
 [layopt layer=0 visible=false]
 ;[clearsysvar]
 ;***********************************************************************************************************************
-;バージョン表記　メインシナリオ、タイトル,回想とリプレイも同じバージョンに修正
-;[eval exp="f.version_dl = 'fanza'"]
-[eval exp="f.version_dl = 'dlsite'"]
+;バージョン表記　メインシナリオ，回想とリプレイも同じバージョンに修正
+[eval exp="f.version_dl = 'fanza'"]
+;[eval exp="f.version_dl = 'dlsite'"]
 ;***********************************************************************************************************************
 ;変数宣言
 ;選択キャラクタ変数 1　莉子　2　莉菜　3　静江
@@ -44,31 +43,31 @@
 [if exp="sf.movie_m == undefined"]
 ;セーブスロット用システム変数宣言
 ;■save１スロット
-[eval exp="sf.sam_stock_s1 = ['sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg']]
+[eval exp="sf.sam_stock_s1 = ['sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg']"]
 
-[eval exp="sf.play_stock_s1 = ['black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black']]
+[eval exp="sf.play_stock_s1 = ['black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black']"]
 
-[eval exp="sf.se0_stock_s1 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]
-[eval exp="sf.se0_loop_s1 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]
-[eval exp="sf.se3_stock_s1 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]
-[eval exp="sf.stock_s1 = [0,0,0,0,0,0]]
-[eval exp="sf._char_s1 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]
-[eval exp="sf.movie_loop_s1 = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]]
-[eval exp="sf.aegi_stock_s1 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]
+[eval exp="sf.se0_stock_s1 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"]
+[eval exp="sf.se0_loop_s1 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"]
+[eval exp="sf.se3_stock_s1 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"]
+[eval exp="sf.stock_s1 = [0,0,0,0,0,0]"]
+[eval exp="sf._char_s1 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"]
+[eval exp="sf.movie_loop_s1 = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]"]
+[eval exp="sf.aegi_stock_s1 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"]
 [eval exp="sf.movie_no_s1 = 0"]
 
 ;■save2スロット
-[eval exp="sf.sam_stock_s2 = ['sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg']]
+[eval exp="sf.sam_stock_s2 = ['sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg','sam/black.jpg']"]
 
-[eval exp="sf.play_stock_s2 = ['black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black']]
+[eval exp="sf.play_stock_s2 = ['black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black','black']"]
 
-[eval exp="sf.se0_stock_s2 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]
-[eval exp="sf.se0_loop_s2 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]
-[eval exp="sf.se3_stock_s2 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]
-[eval exp="sf.stock_s2 = [0,0,0,0,0,0]]
-[eval exp="sf._char_s2 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]
-[eval exp="sf.movie_loop_s2 = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]]
-[eval exp="sf.aegi_stock_s2 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]
+[eval exp="sf.se0_stock_s2 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"]
+[eval exp="sf.se0_loop_s2 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"]
+[eval exp="sf.se3_stock_s2 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"]
+[eval exp="sf.stock_s2 = [0,0,0,0,0,0]"]
+[eval exp="sf._char_s2 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"]
+[eval exp="sf.movie_loop_s2 = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]"]
+[eval exp="sf.aegi_stock_s2 = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]"]
 [eval exp="sf.movie_no_s2 = 0"]
 
 [endif]
@@ -99,6 +98,9 @@
 [if exp="f.select_c == 2 && f.select_p == 10"]
 [eval exp="f.select_p = 7"]
 [endif]
+[if exp="f.select_c == 2 && f.select_p == 11"]
+[eval exp="f.select_p = 7"]
+[endif]
 ;現在ページ修正 静江さん
 [if exp="f.select_c == 3 && f.select_p == 8"]
 [eval exp="f.select_p = 7"]
@@ -107,6 +109,9 @@
 [eval exp="f.select_p = 7"]
 [endif]
 [if exp="f.select_c == 3 && f.select_p == 10"]
+[eval exp="f.select_p = 7"]
+[endif]
+[if exp="f.select_c == 3 && f.select_p == 11"]
 [eval exp="f.select_p = 7"]
 [endif]
 ;***********************************************************************************************************************
@@ -291,22 +296,11 @@
 [eval exp="f.name10 = ['mov_68_71']"]
 
 [eval exp="f.name11 = ['mov_68_72','riko/rk36_021',1,0]"]
-;***********************************************************************************************************************
-;fanza
-[if exp="f.version_dl == 'fanza'"]
- [eval exp="f.name12 = ['mov_65_48']"]
- [eval exp="f.name13 = ['mov_65_52']"]
- [eval exp="f.name14 = ['mov_65_51']"]
- [eval exp="f.name15 = ['mov_65_34','riko/rk102_015',1,1]"]
-[endif]
-;***********************************************************************************************************************
-;DLsite
-[if exp="f.version_dl == 'dlsite'"]
- [eval exp="f.name12 = ['mov_65_53']"]
- [eval exp="f.name13 = ['mov_65_42']"]
- [eval exp="f.name14 = ['mov_65_45']"]
- [eval exp="f.name15 = ['mov_65_43']"]
-[endif]
+[eval exp="f.name12 = ['mov_65_48']"]
+[eval exp="f.name13 = ['mov_65_52']"]
+[eval exp="f.name14 = ['mov_65_51']"]
+[eval exp="f.name15 = ['mov_65_34','riko/rk102_015',1,1]"]
+
 ;***********************************************************************************************************************
 [endif]
 
@@ -314,41 +308,47 @@
 [if exp="f.select_p == 10"]
 
 ;***********************************************************************************************************************
-;fanza
-[if exp="f.version_dl == 'fanza'"]
  [eval exp="f.name1 = ['mov_65_35','riko/rk68_028',1,2]"]
  [eval exp="f.name2 = ['mov_65_35_2','riko/rk68_028',1,2]"]
  [eval exp="f.name3 = ['mov_65_36','riko/rk68_028',1,2]"]
  [eval exp="f.name4 = ['mov_65_37']"]
  [eval exp="f.name5 = ['mov_65_38','riko/rk65_028',1,0]"]
 
+ [eval exp="f.name6 = ['mov_65_53']"]
+ [eval exp="f.name7 = ['mov_65_42']"]
+ [eval exp="f.name8 = ['mov_65_45']"]
+ [eval exp="f.name9 = ['mov_65_43']"]
+ [eval exp="f.name10 = ['mov_65_44']"]
+ [eval exp="f.name11 = ['mov_65_46']"]
+ [eval exp="f.name12 = ['mov_65_28','riko/rk101_014',1,1]"]
+ [eval exp="f.name13 = ['mov_65_29','riko/rk68_028',1,2]"]
+ [eval exp="f.name14 = ['mov_65_30','riko/rk68_031',1,3]"]
+ [eval exp="f.name15 = ['mov_65_32']"]
+
+[endif]
+;--■莉子ページ11
+[if exp="f.select_p == 11"]
+;***********************************************************************************************************************
+
+ [eval exp="f.name1 = ['mov_65_33','riko/rk65_028',1,0]"]
+ [eval exp="f.name2 = ['black']"]
+ [eval exp="f.name3 = ['black']"]
+ [eval exp="f.name4 = ['black']"]
+ [eval exp="f.name5 = ['black']"]
+
  [eval exp="f.name6 = ['black']"]
  [eval exp="f.name7 = ['black']"]
+ [eval exp="f.name8 = ['black']"]
+ [eval exp="f.name9 = ['black']"]
+ [eval exp="f.name10 = ['black']"]
+
+ [eval exp="f.name11 = ['black']"]
+ [eval exp="f.name12 = ['mov_00_op']"]
+ [eval exp="f.name13 = ['title_riko01']"]
+ [eval exp="f.name14 = ['mov_00_title']"]
+ [eval exp="f.name15 = ['mov_ending']"]
 [endif]
 ;***********************************************************************************************************************
-;DLsite
-[if exp="f.version_dl == 'dlsite'"]
- [eval exp="f.name1 = ['mov_65_44']"]
- [eval exp="f.name2 = ['mov_65_46']"]
- [eval exp="f.name3 = ['mov_65_28','riko/rk101_014',1,1]"]
- [eval exp="f.name4 = ['mov_65_29','riko/rk68_028',1,2]"]
- [eval exp="f.name5 = ['mov_65_30','riko/rk68_031',1,3]"]
-
- [eval exp="f.name6 = ['mov_65_32']"]
- [eval exp="f.name7 = ['mov_65_33','riko/rk65_028',1,0]"]
-[endif]
-;***********************************************************************************************************************
-
-[eval exp="f.name8 = ['black']"]
-[eval exp="f.name9 = ['black']"]
-[eval exp="f.name10 = ['black']"]
-
-[eval exp="f.name11 = ['black']"]
-[eval exp="f.name12 = ['black']"]
-[eval exp="f.name13 = ['black']"]
-[eval exp="f.name14 = ['black']"]
-[eval exp="f.name15 = ['black']"]
-[endif]
 
 [endif]
 
@@ -672,79 +672,88 @@
 ;-ページ切り替えボタン
 ;■1ページ目
 [if exp="f.select_p != 1"]
-[button graphic="button/b_1.png" target="*sam_page"  x="460" y="90" exp="f.select_p = 1" enterimg="button/b_1_h.png" clickse="se/se_maoudamashii_system21.ogg"]
+[button graphic="button/b_1.png" target="*sam_page"  x="240" y="90" exp="f.select_p = 1" enterimg="button/b_1_h.png" clickse="se/se_maoudamashii_system21.ogg"]
 [else]
-[button graphic="button/b_1_c.png" target="*sam_page"  x="460" y="90" exp="f.select_p = 1"]
+[button graphic="button/b_1_c.png" target="*sam_page"  x="240" y="90" exp="f.select_p = 1"]
 [endif]
 ;■２ページ目
 [if exp="f.select_p != 2"]
-[button graphic="button/b_2.png" target="*sam_page"  x="540" y="90" exp="f.select_p = 2" enterimg="button/b_2_h.png" clickse="se/se_maoudamashii_system21.ogg"]
+[button graphic="button/b_2.png" target="*sam_page"  x="320" y="90" exp="f.select_p = 2" enterimg="button/b_2_h.png" clickse="se/se_maoudamashii_system21.ogg"]
 [else]
-[button graphic="button/b_2_c.png" target="*sam_page"  x="540" y="90" exp="f.select_p = 2"]
+[button graphic="button/b_2_c.png" target="*sam_page"  x="320" y="90" exp="f.select_p = 2"]
 [endif]
 ;■3ページ目
 [if exp="f.select_p != 3"]
-[button graphic="button/b_3.png" target="*sam_page"  x="620" y="90" exp="f.select_p = 3" enterimg="button/b_3_h.png" clickse="se/se_maoudamashii_system21.ogg"]
+[button graphic="button/b_3.png" target="*sam_page"  x="400" y="90" exp="f.select_p = 3" enterimg="button/b_3_h.png" clickse="se/se_maoudamashii_system21.ogg"]
 [else]
-[button graphic="button/b_3_c.png" target="*sam_page"  x="620" y="90" exp="f.select_p = 3"]
+[button graphic="button/b_3_c.png" target="*sam_page"  x="400" y="90" exp="f.select_p = 3"]
 [endif]
 ;■４ページ目
 [if exp="f.select_p != 4"]
-[button graphic="button/b_4.png" target="*sam_page"  x="700" y="90" exp="f.select_p = 4" enterimg="button/b_4_h.png" clickse="se/se_maoudamashii_system21.ogg"]
+[button graphic="button/b_4.png" target="*sam_page"  x="480" y="90" exp="f.select_p = 4" enterimg="button/b_4_h.png" clickse="se/se_maoudamashii_system21.ogg"]
 [else]
-[button graphic="button/b_4_c.png" target="*sam_page"  x="700" y="90" exp="f.select_p = 4"]
+[button graphic="button/b_4_c.png" target="*sam_page"  x="480" y="90" exp="f.select_p = 4"]
 [endif]
 ;■5ページ目
 ;[if exp="f.select_c == 1 || f.select_c == 2"]
  [if exp="f.select_p != 5"]
-  [button graphic="button/b_5.png" target="*sam_page"  x="780" y="90" exp="f.select_p = 5" enterimg="button/b_5_h.png" clickse="se/se_maoudamashii_system21.ogg"]
+  [button graphic="button/b_5.png" target="*sam_page"  x="560" y="90" exp="f.select_p = 5" enterimg="button/b_5_h.png" clickse="se/se_maoudamashii_system21.ogg"]
   [else]
-  [button graphic="button/b_5_c.png" target="*sam_page"  x="780" y="90" exp="f.select_p = 5"]
+  [button graphic="button/b_5_c.png" target="*sam_page"  x="560" y="90" exp="f.select_p = 5"]
  [endif]
 ;[endif]
 
 ;■6ページ目
 ;[if exp="f.select_c == 1 || f.select_c == 2"]
  [if exp="f.select_p != 6"]
-  [button graphic="button/b_6.png" target="*sam_page"  x="860" y="90" exp="f.select_p = 6" enterimg="button/b_6_h.png" clickse="se/se_maoudamashii_system21.ogg"]
+  [button graphic="button/b_6.png" target="*sam_page"  x="640" y="90" exp="f.select_p = 6" enterimg="button/b_6_h.png" clickse="se/se_maoudamashii_system21.ogg"]
   [else]
-  [button graphic="button/b_6_c.png" target="*sam_page"  x="860" y="90" exp="f.select_p = 6"]
+  [button graphic="button/b_6_c.png" target="*sam_page"  x="640" y="90" exp="f.select_p = 6"]
  [endif]
 ;[endif]
 
 ;■7ページ目
 ;[if exp="f.select_c == 1 || f.select_c == 2"]
  [if exp="f.select_p != 7"]
-  [button graphic="button/b_7.png" target="*sam_page"  x="940" y="90" exp="f.select_p = 7" enterimg="button/b_7_h.png" clickse="se/se_maoudamashii_system21.ogg"]
+  [button graphic="button/b_7.png" target="*sam_page"  x="720" y="90" exp="f.select_p = 7" enterimg="button/b_7_h.png" clickse="se/se_maoudamashii_system21.ogg"]
   [else]
-  [button graphic="button/b_7_c.png" target="*sam_page"  x="940" y="90" exp="f.select_p = 7"]
+  [button graphic="button/b_7_c.png" target="*sam_page"  x="720" y="90" exp="f.select_p = 7"]
  [endif]
 ;[endif]
 
 ;■8ページ目
 [if exp="f.select_c == 1"]
  [if exp="f.select_p != 8"]
-  [button graphic="button/b_8.png" target="*sam_page"  x="1020" y="90" exp="f.select_p = 8" enterimg="button/b_8_h.png" clickse="se/se_maoudamashii_system21.ogg"]
+  [button graphic="button/b_8.png" target="*sam_page"  x="800" y="90" exp="f.select_p = 8" enterimg="button/b_8_h.png" clickse="se/se_maoudamashii_system21.ogg"]
   [else]
-  [button graphic="button/b_8_c.png" target="*sam_page"  x="1020" y="90" exp="f.select_p = 8"]
+  [button graphic="button/b_8_c.png" target="*sam_page"  x="800" y="90" exp="f.select_p = 8"]
  [endif]
 [endif]
 
 ;■9ページ目
 [if exp="f.select_c == 1"]
  [if exp="f.select_p != 9"]
-  [button graphic="button/b_9.png" target="*sam_page"  x="1100" y="90" exp="f.select_p = 9" enterimg="button/b_9_h.png" clickse="se/se_maoudamashii_system21.ogg"]
+  [button graphic="button/b_9.png" target="*sam_page"  x="880" y="90" exp="f.select_p = 9" enterimg="button/b_9_h.png" clickse="se/se_maoudamashii_system21.ogg"]
   [else]
-  [button graphic="button/b_9_c.png" target="*sam_page"  x="1100" y="90" exp="f.select_p = 9"]
+  [button graphic="button/b_9_c.png" target="*sam_page"  x="880" y="90" exp="f.select_p = 9"]
  [endif]
 [endif]
 
 ;■10ページ目
 [if exp="f.select_c == 1"]
  [if exp="f.select_p != 10"]
-  [button graphic="button/b_10.png" target="*sam_page"  x="1180" y="90" exp="f.select_p = 10" enterimg="button/b_10_h.png" clickse="se/se_maoudamashii_system21.ogg"]
+  [button graphic="button/b_10.png" target="*sam_page"  x="960" y="90" exp="f.select_p = 10" enterimg="button/b_10_h.png" clickse="se/se_maoudamashii_system21.ogg"]
   [else]
-  [button graphic="button/b_10_c.png" target="*sam_page"  x="1180" y="90" exp="f.select_p = 10"]
+  [button graphic="button/b_10_c.png" target="*sam_page"  x="960" y="90" exp="f.select_p = 10"]
+ [endif]
+[endif]
+
+;■11ページ目
+[if exp="f.select_c == 1"]
+ [if exp="f.select_p != 11"]
+  [button graphic="button/b_11.png" target="*sam_page"  x="1040" y="90" exp="f.select_p = 11" enterimg="button/b_11_h.png" clickse="se/se_maoudamashii_system21.ogg"]
+  [else]
+  [button graphic="button/b_11_c.png" target="*sam_page"  x="1040" y="90" exp="f.select_p = 11"]
  [endif]
 [endif]
 
@@ -848,19 +857,19 @@
 
 ;[if exp="f.no ==0"]
 [eval exp="f.loop_k = f.no * 5 + 0 ]
-[eval exp="tf.no_t = 'ループ回数　　'+f.movie_loop[f.loop_k]+'回'"]
+[eval exp="tf.no_t = '循环次数　　'+f.movie_loop[f.loop_k]+'回'"]
 [ptext layer="1" name="loop"  text=&tf.no_t x="160" y="545" vertical="" size="18" shadow="0x000000"]
 [eval exp="f.loop_k = f.no * 5 + 1 ]
-[eval exp="tf.no_t = 'ループ回数　　'+f.movie_loop[f.loop_k]+'回'"]
+[eval exp="tf.no_t = '循环次数　　'+f.movie_loop[f.loop_k]+'回'"]
 [ptext layer="1" name="loop"  text=&tf.no_t x="360" y="545" vertical="" size="18" shadow="0x000000"]
 [eval exp="f.loop_k = f.no * 5 + 2 ]
-[eval exp="tf.no_t = 'ループ回数　　'+f.movie_loop[f.loop_k]+'回'"]
+[eval exp="tf.no_t = '循环次数　　'+f.movie_loop[f.loop_k]+'回'"]
 [ptext layer="1" name="loop"  text=&tf.no_t x="560" y="545" vertical="" size="18" shadow="0x000000"]
 [eval exp="f.loop_k = f.no * 5 + 3 ]
-[eval exp="tf.no_t = 'ループ回数　　'+f.movie_loop[f.loop_k]+'回'"]
+[eval exp="tf.no_t = '循环次数　　'+f.movie_loop[f.loop_k]+'回'"]
 [ptext layer="1" name="loop"  text=&tf.no_t x="760" y="545" vertical="" size="18" shadow="0x000000"]
 [eval exp="f.loop_k = f.no * 5 + 4 ]
-[eval exp="tf.no_t = 'ループ回数　　'+f.movie_loop[f.loop_k]+'回'"]
+[eval exp="tf.no_t = '循环次数　　'+f.movie_loop[f.loop_k]+'回'"]
 [ptext layer="1" name="loop"  text=&tf.no_t x="960" y="545" vertical="" size="18" shadow="0x000000"]
 ;[endif]
 
@@ -936,7 +945,7 @@
 ;***********************************************************************************************************************
 ;セーブ１処理
 *save1
-[dialog type="confirm" text="セーブの上書きをしますか？" target="*save1_yes"  target_cancel="*save1_no"]
+[dialog type="confirm" text="覆盖保存？" target="*save1_yes"  target_cancel="*save1_no"]
 *save1_yes
 [iscript]
 sf.sam_stock_s1 = f.sam_stock.concat();
@@ -956,7 +965,7 @@ sf.aegi_stock_s1 = f.aegi_stock.concat();
 ;***********************************************************************************************************************
 ;セーブ2処理
 *save2
-[dialog type="confirm" text="セーブの上書きをしますか？" target="*save2_yes"  target_cancel="*save2_no"]
+[dialog type="confirm" text="覆盖保存？" target="*save2_yes"  target_cancel="*save2_no"]
 *save2_yes
 [iscript]
 sf.sam_stock_s2 = f.sam_stock.concat();
@@ -1075,7 +1084,7 @@ f.aegi_stock = sf.aegi_stock_s2.concat();
 [eval exp="f.play_stock[f.movie_no] = f.stock[0] + '.webm'"]
 [eval exp="f.se0_stock[f.movie_no] = f.stock[1] + '.ogg'"]
 [eval exp="f.se0_loop[f.movie_no] = f.stock[2]"]
-[eval exp="f.se3_stock[f.movie_no] = f.stock[3]]
+[eval exp="f.se3_stock[f.movie_no] = f.stock[3]"]
 [eval exp="f.aegi_stock[f.movie_no]  = f.stock[4]"]
 [eval exp="f._char[f.movie_no]  = f.stock[5]"]
 

@@ -5,41 +5,41 @@
 [bg storage="black.png" time="1000"]
 [bgmovie storage="mov_67_1.webm" time="1000"]
 #
-静江さんの部屋にやってきた[p]
+来到静江小姐的房间[p]
 
 [if exp="f.sizue_lover == 1.5"]
 #
-静江さん、やっぱり僕……好きです、諦められません！[p]
+静江小姐，果然我……我喜欢你，我不能放弃！[p]
 #静江
 [playse storage="sizue/sz27_001.ogg" buf="0"]
-だめって言ったでしょ！お兄ちゃん[r]
-あれはあの時だけなの[p]
+我不是说了不行吗，哥哥[r]
+只有那一次，下不为例[p]
 #
-あの時だけなんて無理です！静江さんの事ばかり考えてるんです！[r]
-静江さん、好きだって言ってくれた！[p]
+下不为例做不到！我一直在想静江小姐的事[r]
+静江小姐，你说喜欢我的！[p]
 #静江
 [playse storage="sizue/sz27_002.ogg" buf="0"]
-も～、お兄ちゃん、困らせちゃだめ！[r]
-お兄ちゃんにはもっと若い子がいいのよ[p]
+真是的，哥哥，不要让我为难！[r]
+对哥哥来说更年轻的孩子比较好[p]
 #
-いやです、僕は静江さんがいいんです！　静江さんが好き！　大好きです！[p]
+不，我喜欢静江小姐！ 我喜欢静江小姐 非常喜欢！[p]
 #静江
 [playse storage="sizue/sz27_003.ogg" buf="0"]
-お兄ちゃんは、おばさんを困らせてばっかりなんだから……もう……悪い子[p]
+哥哥，总是让阿姨为难……所以……真是的……坏孩子[p]
 #
-静江さん……[p]
+静江小姐……[p]
 #静江
 [playse storage="sizue/sz27_004.ogg" buf="0"]
-おにいちゃん……おいで[p]
+……来吧[p]
 #静江
 [playse storage="sizue/sz27_005.ogg" buf="0"]
-お兄ちゃんに、好きな人が出来たら言うのよ[r]
-わかった？[p]
+哥哥，如果你有了喜欢的人，要告诉我哦。[r]
+明白了吗？[p]
 #
-出来ないです！　絶対に[p]
+不会的，绝对[p]
 #静江
 [playse storage="sizue/sz27_006.ogg" buf="0"]
-お兄ちゃん……好きよ[p]
+哥哥，喜欢你[p]
 
 [eval exp="f.sizue_lover = 2"]
 [eval exp="f.sizue_i = 10"]
@@ -56,38 +56,38 @@ tf.rand = Math.floor( Math.random() * 5)
 [if exp="tf.rand == 0"]
 #静江
 [playse storage="sizue/sz67_001.ogg" buf="0"]
-お兄ちゃん！　いらっしゃい！[p]
+哥哥，欢迎！[p]
 [endif]
 ;■会話1
 [if exp="tf.rand == 1"]
 #静江
 [playse storage="sizue/sz67_002.ogg" buf="0"]
-お兄ちゃん、おばさんに甘えに来たの？[p]
+哥哥，你是来向阿姨撒娇的吗？[p]
 [endif]
 ;■会話2
 [if exp="tf.rand == 2"]
 #静江
 [playse storage="sizue/sz67_003.ogg" buf="0"]
-あらあら、お兄ちゃん何しようとしてるのかな？[p]
+哎呀哎呀，哥哥到底想做什么呢？[p]
 [endif]
 ;■会話3
 [if exp="tf.rand == 3"]
 #静江
 [playse storage="sizue/sz67_004.ogg" buf="0"]
-お兄ちゃん、何か飲む？　お酒しかないけど！[p]
+哥哥想喝点什么吗？ 虽然只有酒！[p]
 [endif]
 ;■会話4
 [if exp="tf.rand == 4"]
 #静江
 [playse storage="sizue/sz67_005.ogg" buf="0"]
-お兄ちゃん、あんまりおばさんを本気にさせちゃだめよ！[p]
+哥哥，不能对阿姨太当真哦！[p]
 [endif]
 
 *select
 ;■主人公選択肢
 #
-さて、どうしようかな[p]
-[glink  color="pink" size="20"  x="800"  width="300"  y="200"  text="静江さんとエッチ"  target="*sizue_room_h"]
+接下来干嘛呢？[p]
+[glink  color="pink" size="20"  x="800"  width="300"  y="200"  text="和静江做爱"  target="*sizue_room_h"]
 [s]
 
 ;***********************************************************************************************************************
@@ -106,29 +106,29 @@ tf.rand = Math.floor( Math.random() * 5)
 [if exp="tf.rand == 0"]
 #静江
 [playse storage="sizue/sz70_006.ogg" buf="0"]
-おにいちゃん、挿れて……[p]
+哥哥，插进来……[p]
 [endif]
 [if exp="tf.rand == 1"]
 #静江
 [playse storage="sizue/sz70_007.ogg" buf="0"]
-お兄ちゃんのせいで、おばさんのオマンコ[r]
-もうこんななのよ[p]
+都是哥哥的错，阿姨的小穴[r]
+已经成这样了[p]
 [endif]
 [if exp="tf.rand == 2"]
 #静江
 [playse storage="sizue/sz70_008.ogg" buf="0"]
-お兄ちゃんとのエッチ、好きよ[p]
+我喜欢和哥哥做色色的事[p]
 [endif]
 [if exp="tf.rand == 3"]
 #静江
 [playse storage="sizue/sz70_009.ogg" buf="0"]
-うふふ、お兄ちゃん大好きよ[p]
+嘿嘿，我最喜欢哥哥了[p]
 [endif]
 [if exp="tf.rand == 4"]
 #静江
 [playse storage="sizue/sz70_010.ogg" buf="0"]
-お兄ちゃんとエッチしたくて[r]
-おばさんどうにかなっちゃいそうなのよ[p]
+我想和哥哥一起做爱[r]
+阿姨总会有办法的[p]
 [endif]
 [endif]
 ;***********************************************************************************************************************
@@ -141,27 +141,27 @@ tf.rand = Math.floor( Math.random() * 5)
 [if exp="tf.rand == 0"]
 #静江
 [playse storage="sizue/sz70_001.ogg" buf="0"]
-こんなおばさんでいいの？[p]
+这样的阿姨喜欢吗？[p]
 [endif]
 [if exp="tf.rand == 1"]
 #静江
 [playse storage="sizue/sz70_002.ogg" buf="0"]
-もう、お兄ちゃんは困った子ね[p]
+真是的，哥哥真是个让人头疼的孩子[p]
 [endif]
 [if exp="tf.rand == 2"]
 #静江
 [playse storage="sizue/sz70_003.ogg" buf="0"]
-おばさんが本気になっちゃったらどうするつもり？[p]
+如果阿姨认真了你打算怎么办？[p]
 [endif]
 [if exp="tf.rand == 3"]
 #静江
 [playse storage="sizue/sz70_004.ogg" buf="0"]
-うふふ、お兄ちゃん、おいで[p]
+嘿嘿，哥哥，过来[p]
 [endif]
 [if exp="tf.rand == 4"]
 #静江
 [playse storage="sizue/sz70_005.ogg" buf="0"]
-お兄ちゃん、おばさんのココに、挿れたいでしょう？[p]
+哥哥，你不想插进阿姨的这里吗？[p]
 [endif]
 [endif]
 ;***********************************************************************************************************************
@@ -171,21 +171,21 @@ tf.rand = Math.floor( Math.random() * 5)
 [if exp="f.energy < 20"]
 #
 ……[l]……[l]……[p]
-あっ……あれ？……[p]
-おかしいな……[p]
-た……立たない……[p]
+啊……咦？……[p]
+真奇怪啊……[p]
+怎么回事？无法勃起……[p]
 …………[p]
 [bg storage="black.png" time="0"]
 [stop_bgmovie time="2000"]
 [bgmovie storage="mov_67_2.webm"]
 #静江
 [playse storage="sizue/sz70_053.ogg" buf="0"]
-そんなときもあるわよ[p]
+也有那样的时候呢[p]
 #
 [stop_bgmovie]
 [bg storage="room_night.png" time="1000"]
 [uiwindows]
-部屋に戻ってきた[p]
+回到了房间[p]
 
 [jump storage="main.ks" target="*night_choice"]
 [endif]
@@ -202,7 +202,7 @@ tf.rand = Math.floor( Math.random() * 5)
 ;■90以上  立位　後背位3 騎乗位2 
 ;■95以上  騎乗位3 立位2
 
-;■一時変数 tf.posture [体位動画、射精動画、遅いレート、普通レート、早いレート]
+;■一時変数 tf.posture [体位動画，射精動画，遅いレート，普通レート，早いレート]
 [eval exp="tf.sizue_posture = []"]
 
 ;■0　正常位１
@@ -249,38 +249,38 @@ tf.rand = Math.floor( Math.random() * 5)
  [glink  color="pink" size="15"  x="120"  width="150"  y="120"  text="正常位3"  target="*sizue_room_movie" exp="tf.posture = 8"]
 [endif]
 
-[glink  color="pink" size="15"  x="20"  width="150"  y="160"  text="側位１"  target="*sizue_room_movie" exp="tf.posture = 2"]
+[glink  color="pink" size="15"  x="20"  width="150"  y="160"  text="侧位１"  target="*sizue_room_movie" exp="tf.posture = 2"]
 
 [if exp="f.sizue_h >= 70"]
- [glink  color="pink" size="15"  x="70"  width="150"  y="195"  text="側位２"  target="*sizue_room_movie" exp="tf.posture = 3"]
+ [glink  color="pink" size="15"  x="70"  width="150"  y="195"  text="侧位２"  target="*sizue_room_movie" exp="tf.posture = 3"]
 [endif]
 
 [if exp="f.sizue_h >= 80"]
- [glink  color="pink" size="15"  x="120"  width="150"  y="230"  text="側位3"  target="*sizue_room_movie" exp="tf.posture = 11"]
+ [glink  color="pink" size="15"  x="120"  width="150"  y="230"  text="侧位3"  target="*sizue_room_movie" exp="tf.posture = 11"]
 [endif]
 
 [if exp="f.sizue_h >= 60"]
- [glink  color="pink" size="15"  x="20"  width="150"  y="270"  text="後背位１"  target="*sizue_room_movie" exp="tf.posture = 4"]
+ [glink  color="pink" size="15"  x="20"  width="150"  y="270"  text="后背位１"  target="*sizue_room_movie" exp="tf.posture = 4"]
 [endif]
 
 [if exp="f.sizue_h >= 70"]
- [glink  color="pink" size="15"  x="70"  width="150"  y="305"  text="後背位２"  target="*sizue_room_movie" exp="tf.posture = 5"]
+ [glink  color="pink" size="15"  x="70"  width="150"  y="305"  text="后背位２"  target="*sizue_room_movie" exp="tf.posture = 5"]
 [endif]
 
 [if exp="f.sizue_h >= 90"]
- [glink  color="pink" size="15"  x="120"  width="150"  y="340"  text="後背位3"  target="*sizue_room_movie" exp="tf.posture = 9"]
+ [glink  color="pink" size="15"  x="120"  width="150"  y="340"  text="后背位3"  target="*sizue_room_movie" exp="tf.posture = 9"]
 [endif]
 
 [if exp="f.sizue_h >= 80"]
- [glink  color="pink" size="15"  x="20"  width="150"  y="380"  text="騎乗位"  target="*sizue_room_movie" exp="tf.posture = 6"]
+ [glink  color="pink" size="15"  x="20"  width="150"  y="380"  text="乘骑位"  target="*sizue_room_movie" exp="tf.posture = 6"]
 [endif]
 
 [if exp="f.sizue_h >= 90"]
- [glink  color="pink" size="15"  x="70"  width="150"  y="415"  text="騎乗位2"  target="*sizue_room_movie" exp="tf.posture = 10"]
+ [glink  color="pink" size="15"  x="70"  width="150"  y="415"  text="乘骑位2"  target="*sizue_room_movie" exp="tf.posture = 10"]
 [endif]
 
 [if exp="f.sizue_h >= 95"]
- [glink  color="pink" size="15"  x="120"  width="150"  y="450"  text="騎乗位3"  target="*sizue_room_movie" exp="tf.posture = 12"]
+ [glink  color="pink" size="15"  x="120"  width="150"  y="450"  text="乘骑位3"  target="*sizue_room_movie" exp="tf.posture = 12"]
 [endif]
 
 [if exp="f.sizue_h >= 90"]
@@ -471,7 +471,7 @@ pic.style.webkitFilter = "saturate(600%)";
 [cm]
 [clearfix]
 [layopt layer="message0" visible="true"]
-うっ……あっ、いっ……いく！
+唔……啊，射……射了！
 [wait time="2000"]
 [jump target="*syasei"]
 [endif]
@@ -520,7 +520,7 @@ pic.style.webkitFilter = "saturate(600%)";
 
 ;***********************************************************************************************************************
 ;いきそう判定 快感度300でいきそう
-[if exp="f.sizue_h >= 100 && tf.kaikan >= 300 && tf.ikisou == 0"]
+[if exp="f.sizue_h >= 100 && tf.kaikan >= 400 && tf.ikisou == 0"]
  [iscript]
  tf.rand = Math.floor( Math.random() * 3)
  [endscript]
@@ -606,8 +606,8 @@ pic.style.webkitFilter = "saturate(600%)";
   [eval exp="tf.aegi_old = tf.aegi"]
   [playse storage="se/kutyu03.ogg" buf="3" loop="true"]
  [endif] 
-;快感300下回ったら喘ぎを戻す 
- [if exp="tf.kaikan < 300"]
+;快感300下回ったら喘ぎを戻す  
+ [if exp="tf.kaikan < 400"]
   [eval exp="tf.ikisou = 0"]
   [playse storage="sizue/sz70_020.ogg" buf="0" loop="true"]
  [endif]
@@ -645,10 +645,10 @@ pic.style.webkitFilter = "saturate(600%)";
 ;■快感度　100以下
 [if exp="tf.kaikan < 100"]
 #
-あんまりうまく……できなかった……[p]
+做得……不太好……[p]
 #静江
 [playse storage="sizue/sz70_051.ogg" buf="0"]
-お兄ちゃん、いいのよ[p]
+哥哥，没关系的[p]
 ;●静江エッチ度増加
 [eval exp="f.sizue_h = f.sizue_h + 3 "]
 [jump  target="*sizue_room_end"]
@@ -662,23 +662,23 @@ tf.rand = Math.floor( Math.random() * 4)
 [if exp="tf.rand == 0"]
 #静江
 [playse storage="sizue/sz70_050.ogg" buf="0"]
-うふふ、お兄ちゃん大好きよ[p]
+嘿嘿，我最喜欢哥哥了[p]
 [endif]
 [if exp="tf.rand == 1"]
 #静江
 [playse storage="sizue/sz70_049.ogg" buf="0"]
-おばさんエッチが大好きなのよ……[r]
-お兄ちゃんのせいで思い出しちゃったんだから[p]
+阿姨我最喜欢H了……[r]
+都是因为哥哥才想起来的[p]
 [endif]
 [if exp="tf.rand == 2"]
 #静江
 [playse storage="sizue/sz70_048.ogg" buf="0"]
-おばさんの体こんなにして、おにいちゃんこれから大変よ[p]
+对阿姨的身体做这样的事，你今后会很辛苦哦[p]
 [endif]
 [if exp="tf.rand == 3"]
 #静江
 [playse storage="sizue/sz70_047.ogg" buf="0"]
-お兄ちゃん……もう……ばかなんだから……[p]
+哥哥……真是的……你真是个笨蛋……[p]
 [endif]
 
 ;●静江エッチ度増加
@@ -694,22 +694,22 @@ tf.rand = Math.floor( Math.random() * 4)
 [if exp="tf.rand == 0"]
 #静江
 [playse storage="sizue/sz70_043.ogg" buf="0"]
-お兄ちゃん、気持ちよかった？[p]
+哥哥，舒服吗？[p]
 [endif]
 [if exp="tf.rand == 1"]
 #静江
 [playse storage="sizue/sz70_044.ogg" buf="0"]
-うふふ、おばさんなんかでいいの？[p]
+嘿嘿，我这样阿姨可以吗？[p]
 [endif]
 [if exp="tf.rand == 2"]
 #静江
 [playse storage="sizue/sz70_045.ogg" buf="0"]
-もう、おにいちゃん、おばさんが本気になったらどうするつもり？[p]
+真是的，哥哥，如果阿姨当真了，你打算怎么做？[p]
 [endif]
 [if exp="tf.rand == 3"]
 #静江
 [playse storage="sizue/sz70_046.ogg" buf="0"]
-お兄ちゃんの、とっても気持ちよかった[p]
+哥哥，真的很舒服啊[p]
 [endif]
 ;●静江エッチ度増加
 [eval exp="f.sizue_h = f.sizue_h + 5 "]
@@ -717,7 +717,7 @@ tf.rand = Math.floor( Math.random() * 4)
 [endif]
 
 ;***********************************************************************************************************************
-;愛情、エッチ度増加
+;愛情，エッチ度増加
 *sizue_room_end
 [sizue_i]
 
@@ -740,6 +740,6 @@ tf.rand = Math.floor( Math.random() * 4)
 #
 [bg storage="room_night.png" time="1000"]
 [uiwindows]
-部屋に戻ってきた[p]
+回到了房间[p]
 
 [jump storage="main.ks" target="*night_choice"]

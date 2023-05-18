@@ -1,4 +1,4 @@
-;ゲームセンター
+;游戏中心
 
 *start
 
@@ -7,7 +7,7 @@
 ;体力減少
 [eval exp="f.hp = f.hp - 10"]
 [mask time="500"]
-;桜子消去
+;樱子消去
 #
 [chara_hide name="sakurako"]
 [playbgm storage="dance.ogg" loop="true"]
@@ -19,19 +19,19 @@
 ;--１回目の判別
 [if exp="f.arcade_fast == undefined"]
 #
-ゲームセンターにやってきた[p]
-莉子ちゃんがよく来るっていってたかも[p]
+来到了游戏中心[p]
+听说莉子会经常来这里[p]
 
 [eval exp="f.arcade_fast = true"]
 [else]
 #
-ゲームセンターにやってきた[p]
+来到了游戏中心[p]
 [endif]
 
 
 ;-キャラクター判別
 ;配列変数 f.arcade_day を日付で判別
-;0 桜子　１　莉子　２　莉菜　３　静江
+;0 樱子 １ 莉子 ２ 莉菜 ３ 静江
 [if exp="f.arcade_day[f.day] == 0"]
 [call storage="sakurako.ks" target="*sakurako_arcade"]
 [return]
@@ -52,45 +52,45 @@
 [jump target="*sizue_arcade"]
 [endif]
 
-;-ゲームセンターイベント　莉子-----------------------------------------------------------------------------------------
+;-ゲームセンターイベント 莉子-----------------------------------------------------------------------------------------
 *riko_arcade
 
-;桜子会話呼び出し
+;樱子会話呼び出し
 [call storage="sakurako.ks" target="*sakurako_riko_goout"]
 
 ;--①
 [if exp="f.riko_arcade == undefined || f.riko_arcade == 1"]
 #
 [bg storage="arcade/img17_21.png" time="1000"]
-お！莉子ちゃん、友達と来てる[r]
-プリクラ撮ってるみたいだな[p]
+哦！莉子和朋友一起来了[r]
+好像在拍大头贴[p]
 [bg storage="arcade/img17_22.png" time="1000"]
-#マリちゃん
-莉子ちゃんまたね～[p]
+#玛丽
+莉子，再见[p]
 #莉子
 [playse storage="riko/rk17_025.ogg" buf="0"]
-ばいば～い[p]
+拜拜[p]
 #
 [bg storage="arcade/img17_23.png" time="1000"]
-やぁ、莉子ちゃん[p]
+嗨，莉子酱[p]
 #莉子
 [playse storage="riko/rk17_026.ogg" buf="0"]
-あっ！ストーカー！[p]
+啊！跟踪狂！[p]
 #
-誰がストーカーだ！[p]
-今プリクラ撮ってたの？見せてよ[p]
+谁是跟踪狂！[p]
+刚才拍的大头贴，可以给我看看吗？[p]
 #莉子
 [playse storage="riko/rk17_027.ogg" buf="0"]
-見せる訳ないでしょ！このロリコン！[p]
+我不会给你看的，你这个萝莉控！[p]
 #
 [bg storage ="arcade.png" time="1000"]
 
-莉子ちゃんはもう帰っちゃったみたいだ[p]
+莉子回去了[p]
 [eval exp="tf.place = 1"]
 ;莉子ちゃん好感度UP
 [riko_f]
 
-;パートナー莉子ちゃん変更
+;パートナー�?�子ちゃん変更
 ;[eval exp="f.partner = 1"]
 
 [eval exp="f.riko_arcade = 2"]
@@ -101,19 +101,19 @@
 [if exp="f.riko_arcade == 2"]
 #
 [bg storage="arcade/img17_24.png" time="1000"]
-あっ、莉子ちゃんゲームしてる！[p]
-よし……乱入してやる！[r]
-いい勝負すれば見直してくれるかも[p]
+啊，莉子在玩游戏！[p]
+好的……我要加入挑战！[r]
+如果赢了的话，可以让她刮目相看[p]
 ……[l]……[l]……[p]
-……瞬殺されちゃった[p]
+……被秒杀了[p]
 [bg storage="arcade/img17_25.png" time="1000"]
 #莉子
 [playse storage="riko/rk17_027_1.ogg" buf="0"]
-あっ……おじさんだったの？[r]
-弱すぎてビックリしたわ！[p]
+啊……是大叔啊？[r]
+太弱了，吓我一跳！[p]
 #
 [bg storage ="arcade.png" time="1000"]
-しばらく練習していこうかな[p]
+稍微练习练习再来吧。[p]
 ……[p]
 ……[p]
 
@@ -131,15 +131,15 @@
 [if exp="f.riko_arcade == 3"]
 #
 [bg storage="arcade/img17_26.png" time="1000"]
-莉子ちゃんが友達とクレーンゲームしてる[p]
-何取ってるのかな？[r]
+莉子在和朋友玩抓娃娃机[p]
+想要抓什么呢？[r]
 [bg storage="arcade/img17_27.png" time="1000"]
 ……[p]
 ……[p]
 ……[p]
-（こっち来るなって圧を感じるな……）[p]
+（来这里，感觉压力很大啊……）[p]
 
-しょうがない……帰るか[p]
+没办法……回家吧[p]
 
 ;莉子ちゃん好感度UP
 [riko_f]

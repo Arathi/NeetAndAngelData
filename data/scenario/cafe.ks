@@ -7,7 +7,7 @@
 ;体力減少
 [eval exp="f.hp = f.hp - 10"]
 [mask time="500"]
-;桜子消去
+;樱子消去
 #
 [chara_hide name="sakurako"]
 [playbgm storage="osyare.ogg" loop="true"]
@@ -19,19 +19,19 @@
 ;--１回目の判別
 [if exp="f.cafe_fast == undefined"]
 #
-カフェにやってきた[p]
-静江さんがいるかな？[p]
+来到了咖啡店[p]
+静江小姐在吗[p]
 
 [eval exp="f.cafe_fast = true"]
 [else]
 #
-カフェにやってきた[p]
+来到咖啡店[p]
 [endif]
 
 
 ;-キャラクター判別
 ;配列変数 f.cafe_day を日付で判別
-;0 桜子　１　莉子　２　莉菜　３　静江
+;0 樱子　１　莉子　２　莉菜　３　静江
 [if exp="f.cafe_day[f.day] == 0"]
 [call storage="sakurako.ks" target="*sakurako_cafe"]
 [return]
@@ -60,27 +60,27 @@
 ;-カフェイベント　静江-----------------------------------------------------------------------------------------
 *sizue_cafe
 
-;桜子会話呼び出し
+;樱子会話呼び出し
 [call storage="sakurako.ks" target="*sakurako_sizue_goout"]
 
 ;--①
 [if exp="f.sizue_cafe == undefined || f.sizue_cafe == 1"]
 #
 [bg storage="cafe/img19_02.png" time="1000"]
-あっ、静江さんがいる[r]
-静江さ～ん[p]
+啊，静江小姐在[r]
+静江小姐[p]
 #静江
 [playse storage="sizue/sz19_007.ogg" buf="0"]
-お兄ちゃん、どうしたの？[p]
+哥哥，怎么了？[p]
 #
-通りかかったら静江さんみかけたので[p]
+路过的时候看到静江小姐了[p]
 #静江
 [playse storage="sizue/sz19_008.ogg" buf="0"]
-うふふ、何か飲んでいく？おごってあげる[p]
+要喝点什么吗？我请你[p]
 #
-本当ですか？頂きます[p]
+真的吗？那我就不客气了[p]
 
-雑談して一緒に帰った[p]
+闲聊后一起回去了[p]
 
 [eval exp="tf.place = 1"]
 ;静江さん好感度UP
@@ -97,12 +97,12 @@
 *futari_cafe
 #
 [bg storage="cafe/img18_10.png" time="1000"]
-二人でお茶ですか？[p]
+两个人在一起喝茶吗？[p]
 #静江
 [playse storage="sizue/sz19_009.ogg" buf="0"]
-莉菜ちゃんに見つかっちゃったのよ[p]
+我在这里撞见了莉菜[p]
 [playse storage="sizue/sz19_010.ogg" buf="0"]
-お兄ちゃんも何か飲んでいく？[p]
+哥哥也要喝点什么吗[p]
 
 ;静江さん好感度UP
 [sizue_f]

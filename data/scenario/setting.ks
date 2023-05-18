@@ -27,8 +27,8 @@
 [chara_config ptext="chara_name_area"]
 
 ;-このゲームで登場するキャラクターを宣言
-;--桜子キャラクタ登録
-[chara_new  name="sakurako" storage="chara/sakurako/sakurako_stand_00.png" jname="桜子"  ]
+;--樱子キャラクタ登録
+[chara_new  name="sakurako" storage="chara/sakurako/sakurako_stand_00.png" jname="樱子"  ]
 ;キャラクターの表情登録
 [chara_face name="sakurako" face="niko" storage=chara/sakurako/sakurako_stand_01.png"]
 
@@ -97,7 +97,7 @@
 ;主人公所持金
 [eval exp="f.money = 0"]
 ;一緒にいる人
-;⓪桜子　①莉子　②莉菜　③静江 ④莉子莉菜　⑤莉子静江　⑥莉菜静江
+;⓪樱子　①莉子　②莉菜　③静江 ④莉子莉菜　⑤莉子静江　⑥莉菜静江
 [eval exp="f.partner =　0"]
 
 ;--莉子
@@ -133,13 +133,13 @@
 ;曜日
 [eval exp="f.oneweek =0"]
 [eval exp="f.week =[]"]
-[eval exp="f.week[0] = '月曜日'"]
-[eval exp="f.week[1] = '火曜日'"]
-[eval exp="f.week[2] = '水曜日'"]
-[eval exp="f.week[3] = '木曜日'"]
-[eval exp="f.week[4] = '金曜日'"]
-[eval exp="f.week[5] = '土曜日'"]
-[eval exp="f.week[6] = '日曜日'"]
+[eval exp="f.week[0] = '星期一'"]
+[eval exp="f.week[1] = '星期二'"]
+[eval exp="f.week[2] = '星期三'"]
+[eval exp="f.week[3] = '星期四'"]
+[eval exp="f.week[4] = '星期五'"]
+[eval exp="f.week[5] = '星期六'"]
+[eval exp="f.week[6] = '星期天'"]
 
 ;エンディング
 [eval exp="f.ending = 0"]

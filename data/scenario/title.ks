@@ -8,11 +8,11 @@
 ;***********************************************************************************************************************
 ;バージョン表記
 [layopt layer=0 visible=true]
-;バージョン表記　メインシナリオ、タイトル,回想とリプレイも同じバージョンに修正
-[ptext layer="0" text="Ver　1.13.D" x="1100" y="20" size="20" shadow="0x000000" ]
-
+[ptext layer="0" text="整合、汉化：樱键" x="1060" y="20" size="20" shadow="0x000000" ]
+[ptext layer="0" text="Ver 1.13.F&D" x="1100" y="50" size="20" shadow="0x000000" ]
 @wait time = 200
-;**********************************************************************************************************************
+;***********************************************************************************************************************
+
 *start 
 @layopt layer=message0 Visible=False
 [button x=130 y=400 graphic="title_button/button_start_normal.png" target="gamestart"  clickse="se/se_maoudamashii_system46.ogg"]
@@ -44,12 +44,12 @@
 *pick
 [layopt layer="1" visible="true"]
 [image storage="window_03.png" layer="1" x="750" y="250"  ]
-[ptext layer="1" text="ブラウザを開きます" x="800" y="270" vertical="" size="20" shadow="0x000000"]
+[ptext layer="1" text="用浏览器打开" x="800" y="270" vertical="" size="20" shadow="0x000000"]
 [glink  color="blue" size="20"  x="830"  width="60"  y=350  text="FANTIA"  target="*yes" exp="tf.pick = "0"]
 [glink  color="blue" size="20"  x="830"  width="60"  y=400  text="Ci-en"  target="*yes" exp="tf.pick = "1"]
 [glink  color="blue" size="20"  x="830"  width="60"  y=450  text="twitter"  target="*yes" exp="tf.pick = "2"]
-[glink  color="blue" size="20"  x="830"  width="60"  y=500  text="ブログ"  target="*yes" exp="tf.pick = "3"]
-[glink  color="blue" size="20"  x="830"  width="60"  y=560  text="閉じる"  target="*no"]
+[glink  color="blue" size="20"  x="830"  width="60"  y=500  text="博客"  target="*yes" exp="tf.pick = "3"]
+[glink  color="blue" size="20"  x="830"  width="60"  y=560  text="关闭"  target="*no"]
 [s]
 *yes
 

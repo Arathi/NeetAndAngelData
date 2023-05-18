@@ -179,7 +179,7 @@ tf.flag_back=$(".message1_fore").css("display");
 [layopt layer=message1 visible=false]
 [freeimage layer=1]
 [clearfix]
-;コンフィグの呼び出しに sleepgame を使っているので、必ず awakegame で戻してやってください
+;コンフィグの呼び出しに sleepgame を使っているので，必ず awakegame で戻してやってください
 [awakegame]
 
 [endif]
@@ -215,7 +215,7 @@ tf.flag_back=$(".message1_fore").css("display");
 [iscript]
 TG.config["defaultMovieVolume"] = tf.current_se_vol;
 [endscript]
-;桜子ランダム会話
+;樱子ランダム会話
 ;ランダム数値の取り出し
 [iscript]
 tf.rand = Math.floor( Math.random() * 3)

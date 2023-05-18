@@ -13,7 +13,7 @@
 ;ランドセル１回目  70
 
 *start
-;桜子消去
+;樱子消去
 #
 [chara_hide name="sakurako"]
 ;***********************************************************************************************************************
@@ -48,37 +48,37 @@ tf.rand = Math.floor( Math.random() * 5)
 [if exp="tf.rand == 0"]
 #莉子
 [playse storage="riko/rk28_006.ogg" buf="0"]
-え～！面倒くさいからいい[r]
-やめとく！[p]
+诶~！好麻烦！[r]
+算了吧！[p]
 [endif]
 
 [if exp="tf.rand == 1"]
 #莉子
 [playse storage="riko/rk28_007.ogg" buf="0"]
-また今度ね[p]
+下次吧[p]
 [endif]
 
 [if exp="tf.rand == 2"]
 #莉子
 [playse storage="riko/rk28_008.ogg" buf="0"]
-マリちゃんと遊ぶから！[p]
+我要和玛丽一起玩！[p]
 [endif]
 
 [if exp="tf.rand == 3"]
 #莉子
 [playse storage="riko/rk28_009.ogg" buf="0"]
-今忙しいの！[p]
+我现在很忙[！[p]
 [endif]
 
 [if exp="tf.rand == 4"]
 #莉子
 [playse storage="riko/rk28_010.ogg" buf="0"]
-ロリコンお断り！[p]
+拒绝萝莉控！[p]
 [endif]
 
 #
-断られてしまった[p]
-さて、どうしようか
+被拒绝了[p]
+接下来干嘛呢？
 [jump storage="main.ks" target="*choice2"]
 
 [endif]
@@ -94,38 +94,38 @@ tf.rand = Math.floor( Math.random() * 5)
 [if exp="tf.rand == 0"]
 #莉子
 [playse storage="riko/rk28_001.ogg" buf="0"]
-いいよ、行ってあげる[p]
+可以哦，我跟你去[p]
 [endif]
 
 [if exp="tf.rand == 1"]
 #莉子
 [playse storage="riko/rk28_002.ogg" buf="0"]
-しょうがないから、付き合ってあげる[p]
+真拿你没办法，我陪你去吧[p]
 [endif]
 
 [if exp="tf.rand == 2"]
 #莉子
 [playse storage="riko/rk28_003.ogg" buf="0"]
-暇だからいいよ[p]
+可以啊，我很闲[p]
 [endif]
 
 [if exp="tf.rand == 3"]
 #莉子
 [playse storage="riko/rk28_004.ogg" buf="0"]
-うん、いく！[p]
+嗯，走吧！[p]
 [endif]
 
 [if exp="tf.rand == 4"]
 #莉子
 [playse storage="riko/rk28_005.ogg" buf="0"]
-あ、いきたい！[p]
+啊，我想去！[p]
 [endif]
 
 ;デートフラグオン（帰宅時に部屋に行くを消すための変数）
 [eval exp="tf.date = true"]
 
 
-;桜子シナリオコール
+;樱子シナリオコール
 [call storage="sakurako.ks" target="*sakurako_date"]
 
 
@@ -193,11 +193,11 @@ tf.rand = Math.floor( Math.random() * 5)
 [menuwindows]
 [bgmovie storage="mov_30_0_2.webm"]
 [playse storage="riko/rk30_003.ogg" buf="0"]
-逆上がり、うまくできないの！[p]
-何でも出来る莉子ちゃんが[r]
-以外にも逆上がりが出来ないとは！[p]
-莉子ちゃんの逆上がりの練習に付き合った！[p]
-至近距離でパンチラを堪能したのは秘密である[p]
+引体向上，做不来！[p]
+什么都能做的莉子[r]
+但就是做不了引体向上！[p]
+我陪莉子练习引体向上！[p]
+最近距离欣赏胖次，这是件要保密的事情[p]
 [endif]
 
 [if exp="tf.rand == 1"]
@@ -206,11 +206,11 @@ tf.rand = Math.floor( Math.random() * 5)
 [bg storage="black.png" time="1000"]
 [bgmovie storage="mov_30_5.webm"]
 ……[p]
-疲れた……運動不足にはきつい……[p]
+累了……运动严重不足……[p]
 #莉子
 [playse storage="riko/rk30_004.ogg" buf="0"]
-おじさん、もう疲れたの？[p]
-運動してクタクタになった……[p]
+大叔，你累了吗？[p]
+运动过度了……[p]
 [endif]
 
 [if exp="tf.rand == 2"]
@@ -218,13 +218,13 @@ tf.rand = Math.floor( Math.random() * 5)
 [freeimage layer="2" time="0"]
 [bg storage="black.png" time="1000"]
 [bgmovie storage="mov_30_6.webm"]
-莉子ちゃんスベリ台で遊んでる[p]
-可愛いな！眺めてるだけで満足[p]
+莉子在滑板台上玩[p]
+好可爱啊！只要看着就满足了[p]
 #莉子
 [playse storage="riko/rk30_006.ogg" buf="0"]
-そんなに見てたってパンチラしないからね！[p]
+你这么看是看不到胖次的哟！[p]
 #
-いや……十分してますから[p]
+不……已经足够了[p]
 [endif]
 
 [if exp="tf.rand == 3"]
@@ -234,9 +234,9 @@ tf.rand = Math.floor( Math.random() * 5)
 [bgmovie storage="mov_30_7.webm"]
 #莉子
 [playse storage="riko/rk30_001.ogg" buf="0"]
-鬼ごっこでもする？絶対通報されると思うけど[p]
+玩捉迷藏吗？我一定会报警的[p]
 #
-追いかけまわしてクタクタになった[p]
+被追着打了一圈[p]
 [endif]
 
 [if exp="tf.rand == 4"]
@@ -246,9 +246,9 @@ tf.rand = Math.floor( Math.random() * 5)
 [bgmovie storage="mov_30_7.webm"]
 #莉子
 [playse storage="riko/rk30_005.ogg" buf="0"]
-女の子ばっかり見てるでしょ！[p]
+你一直在看女孩子吧！[p]
 #
-いやいや、莉子ちゃんしか見てないよ～[p]
+不是不是，只是看莉子而已～[p]
 [endif]
 
 
@@ -262,7 +262,7 @@ tf.rand = Math.floor( Math.random() * 5)
 [stop_bgmovie time="1000"]
 
 #
-家に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 ;***********************************************************************************************************************
 ;-公園H
@@ -285,8 +285,8 @@ tf.rand = Math.floor( Math.random() * 5)
 [playse storage="riko/rk30_012.ogg" buf="0" loop ="true"]
 [bgmovie storage="mov_30_11.webm"]
 #莉子
-はぁ……はぁ……おじさんの……ばか[r]
-変態……はぁ……はぁ……[p]
+啊……啊……大叔是……笨蛋[r]
+变态……啊……啊……[p]
 #
 [stop_bgmovie time="1000"]
 [stopse buf="0"]
@@ -307,7 +307,7 @@ tf.rand = Math.floor( Math.random() * 5)
 ;莉子ちゃんエッチフラグ
 [eval exp="f.riko_sex = true"]
 #
-莉子ちゃんと公園エッチ、スリル満点[p]
+和莉子在公园H，刺激满满[p]
 #
 家に帰ってきた[r]
 [jump storage="main.ks" target="*night"]
@@ -331,12 +331,12 @@ tf.rand = Math.floor( Math.random() * 5)
 [bgmovie storage="mov_29_2.webm"]
 #莉子
 [playse storage="riko/rk29_001.ogg" buf="0"]
-おじさん、あれ取れる？[p]
+大叔，能拿到那个吗？[p]
 #
-クレーンゲームね[r]
-よ～し、任せときな！[p]
+抓娃娃游戏是吧[r]
+好了，交给我吧！[p]
 …………[p]
-やっぱり取れなかった[p]
+果然没拿到[p]
 [endif]
 
 [if exp="tf.rand == 1"]
@@ -345,14 +345,14 @@ tf.rand = Math.floor( Math.random() * 5)
 [bg storage="black.png" time="1000"]
 [bgmovie storage="mov_29_2.webm"]
 #
-クレーンゲームに挑戦中！[p]
-おっ……いけるか！[p]
-あ～…………[p]
+正在挑战抓娃娃游戏！[p]
+哦，要上咯[p]
+啊………………[p]
 #莉子
 [playse storage="riko/rk29_005.ogg" buf="0"]
-おじさん、全然だめ！[p]
+大叔，完全不行啊！[p]
 #
-やっぱり取れなかった[p]
+果然没拿到[p]
 [endif]
 
 [if exp="tf.rand == 2"]
@@ -362,9 +362,9 @@ tf.rand = Math.floor( Math.random() * 5)
 [bgmovie storage="mov_29_2.webm"]
 #莉子
 [playse storage="riko/rk29_006.ogg" buf="0"]
-莉子のダンス中、いやらしい目でみてたでしょ！[p]
+莉子跳舞的时候，你是不是在用下流的眼神在看着！[p]
 #
-ん～……まぁ、否定はしないかな[p]
+嗯~……无法否认[p]
 [endif]
 
 [if exp="tf.rand == 3"]
@@ -374,7 +374,7 @@ tf.rand = Math.floor( Math.random() * 5)
 [bgmovie storage="mov_29_2.webm"]
 #莉子
 [playse storage="riko/rk29_007.ogg" buf="0"]
-おじさんプリクラ一緒に撮ってあげようか？[p]
+大叔，要一起拍大头贴吗？[p]
 #
 ぜひお願いします！[p]
 [endif]
@@ -386,9 +386,9 @@ tf.rand = Math.floor( Math.random() * 5)
 [bgmovie storage="mov_29_2.webm"]
 #莉子
 [playse storage="riko/rk29_009.ogg" buf="0"]
-おじさんリズム感なさそうね！[p]
+大叔好像没有节奏感啊！[p]
 #
-よく言われるよ！[p]
+我经常被人这么说！[p]
 [endif]
 
 ;ゲーセン帰宅
@@ -401,14 +401,14 @@ tf.rand = Math.floor( Math.random() * 5)
 [fadeoutbgm]
 [stopse]
 #
-ゲーセンで２０００円使った[p]
+在游戏厅花了2000日元[p]
 [eval exp="f.money = f.money - 2000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 #
-家に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 
 ;***********************************************************************************************************************
@@ -417,7 +417,7 @@ tf.rand = Math.floor( Math.random() * 5)
 #
 [bg storage="cafe.png" time="1000"]
 [playbgm storage="osyare.ogg" loop="true"]
-カフェにやってきた[p]
+来到咖啡店[p]
 ;莉子ランダム会話
 ;ランダム数値の取り出し
 [iscript]
@@ -431,9 +431,9 @@ tf.rand = Math.floor( Math.random() * 5)
 [bgmovie storage="mov_35_1.webm"]
 #莉子
 [playse storage="riko/rk35_001.ogg" buf="0"]
-おじさん、莉子イチゴパフェ！[p]
+大叔，莉子要草莓芭菲！[p]
 #
-いいよ、なんでも頼みな！[p]
+可以，什么都满足你！[p]
 [endif]
 
 [if exp="tf.rand == 1"]
@@ -443,9 +443,9 @@ tf.rand = Math.floor( Math.random() * 5)
 [bgmovie storage="mov_35_1.webm"]
 #莉子
 [playse storage="riko/rk35_002.ogg" buf="0"]
-莉子コーラ飲む[p]
+莉子要喝可乐[p]
 #
-コーヒーでも頼むかな[p]
+来杯咖啡吧[p]
 [endif]
 
 [if exp="tf.rand == 2"]
@@ -455,10 +455,10 @@ tf.rand = Math.floor( Math.random() * 5)
 [bgmovie storage="mov_35_1.webm"]
 #莉子
 [playse storage="riko/rk35_003.ogg" buf="0"]
-コーヒーなんて美味しいの？苦くて揉めないけど[p]
+咖啡什么的好喝吗？虽然好像很苦[p]
 #
-莉子ちゃんはお子様だからね！大人になれば味がわかるよ[r]
-（ミルクと砂糖がないと飲めないけどね）[p]
+因为莉子是小孩子，长大了就知道味道了[r]
+（虽然没有牛奶和糖我也喝不了）[p]
 [endif]
 
 [if exp="tf.rand == 3"]
@@ -468,9 +468,9 @@ tf.rand = Math.floor( Math.random() * 5)
 [bgmovie storage="mov_35_1.webm"]
 #莉子
 [playse storage="riko/rk35_004.ogg" buf="0"]
-ケーキ食べていい？[p]
+我可以吃蛋糕吗？[p]
 #
-あっ自分も食べたくなってきた[p]
+我也想吃了[p]
 [endif]
 
 [if exp="tf.rand == 4"]
@@ -480,9 +480,9 @@ tf.rand = Math.floor( Math.random() * 5)
 [bgmovie storage="mov_35_1.webm"]
 #莉子
 [playse storage="riko/rk35_005.ogg" buf="0"]
-お姉ちゃんには内緒ね[p]
+对姐姐保密啊[p]
 #
-あんまり食べ過ぎると莉菜ちゃんに怒られちゃうね[p]
+吃太多的话莉菜会生气的[p]
 [endif]
 
 ;ゲーセン帰宅
@@ -495,14 +495,14 @@ tf.rand = Math.floor( Math.random() * 5)
 [fadeoutbgm]
 [stopse]
 #
-カフェで３０００円使った[p]
+在咖啡店花了3000日元[p]
 [eval exp="f.money = f.money - 3000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 #
-家に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 
 ;***********************************************************************************************************************
@@ -519,9 +519,9 @@ tf.rand = Math.floor( Math.random() * 5)
 [if exp="f.karaoke_riko ==  undefined"]
 #莉子
 [bgmovie storage="mov_31_7.webm"]
-カラオケやってきた[p]
+来到卡拉OK歌厅[p]
 [playse storage="riko/rk31_001.ogg" buf="0"]
-おじさん、莉子のマジョカルラブリー聞かせてあげる♪[p]
+大叔，莉子唱 魔法少女爱 给你听♪[p]
 [stop_bgmovie]
 [cm]
 [clearfix]
@@ -535,7 +535,7 @@ tf.rand = Math.floor( Math.random() * 5)
 [bgmovie storage="mov_31_7.webm"]
 [menuwindows]
 #
-莉子ちゃんの歌が聞けてだい満足である[p]
+听了莉子的歌后感到很满足[p]
 [jump target="*karaoke_return"]
 [endif]
 ;***********************************************************************************************************************
@@ -547,7 +547,7 @@ tf.rand = Math.floor( Math.random() * 5)
 [bgmovie storage="mov_31_9.webm"]
 [endif]
 
-カラオケやってきた[p]
+来唱卡拉ok了[p]
 
 [iscript]
 tf.rand = Math.floor( Math.random() * 4)
@@ -556,43 +556,43 @@ tf.rand = Math.floor( Math.random() * 4)
 [if exp="tf.rand == 0"]
 #莉子
 [playse storage="riko/rk31_002.ogg" buf="0"]
-おじさん、歌へたね！[p]
+大叔，去唱歌了吧![p]
 #
-はうっ！……うすうすそうじゃないかと思っていたが……[p]
+哈哈！……我是不是还算唱得马马虎虎呢……[p]
 [endif]
 
 [if exp="tf.rand == 1"]
 #莉子
 [playse storage="riko/rk31_005.ogg" buf="0"]
-おじさん点数低い～！[p]
+大叔得分太低了～！[p]
 #
-音痴の現実が突き刺さる……[p]
+音痴的现实被刺穿了……[p]
 [endif]
 
 [if exp="tf.rand == 2"]
 #
-もうすぐ時間みたいだけど[p]
+看起来马上就到时间了[p]
 #莉子
 [playse storage="riko/rk31_006.ogg" buf="0"]
-延長でしょ！[p]
+延长吧！[p]
 #
-了解！[p]
+收到！[p]
 [endif]
 
 [if exp="tf.rand == 3"]
 #莉子
 [playse storage="riko/rk31_008.ogg" buf="0"]
-おじさん何その歌？知らないから止めちゃお～っと！[p]
+大叔那首歌是什么？没听过，停下来吧！[p]
 #
-はぅ……止められてしまった！僕の１８番が……[p]
+哈……我被打断了！我的18号……[p]
 [endif]
 
 [if exp="tf.rand == 4"]
 #莉子
 [playse storage="riko/rk31_008.ogg" buf="0"]
-おじさん何その歌？知らないから止めちゃお～っと！[p]
+大叔那首歌是什么？没听过，停下来吧！[p]
 #
-はぅ……止められてしまった！僕の１８番が……[p]
+哈……我被打断了！我的18号……[p]
 [endif]
 ;***********************************************************************************************************************
 ;カラオケＨ判別
@@ -614,14 +614,14 @@ tf.rand = Math.floor( Math.random() * 4)
 [fadeoutbgm]
 [stopse]
 #
-カラオケで３０００円使った[p]
+唱卡拉ok花了3000日元[p]
 [eval exp="f.money = f.money - 3000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 #
-家に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 
 ;***********************************************************************************************************************
@@ -632,25 +632,25 @@ tf.rand = Math.floor( Math.random() * 4)
 [bgmovie storage="mov_31_1.webm"]
 #莉子
 [playse storage="riko/rk31_009.ogg" buf="0"]
-まったく、こんな所でも子供に欲情してるんだから[r]
-どうするの？　これ[p]
+真是的，在这种地方也对小孩子产生情欲[r]
+怎么办？ 接下来[p]
 #
-莉子ちゃん、そんなに動かしたら……[p]
+莉子，那么弄的话……[p]
 #莉子
 [playse storage="riko/rk31_010.ogg" buf="0"]
-自分でやってって言ったんでしょ、このド変態！[p]
+你不是自己叫我做的吗，你这个大变态！[p]
 #
-り……莉子ちゃんに……挿れたい……[p]
+莉……莉子……好想插进去……[p]
 #莉子
 [playse storage="riko/rk31_011.ogg" buf="0"]
-ダメに決まってるでしょ！　こんなド変態には手で十分よ！[p]
+肯定不行吧！ 对付你这变态用手就够了！[p]
 #
-莉子ちゃん……気持ちいい……[p]
+莉子……好舒服……[p]
 #莉子
 [playse storage="riko/rk31_012.ogg" buf="0"]
-いく？　もういっちゃう？　子供の手でいっちゃの？　[p]
+射了吗？ 射了吧？ 用小孩子的手射了是吗？ [p]
 #
-あっ、あぁぁぁぁ[p]
+啊，啊啊啊啊啊[p]
 [stop_bgmovie]
 [stopse buf="0"]
 [stopse buf="3"]
@@ -665,7 +665,7 @@ tf.rand = Math.floor( Math.random() * 4)
 [bgmovie storage="mov_31_8.webm"]
 #莉子
 [playse storage="riko/rk31_013.ogg" buf="0"]
-あ～あ、こんなにいっぱい出ちゃった[p]
+啊，啊……射了这么多[p]
 #
 ;カラオケ帰宅
 [bg storage="karaoke.png" time="500"]
@@ -682,15 +682,15 @@ tf.rand = Math.floor( Math.random() * 4)
 [eval exp="f.riko_sex = true"]
 
 #
-莉子ちゃんに手で抜いてもらった[p]
-カラオケで３０００円の出費である[p]
+莉子亲手帮我射出来了[p]
+在卡拉OK是3000日元的费用[p]
 [eval exp="f.money = f.money - 3000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 #
-家に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 ;***********************************************************************************************************************
 ;--カラオケＨ2
@@ -701,26 +701,26 @@ tf.rand = Math.floor( Math.random() * 4)
 [bgmovie storage="mov_31_3.webm"]
 #莉子
 [playse storage="riko/rk31_014.ogg" buf="0"]
-おじさんはカラオケボックスに来ると、オチンチン出したくなる病なんですか！[p]
+大叔你有一到卡拉OK包厢，就想露出小弟弟的病吗！[p]
 #
-ああっ……おっ、おじさんは莉子ちゃんに挿れたいだけだよ！[p]
+啊……哦，叔叔只是想插进莉子身体里而已！[p]
 #莉子
 [playse storage="riko/rk31_015.ogg" buf="0"]
-だめって言ってるでしょ！　おじさんなんかは子供の足でいじられてるのがちょうどいいの！[p]
+我不是说了不行吗 大叔什么的用小孩子的脚欺负正合适呢！[p]
 #
-あぁっ……何か……足もいいかも[p]
+啊，是啊。怎么说……也许用脚也不错[p]
 #莉子
 [playse storage="riko/rk31_016.ogg" buf="0"]
-そんなに莉子の足でいじめられるのがいいの？　莉子の足、気持ちいい？[p]
+那么被莉子的脚欺负就行了吗 莉子的脚很舒服吗？[p]
 #
-莉子ちゃんの足、きもちいい[r]
-莉子ちゃんの足でもっといじめてください[p]
+莉子的脚很舒服[r]
+请多用莉子的脚欺负我[p]
 #莉子
 [playse storage="riko/rk31_017.ogg" buf="0"]
-ふふ、莉子の足でいっぱい、いじめてあげる[r]
-ほ～ら、ほら!早くいっちゃいなさいよ！[p]
+嘿嘿，用莉子的脚尽力，欺负你[r]
+喂，你看！快点射出来吧！[p]
 #
-ううっ、莉子ちゃん、やばい、いっちゃう……あぁぁぁぁ！[p]
+嗯，莉子，糟了，要去了……啊啊啊 ~ ![p]
 [stop_bgmovie]
 
 [cm]
@@ -749,14 +749,14 @@ delete f.karaoke_riko_h;
 [eval exp="f.riko_sex = true"]
 
 #
-カラオケで３０００円使った[p]
+唱卡拉ok花了3000日元[p]
 [eval exp="f.money = f.money - 3000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 #
-家に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 
 ;***********************************************************************************************************************
@@ -768,7 +768,7 @@ delete f.karaoke_riko_h;
 [bg storage="black.png" time="1000"]
 [bgmovie storage="mov_33_3.webm"]
 [playbgm storage="sizukana.ogg" loop="true"]
-漫画喫茶にやってきた[p]
+漫画咖啡店来了[p]
 
 ;***********************************************************************************************************************
 ;莉子ランダム会話
@@ -780,42 +780,42 @@ tf.rand = Math.floor( Math.random() * 5)
 [if exp="tf.rand == 0"]
 #莉子
 [playse storage="riko/rk33_001.ogg" buf="0"]
-おじさん、莉子コーラ！[p]
+叔叔，莉子要喝可乐！[p]
 #
-かしこまりました、莉子お嬢様！[p]
+明白了，莉子大小姐！[p]
 [endif]
 
 [if exp="tf.rand == 1"]
 #莉子
 [playse storage="riko/rk33_002.ogg" buf="0"]
-その漫画面白い？[p]
+那个漫画有趣吗？[p]
 #
-面白いよ！もうちょとで読み終わるからね[p]
+很有趣哦!我马上就看完了。[p]
 [endif]
 
 [if exp="tf.rand == 2"]
 #莉子
 [playse storage="riko/rk33_005.ogg" buf="0"]
-今真剣に読んでるんだから、話しかけないで！[p]
+我现在正在认真阅读，别跟我说话！[p]
 #
-怒られてしまった……[p]
+被凶了……[p]
 [endif]
 
 [if exp="tf.rand == 3"]
 #莉子
 [playse storage="riko/rk33_006.ogg" buf="0"]
-おじさん、速くそれ読んでよ！[r]
-追いついちゃったんだから[p]
+大叔，看快点！[r]
+等一会追上来吧[p]
 #
-ちょっ、ちょっとまってよ～[p]
+等等，等一下啊～[p]
 [endif]
 
 [if exp="tf.rand == 4"]
 #莉子
 [playse storage="riko/rk33_003.ogg" buf="0"]
-どうせおじさん、エロ漫画とか読んでるんでしょ[p]
+反正大叔，你看过色情漫画吧[p]
 #
-その通りです[p]
+如你所言[p]
 [endif]
 ;***********************************************************************************************************************
 ;漫画喫茶Ｈ判別
@@ -836,14 +836,14 @@ tf.rand = Math.floor( Math.random() * 5)
 [fadeoutbgm]
 [stopse]
 #
-漫画喫茶で３０００円使った[p]
+在漫画咖啡店花了3000日元[p]
 [eval exp="f.money = f.money - 3000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 #
-家に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 
 ;***********************************************************************************************************************
@@ -854,15 +854,15 @@ tf.rand = Math.floor( Math.random() * 5)
 [bgmovie storage="mov_33_1.webm"]
 [playse storage="riko/rk33_007.ogg" buf="0" loop ="true"]
 #
-莉子ちゃん、気持ちいい！[p]
-莉子ちゃんのオマンコがこんな目の前に！[p]
-莉子ちゃんのここにおじさんのオチンチン挿れたいよ[p]
+莉子，好舒服！[p]
+莉子的小穴就在我眼前！[p]
+我想在莉子的这里插上肉棒[p]
 #莉子
 [playse storage="riko/rk33_009.ogg" buf="0"]
-だめって言ってるでしょ！また今度ね！[p]
+我不是说了不行吗！下次再说吧！[p]
 [playse storage="riko/rk33_007.ogg" buf="0" loop ="true"]
 #
-ええ～……そんな～[p]
+诶～……怎么能这样～[p]
 
 ;漫画喫茶帰宅
 [bg storage="cartooncafe.png" time="500"]
@@ -878,15 +878,15 @@ tf.rand = Math.floor( Math.random() * 5)
 [eval exp="f.riko_sex = true"]
 
 #
-漫画喫茶で３０００円使った[p]
+在漫画咖啡店花了3000日元[p]
 [eval exp="f.money = f.money - 3000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 #
-莉子ちゃんのいじわるで抜けずに帰ってきたのでムラムラである……[p]
-家に帰ってきた[r]
+被莉子玩弄一番，没有做就闷闷不乐的回家了。[p]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 
 ;***********************************************************************************************************************
@@ -897,42 +897,42 @@ tf.rand = Math.floor( Math.random() * 5)
 [bgmovie storage="mov_33_4.webm"]
 [playse storage="riko/rk33_010.ogg" buf="0"]
 #莉子
-ほ～ら！ほら！　おじさん、莉子のココに挿れたいでしょ？[p]
+快~看！快看！大叔，想插入莉子这里吧？[p]
 #
-うう……莉子ちゃん、挿れたいです[p]
+嗯……莉子，我想插进去[p]
 #莉子
 [playse storage="riko/rk33_011.ogg" buf="0"]
-ふふ、でもだ～め！　挿れさせてあげない！[p]
+哼哼，但是不～行！　不能让你插进去！[p]
 #
-そ！　そんな！　莉子ちゃん……[p]
+怎！　怎么能这样！　莉子……[p]
 #莉子
 [playse storage="riko/rk33_012.ogg" buf="0"]
-でも、先っぽが入りそうだよ！　おじさん[p]
+但是，前端好像已经进去了哦！　大叔[p]
 #
-ああっ……莉子ちゃん……そのまま！[p]
+啊啊……莉子将……就这么继续吧！！[p]
 #莉子
 [playse storage="riko/rk33_013.ogg" buf="0"]
-うっそ～！　やっぱりだ～め！[p]
+不是吧！　果然还是不～行！[p]
 #
-りっ、莉子ちゃ～ん……お願いします！　挿れさせてください！[p]
+莉，莉子酱……请你了！　让我插进去！[p]
 #莉子
 [playse storage="riko/rk33_014.ogg" buf="0"]
-え～何を？[p]
+诶～干嘛？[p]
 #
-おじさんのオチンチンを挿れさせて下さい[p]
+请让叔叔的肉棒插进去[p]
 #莉子
 [playse storage="riko/rk33_015.ogg" buf="0"]
-どこに？[p]
+哪里？[p]
 #
-り！　莉子ちゃんのオマンコにです！[p]
+莉！　莉子的小穴里！[p]
 #莉子
 [playse storage="riko/rk33_016.ogg" buf="0"]
-う～ん……どうしようかな～[p]
+嗯～……该怎么办呢～[p]
 #
-お！　お願いします！莉子様、どうか挿れさせて下さい！[p]
+拜！　拜托了！莉子大人，无论如何请让我插进去！[p]
 #莉子
 [playse storage="riko/rk33_017.ogg" buf="0"]
-そこまで言うなら、しょうがないから挿れさせて、あげる[p]
+既然说到这份上了，没办法就让你插进来吧[p]
 [stop_bgmovie]
 [cm]
 [clearfix]
@@ -976,15 +976,15 @@ delete f.cartooncafe_riko_h;
 [stop_bgmovie time="1000"]
 [menuwindows]
 #
-漫画喫茶で３０００円使った[p]
+在漫画咖啡店花了3000日元[p]
 [eval exp="f.money = f.money - 3000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 #
-莉子ちゃんに責められてなんか興奮したかも……[p]
-家に帰ってきた[r]
+被莉子责备了，不知为什么有点兴奋的感觉……[p]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 
 ;***********************************************************************************************************************
@@ -1015,56 +1015,56 @@ tf.rand = Math.floor( Math.random() * 3)
 ;タイトスカート
 [if exp="tf.rand == 0"]
 [bgmovie storage="mov_32_6.webm"]
-遊園地にやってきた[p]
+来到了游乐园[p]
 #
-何に乗ろうかな……[p]
-よし！[p]
-お化け屋敷に入って怖がる莉子ちゃんを[r]
-かっこよくエスコートしよう[p]
+我该坐什么呢……[p]
+有了！[p]
+帅气的护送[r]
+因走进鬼屋而害怕的莉子吧[p]
 [stop_bgmovie time="1000"]
 [bgmovie storage="mov_32_10.webm" time="1000"]
 #莉子
 [playse storage="riko/rk31_019.ogg" buf="0"]
-おじさん……怖いの？　莉子は……怖くないよ……[p]
-#
-お……おじさんだって、こっ……怖くないよ……[r]
-（やばい！すげ～怖い！！）[p]
+大叔……你害怕吗？ 莉子……我不怕……[p]
+#主人公
+哦……大叔也是……我不怕……[r]
+（太糟糕了！好可怕！！）[p]
 [endif]
 ;タイトスカート　
 [if exp="tf.rand == 1"]
 [bgmovie storage="mov_32_6.webm"]
-遊園地にやってきた[p]
+来到了游乐园[p]
 [stop_bgmovie time="1000"]
 [bgmovie storage="mov_32_9.webm" time="1000"]
 #莉子
 [playse storage="riko/rk31_021.ogg" buf="0"]
-おじさん！　もう一回いくよ！[p]
+大叔！ 再去一次吧！[p]
 #
-もうクタクタだけど、そうもいってられなそうだ……[p]
+虽然已经疲惫不堪了，但好像不能提反对意见……[p]
 [endif]
 ;タイトスカート
 [if exp="tf.rand == 2"]
 [bgmovie storage="mov_32_6.webm"]
-遊園地にやってきた[p]
+来到了游乐园[p]
 [stop_bgmovie time="1000"]
 [bgmovie storage="mov_32_7.webm" time="1000"]
 #莉子
 [playse storage="riko/rk31_023.ogg" buf="0"]
-おじさん、大丈夫[p]
+叔叔，没事吗？[p]
 #
-うう……連続ジェットコースターはさすがにきつい……[p]
+唔……连续坐过山车真是辛苦啊……[p]
 [endif]
 ;デニムパンツ
 [if exp="tf.rand == 3"]
 [bg storage="amusement.png" time="500"]
-遊園地にやってきた[p]
+来到了游乐园[p]
 [stop_bgmovie time="1000"]
 [bgmovie storage="mov_32_8.webm" time="1000"]
 #莉子
 [playse storage="riko/rk31_022.ogg" buf="0"]
-うわ～、人があんなにちっちゃい！[p]
+哇，人那么小[p]
 #
-莉子ちゃんの太ももにしか目がいかないな[p]
+盯着莉子的大腿移不开视线[p]
 [endif]
 ;***********************************************************************************************************************
 ;遊園地Ｈ判別
@@ -1085,15 +1085,15 @@ tf.rand = Math.floor( Math.random() * 3)
 [fadeoutbgm]
 [stopse]
 #
-莉子ちゃんと遊園地でいっぱい遊んで満足[p]
-６０００円使った[p]
+和莉子在游乐园玩得很尽兴[p]
+花了六千日元[p]
 [eval exp="f.money = f.money - 6000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 #
-家に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 
 ;***********************************************************************************************************************
@@ -1135,16 +1135,16 @@ tf.rand = Math.floor( Math.random() * 3)
 
 [menuwindows]
 #
-莉子ちゃんと遊園地でいっぱい遊んで[r]
-観覧車であんなことまでしたから大満足[p]
-６０００円使った[p]
+和莉子在游乐园玩得很尽兴[r]
+在游览车里做了那样的事情，大满足[p]
+花了六千日元[p]
 [eval exp="f.money = f.money - 6000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 #
-家に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 
 ;***********************************************************************************************************************
@@ -1185,16 +1185,16 @@ delete f.amusement_riko_h;
 
 [menuwindows]
 #
-莉子ちゃんと遊園地でいっぱい遊んで[r]
-観覧車であんなことまでしたから大満足[p]
-６０００円使った[p]
+和莉子在游乐园玩得很尽兴[r]
+在游览车里做了那样的事情，大满足[p]
+花了六千日元[p]
 [eval exp="f.money = f.money - 6000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 #
-家に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 
 
@@ -1207,7 +1207,7 @@ delete f.amusement_riko_h;
 [bg storage="black.png" time="1000"]
 [bgmovie storage="mov_36_12.webm"]
 [playbgm storage="sitamati.ogg" loop="true"]
-お祭りにやってきた[p]
+来参加了祭会[p]
 
 ;莉子ランダム会話
 ;ランダム数値の取り出し
@@ -1218,41 +1218,41 @@ tf.rand = Math.floor( Math.random() * 5)
 [if exp="tf.rand == 0"]
 #莉子
 [playse storage="riko/rk36_001.ogg" ]
-おじさん、ヨーヨ釣りやろ！[p]
+叔叔，快去钓鱼！[p]
 #
-よーし、おじさんいっぱい吊っちゃうぞ！[p]
+好的，我要钓得满满的！[p]
 [endif]
 
 [if exp="tf.rand == 1"]
 #莉子
 [playse storage="riko/rk36_002.ogg"]
-莉子、かき氷食べたい[p]
+莉子想吃刨冰[p]
 #
-毎日暑いね～[p]
+每天都很热啊～[p]
 [endif]
 
 [if exp="tf.rand == 2"]
 #莉子
 [playse storage="riko/rk36_003.ogg" ]
-浴衣かわいい？[p]
+浴衣可爱吗？[p]
 #
-莉子ちゃんの浴衣姿可愛いよ[p]
+莉子穿着浴衣很可爱哦[p]
 [endif]
 
 [if exp="tf.rand == 3"]
 #莉子
 [playse storage="riko/rk36_004.ogg" ]
-おじさん、莉子の浴衣姿、いやらしい目でみてるでしょ！[p]
+大叔，莉子穿着浴衣的样子，你在用下流的眼神在看着吧！[p]
 #
-否定はしないけど[p]
+无法否认[p]
 [endif]
 
 [if exp="tf.rand == 4"]
 #莉子
 [playse storage="riko/rk36_005.ogg"]
-やきそば、じゃがばたー、たこ焼き、お好み焼き、イカ焼き、何食べよ～[p]
+炒面，炖牛肉，章鱼烧，日式煎饼，鱿鱼烧，吃什么～[p]
 #
-莉子ちゃん食べ過ぎ[p]
+莉子吃多了[p]
 [endif]
 
 ;***********************************************************************************************************************
@@ -1276,15 +1276,15 @@ tf.rand = Math.floor( Math.random() * 5)
 [fadeoutbgm]
 [stopse]
 #
-莉子ちゃんとお祭りでいっぱい遊んで満足[p]
-５０００円使った[p]
+和莉子一起在祭会上玩得很尽兴[p]
+花了5000日元[p]
 [eval exp="f.money = f.money - 5000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 #
-家に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 
 ;***********************************************************************************************************************
@@ -1295,36 +1295,36 @@ tf.rand = Math.floor( Math.random() * 5)
 [playbgm storage="night.ogg" loop="true"]
 [bgmovie storage="mov_36_13.webm"]
 #
-莉子ちゃん、花火凄かったね！[p]
+莉子，烟花好厉害啊！[p]
 #莉子
 [playse storage="riko/rk36_007_2.ogg"]
-なんか、人が全然居ない所にきてるでしょ！　おじさん！[p]
+总觉得，来到了一个完全没有人的地方，是吧！ 大叔！[p]
 #
-そうかな……偶然じゃないかな！[p]
+是吗……这不是巧合吗！[p]
 #莉子
 [playse storage="riko/rk36_008.ogg"]
-莉子にいやらしい事しようとしてるんでしょ！[p]
+你是想对莉子做些下流的事吧[p]
 #
-ええ！　ちがうよ！[p]
+诶！ 不是的！[p]
 #莉子
 [playse storage="riko/rk36_009.ogg"]
-莉子が可愛いからしょうがないよね！[r]
-浴衣姿の莉子に欲情してるんでしょう？[p]
+因为莉子很可爱，所以没办法啊！[r]
+你对穿着浴衣的莉子很有情欲吧[p]
 #
-確かに、莉子ちゃんの浴衣姿……かわいいよ[p]
+的确，莉子穿着浴衣……好可爱啊[p]
 #莉子
 [playse storage="riko/rk36_010.ogg"]
-莉子かわいい？[p]
+莉子很可爱吗？[p]
 #
-うん、莉子ちゃん可愛いよ！　浴衣も似合ってるし[p]
+嗯，莉子很可爱哦！ 浴衣也很适合你[p]
 #莉子
 [playse storage="riko/rk36_011.ogg"]
-そ、そう？　莉子が可愛いすぎるからしょうがないよね！[p]
+是，是吗？ 莉子太可爱了，没办法啊！[p]
 #
-そうだよ、莉子ちゃんが可愛すぎるから！[p]
+是啊，因为莉子太可爱了！[p]
 #莉子
 [playse storage="riko/rk36_012.ogg"]
-じゃあ、おじさんには莉子がエッチなことしてあげる[p]
+那，莉子来和大叔做H的事吧[p]
 [fadeoutbgm]
 [cm]
 [clearfix]
@@ -1353,9 +1353,9 @@ tf.rand = Math.floor( Math.random() * 5)
 
 [menuwindows]
 #
-莉子ちゃんとお祭りでいっぱい遊んで[r]
-浴衣でフェラまでしてくれたから大満足[p]
-5０００円使った[p]
+和莉子一起在祭会上玩得很尽兴[p]
+穿着浴衣，连口交都做了，特别满足[p]
+花了5000日元[p]
 [eval exp="f.money = f.money - 5000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
@@ -1374,23 +1374,23 @@ tf.rand = Math.floor( Math.random() * 5)
 [bgmovie storage="mov_36_13.webm"]
 #莉子
 [playse storage="riko/rk36_015.ogg"]
-おじさん、また人の居ない所きてるでしょ！[p]
+大叔，你又来了没有人的地方了吧！[p]
 #
-そ！そうかな……たしかに周りには人が居ないな！[p]
+是吗……确实，周围没有人啊！[p]
 #莉子
 [playse storage="riko/rk36_016.ogg"]
-おじさんそんなに莉子とエッチなことしたいの？[p]
+大叔你那么想和莉子做色色的事吗[p]
 #
-それは、もちろん莉子ちゃん可愛いから……[p]
+这……那当然是因为莉子很可爱……[p]
 #莉子
 [playse storage="riko/rk36_017.ogg"]
-まったく子供の浴衣で欲情して！[r]
-おじさんはどこまでロリコンなの！そんなに莉子とエッチしたい？[p]
+真是的，对穿着浴衣的小孩产生情欲！[r]
+叔叔萝莉控到什么程度了啊！你那么想和莉子H吗[p]
 #
-し、したいです[p]
+想，想做[p]
 #莉子
 [playse storage="riko/rk36_018.ogg"]
-しょうがないからおじさんとエッチしてあげる[p]
+真是拿你没办法，那就和叔叔做爱吧[p]
 [fadeoutbgm]
 [stop_bgmovie time="1000"]
 [cm]
@@ -1425,16 +1425,16 @@ delete f.maturi_riko_h;
 
 [menuwindows]
 #
-莉子ちゃんとお祭りでいっぱい遊んだ[r]
-浴衣姿でエッチってとても興奮するね[p]
-今日は５０００円使った[p]
+和莉子在祭会上一起玩得很尽兴[r]
+穿着浴衣H真让人兴奋啊[p]
+今天花了5000日元[p]
 [eval exp="f.money = f.money - 5000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 #
-家に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 
 ;***********************************************************************************************************************
@@ -1444,8 +1444,8 @@ delete f.maturi_riko_h;
 ;エッチ度判定
 [if exp="f.riko_h < 50"]
 #
-さすがにまだ着てくれなそうだな……[p]
-さて、どうしようか
+果然还是不愿意穿啊……[p]
+接下来，干嘛呢？
 [jump storage="main.ks" target="*choice2"]
 [endif]
 
@@ -1456,18 +1456,18 @@ delete f.maturi_riko_h;
 [bgmovie storage="mov_65_11.webm"]
 #莉子
 [playse storage="riko/rk65_012.ogg"]
-なにこれ、スクール水着？[p]
+这是什么，校泳衣？[p]
 #
-そう、莉子ちゃんにそれを着てほしいんだ！[p]
+是的，我想让莉子穿上这个！[p]
 #莉子
 [playse storage="riko/rk65_013.ogg"]
-は～……おじさんはもう筋金入りの変態だね！[r]
-ロリコンの帝王って呼んであげる[p]
+哈～……大叔已经是个十足的变态了！[r]
+以后就叫你萝莉控之王[p]
 #
-お願い莉子ちゃん！着て着て！[p]
+拜托了，莉子！穿吧穿吧！[p]
 #莉子
 [playse storage="riko/rk65_014.ogg"]
-しょうがないから着てあげるけど……着るだけだからね！[p]
+真拿你没办法，穿给你看好了……只是穿而已啊！[p]
 #
 [stop_bgmovie]
 [cm]
@@ -1475,31 +1475,31 @@ delete f.maturi_riko_h;
 [bgmovie storage="mov_65_12.webm"]
 #莉子
 [playse storage="riko/rk65_015.ogg"]
-どう？おじさん、莉子は何を着ても可愛いよね！[p]
+怎么样？大叔，莉子穿什么都很可爱吧！[p]
 #
-うん、可愛いよ莉子ちゃん[p]
+嗯，很可爱哦莉子[p]
 #莉子
 [playse storage="riko/rk65_016.ogg"]
-おじさん目がいやらしい……[p]
+大叔的眼神好下流……[p]
 #
-莉子ちゃん、ちょっと後ろ向いて、手はこうして[p]
+莉子，转过身去，手像这样[p]
 [stop_bgmovie]
 [bgmovie storage="mov_65_13.webm"]
 #莉子
 [playse storage="riko/rk65_017.ogg"]
-ん、こう？こんな感じ[p]
+嗯，这样？这样子吗[p]
 #
-そうそう、それそれ[p]
+对对，就是那样[p]
 #莉子
 [playse storage="riko/rk65_018.ogg"]
-ふーん……じゃあ、こんな感じで見えたら興奮する[p]
+嗯……那么，这样看的话感觉兴奋起来了[p]
 [stop_bgmovie]
 [bgmovie storage="mov_65_14.webm"]
 #
-は……はい[p]
+是……是的[p]
 #莉子
 [playse storage="riko/rk65_020.ogg"]
-ここをめくったらどうかな？[p]
+这样掀开怎么样？[p]
 [cm]
 [clearfix]
 ;メッセージボックスは非表示
@@ -1509,20 +1509,20 @@ delete f.maturi_riko_h;
 [bgmovie storage="mov_65_16.webm"]
 [menuwindows]
 #
-はぁ……はぁ……莉子ちゃん触っていい？[p]
+哈……哈……莉子，可以摸吗？[p]
 #莉子
 [playse storage="riko/rk65_021.ogg"]
-はっ？　ダメにきまってるでしょ！[p]
+哈？当然不行啦！[p]
 #
-お願い……莉子ちゃんが可愛くて……もう我慢できないんだ！[p]
+拜托了……莉子太可爱了……已经忍不住了！[p]
 #莉子
 [playse storage="riko/rk65_022.ogg"]
-莉子が可愛いから我慢できないの？[p]
+因为莉子太可爱所以忍不住了吗？[p]
 #
-莉子ちゃんが可愛すぎて、可愛すぎて……もう我慢の限界です[p]
+莉子太可爱了，太可爱了……已经忍耐到极限了。[p]
 #莉子
 [playse storage="riko/rk65_023.ogg"]
-ふ～ん、じゃあ……ちょっとだけだよ……[p]
+呼~，那么……只是稍微……[p]
 
 [cm]
 [clearfix]
@@ -1535,12 +1535,12 @@ delete f.maturi_riko_h;
 [menuwindows]
 [bgmovie storage="mov_65_20.webm"]
 #
-莉子ちゃん、いいよね……挿れてもいいよね[p]
+莉子，可以吧……可以插进去吗？[p]
 [stopse buf="0"]
 #莉子
 [playse storage="riko/rk65_025.ogg"]
-はぁ、はぁ、おじさんが……[r]
-どうしてもって言うなら……別に……いいよ[p]
+哈，哈，大叔……[r]
+一定要说的话……没关系……可以的[p]
 [cm]
 [clearfix]
 ;メッセージボックスは非表示
@@ -1573,9 +1573,9 @@ delete f.maturi_riko_h;
 
 [menuwindows]
 #
-莉子ちゃんのスクール水着とても興奮するね[p]
+莉子穿着泳衣，太令人兴奋了[p]
 #
-部屋に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 
 ;***********************************************************************************************************************
@@ -1585,8 +1585,8 @@ delete f.maturi_riko_h;
 ;エッチ度判定
 [if exp="f.riko_h < 80"]
 #
-さすがにまだ無理だろう……[p]
-さて、どうしようか
+果然还是不行吗……[p]
+接下来干嘛呢？
 [jump storage="main.ks" target="*choice2"]
 [endif]
 
@@ -1617,9 +1617,9 @@ delete f.maturi_riko_h;
 
 [menuwindows]
 #
-莉子ちゃんとても気持ちよさそうだった[p]
+莉子酱看起来很爽的样子[p]
 #
-部屋に帰ってきた[r]
+回到了房间[r]
 [jump storage="main.ks" target="*night"]
 
 ;***********************************************************************************************************************
@@ -1631,7 +1631,7 @@ delete f.maturi_riko_h;
 [bg storage="black.png" time="1000"]
 [bg storage="movietheater/img_34_11_2.png" time="500"]
 [playbgm storage="asobiniikuhi.ogg" loop="true"]
-映画館にやってきた[p]
+来到了电影院[p]
 [cm]
 [clearfix]
 [freeimage layer="2" time="0"]
@@ -1642,7 +1642,7 @@ delete f.maturi_riko_h;
 [movie storage="mov_34_1.webm" skip="true"]
 [bgmovie storage="mov_34_2.webm"]
 [menuwindows]
-何の映画を見ようかな?
+看什么电影呢?
 [glink  color="pink" size="20"  x="900"  width="200"  y="150"  text="アクション"  target="*movie_choice" exp="tf.movie_choice = 1"]
 [glink  color="pink" size="20"  x="900"  width="200"  y="220"  text="恋愛"  target="*movie_choice" exp="tf.movie_choice = 2"]
 [glink  color="pink" size="20"  x="900"  width="200"  y="290"  text="ドキュメンタリー"  target="*movie_choice" exp="tf.movie_choice = 3"]
@@ -1655,28 +1655,28 @@ delete f.maturi_riko_h;
 ;***********************************************************************************************************************
 [if exp="tf.movie_choice == 1"]
 [bgmovie storage="mov_34_3_3.webm" time = 2000]
-アクション映画を見ている[p]
-莉子ちゃん楽しそうでよかった！[p]
+看动作片[p]
+莉子好像很高兴，太好了！[p]
 [endif]
 [if exp="tf.movie_choice == 2"]
 [bgmovie storage="mov_34_3_1.webm" time = 2000]
-恋愛映画は…[p]
-莉子ちゃん退屈そう[p]
+爱情片…[p]
+莉子好像很无聊[p]
 [endif]
 [if exp="tf.movie_choice == 3"]
 [bgmovie storage="mov_34_3_4.webm" time = 2000]
-ドキュメンタリーはダメそう[p]
-寝ちゃってる…こんなに面白いのに[p]
+记录片好像不行[p]
+睡着了…明明这么有趣[p]
 [endif]
 [if exp="tf.movie_choice == 4"]
 [bgmovie storage="mov_34_3_2.webm" time = 2000]
-アニメは莉子ちゃんの好きなマジョカルフレンズ！[p]
-真剣に見ている[p]
+动画片是莉子喜欢的マ魔女女友！[p]
+认真的看着[p]
 [endif]
 [if exp="tf.movie_choice == 5"]
 [bgmovie storage="mov_34_3_5.webm" time = 2000]
-ホラーは苦手そうなのに[p]
-強がってる所が可愛いな[p]
+不太擅长看恐怖片[p]
+逞强的样子好可爱[p]
 [endif]
 ;***********************************************************************************************************************
 ;映画館Ｈ判別
@@ -1689,8 +1689,8 @@ delete f.maturi_riko_h;
 [bgmovie storage="mov_34_5.webm" time = 2000]
 #莉子
 [playse storage="riko/rk34_008.ogg" buf="0"]
-おじさん、またつまんない映画……[r]
-莉子にエッチなことさせたくて来てるんでしょ！[p]
+大叔，又是无聊的电影……[r]
+这是为了和莉子做色色的事情才来的吧！[p]
 [jump target="*movietheater_h2"]
 [endif]
 
@@ -1706,14 +1706,14 @@ delete f.maturi_riko_h;
 [fadeoutbgm]
 [stopse]
 #
-映画で３０００円使った[p]
+看电影花了3000日元[p]
 [eval exp="f.money = f.money - 3000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 #
-家に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 
 ;***********************************************************************************************************************
@@ -1726,30 +1726,30 @@ delete f.maturi_riko_h;
 
 #莉子
 [playse storage="riko/rk34_001.ogg" buf="0"]
-この映画、つまらない[p]
+这部电影，好无聊[p]
 #
-え！　そう？　つまらないかな？[p]
+诶！　是吗？　很无聊吗？[p]
 #莉子
 [playse storage="riko/rk34_002.ogg" buf="0"]
-だって、他に誰もいないし……つまらないから全然お客いないじゃん[p]
+因为，没有其他人……正因为很无聊，所以才完全没有人来看[p]
 #
-結構面白いと思うけどな[p]
+虽然我觉得还挺有趣的[p]
 #莉子
 [playse storage="riko/rk34_003.ogg" buf="0"]
-おじさん、変態だからちょっと変わってるんだよ！[p]
+叔叔，因为是变态所以有点奇怪！[p]
 #
-り、莉子ちゃん！　ちょっと[p]
+莉，莉子！　等一下[p]
 #莉子
 [playse storage="riko/rk34_004.ogg" buf="0"]
-あっ、大丈夫、大丈夫！　映画見てていいから[p]
+啊，没关系，没关系！　你看电影就行了[p]
 [stop_bgmovie time="2000"]
 [bgmovie storage="mov_34_7.webm" time = 2000]
 #莉子
 [playse storage="riko/rk34_005.ogg" buf="0"]
-さすがおじさん！　ちょっと舐めたらもうこんなに大きくなった[r]
-おじさんは映画見てればいいから[p]
+不愧是大叔！舔了一下就这么大了[r]
+大叔你看电影就行了[p]
 #
-集中できないよ……あうっ[p]
+无法集中注意力……啊[p]
 *movietheater_h2
 [cm]
 [clearfix]
@@ -1778,15 +1778,15 @@ delete f.maturi_riko_h;
 ;主人公精力減少
 [eval exp="f.energy = f.energy - 30"]
 #
-莉子ちゃんに口で抜いてもらった[p]
-映画で３０００円の出費である[p]
+从莉子口中拔了出来[p]
+看电影花了3000日元[p]
 [eval exp="f.money = f.money - 3000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 #
-家に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 ;***********************************************************************************************************************
 ;体操着
@@ -1795,8 +1795,8 @@ delete f.maturi_riko_h;
 ;エッチ度判定
 [if exp="f.riko_h < 70"]
 #
-さすがにまだ着てくれなそうだな……[p]
-さて、どうしようか
+果然还是不愿意穿啊……[p]
+接下来干嘛呢？
 [jump storage="main.ks" target="*choice2"]
 [endif]
 
@@ -1807,36 +1807,36 @@ delete f.maturi_riko_h;
 [bgmovie storage="mov_65_47.webm"]
 #莉子
 [playse storage="riko/rk102_001.ogg"]
-おじさん何これ？[p]
+大叔这是什么？[p]
 #
-これは古のアイテムでブルマと言ってだね…[p]
+这是被称之为体操短裤的古老物品…[p]
 #莉子
 [playse storage="riko/rk102_002.ogg"]
-おじさん莉子にこれを着てほしいの？[p]
+大叔想让我穿上这个吗？[p]
 #
-はい！着てほしいです！[p]
+是的！希望你穿上！[p]
 #莉子
 [playse storage="riko/rk102_003.ogg"]
-え～…どうしよっかな～[p]
+诶～…怎么办呢～[p]
 #
-お願いします！莉子ちゃん、ぜひ着てください！[p]
+拜托了！莉子酱，请务必穿上！[p]
 #莉子
 [playse storage="riko/rk102_004.ogg"]
-でもこれなんか、恥ずかしいし[p]
+但是这个，感觉好害羞啊[p]
 #
-大丈夫だよ！莉子ちゃんなら絶対に可愛いし！[r]
-ちょっとだけだから、ね！お願い莉子ちゃん！[p]
+没关系的！莉子穿上绝对很可爱！[r]
+只是穿一下而已，呐！拜托了莉子！[p]
 #莉子
 [playse storage="riko/rk102_005.ogg"]
-おじさん必死すぎ…[p]
+大叔也太拼命了…[p]
 #
-お願いします、莉子ちゃん！どうか少しだけ！[r]
-少しだけなので、着るだけだからね、ね、ね！[p]
+拜托了，莉子酱！稍微试一试！[r]
+稍微试一下，只是穿一下而已，可以吧，可以吧，可以吧！[p]
 #莉子
 [playse storage="riko/rk102_006.ogg"]
-もう！しょうがないから着てあげるけど、着るだけだからね[p]
+真是的！真拿你没办法那就穿着试试吧，只是穿一下而已哦[p]
 #
-やった～[p]
+太好了～[p]
 [cm]
 [clearfix]
 [stopse buf="0"]
@@ -1849,34 +1849,34 @@ delete f.maturi_riko_h;
 
 #莉子
 [playse storage="riko/rk102_007.ogg"]
-どお？おじさん！莉子可愛いでしょう？[p]
+怎么样？大叔！莉子可爱吗？[p]
 #
-はい、莉子ちゃん可愛いです！[p]
+是的，莉子很可爱！[p]
 #莉子
 [playse storage="riko/rk102_008.ogg"]
-おじさん、こんなのがいいの？　ふーん…変態ね！[p]
+大叔，这样可以吗？　嗯…真变态！[p]
 [playse storage="riko/rk102_009.ogg"]
-おじさん鼻息荒いんだけど！　さわっちゃダメだからね！[p]
+大叔呼吸慌乱了！　不能摸哦！[p]
 #
-莉子ちゃん、もう我慢できないんだけど！ちょっとだけ触っていい？[p]
+莉子，已经忍不住了！稍微摸一摸好吗？[p]
 #莉子
 [playse storage="riko/rk102_010.ogg"]
-だ～め！触っちゃだめだからね！[p]
+不～行！不能让你摸！[p]
 #
-そんな…[p]
+怎么这样…[p]
 [stop_bgmovie time="1000"]
 [bgmovie storage="mov_65_52.webm" time="1000"]
 #莉子
 [playse storage="riko/rk102_011.ogg"]
-おじさん、こんな感じ！エッチでしょう？[p]
+大叔，这样！很色气是吧？[p]
 [playse storage="riko/rk102_012.ogg"]
-そ～れそれ！うわ～おじさん目が血走ってる！[p]
+那个！哇~大叔的眼睛充血了！[p]
 [playse storage="riko/rk102_013.ogg"]
 [stop_bgmovie time="1000"]
 [bgmovie storage="mov_65_51.webm" time="1000"]
-ちらっ！　どう？おじさん、もっと見たい！[p]
+嘿咻！　怎么样？大叔，想看更多吗！[p]
 [playse storage="riko/rk102_014.ogg"]
-おじさん、顔近いんだけど！こっ、こら！触っちゃダメって…[p]
+大叔，脸靠太近啦！喂，喂！说了不能摸的…[p]
 [stop_bgmovie time="1000"]
 [playse storage="riko/rk102_015.ogg" loop="true"]
 [cm]
@@ -1912,9 +1912,9 @@ delete f.maturi_riko_h;
 
 [menuwindows]
 #
-莉子ちゃんのブルマとても興奮するね[p]
+莉子的体操服太让人兴奋了[p]
 #
-部屋に帰ってきた[r]
+回到了房间[r]
 [jump storage="main.ks" target="*night"]
 
 ;***********************************************************************************************************************
@@ -1924,8 +1924,8 @@ delete f.maturi_riko_h;
 ;エッチ度判定
 [if exp="f.riko_h < 70"]
 #
-さすがにまだ着てくれなそうだな……[p]
-さて、どうしようか
+果然还是不愿意穿啊……[p]
+接下来干嘛呢？
 [jump storage="main.ks" target="*choice2"]
 [endif]
 
@@ -1936,23 +1936,23 @@ delete f.maturi_riko_h;
 [bgmovie storage="mov_65_40.webm"]
 #莉子
 [playse storage="riko/rk101_001.ogg"]
-おじさん、わざわざこれ買ってきたの…[p]
+大叔，你是特意去买了这个吗…[p]
 #
-莉子ちゃんに背負ってほしいんだ！制服と一緒につけて！[p]
+希望莉子背上这个！制服也一起穿上！[p]
 #莉子
 [playse storage="riko/rk101_002.ogg"]
-は～、まさかここまでロリコンだったとは…[r]
-もう、恥ずかしくないの、このド変態！[p]
+哈～，没想到萝莉控到了这个地步…[r]
+真是的，你不会感到害臊吗，这个大变态！[p]
 #
-お願い、莉子ちゃんの可愛い姿が見たいんだ！[p]
+拜托了，想看看莉子可爱的样子！[p]
 #莉子
 [playse storage="riko/rk101_003.ogg"]
-莉子の可愛い姿が見たいの？[p]
+想看莉子可爱的样子？[p]
 #
-そうそう、莉子ちゃんが可愛いからどうしても見たいんだ！[p]
+是啊是啊，因为莉子很可爱，无论如何都很想看！[p]
 #莉子
 [playse storage="riko/rk101_004.ogg"]
-そこまで言うなら着てあげるけど…着るだけだからね！[p]
+既然都说到这份上了那就传给你看看吧…只是穿一下而已哦！[p]
 [cm]
 [clearfix]
 [stopse buf="0"]
@@ -1963,20 +1963,20 @@ delete f.maturi_riko_h;
 [menuwindows]
 [bgmovie storage="mov_65_41.webm" time="1000"]
 #
-莉子ちゃんのランドセル姿！可愛すぎる！[p]
+莉子背着书包的样子！太可爱了！[p]
 #莉子
 [playse storage="riko/rk101_005.ogg"]
-おじさん顔が変態！キモい顔がさらにキモくなってる[p]
+大叔的表情很变态！原本恶心的脸变得更恶心了[p]
 #
-莉子ちゃんが可愛すぎるからしょうがないよ[p]
+没办法啊莉子太可爱了[p]
 #莉子
 [playse storage="riko/rk101_006.ogg"]
-そう？莉子可愛いい？[p]
+是吗？莉子很可爱吗？[p]
 #
-すごく可愛いよ莉子ちゃん！[p]
+非常的可爱哦，莉子酱！[p]
 #莉子
 [playse storage="riko/rk101_007.ogg"]
-じゃあ、しょうがないよね！ちょっとだけサービスしてあげる[p]
+好吧，真拿你没办法！稍微给你点好处吧[p]
 [cm]
 [clearfix]
 [stopse buf="0"]
@@ -1988,27 +1988,27 @@ delete f.maturi_riko_h;
 [bgmovie storage="mov_65_45.webm" time="1000"]
 #莉子
 [playse storage="riko/rk101_008.ogg"]
-どう？おじさん！[p]
+怎么样？大叔！[p]
 [playse storage="riko/rk101_009.ogg"]
-莉子かわいいでしょ！[p]
+莉子很可爱吧！[p]
 [stop_bgmovie time="1000"]
 [bgmovie storage="mov_65_43.webm" time="1000"]
 [playse storage="riko/rk101_010.ogg"]
-こんな感じでどう？[p]
+这样怎么样？[p]
 [stop_bgmovie time="1000"]
 [bgmovie storage="mov_65_44.webm" time="1000"]
 [playse storage="riko/rk101_011.ogg"]
-うわ～！やらしい顔！おじさん、子供のランドセル姿で欲情してるなんて[r]
-どうしようもないロリコンね！[p]
+哇～！下流的表情！大叔，对着背书包的小孩子发情了[r]
+真是个无药可救的萝莉控！[p]
 [playse storage="riko/rk101_012.ogg"]
-ちょっと！おじさん顔近いんだけど…おさわり禁止！[p]
+等等！大叔的脸靠的太近了…不许摸！[p]
 #
-莉子ちゃんが可愛すぎてもう我慢できないよ[r]
-お願い、ちょっとだけ！[p]
+莉子酱太可爱了，忍不住了[r]
+拜托了，就稍微摸一下！[p]
 #莉子
 [playse storage="riko/rk101_013.ogg"]
-もう…！　莉子が可愛すぎるからしょうがないよね！[r]
-ちょっとだけだからね！[p]
+真是的…！　真是拿你没办法，谁叫莉子太可爱了呢！[r]
+只是稍微摸一下哦！[p]
 [cm]
 [clearfix]
 [stopse buf="0"]
@@ -2048,7 +2048,7 @@ delete f.maturi_riko_h;
 
 [menuwindows]
 #
-莉子ちゃんのランドセル姿とても興奮するね[p]
+莉子背着书包的样子太令人兴奋了[p]
 #
-部屋に帰ってきた[r]
+返回房间[r]
 [jump storage="main.ks" target="*night"]

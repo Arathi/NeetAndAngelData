@@ -28,19 +28,19 @@ tf.rand = Math.floor( Math.random() * 3)
   [bgmovie storage="mov_11_1_1.webm" time="2000"]
 #莉子
 [playse storage="riko/rk11_001.ogg" buf="0"]
-おじさん、莉子のおっぱい見て！　おじさんにいっぱい見てほしいの[p]
+大叔，看莉子的胸部！ 大叔想看更多吗？[p]
 #
 　[stop_bgmovie time="2000"]
   [eval exp="f.dream_riko = 2"]
   [eval exp="f.d_before = tf.rand"]
   [return]
  [endif]
- ;---莉子夢②
+;---莉子夢②
  [if exp="f.dream_riko == 2"]
   [bgmovie storage="mov_11_4_1.webm" time="2000"]
 #莉子
 [playse storage="riko/rk11_002.ogg" buf="0"]
-おじさん、莉子のおまんこ、もうこんなになってるの[p]
+叔叔，莉子的小穴，已经变成这样了[p]
 #
   [stop_bgmovie time="2000"]
   [eval exp="f.dream_riko = 3"]
@@ -52,7 +52,7 @@ tf.rand = Math.floor( Math.random() * 3)
   [bgmovie storage="mov_11_1_2.webm" time="2000"]
 #莉子
 [playse storage="riko/rk11_003.ogg" buf="0"]
-おじさん、挿れて…莉子のおまんこに挿れて…[p]
+大叔，插进来…插进莉子的小穴里…[p]
 #
   [stop_bgmovie time="2000"]
   [eval exp="f.dream_riko = 1"]
@@ -68,7 +68,7 @@ tf.rand = Math.floor( Math.random() * 3)
   [bgmovie storage="mov_12_1_1.webm" time="2000"]
 #莉菜
 [playse storage="rina/rn12_001.ogg" buf="0"]
-お兄さん、莉菜の胸……見てください……[p]
+哥哥，莉菜的胸……请看……[p]
 #
   [stop_bgmovie time="2000"]
   [eval exp="f.dream_rina = 2"]
@@ -80,8 +80,8 @@ tf.rand = Math.floor( Math.random() * 3)
   [bgmovie storage="mov_12_1_3.webm" time="2000"]
 #莉菜
 [playse storage="rina/rn12_002.ogg" buf="0"]
-お兄さん、莉菜……もう、こんなに……お兄さんのが欲しくて[r]
-こんなに……ぐちょぐちょ[p]
+哥哥，莉菜……已经，成这样……我想要哥哥的[r]
+小穴变成这样……湿淋淋的了[p]
 #
   [stop_bgmovie time="2000"]
   [eval exp="f.dream_rina = 3"]
@@ -93,8 +93,8 @@ tf.rand = Math.floor( Math.random() * 3)
   [bgmovie storage="mov_12_1_2.webm" time="2000"]
 #莉菜
 [playse storage="rina/rn12_003.ogg" buf="0"]
-挿れてください…お兄さんの…莉菜の中に…[r]
-お兄さんのが欲しくて…莉菜もう…どうにかなっちゃう…[p]
+请插进来…哥哥…莉菜的里面…[r]
+想要哥哥的…莉菜已经…变得没有办法了…[p]
 #
   [stop_bgmovie time="2000"]
   [eval exp="f.dream_rina = 1"]
@@ -110,8 +110,8 @@ tf.rand = Math.floor( Math.random() * 3)
   [bgmovie storage="mov_13_1_1.webm" time="2000"]
 #静江
 [playse storage="sizue/sz13_001.ogg" buf="0"]
-もう、お兄ちゃん……おっぱいが好きなの？[r]
-いいのよ、おばさんのおっぱい、いっぱい好きにして……[p]
+真是的，哥哥……你喜欢胸部吗？[r]
+可以哦，阿姨的胸部，任随你处置。[p]
 #
   [stop_bgmovie time="2000"]
   [eval exp="f.dream_sizue = 2"]
@@ -123,8 +123,8 @@ tf.rand = Math.floor( Math.random() * 3)
   [bgmovie storage="mov_13_1_3.webm" time="2000"]
 #静江
 [playse storage="sizue/sz13_002.ogg" buf="0"]
-お兄ちゃん、ほら見て[r]
-おばさんのおまんこ……もうこんなになってるのよ……[p]
+哥哥，快看[r]
+你看，阿姨的小穴……已经变成这样了……[p]
 #
   [stop_bgmovie time="2000"]
   [eval exp="f.dream_sizue = 3"]
@@ -136,8 +136,8 @@ tf.rand = Math.floor( Math.random() * 3)
   [bgmovie storage="mov_13_1_2.webm" time="2000"]
 #静江
 [playse storage="sizue/sz13_003.ogg" buf="0"]
-お兄ちゃん、挿れて…お兄ちゃんのおちんちんを…おばさんのおまんこに挿れて[r]
-そして…おばさんの膣内にお兄ちゃんの精液をたっぷり注ぎ込んで[p]
+哥哥，插进来…お哥哥的肉棒…插进阿姨的小穴里来[r]
+然后…在阿姨的小穴里满满的注入哥哥的精液[p]
 #
   [stop_bgmovie time="2000"]
   [eval exp="f.dream_sizue = 1"]

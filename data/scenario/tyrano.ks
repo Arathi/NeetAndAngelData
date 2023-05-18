@@ -14,7 +14,7 @@
 [endmacro]
 
 
-;キャラクターを表示、そして設定
+;キャラクターを表示，そして設定
 [macro name="charaset"]
 
 [backlay]
@@ -32,7 +32,7 @@
 
 ;;;;;;;;;;;;セーブ関係
 
-;save情報を取得、ptextを継承する
+;save情報を取得，ptextを継承する
 
 [macro name="saveinfo"]
 
@@ -113,7 +113,7 @@ tf.savetext = "<span style='font-size:10px'>"+tf.save_date+"</span><br />"+tf.ti
 	
 	[endscript]
 	
-	;渡された値を元に、CG状態を確認していく
+	;渡された値を元に，CG状態を確認していく
 	[if exp="tf.is_cg_open==true"]
 		[button graphic=&mp.tmp_graphic[0] x=&mp.x y=&mp.y width=&mp.width height=&mp.height preexp="mp.graphic" exp="tf.selected_cg_image = preexp" storage="cg.ks" target="*clickcg" folder="bgimage" ]
 	[else]
@@ -121,7 +121,7 @@ tf.savetext = "<span style='font-size:10px'>"+tf.save_date+"</span><br />"+tf.ti
 	[endif]
 [endmacro]
 
-;CGが閲覧された場合、CGモードで表示できるようにする
+;CGが閲覧された場合，CGモードで表示できるようにする
 [macro name="cg" ]
 
     [iscript]
@@ -146,7 +146,7 @@ tf.savetext = "<span style='font-size:10px'>"+tf.save_date+"</span><br />"+tf.ti
 	
 	[endscript]
 	
-	;渡された値を元に、CG状態を確認していく
+	;渡された値を元に，CG状態を確認していく
 	[if exp="tf.is_replay_open==true"]
 		[button graphic=&mp.graphic x=&mp.x y=&mp.y width=&mp.width height=&mp.height preexp="sf.replay_view[mp.name]" exp="tf.selected_replay_obj = preexp" storage="replay.ks" target="*clickcg" folder="bgimage" ]
 	[else]

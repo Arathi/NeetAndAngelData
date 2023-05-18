@@ -9,7 +9,7 @@
 
 
 *start
-;桜子消去
+;樱子消去
 #
 [chara_hide name="sakurako"]
 ;***********************************************************************************************************************
@@ -34,37 +34,37 @@ tf.rand = Math.floor( Math.random() * 5)
 [if exp="tf.rand == 0"]
 #静江
 [playse storage="sizue/sz49_006.ogg" buf="0"]
-お兄ちゃん、ごめんね[r]
-今日これからお出かけなの[p]
+对不起。[r]
+我今天就要出门了[p]
 [endif]
 
 [if exp="tf.rand == 1"]
 #静江
 [playse storage="sizue/sz49_007.ogg" buf="0"]
-お兄ちゃん、おばさんをからかっちゃダメよ[p]
+不要和阿姨开玩笑哦[p]
 [endif]
 
 [if exp="tf.rand == 2"]
 #静江
 [playse storage="sizue/sz49_008.ogg" buf="0"]
-うふふ、お兄ちゃんまた今度ね[p]
+嘿嘿，下次吧[p]
 [endif]
 
 [if exp="tf.rand == 3"]
 #静江
 [playse storage="sizue/sz49_009.ogg" buf="0"]
-おばさん今日は二日酔いなの……ごめんなさい[p]
+阿姨今天宿醉了……对不起[p]
 [endif]
 
 [if exp="tf.rand == 4"]
 #静江
 [playse storage="sizue/sz49_010.ogg" buf="0"]
-おばさん、今日は用事があるのよ[p]
+阿姨我，今天有事[p]
 [endif]
 
 #
-断られてしまった[p]
-さて、どうしようか
+被拒绝了[p]
+接下来干嘛呢？
 [jump storage="main.ks" target="*choice2"]
 [endif]
 
@@ -80,37 +80,37 @@ tf.rand = Math.floor( Math.random() * 5)
 [if exp="tf.rand == 0"]
 #静江
 [playse storage="sizue/sz49_001.ogg" buf="0"]
-いいわよ、お兄ちゃん[p]
+可以哦，哥哥[p]
 [endif]
 
 [if exp="tf.rand == 1"]
 #静江
 [playse storage="sizue/sz49_002.ogg" buf="0"]
-おばさんなんかとデートなんて、いいの？[p]
+和阿姨约会什么的，这样好吗？[p]
 [endif]
 
 [if exp="tf.rand == 2"]
 #静江
 [playse storage="sizue/sz49_003.ogg" buf="0"]
-お兄ちゃん誘ってくれるの？[p]
+哥哥是在邀请我吗[p]
 [endif]
 
 [if exp="tf.rand == 3"]
 #静江
 [playse storage="sizue/sz49_004.ogg" buf="0"]
-あら、楽しそうねお兄ちゃん[p]
+哎呀，你看起来很开心啊[p]
 [endif]
 
 [if exp="tf.rand == 4"]
 #静江
 [playse storage="sizue/sz49_005.ogg" buf="0"]
-うふふ、お兄ちゃん、デートのお誘い？[p]
+嘿嘿，是邀请我约会吗？[p]
 [endif]
 
 ;デートフラグオン（帰宅時に部屋に行くを消すための変数）
 [eval exp="tf.date = true"]
 
-;桜子シナリオコール
+;樱子シナリオコール
 [call storage="sakurako.ks" target="*sakurako_date"]
 
 ;***********************************************************************************************************************
@@ -149,7 +149,7 @@ tf.rand = Math.floor( Math.random() * 5)
 #
 [bg storage="park_day.png" time="1000"]
 [playbgm storage="haretahiha.ogg" loop="true"]
-公園にやってきた！[p]
+来到了公园！[p]
 
 [cm]
 [freeimage layer="2" time="0"]
@@ -165,42 +165,42 @@ tf.rand = Math.floor( Math.random() * 5)
 [if exp="tf.rand == 0"]
 #静江
 [playse storage="sizue/sz51_001.ogg" buf="0"]
-おにいちゃん！　ほら、ポチモン探しに行くわよ！[p]
+好了，我要去寻口袋妖怪了！[p]
 #
-こんなに暑いのに静江さんは元気だ[p]
+天气这么热，静江还这么有精神[p]
 [endif]
 
 [if exp="tf.rand == 1"]
 #静江
 [playse storage="sizue/sz51_002.ogg" buf="0"]
-毎日暑いわね～[p]
+每天都好热啊~[p]
 #
-喉がカラカラです[p]
+我的喉咙很干啊。[p]
 [endif]
 
 [if exp="tf.rand == 2"]
 #静江
 [playse storage="sizue/sz51_004.ogg" buf="0"]
-ほ～ら！　お兄ちゃん、いくわよ～[p]
+好了好了，哥哥，我们走吧~[p]
 #
-もう体力の限界です[p]
+体力已经到极限了[p]
 [endif]
 
 [if exp="tf.rand == 3"]
 #静江
 [playse storage="sizue/sz51_005.ogg" buf="0"]
-もうすぐレイドの時間ね！[p]
+快到抓捕的时间了！[p]
 #
-準備は万端ですよ[p]
+一切都准备好了[p]
 [endif]
 
 [if exp="tf.rand == 4"]
 #静江
 [playse storage="sizue/sz51_006.ogg" buf="0"]
-ポチモンの卵の距離を稼ぐわよ！[r]
-おにいちゃん、公園一周ね！[p]
+我会争取小精灵蛋的距离的！[r]
+哥哥，围着公园走一圈吧！[p]
 #
-まだ歩くんですか！[p]
+又要走吗！[p]
 [endif]
 
 ;公園帰宅
@@ -213,7 +213,7 @@ tf.rand = Math.floor( Math.random() * 5)
 
 [stop_bgmovie time="1000"]
 #
-家に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 
 ;***********************************************************************************************************************
@@ -222,7 +222,7 @@ tf.rand = Math.floor( Math.random() * 5)
 #
 [bg storage="cafe.png" time="1000"]
 [playbgm storage="osyare.ogg" loop="true"]
-カフェにやってきた[p]
+来到了咖啡馆[p]
 
 [cm]
 [freeimage layer="2" time="0"]
@@ -238,32 +238,32 @@ tf.rand = Math.floor( Math.random() * 3)
 [if exp="tf.rand == 0"]
 #静江
 [playse storage="sizue/sz54_001.ogg" buf="0"]
-お兄ちゃん、ミルク入れる？[p]
+要加牛奶吗？[p]
 #
-はい、いっぱい入れてください[p]
+是，请多加一点。[p]
 [endif]
 
 [if exp="tf.rand == 1"]
 #静江
 [playse storage="sizue/sz54_002.ogg" buf="0"]
-こう見えてもコーヒーはブラックなのよ！[p]
+这样看来咖啡是黑色的哦![p]
 #
-砂糖とミルクは必須です[p]
+糖和牛奶是必需的[p]
 [endif]
 
 [if exp="tf.rand == 2"]
 #静江
 [playse storage="sizue/sz54_003.ogg" buf="0"]
-このケーキ、美味しい[p]
+这个蛋糕很好吃[p]
 #
-美味しいですね[p]
+真是美味啊[p]
 [endif]
 ;***********************************************************************************************************************
 ;ロータープレイ
 [if exp="f.item[6] == true && f.sizue_h >= 90"]
-どうしようかな
-[glink  color="pink" size="20"  x="950"  width="150"  y="300"  text="ローターを使う"  target="*rotor_play"]
-[glink  color="pink" size="20"  x="950"  width="150"  y="400"  text="使わない"  target="*cafe_return"]
+怎么办？
+[glink  color="pink" size="20"  x="950"  width="150"  y="300"  text="使用跳蛋"  target="*rotor_play"]
+[glink  color="pink" size="20"  x="950"  width="150"  y="400"  text="不用"  target="*cafe_return"]
 [s]
 [else]
 [jump target="*cafe_return"]
@@ -273,7 +273,7 @@ tf.rand = Math.floor( Math.random() * 3)
 [stop_bgmovie time="1000"]
 [fadeoutbgm]
 #
-ローターのスイッチを入れてみた！
+按下跳蛋的开关！
 [playse storage="sizue/sz54_004.ogg" buf="0" loop="true"]
 [playse storage="se/rotor.ogg" buf="3" loop="true"]
 [bgmovie storage="mov_54_2_2.webm" time="1000"]
@@ -311,17 +311,17 @@ tf.rand = Math.floor( Math.random() * 3)
 [playse storage="se/rotor.ogg" buf="3" loop="true"]
 #静江
 [playse storage="sizue/sz54_005.ogg" buf="0"]
-お兄ちゃん、だめ！
+哥哥，不要！
 [endif]
 [if exp="tf.rand == 1"]
 #静江
 [playse storage="sizue/sz54_006.ogg" buf="0"]
-もう、お兄ちゃん！！
+已经……哥哥！！
 [endif]
 [if exp="tf.rand == 2"]
 #静江
 [playse storage="sizue/sz54_007.ogg" buf="0"]
-お兄ちゃん…それ以上は…
+哥哥…我就要…
 [endif]
 [eval exp="tf.rand_old = tf.rand"]
 ;---------------------------------------------------------
@@ -330,14 +330,14 @@ tf.rand = Math.floor( Math.random() * 3)
 *rotor_play2
 [eval exp="tf.button_y = 300"]
 [if exp="tf.rotor != 3"]
-[glink  color="pink" size="20"  x="950"  width="150"  y="&tf.button_y"  text="強くする"  target="*rotor_play1" exp="tf.rotor = tf.rotor + 1" ]
+[glink  color="pink" size="20"  x="950"  width="150"  y="&tf.button_y"  text="加强"  target="*rotor_play1" exp="tf.rotor = tf.rotor + 1" ]
 [eval exp="tf.button_y = tf.button_y + 100"]
 [endif]
 [if exp="tf.rotor != 0"]
-[glink  color="pink" size="20"  x="950"  width="150"  y="&tf.button_y"  text="弱くする"  target="*rotor_play1" exp="tf.rotor = tf.rotor - 1" ]
+[glink  color="pink" size="20"  x="950"  width="150"  y="&tf.button_y"  text="减弱"  target="*rotor_play1" exp="tf.rotor = tf.rotor - 1" ]
 [eval exp="tf.button_y = tf.button_y + 100"]
 [endif]
-[glink  color="pink" size="20"  x="950"  width="150"  y="&tf.button_y"  text="やめる"  target="*cafe_return"]
+[glink  color="pink" size="20"  x="950"  width="150"  y="&tf.button_y"  text="结束"  target="*cafe_return"]
 [s]
 ;***********************************************************************************************************************
 *cafe_return
@@ -353,14 +353,14 @@ tf.rand = Math.floor( Math.random() * 3)
 [stopse buf="0"]
 [stopse buf="3"]
 #
-カフェで３０００円使った[p]
+在咖啡馆花了3000日元[p]
 [eval exp="f.money = f.money - 3000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 #
-家に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 
 ;***********************************************************************************************************************
@@ -369,7 +369,7 @@ tf.rand = Math.floor( Math.random() * 3)
 #
 [bg storage="arcade.png" time="1000"]
 [playbgm storage="dance.ogg" loop="true"]
-ゲームセンターにやってきた[p]
+来到了游戏中心[p]
 
 [cm]
 [freeimage layer="2" time="0"]
@@ -386,26 +386,26 @@ tf.rand = Math.floor( Math.random() * 3)
 [if exp="tf.rand == 0"]
 #静江
 [playse storage="sizue/sz50_002.ogg" buf="0"]
-ニャンタローのぬいぐるみ！[r]
-お兄ちゃん取れる？[p]
+猫太郎的玩偶！[r]
+哥哥能拿到吗[p]
 #
-頑張ります[p]
+我会加油的[p]
 [endif]
 
 [if exp="tf.rand == 1"]
 #静江
 [playse storage="sizue/sz50_003.ogg" buf="0"]
-おにいちゃん！　プリクラ撮るわよ！[p]
+要哥哥，去拍大头贴吧[p]
 #
-いいですね！[p]
+好啊！[p]
 [endif]
 
 [if exp="tf.rand == 2"]
 #静江
 [playse storage="sizue/sz50_006.ogg" buf="0"]
-おにいちゃん！　すごいすごい！[p]
+好厉害好厉害![p]
 #
-奇跡的に取れたぞ！[p]
+奇迹般地拿到了！[p]
 [endif]
 
 ;ゲーセン帰宅
@@ -419,14 +419,14 @@ tf.rand = Math.floor( Math.random() * 3)
 [stopse]
 
 #
-ゲーセンで２０００円使った[p]
+在游戏厅花了2000日元[p]
 [eval exp="f.money = f.money - 2000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 #
-家に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 
 
@@ -443,7 +443,7 @@ tf.rand = Math.floor( Math.random() * 3)
 
 [bgmovie storage="mov_52_8.webm"]
 #
-カラオケにやってきた[p]
+来唱卡拉ok了[p]
 
 ;ランダム数値の取り出し
 [iscript]
@@ -452,57 +452,57 @@ tf.rand = Math.floor( Math.random() * 7)
 [if exp="tf.rand == 0"]
 #静江
 [playse storage="sizue/sz52_001.ogg" buf="0"]
-おばさん、最近の曲あんまり知らないわよ[p]
+阿姨，我不太知道最近流行的曲子[p]
 #
-僕もアニソンしか歌えないです[p]
+我也只会唱动画歌曲[p]
 [endif]
 
 [if exp="tf.rand == 1"]
 #静江
 [playse storage="sizue/sz52_002.ogg" buf="0"]
-おにいちゃん、何飲む？　おばさんはビール！[p]
+哥哥要喝什么？ 阿姨是啤酒！[p]
 #
-コーヒーミルク砂糖入りで[p]
+咖啡牛奶加糖[p]
 [endif]
 
 [if exp="tf.rand == 2"]
 #静江
 [playse storage="sizue/sz52_003.ogg" buf="0"]
-うん……お兄ちゃん、声がすてきよ……[p]
+嗯……歌声真好听啊……[p]
 #
-やった！褒められた[p]
+太好了！被表扬了……[p]
 [endif]
 
 [if exp="tf.rand == 3"]
 #静江
 [playse storage="sizue/sz52_004.ogg" buf="0"]
-お兄ちゃん！乗ってきたから延長よ！[p]
+将时间延长吧[p]
 #
-いいですね[p]
+好啊[p]
 [endif]
 
 [if exp="tf.rand == 4"]
 #静江
 [playse storage="sizue/sz52_005.ogg" buf="0"]
-ふふ、莉子ちゃんの好きな曲？　お兄ちゃんうまいわよ[p]
+嘿嘿，莉子喜欢的曲子？ 很棒哦[p]
 #
-自分が好きな曲なんて言えない[p]
+不能说这是自己喜欢的曲子[p]
 [endif]
 
 [if exp="tf.rand == 5"]
 #静江
 [playse storage="sizue/sz52_006.ogg" buf="0"]
-ピザとか食べちゃいましょうかしら！[p]
+我们去吃披萨吧[p]
 #
-食べすぎですよ[p]
+你吃太多了啦[p]
 [endif]
 
 [if exp="tf.rand == 6"]
 #静江
 [playse storage="sizue/sz52_007.ogg" buf="0"]
-何歌おうかしら！[p]
+唱什么呢！[p]
 #
-静江さんの歌、楽しみ[p]
+静江小姐的歌，很期待[p]
 [endif]
 ;***********************************************************************************************************************
 ;カラオケＨ判別
@@ -523,14 +523,14 @@ tf.rand = Math.floor( Math.random() * 7)
 [fadeoutbgm]
 [stopse]
 #
-カラオケで３０００円使った[p]
+在卡拉OK花了3000日元[p]
 [eval exp="f.money = f.money - 3000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 #
-家に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 ;***********************************************************************************************************************
 ;--カラオケＨ1
@@ -541,30 +541,30 @@ tf.rand = Math.floor( Math.random() * 7)
 
 [playse storage="sizue/sz52_008.ogg" buf="0"]
 #静江
-あらあら、お兄ちゃん[r]
-こんなに大きくなっちゃって[p]
+哎呀哎呀，哥哥[r]
+变得这么大了[p]
 #
-うぁぁ、し！静江さん……[p]
+哇，嘘！静江小姐……[p]
 #静江
 [playse storage="sizue/sz52_009.ogg" buf="0"]
-お兄ちゃん、気持ちいい？[r]
-お兄ちゃんの気持ちよさそうな顔、かわいい[p]
+哥哥，舒服吗？[r]
+哥哥那很舒服的表情，好可爱[p]
 #
-し、静江さん、だめですよ！　こんなところで[p]
+静江小姐，不行啊！ 在这种地方[p]
 #静江
 [playse storage="sizue/sz52_010.ogg" buf="0"]
-気持ちいいでしょ、お兄ちゃん！　周りはうるさいんだから[r]
-いっぱい声だしちゃって大丈夫よ[p]
+很舒服吧，哥哥，周围的人很吵[r]
+发出声音没事的[p]
 [playse storage="sizue/sz52_010_1.ogg" buf="0"]
-おばさんが気持ちよくしてあげる[p]
+阿姨让你舒服[p]
 #
-はぁ、はぁ、静江さん……気持ちいい[p]
+啊，啊，静江小姐……好舒服[p]
 #静江
 [playse storage="sizue/sz52_011.ogg" buf="0"]
-お兄ちゃん、かわいい、気持ちいいの？[r]
-いつでも出しちゃっていいのよ！ぴゅっぴゅって出しちゃっていいからね[p]
+哥哥，好可爱，舒服吗？[r]
+什么时候都可以射出来哦，好好地射出来就好了哦！。[p]
 #
-あぁぁ、静江さん！　だめ、でっ、出る！　あぁぁぁぁ[p]
+啊，静江小姐！ 不行，射，射了！ 啊啊啊[p]
 [stop_bgmovie]
 [stopse buf="0"]
 [movie storage="mov_52_6.webm" skip="true"]
@@ -585,15 +585,15 @@ tf.rand = Math.floor( Math.random() * 7)
 [eval exp="f.sizue_sex = true"]
 
 #
-静江さんに手抜いてもらった、気持ちよかったな[p]
-カラオケで３０００円使った[p]
+静江小姐用手帮我弄出来了，真舒服啊[p]
+在卡拉OK花了3000日元[p]
 [eval exp="f.money = f.money - 3000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 #
-家に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 ;***********************************************************************************************************************
 ;--カラオケＨ2
@@ -628,14 +628,14 @@ delete f.karaoke_sizue_h;
 
 [menuwindows]
 #
-カラオケで３０００円使った[p]
+在卡拉OK花了3000日元[p]
 [eval exp="f.money = f.money - 3000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 #
-家に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 
 
@@ -667,37 +667,37 @@ tf.rand = Math.floor( Math.random() * 5)
 
 [if exp="tf.rand == 0"]
 [bgmovie storage="mov_53_7.webm"]
-遊園地にやってきた[p]
+来到了游乐园[p]
 #
-何に乗ろうかな……[p]
-よし！[p]
-お化け屋敷に入って怖がる静江さんを[r]
-かっこよくエスコートしよう[p]
+我们玩什么呢……[p]
+有了！[p]
+帅气的护送[r]
+因走进鬼屋而害怕的静江小姐吧[p]
 [stop_bgmovie time="1000"]
 [bgmovie storage="mov_53_8.webm" time="1000"]
 #静江
 [playse storage="sizue/sz53_001.ogg" buf="0"]
-あらあら！　お兄ちゃん怖いの？[r]
-おばさんがついてるから大丈夫！[p]
+哎呀哎呀！ 害怕吗？[r]
+有阿姨在，没事的[p]
 #
-逆にエスコートされてしまった[p]
+相反，我是被护送的那个[p]
 [endif]
 
 [if exp="tf.rand == 1"]
 [bgmovie storage="mov_53_7.webm"]
-遊園地にやってきた[p]
+来到了游乐园[p]
 [stop_bgmovie time="1000"]
 [bgmovie storage="mov_53_10.webm" time="1000"]
 #静江
 [playse storage="sizue/sz53_002.ogg" buf="0"]
-お兄ちゃん、もう一回乗るわよ！[p]
+哥哥，我们再坐一次吧！[p]
 #
-はい！がんばります[p]
+是！我会努力的[p]
 [endif]
 
 [if exp="tf.rand == 2"]
 [bgmovie storage="mov_53_7.webm"]
-遊園地にやってきた[p]
+来到了游乐园[p]
 ;恋人状態以外はやり直し
 [if exp="f.sizue_lover  != 2"]
 [jump target="*rand"]
@@ -706,17 +706,17 @@ tf.rand = Math.floor( Math.random() * 5)
 [bgmovie storage="mov_53_9.webm" time="1000"]
 #静江
 [playse storage="sizue/sz53_006.ogg" buf="0"]
-手をつなぐなんて、ちょっと照れちゃうわね！[p]
+牵手吗，有点害羞啊！[p]
 #
-よし、自然に手をつなげたぞ[p]
+好了，自然的牵着手吧[p]
 [endif]
 
 [if exp="tf.rand == 3"]
 [bgmovie storage="mov_53_7.webm"]
-遊園地にやってきた[p]
+来到了游乐园[p]
 #静江
 [playse storage="sizue/sz53_003.ogg" buf="0"]
-こういうとこでもポチモンは捕まえなくちゃだめよ！[p]
+在这里当然也要抓宝可梦！[p]
 [endif]
 
 ;遊園地帰宅
@@ -729,22 +729,22 @@ tf.rand = Math.floor( Math.random() * 5)
 [fadeoutbgm]
 [stopse]
 #
-静江さんと遊園地でいっぱい遊んで満足[p]
-６０００円使った[p]
+和静江小姐在游乐场玩得很尽兴[p]
+花了6000日元[p]
 [eval exp="f.money = f.money - 6000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 #
-家に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 
 ;***********************************************************************************************************************
 ;--遊園地Ｈ1
 *amusement_h1
 [bg storage="amusement.png" time="500"]
-遊園地にやってきた[p]
+来到了游乐园[p]
 [stop_bgmovie time="1000"]
 [fadeoutbgm]
 [bg storage="black.png" time="1000"]
@@ -753,25 +753,25 @@ tf.rand = Math.floor( Math.random() * 5)
 [bgmovie storage="mov_53_1.webm" time="1000"]
 #静江
 [playse storage="sizue/sz53_007.ogg" buf="0"]
-お兄ちゃん、おっぱい好きだもんね！[r]
-おばさんのおっぱいでいっぱい気持ちよくしてあげる[p]
+哥哥，你很喜欢阿姨的胸部啊！[r]
+阿姨用奶子让你舒服起来[p]
 #
-おっぱい好きです！　静江さんのおっぱい大好きです[p]
+我喜欢胸部！ 我最喜欢静江小姐的胸部了[p]
 #静江
 [playse storage="sizue/sz53_008.ogg" buf="0"]
-お兄ちゃんのおちんちん、おっぱいに挟まれてビクンビクンしてるわよ[r]
-いいの？　お兄ちゃん、おっぱいがいいの？　おっぱい気持ちいい？[p]
+肉棒被胸部夹在中间一跳一跳的呢！？[r]
+怎么样？ 胸部舒服吗？[p]
 #
-静江さん！　いいです！　静江さんのおっぱい、きもちいいです[p]
+静江小姐！ 好棒！ 静江小姐的胸部，好舒服[p]
 #静江
 [playse storage="sizue/sz53_009.ogg" buf="0"]
-お兄ちゃん、気持ち良くなってる！[r]
-いい？　おっぱい、気持ちいい？[p]
+哥哥，你舒服起来了！[r]
+爽吗？　胸部，舒服吗？[p]
 [playse storage="sizue/sz53_009_1.ogg" buf="0"]
-うふふ、いいのよお兄ちゃん[r]
-またおちんちんからビュルル～って出しちゃっていいからね！[p]
+嘿嘿，可以哦[r]
+再一次从肉棒里biubiu~的射就好！[p]
 #
-静江さん！　あっあぁあああ！[p]
+静江小姐！ 啊啊啊啊啊啊[p]
 
 [stop_bgmovie time="1000"]
 [stopse buf="0"]
@@ -797,16 +797,16 @@ tf.rand = Math.floor( Math.random() * 5)
 
 [menuwindows]
 #
-静江さんのおっぱい大きかったな！[p]
-気持ちよくて大満足[p]
-遊園地で６０００円使った[p]
+静江的胸部真大啊！[p]
+很舒服，十分满足[p]
+在游乐园花了6000日元[p]
 [eval exp="f.money = f.money - 6000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 #
-家に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 
 ;***********************************************************************************************************************
@@ -814,7 +814,7 @@ tf.rand = Math.floor( Math.random() * 5)
 *amusement_h2
 
 [bg storage="amusement.png" time="500"]
-遊園地にやってきた[p]
+来到了游乐园[p]
 [stop_bgmovie time="1000"]
 [fadeoutbgm]
 [bg storage="black.png" time="1000"]
@@ -823,17 +823,17 @@ tf.rand = Math.floor( Math.random() * 5)
 [bgmovie storage="mov_53_3.webm" time="1000"]
 #静江
 [playse storage="sizue/sz53_012.ogg" buf="0"]
-はぁ、はぁ、お兄ちゃん、おばさんのおまんこ、気持ちいい？[r]
-おにいちゃんの好きに出し入れしていいのよ……んっ、はぁ、はぁ……[p]
+啊，啊，哥哥，阿姨的小穴，舒服吗？[r]
+你可以随心所欲地放进去哦……嗯，哈，哈……[p]
 #
-静江さん、気持ちいいです、静江さんの中、とっても気持ちいいです！[p]
+静江小姐，很舒服，静江小姐里面非常舒服！[p]
 #静江
 [playse storage="sizue/sz53_013.ogg" buf="0"]
-んっ、あぁ、お兄ちゃん、気持ちよさそうな顔……はぁはぁ、かわいい[r]
-はぁはぁ、おばさんのおまんこで、いっぱい気持ちよくなってね……んっ、はぁ、はぁ[p]
+嗯，啊，哥哥，一脸舒服的表情……啊，好可爱啊[r]
+啊啊，阿姨的小穴，变得特别舒服起来了……。嗯，哈，哈[p]
 #
 [playse storage="sizue/sz53_014.ogg" buf="0" loop="true"]
-静江さん！　はぁ、はぁ、[p]
+静江小姐！ 啊，哈，哈[p]
 
 [stop_bgmovie time="1000"]
 [stopse buf="0"]
@@ -863,16 +863,16 @@ delete f.amusement_sizue_h;
 
 [menuwindows]
 #
-静江さんと遊園地でいっぱい遊んで[r]
-観覧車であんなことまでしたから大満足[p]
-６０００円使った[p]
+和静江小姐一起在游乐园玩得很尽兴[r]
+在游览车上做了那样的事情，感到非常满足[p]
+花了6000日元[p]
 [eval exp="f.money = f.money - 6000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 #
-家に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 
 ;***********************************************************************************************************************
@@ -884,7 +884,7 @@ delete f.amusement_sizue_h;
 [bg storage="black.png" time="1000"]
 [bgmovie storage="mov_55_8.webm"]
 [playbgm storage="sitamati.ogg" loop="true"]
-お祭りにやってきた[p]
+来参加了祭会[p]
 ;***********************************************************************************************************************
 ;静江ランダム会話
 ;ランダム数値の取り出し
@@ -895,33 +895,33 @@ tf.rand = Math.floor( Math.random() * 4)
 [if exp="tf.rand == 0"]
 #静江
 [playse storage="sizue/sz55_001.ogg" buf="0"]
-おばさんの浴衣姿なんて見てうれしいの？[p]
+看到阿姨穿浴衣很高兴吗？[p]
 #
-静江さんとても似合ってますよ[p]
+静江小姐很适合你哦[p]
 [endif]
 
 [if exp="tf.rand == 1"]
 #静江
 [playse storage="sizue/sz55_002.ogg" buf="0"]
-食べ過ぎないようにしなくちゃね、ダイエット中なの[p]
+我不能吃太多，我正在减肥。[p]
 #
-もう結構食べてるような気がしますよ[p]
+感觉已经吃得够多了[p]
 [endif]
 
 [if exp="tf.rand == 2"]
 #静江
 [playse storage="sizue/sz55_003.ogg" buf="0"]
-お兄ちゃん、かき氷食べる？[p]
+吃刨冰吗？[p]
 #
-いいいですね[p]
+好啊[p]
 [endif]
 
 [if exp="tf.rand == 3"]
 #静江
 [playse storage="sizue/sz55_004.ogg" buf="0"]
-え？　何飲んでるかって、もちろんビールよ[p]
+诶？ 喝什么？当然是啤酒[p]
 #
-そうだろうと思ってました[p]
+我就知道是这样[p]
 [endif]
 ;***********************************************************************************************************************
 ;お祭りＨ判別
@@ -942,15 +942,15 @@ tf.rand = Math.floor( Math.random() * 4)
 [fadeoutbgm]
 [stopse]
 #
-静江さんとお祭りでいっぱい遊んで満足[p]
-５０００円使った[p]
+和静江小姐一起在祭会上玩得很尽兴[p]
+花了5000日元[p]
 [eval exp="f.money = f.money - 5000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 #
-家に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 
 ;***********************************************************************************************************************
@@ -963,13 +963,13 @@ tf.rand = Math.floor( Math.random() * 4)
 
 #静江
 [playse storage="sizue/sz55_005.ogg" buf="0"]
-こんなひとけの無いところに連れ来て[r]
-どうするつもり！　お兄ちゃん[p]
+带我到这样一个没有人的地方[r]
+怎么办？哥哥 [p]
 #
-えーと……それは……[p]
+这……这个嘛……[p]
 #静江
 [playse storage="sizue/sz55_006.ogg" buf="0"]
-うふふ、おいで、お兄ちゃん！　おばさんが気持ちよくしてあげる[p]
+嘿嘿，过来，哥哥！ 阿姨让你舒服[p]
 #
 [fadeoutbgm]
 [cm]
@@ -997,16 +997,16 @@ tf.rand = Math.floor( Math.random() * 4)
 
 [menuwindows]
 #
-静江さんとお祭りでいっぱい遊んで[r]
-浴衣でフェラまでしてくれたから大満足[p]
-5０００円使った[p]
+和静江小姐一起在祭会上玩得很开心[r]
+穿着浴衣进行口交，我很满足[p]
+花了5000日元[p]
 [eval exp="f.money = f.money - 5000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 #
-家に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 
 ;***********************************************************************************************************************
@@ -1019,13 +1019,13 @@ tf.rand = Math.floor( Math.random() * 4)
 
 #静江
 [playse storage="sizue/sz55_009.ogg" buf="0"]
-またおばさんをひとけの無い場所に連れてきて[r]
-何しようとしてるのかな？[p]
+又把阿姨带到了没什么人的地方[r]
+要做什么呢？[p]
 #
-あ……あの[p]
+那……那个……[p]
 #静江
 [playse storage="sizue/sz55_010.ogg" buf="0"]
-いいのよ、お兄ちゃん、お兄ちゃんの好きなようにして[p]
+可以哟，哥哥，哥哥想做什么就做的[p]
 
 [fadeoutbgm]
 [cm]
@@ -1060,16 +1060,16 @@ delete f.maturi_sizue_h;
 
 [menuwindows]
 #
-静江さんとお祭りでいっぱい遊んだ[r]
-浴衣姿でエッチってとても興奮するね[p]
-今日は５０００円使った[p]
+和静江小姐一起在祭会上玩得很开心[r]
+穿着浴衣H真让人兴奋啊[p]
+今天花了5000日元[p]
 [eval exp="f.money = f.money - 5000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 #
-家に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 
 ;***********************************************************************************************************************
@@ -1079,8 +1079,8 @@ delete f.maturi_sizue_h;
 ;エッチ度判定
 [if exp="f.sizue_h < 70"]
 #
-さすがにまだ言えない……[p]
-さて、どうしようか
+果然还是不行啊……[p]
+接下来干嘛呢？
 [jump storage="main.ks" target="*choice2"]
 [endif]
 #
@@ -1090,54 +1090,54 @@ delete f.maturi_sizue_h;
 [bgmovie storage="mov_67_10.webm"]
 #静江
 [playse storage="sizue/sz67_009.ogg"]
-お兄ちゃん、これ着てほしいの？[p]
+哥哥，想让我穿这个吗？[p]
 #
-は、はい……ぜひ[p]
+是，是的……请务必穿上[p]
 #静江
 [playse storage="sizue/sz67_010.ogg"]
-うふふ、ナース服なんて、おにいちゃんエッチね！　いいわよ！　着てあげる[p]
+嘿嘿，护士服吗，是个色鬼！好吧！穿给你看好了[p]
 #静江
 [playse storage="sizue/sz67_011.ogg"]
-お兄ちゃん、そんな後ろを向いてなくてもいいのよ～[p]
+哥哥，不用转过身去的啦～[p]
 [stop_bgmovie]
 [bgmovie storage="mov_67_11.webm"]
 #静江
 [playse storage="sizue/sz67_012.ogg"]
-お兄ちゃん、着替えたわよ！　で、どうするのかな？[p]
+哥哥，我换好了！怎么样？[p]
 #
-静江さんやばいです！　とりあえずこんなポーズとか！[p]
+静江小姐，太糟糕了！总之摆一个pose！[p]
 #静江
 [playse storage="sizue/sz67_013.ogg"]
-こんな感じかしら！[p]
+是这样吗！[p]
 #
-このポーズもおねがいします！[p]
+再来一个这样的姿势！[p]
 #静江
 [playse storage="sizue/sz67_014.ogg"]
-うふふ！　こう？[p]
+嘿嘿！这样？[p]
 #
-そうです、静江さん……エロいです！[p]
+是啊，静江小姐……好色情！[p]
 #静江
 [playse storage="sizue/sz67_015.ogg"]
-もう！お兄ちゃん！　お兄ちゃんが好きなのはおっぱいでしょ！[p]
+真是的！哥哥！哥哥喜欢的是胸部对吧！[p]
 [stop_bgmovie]
 [bgmovie storage="mov_67_12.webm"]
 #静江
 [playse storage="sizue/sz67_016.ogg"]
-先生！　私のおっぱい、こんなに腫れちゃってるの！　見てください！[p]
+医生！我的胸部，肿胀得很厉害！请帮我看看！[p]
 #
-たしかに……こんなに大きくはれてますね！[p]
+确实……肿胀得很大啊！[p]
 #静江
 [playse storage="sizue/sz67_017.ogg"]
-ほら！　もっとよく見てください、先生！　すごいドキドキしてるんですよ！　[p]
+快来！多仔细看看，医生！我心脏跳得非常厉害！[p]
 #静江
 [playse storage="sizue/sz67_018.ogg"]
-先生、触診してください！　大きく腫れたおっぱいを隅々まで診察してください[p]
+医生，请帮我触诊！请仔细检查胸部的每一个角落！[p]
 #静江
 [playse storage="sizue/sz67_019.ogg"]
-先生！　お注射の準備は整ってますか？　確認しますね！[p]
+医生！ 注射器准备好了吗？ 我已经准备好了！
 #静江
 [playse storage="sizue/sz67_020.ogg"]
-あらあら、こんな大きなお注射が！　しっかり消毒しますね！[p]
+哎呀哎呀，这么大的注射器！得好好消毒才行！[p]
 [cm]
 [clearfix]
 ;メッセージボックスは非表示
@@ -1151,8 +1151,8 @@ delete f.maturi_sizue_h;
 [menuwindows]
 #静江
 [playse storage="sizue/sz67_022.ogg"]
-先生……早く……お注射ください……ほら！　ここに大きいお注射を……[r]
-でないと、もうがまんできないの……先生……お注射して！[p]
+医生……快点……快给我注射……你看！这么大的注射器……[r]
+否则，就要忍不住了……医生……快注射进来！[p]
 [cm]
 [clearfix]
 ;メッセージボックスは非表示
@@ -1182,9 +1182,9 @@ delete f.maturi_sizue_h;
 [eval exp="tf.date = true"]
 [menuwindows]
 #
-ナース服とても興奮するね[p]
+穿着护士服做，太令人兴奋了[p]
 #
-部屋に戻ってきた[r]
+回到了房间[r]
 [jump storage="main.ks" target="*night"]
 
 ;***********************************************************************************************************************
@@ -1194,8 +1194,8 @@ delete f.maturi_sizue_h;
 ;エッチ度判定
 [if exp="f.sizue_h < 80"]
 #
-さすがにまだ無理だろう……[p]
-さて、どうしようか
+果然还是不行吗……[p]
+接下来干嘛呢？
 [jump storage="main.ks" target="*choice2"]
 [endif]
 
@@ -1226,9 +1226,9 @@ delete f.maturi_sizue_h;
 
 [menuwindows]
 #
-静江さん気持ちよさそうだった[p]
+静江看起来很爽[p]
 #
-部屋に戻ってきた[r]
+回到了房间[r]
 [jump storage="main.ks" target="*night"]
 
 ;***********************************************************************************************************************
@@ -1240,7 +1240,7 @@ delete f.maturi_sizue_h;
 [bg storage="black.png" time="1000"]
 [bgmovie storage="mov_56_1.webm"]
 [playbgm storage="roujintoneko.ogg" loop="true"]
-居酒屋にやってきた[p]
+来到了小酒馆[p]
 ;***********************************************************************************************************************
 ;静江ランダム会話
 ;ランダム数値の取り出し
@@ -1251,13 +1251,13 @@ tf.rand = Math.floor( Math.random() * 2)
 [if exp="tf.rand == 0"]
 #静江
 [playse storage="sizue/sz56_002.ogg" buf="0"]
-うふふ、おばさん酔わせてどうするつもりなの[p]
+嘿嘿，阿姨要是喝醉了你会怎么办？[p]
 [endif]
 
 [if exp="tf.rand == 1"]
 #静江
 [playse storage="sizue/sz56_005.ogg" buf="0"]
-おばさん、少し酔っちゃったかも[p]
+阿姨我，有点喝醉了[p]
 [endif]
 
 ;***********************************************************************************************************************
@@ -1276,15 +1276,15 @@ tf.rand = Math.floor( Math.random() * 2)
 [fadeoutbgm]
 [stopse]
 #
-いっぱい飲んだな…[p]
-５０００円使った[p]
+喝得很尽兴啊…[p]
+花了5000日元[p]
 [eval exp="f.money = f.money - 5000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 #
-家に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 ;***********************************************************************************************************************
 ;ホテルH1
@@ -1301,8 +1301,8 @@ tf.rand = Math.floor( Math.random() * 2)
 [bg storage="pub/img_56_12.png"]
 [menuwindows]
 #
-静江さん、飲みすぎですよ！[p]
-それにもうこんな時間ですよ[p]
+静江小姐，你喝太多了！[p]
+而且时间已经很晚了[p]
 [cm]
 [clearfix]
 ;メッセージボックスは非表示
@@ -1310,8 +1310,8 @@ tf.rand = Math.floor( Math.random() * 2)
 [movie storage="mov_56_3.webm" skip="true"]
 [menuwindows]
 #
-いえいえ、そんな訳ではないですよ！[p]
-まだまだ一緒にいたいです[p]
+不不不，不是那样的！[p]
+我还想和你在一起[p]
 [cm]
 [clearfix]
 [bg storage="black.png" time="1000"]
@@ -1320,7 +1320,7 @@ tf.rand = Math.floor( Math.random() * 2)
 [movie storage="mov_56_4.webm" skip="true"]
 [bg storage="hotel/hotel.png" time="2000"]
 [menuwindows]
-ホテルにやってきた[p]
+来到了旅店[p]
 [bg storage="black.png" time="1000"]
 [cm]
 [clearfix]
@@ -1359,14 +1359,14 @@ tf.rand = Math.floor( Math.random() * 2)
 
 [menuwindows]
 #
-静江さんとホテルでエッチなんて夢のようだ[p]
-居酒屋とホテルで１００００円使った[p]
+和静江在旅店做爱就像做梦一样[p]
+在小酒馆和旅店花了10000日元[p]
 [eval exp="f.money = f.money - 10000"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 #
-家に帰ってきた[r]
+回到家了[r]
 [jump storage="main.ks" target="*night"]
 

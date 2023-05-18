@@ -16,46 +16,46 @@
 [bg storage="black.png" time="1000"]
 [bgmovie storage="mov_58_1.webm" time="2000"]
 #
-あれ、莉子ちゃん[r]
-どうしたの[p]
+哎呀，莉子酱[r]
+你怎么了[p]
 #莉子
 [playse storage="riko/rk58_001.ogg" buf="0"]
-おじさん……莉子、エッチしたい……[p]
+大叔……莉子，想做爱……[p]
 #
-えっ？[p]
+诶？[p]
 #莉子
 [playse storage="riko/rk58_002.ogg" buf="0"]
-莉子、エッチしたいの！[p]
+莉子，想做爱！[p]
 #
-莉子ちゃん……[p]
+莉子……[p]
 [stop_bgmovie time="1000"]
 [bgmovie storage="mov_58_2.webm" time="2000"]
 #莉子
 [playse storage="riko/rk58_003.ogg" buf="0"]
-ほら、おじさん……莉子、もうこんなだよ……おじさんも莉子に挿れたいでしょ？[p]
+你看，大叔……莉子，已经这样了……大叔也想插进莉子里面对吧？[p]
 #
 うん[p]
 #莉子
 [playse storage="riko/rk58_004.ogg" buf="0"]
-莉子のオマンコに挿れたい？[p]
+想插入莉子的小穴吗？[p]
 #
-うん、挿れたい[p]
+嗯，想插进去[p]
 #莉子
 [playse storage="riko/rk58_005.ogg" buf="0"]
-おじさんのオチンチン、莉子のオマンコに挿れたい？[p]
+大叔的肉棒，想插入莉子的小穴？[p]
 #
-挿れたい[p]
+想插进去[p]
 #莉子
 [playse storage="riko/rk58_006.ogg" buf="0"]
-そこまで言うなら、莉子がエッチしてあげる[p]
+都说到这份上了，莉子就满足你和你做爱吧[p]
 #
-うん？[p]
+嗯？[p]
 #莉子
 [playse storage="riko/rk58_007.ogg" buf="0"]
-しょうがないから特別にいっぱいエッチしてあげるからね！　おじさん[p]
+真没办法，这次就特别对待跟你做爱做到饱吧！　大叔[p]
 #
-（あれ？　……まぁ、いっか）[r]
-莉子お嬢様、もう我慢できません！[p]
+（诶？　……算了，行吧）[r]
+莉子大小姐，已经忍不住了！[p]
 [cm]
 [clearfix]
 [stopse buf="0"]
@@ -101,12 +101,12 @@
 [bg storage="black.png" time="1000"]
 [bgmovie storage="mov_59_1.webm" time="2000"]
 #
-あれ、莉菜ちゃん！　どうしたの？[p]
+诶，莉菜！　你怎么了？[p]
 #莉菜
 [playse storage="rina/rn59_001.ogg" buf="0"]
-お兄さん……あの……[p]
+哥哥……那个……[p]
 #
-ん、なにかな？[p]
+嗯，什么事？[p]
 [cm]
 [clearfix]
 [stopse buf="0"]
@@ -116,15 +116,15 @@
 [movie storage="mov_59_2.webm" skip="true"]
 [menuwindows]
 [bg storage="img_59_9.png" time="1000"]
-莉菜ちゃん？[p]
+莉菜？[p]
 #莉菜
 [playse storage="rina/rn59_003.ogg" buf="0"]
-いつもお兄さんにいじめられてるので、今日は私がお兄さんをいじめちゃいます！[p]
+一直以来都是哥哥在欺负我，今天就由我来欺负哥哥！[p]
 #
-ええ！[p]
+诶诶！[p]
 #莉菜
 [playse storage="rina/rn59_004.ogg" buf="0"]
-覚悟してください！[p]
+做好覚悟吧！[p]
 [cm]
 [clearfix]
 [stopse buf="0"]
@@ -169,28 +169,28 @@
 [bg storage="black.png" time="1000"]
 [bgmovie storage="mov_60_2.webm" time="2000"]
 #
-あ！　静江さん、どうしました[p]
+啊！　静江小姐，你怎么了[p]
 #静江
 [playse storage="sizue/sz60_001.ogg" buf="0"]
-お兄ちゃん、おばさんね……もう限界なの……[p]
+哥哥，阿姨……已经到极限了……[p]
 #
-ええ！　なにがですか？[p]
+诶诶！　什么意思？[p]
 #静江
 [playse storage="sizue/sz60_002.ogg" buf="0"]
-お兄ちゃん……もう……だめ……[p]
+哥哥……已经……不行了……[p]
 #
-静江さん！　どうしたんですか！[p]
+静江小姐！　到底怎么了！[p]
 #静江
 [playse storage="sizue/sz60_003.ogg" buf="0"]
-お兄ちゃん……エッチしよ！[p]
+哥哥……做爱吧！[p]
 #
-えっ！[p]
+诶诶！[p]
 [stop_bgmovie time="2000"]
 [bgmovie storage="mov_60_3.webm" time="2000"]
 #静江
 [playse storage="sizue/sz60_004.ogg" buf="0"]
-見て,おにいちゃん…おばさんのココ…もうこんななのよ!お兄ちゃんのが欲しくて[r]
-グチョグチョなの…もう！　お兄ちゃんのせいよ！　おばさんをこんなにしたんだから……[p]
+看着，哥哥…阿姨这里…已经变成这样了！ 想要哥哥的……[r]
+湿漉漉的…真是的！都怪哥哥！　阿姨变成了这样……[p]
 [stop_bgmovie time="1000"]
 [cm]
 [clearfix]

@@ -15,18 +15,18 @@
 @bg storage ="room_evening.png"
 [menuwindows]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 @bg storage ="nursing/img10_00.png" time=1000
 #
-静江さん？[p]
+静江小姐？[p]
 [playse storage="sizue/sz10_003.ogg" buf="0"]
-あらあら、お兄ちゃん！お粥食べられる？[r]
-おばさんが食べさせてあげようか？[p]
+哎呀哎呀，能吃粥吗？[r]
+阿姨喂你吃吧？[p]
 [playse storage="sizue/sz10_003_1.ogg" buf="0"]
-はい！あ～ん[p]
+来！啊~[p]
 @bg storage ="room_evening.png" time=1000
 #
-静江さんが看病してくれたから元気が出たぞ！[p]
+因为静江小姐的照顾，打起精神来了！[p]
 [endreplay]
 ;***********************************************************************************************************************
 ;お見舞い2
@@ -34,16 +34,16 @@
 @bg storage ="room_evening.png"
 [menuwindows]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 @bg storage ="nursing/img10_01.png" time=1000
 #
-静江さん？[p]
+静江小姐？[p]
 [playse storage="sizue/sz10_004.ogg" buf="0"]
-お兄ちゃん、まだ熱があるわね～[r]
-ちゃんと寝てないとだめよ！[p]
+还在发烧呢~[r]
+不好好躺着可不行啊！[p]
 @bg storage ="room_evening.png" time=1000
 #
-静江さんが看病してくれたから元気が出たぞ！[p]
+因为静江小姐的照顾，打起精神来了！[p]
 [endreplay]
 ;***********************************************************************************************************************
 ;お見舞い1
@@ -51,16 +51,16 @@
 @bg storage ="room_evening.png"
 [menuwindows]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 @bg storage ="nursing/img10_02.png" time=1000
 #
-静江さん？[p]
+静江小姐？[p]
 [playse storage="sizue/sz10_001.ogg" buf="0"]
-お兄ちゃん、どうしたの？[r]
-風邪ひいちゃったのね[p]
+哥哥，你怎么样了？[r]
+看样子是感冒了呢[p]
 @bg storage ="room_evening.png" time=1000
 #
-静江さんが看病してくれたから元気が出たぞ！[p]
+因为静江小姐的照顾，打起精神来了！[p]
 [endreplay]
 ;***********************************************************************************************************************
 ;お見舞い4
@@ -68,13 +68,13 @@
 @bg storage ="room_evening.png"
 [menuwindows]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 
 [bg storage ="nursing/img10_03.png" time="1000"]
 #静江
 [playse storage="sizue/sz10_005.ogg" buf="0"]
-お兄ちゃん大丈夫？[r]
-元気が出るおまじないしてあげる[p]
+你没事吧[r]
+给你健康的咒语[p]
 
 ;メッセージボックスは非表示
 @layopt layer="message" visible=false
@@ -88,7 +88,7 @@
 @bg storage ="room_evening.png" time=1000
 [menuwindows]
 #
-静江さんのキスでばっちり元気！[p]
+静江小姐的吻让我精神十足！[p]
 [endreplay]
 ;***********************************************************************************************************************
 ;お見舞い5
@@ -96,13 +96,13 @@
 @bg storage ="room_evening.png"
 [menuwindows]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 
 [bg storage ="nursing/img10_04.png" time="1000"]
 #静江
 [playse storage="sizue/sz10_007.ogg" buf="0"]
-あらあら、お兄ちゃん、元気ないの？[r]
-これで元気になるかな？[p]
+哎呀哎呀，你还好吗？[r]
+这样就好起了吗？[p]
 
 ;メッセージボックスは非表示
 @layopt layer="message" visible=false
@@ -115,7 +115,7 @@
 @bg storage ="room_evening.png" time=1000
 [menuwindows]
 #
-静江さんのおっぱい最高！[p]
+静江小姐的胸部太棒了！[p]
 [endreplay]
 ;***********************************************************************************************************************
 ;お見舞い6
@@ -123,15 +123,15 @@
 @bg storage ="room_evening.png"
 [menuwindows]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 
 [bg storage ="nursing/img10_05.png" time="1000"]
 #静江
 [playse storage="sizue/sz10_009.ogg" buf="0"]
-かわいそう……お兄ちゃん、辛そうね[r]
-でも～おばさんも辛いのよ[p]
+可怜的……哥哥，好像很痛苦啊[r]
+但是这样阿姨也很痛苦呢[p]
 [playse storage="sizue/sz10_009_1.ogg" buf="0"]
-ほら、見て[p]
+来吧，看[p]
 
 ;メッセージボックスは非表示
 @layopt layer="message" visible=false
@@ -147,7 +147,7 @@
 @bg storage ="room_evening.png" time=1000
 [menuwindows]
 #
-静江さんのおかげで別の所が元気になってしまった[p]
+多亏了静江小姐，某个地方恢复了精神[p]
 
 [endreplay]
 ;***********************************************************************************************************************
@@ -156,14 +156,14 @@
 @bg storage ="room_evening.png"
 [menuwindows]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 ?[p]
 静江さん！[p]
 
 [bg storage ="nursing/img10_06.png" time="1000"]
 #静江
 [playse storage="sizue/sz10_017.ogg" buf="0"]
-お兄ちゃんを元気にするには、これが一番ね[p]
+要让你振作起来，这是最好的办法[p]
 
 ;メッセージボックスは非表示
 @layopt layer="message" visible=false
@@ -178,7 +178,7 @@
 @bg storage ="room_evening.png" time=1000
 [menuwindows]
 #
-静江さんのおかげで元気になった？[p]
+多亏了静江小姐而身体好起来了吗？[p]
 
 [endreplay]
 ;***********************************************************************************************************************
@@ -189,8 +189,8 @@
   [bgmovie storage="mov_13_1_1.webm" time="2000"]
 #静江
 [playse storage="sizue/sz13_001.ogg" buf="0"]
-もう、お兄ちゃん……おっぱいが好きなの？[r]
-いいのよ、おばさんのおっぱい、いっぱい好きにして……[p]
+真是的，哥哥……你喜欢胸部吗？[r]
+可以哦，阿姨的胸部，任随你处置。[p]
 [endreplay]
 ;***********************************************************************************************************************
 ;夢精2
@@ -200,8 +200,8 @@
   [bgmovie storage="mov_13_1_3.webm" time="2000"]
 #静江
 [playse storage="sizue/sz13_002.ogg" buf="0"]
-お兄ちゃん、ほら見て[r]
-おばさんのおまんこ……もうこんなになってるのよ……[p]
+哥哥，快看[r]
+你看，阿姨的小穴……已经变成这样了……[p]
 [endreplay]
 ;***********************************************************************************************************************
 ;夢精3
@@ -211,8 +211,8 @@
   [bgmovie storage="mov_13_1_2.webm" time="2000"]
 #静江
 [playse storage="sizue/sz13_003.ogg" buf="0"]
-お兄ちゃん、挿れて…お兄ちゃんのおちんちんを…おばさんのおまんこに挿れて[r]
-そして…おばさんの膣内にお兄ちゃんの精液をたっぷり注ぎ込んで[p]
+哥哥，插进来…お哥哥的肉棒…插进阿姨的小穴里来[r]
+然后…在阿姨的小穴里满满的注入哥哥的精液[p]
 [endreplay]
 ;***********************************************************************************************************************
 ;廊下1
@@ -220,8 +220,8 @@
 [bg storage ="room_evening.png" time=1000]
 [menuwindows]
 #
-あれ？どこやったかな[p]
-物置だったかな……見てくるか[p]
+咦？都去哪了呢？[p]
+仓库吗……我去看看[p]
 
 [bg storage="entrance3.png" time="500"]
 [playse storage="se/asioto01.ogg" buf="2"]
@@ -232,7 +232,7 @@
 
 #
 ……[l]……[l]……[l]……[p]
-真っ暗だ！これはいったい？[p]
+一片漆黑！这到底是？[p]
 [cm]
 [clearfix]
 ;メッセージボックスは非表示
@@ -243,18 +243,18 @@
 [menuwindows]
 #静江
 [playse storage="sizue/sz16_002.ogg" buf="0"]
-お兄ちゃん、おばさんのおっぱいが[r]
-そんなに欲しいの？[p]
+哥哥，埋进了阿姨的胸部[r]
+你这么想要吗？[p]
 #
-ご！ごめんなさい！静江さん、これは……[p]
+对！对不起！静江小姐，这是……[p]
 #静江
 [playse storage="sizue/sz16_003.ogg" buf="0"]
-お兄ちゃんが触りたいなら、いつでもいいわよ～！[p]
+哥哥想摸的话，什么时候都可以哦！[p]
 #
-え！あっ……あの……[p]
+诶！啊……那个……[p]
 #静江
 [playse storage="sizue/sz16_004.ogg" buf="0"]
-うふふ、冗談よ！ちゃんと前見ないと、だ・め・よ[p]
+嘿嘿，开玩笑的！不好好看前面的路可不，行，哟[p]
 [endreplay]
 ;***********************************************************************************************************************
 ;廊下2
@@ -262,8 +262,8 @@
 [bg storage ="room_evening.png" time=1000]
 [menuwindows]
 #
-あれ？どこやったかな[p]
-物置だったかな……見てくるか[p]
+咦？都去哪了呢？[p]
+仓库吗……我去看看[p]
 
 [bg storage="entrance3.png" time="500"]
 [playse storage="se/asioto01.ogg" buf="2"]
@@ -273,38 +273,38 @@
 [bg storage ="black.png" time="0"]
 #
 ……[l]……[l]……[l]……[p]
-まっ、真っ暗だ！いったい何が？[p]
+啊，一片漆黑！到底怎么回事？[p]
 
 [bgmovie storage="mov_16_2_1.webm" time="2000"]
 
 #静江
 [playse storage="sizue/sz16_005.ogg" buf="0"]
-あぁん！[p]
+啊![p]
 #
-えっ？　しふえしゃん？　これは[p]
+诶？ 不知道怎么说 这是[p]
 #静江
 [playse storage="sizue/sz16_006.ogg" buf="0"]
-も～、お兄ちゃん、どうしたらこんな態勢になっちゃうのかしら？[p]
+真是的，哥哥，怎么会变成这种状况呢？[p]
 #
-ご！ごめんふぁさい[p]
+对！对不起，对不起[p]
 #静江
 [playse storage="sizue/sz16_007.ogg" buf="0"]
-あん……お兄ちゃん……そこでしゃべったら……ん……[p]
+啊……哥哥，在这种情况下说话的话……嗯……[p]
 #
-あっ……ふえ・・ふぉれは！[p]
+啊……唔……唔！[p]
 #静江
 [playse storage="sizue/sz16_008.ogg" buf="0"]
-あぁん……お兄ちゃん……わざとなの？[p]
+啊~，哥哥，你是故意的吗？[p]
 [stop_bgmovie]
 
 [bg storage="evening/img16_01.png" time="1000"]
 [menuwindows]
 #
-し！静江さん……ごめんなさい！わざとじゃないんです[p]
+静！静江小姐……对不起！我不是故意的[p]
 #静江
 [playse storage="sizue/sz16_009.ogg" buf="0"]
-こ～ら！お兄ちゃん、おばさんをからかったらメよ！[r]
-次やったらゲンコツ！[p]
+喂~喂！哥哥，不准取笑阿姨！[r]
+下次再干就拳头伺候！[p]
 [endreplay]
 ;***********************************************************************************************************************
 ;お風呂
@@ -312,7 +312,7 @@
 [bg storage ="room_night.png" time="1000"]
 [menuwindows]
 #
-さてと、お風呂入ってくるかな[p]
+接下来，去洗个澡吧[p]
 
 [freeimage layer="2" time="0"]
 [bg storage="black.png" time="1000"]
@@ -328,14 +328,14 @@
 [bg storage="evening/img16_05.png" time="1000"]
 #静江
 [playse storage="sizue/sz16_011.ogg" buf="0"]
-どうしたの？お兄ちゃん、固まっちゃって……[p]
+怎么了？定在了那里……[p]
 [playse storage="sizue/sz16_011_2.ogg" buf="0"]
-あっ！も～、おばさんの裸みて楽しいの？さてはからかってるんでしょ？[r]
-めっ！[p]
+啊！真是的，看到阿姨裸体很开心吗？你不是在开玩笑吧？[p]
+呃！[p]
 [playse storage="sizue/sz16_012.ogg" buf="0"]
-次やったらゲンコツっていったでしょ[p]
+我不是说了下一次要拳头伺候的嘛？[p]
 #
-ご、ごめんなさい[p]
+对，对不起。[p]
 [endreplay]
 ;***********************************************************************************************************************
 ;お風呂2
@@ -345,7 +345,7 @@
 [stopse buf="3"]
 [menuwindows]
 #
-さてと、お風呂入ってくるかな[p]
+接下来，去洗个澡吧[p]
 
 [freeimage layer="2" time="0"]
 [bg storage="black.png" time="1000"]
@@ -355,40 +355,40 @@
 [bgmovie storage="mov_16_14.webm"]
 #静江
 [playse storage="sizue/sz16_023.ogg" buf="0"]
-お兄ちゃん、おばさんが背中流してあげる[p]
+哥哥，阿姨给你擦背[p]
 #
-わ！　あっ……ちょっと[p]
+哇！　啊……等等[p]
 [stop_bgmovie]
 [bgmovie storage="mov_16_15.webm"]
 #静江
 [playse storage="sizue/sz16_024.ogg" buf="0"]
-こ～ら、何隠しているの。男の子なんだからドーンとしないと！[r]
-あらあら！　もうこんなになって……若いのね[p]
+喂，有什么好藏的。既然是男孩子，就应该直接一点！[r]
+哎呀哎呀！　已经这样了吗……年轻人啊[p]
 [playse storage="sizue/sz52_009.ogg" buf="0"]
 #静江
-お兄ちゃん、気持ちいい？[r]
-お兄ちゃんの気持よさそうな顔、可愛い！[p]
+哥哥，舒服吗？[r]
+哥哥一脸舒服的表情，真可爱！[p]
 #
-気持ちいいです！静江さん！[p]
+很舒服！静江小姐！[p]
 [stop_bgmovie]
 [bgmovie storage="mov_16_16.webm"]
 [playse storage="sizue/sz16_025.ogg" buf="0"]
 #静江
-お兄ちゃんの大好きなおっぱいで、してあげる！　おっぱい好きでしょ？[p]
+用哥哥最喜欢的胸部，给你做！　你喜欢胸部对吧？[p]
 #
-は、はい……好きです……静江さんのおっぱい……好きです[p]
+是，是的……喜欢……静江小姐的胸部……我很喜欢[p]
 [playse storage="sizue/sz16_026.ogg" buf="0"]
 #静江
-気持ちいい？　お兄ちゃんのおちんちん[r]
-おばさんのおっぱいの中でビクンビクンしてるわよ[p]
+舒服吗？　哥哥的肉棒[r]
+在阿姨的胸部当中一跳一跳的[p]
 #
-やばいです……気持ちよくて……どうにかなっちゃいそうです……[p]
+糟糕……太舒服了……好像要去了……[p]
 [playse storage="sizue/sz16_027.ogg" buf="0"]
 #静江
-うふふ……いいのよ、おばさんのおっぱいに[r]
-い～ぱい、びゅるびゅる～ってしていいのよ[p]
+嘿嘿……可以哟，可以在阿姨的胸部里面[r]
+满满的，biubiu～的射出来[p]
 #
-あぁ！限界！いく！あぁぁ！[p]
+啊！到极限了！射了！啊啊啊！[p]
 [cm]
 [clearfix]
 ;メッセージボックスは非表示
@@ -403,7 +403,7 @@
 [stopse buf="3"]
 [menuwindows]
 #
-静江さんとのお風呂、気持ちよかったな！[p]
+和静江小姐洗澡，真舒服啊！[p]
 [endreplay]
 ;***********************************************************************************************************************
 ;告白イベント
@@ -411,69 +411,69 @@
 [bg storage="entrance.png" time="1000"]
 [menuwindows]
 #
-家に帰ってきた[p]
+回到家了[p]
 [bg storage="black.png" time="1000"]
 [bgmovie storage="mov_25_15.webm" time="1000" loop="true"]
 #静江
 [playse storage="sizue/sz25_001.ogg" buf="0"]
-ただいま～、お兄ちゃん！[p]
+我回来了~哥哥！[p]
 #
-お帰りなさい、静江さん。　[p]
+欢迎回来，静江小姐。 [p]
 #静江
 [playse storage="sizue/sz25_002.ogg" buf="0"]
-あっ、そっか！　莉菜ちゃんも莉子ちゃんも今日は遅いんだっけ[p]
+啊，这样啊！ 莉菜和莉子今天都很晚啊[p]
 #
-莉菜ちゃんは勉強会とかいってました[r]
-莉子ちゃんはお友達の家に泊まるっていってましたよ[p]
-莉菜ちゃん、夕食の準備が出来なくてごめんなさいって[p]
+莉菜说过要参加学习会[r]
+莉子说要住在朋友家[p]
+莉菜说没能准备晚餐[p]
 #静江
 [playse storage="sizue/sz25_003.ogg" buf="0"]
-ということは、今日は……[p]
+也就是说，今天……[p]
 #
-え？……[p]
+啊……[p]
 #静江
 [playse storage="sizue/sz25_004.ogg" buf="0"]
-ピザとか出前しちゃいましょう！[p]
+叫外卖点披萨吧[p]
 #
-あっ……はい[p]
+啊……好的[p]
 #静江
 [playse storage="sizue/sz25_005.ogg" buf="0"]
-莉菜ちゃんの料理はおいしいけど、やっぱりたまにはね～！[r]
-ジャンクフードとか無性に食べたくなるのよね～！[p]
+莉菜的料理虽然很好吃，但偶尔还是要这样啊！[r]
+你也会想无节制地吃垃圾食品吧[p]
 #
-帰ってきたら怒られそうですね！　[p]
+回来后会被骂的！ [p]
 #静江
 [playse storage="sizue/sz25_006.ogg" buf="0"]
-おいしい日本酒があったはず！　莉菜ちゃんの隠し場所なんてすぐわかるんだから！[r]
-お兄ちゃん、今日家にいたのが運の尽きよ。[p]
+应该有美味的日本酒！ 我早就知道被莉菜藏在什么地方[r]
+今天呆在家里真是太走运了。[p]
 #
-いえいえ[r]
-もう、喜んで付き合いますよ[p]
+哪里哪里[r]
+我很乐意陪你[p]
 [stop_bgmovie time="2000"]
 [bgmovie storage="mov_25_16.webm" time="1000" loop="true"]
 #静江
 [playse storage="sizue/sz25_007.ogg" buf="0"]
-ほらほら、お兄ちゃん！　ちゃんと飲んでるの～[p]
+喂喂，哥哥！ 你有好好喝吗？[p]
 #
-は、はい……何とか[p]
+好，好的……尽量[p]
 #静江
 [playse storage="sizue/sz25_008.ogg" buf="0"]
-お兄ちゃん！　ポチモンは捕まえてる？[r]
-遊びじゃないんだからね！人生そのものよ！[p]
+你抓到宝可梦了吗？[r]
+这可不是在玩哟！这就是人生！[p]
 #
-はい！静江さんに教わった通りに集めてます[p]
+是！是按照静江小姐教的那样收集了[p]
 #静江
 [playse storage="sizue/sz25_009.ogg" buf="0"]
-うふふ、お兄ちゃんいい子いい子[r]
-なでなでしてあげる[p]
+嘿嘿，哥哥真是个好孩子，好孩子[r]
+抚摸着头[p]
 [playse storage="sizue/sz25_010.ogg" buf="0"]
-あっ、そうそう！カップメンも隠してあるのよ～[r]
-今こそ食べるとき！[p]
+啊，对了！杯面也被藏起来了[r]
+现在正是拿出来吃的时候！[p]
 #
-たっ、食べすぎですよ！[p]
+你吃得太多了！[p]
 #静江
 [playse storage="sizue/sz25_011.ogg" buf="0"]
-また明日からダイエット頑張らなくちゃ！[p]
+明天就要努力减肥了[p]
 [cm]
 [clearfix]
 ;メッセージボックスは非表示
@@ -482,61 +482,61 @@
 [stop_bgmovie time="2000"]
 [movie storage="mov_25_17.webm" skip="true"]
 [menuwindows]
-あっ！あぶない[p]
+啊!危险[p]
 …………[p]
 [bg storage="lover/img25_18_00.png" time="1000"]
 #静江
 [playse storage="sizue/sz25_012.ogg" buf="0"]
-お兄ちゃん、ありがとう[r]
-飲みすぎちゃったかしら？[p]
+哥哥，谢谢你[r]
+喝多了吗？[p]
 [playse storage="sizue/sz25_013.ogg" buf="0"]
-お兄ちゃん？……[p]
+嗯？……[p]
 #
-静江さん……僕……[p]
+静江小姐……我……[p]
 #静江
 [playse storage="sizue/sz25_014.ogg" buf="0"]
-どうしたの？　お兄ちゃん[p]
+怎么了？ 哥哥[p]
 #
-僕は……静江さんのことが、好きです！[p]
+我……我喜欢静江小姐！[p]
 #静江
 [playse storage="sizue/sz25_015.ogg" buf="0"]
-うふふ、お兄ちゃんありがとう[r]
-おばさんもお兄ちゃんのこと大好きよ[p]
+嘿嘿，谢谢你[r]
+阿姨也最喜欢哥哥了[p]
 #
-ち、違います！　そうじゃなくて本当に大好きなんです……[r]
-ずっと静江さんの事ばかり考えてます！[p]
+不，不是！ 不是那样，我真的很喜欢……[r]
+我一直在想静江小姐的事[p]
 #静江
 [playse storage="sizue/sz25_016.ogg" buf="0"]
-こらっ！　おばさんをからかっちゃだめよ[r]
-お兄ちゃん、酔っちゃったのかな？　[p]
+喂喂！ 你可不要开你阿姨的玩笑[r]
+哥哥，是喝醉了吗？ [p]
 #
-よ、酔ってません！[p]
-僕は……僕は真剣です……静江さんは僕の事が嫌いですか？[p]
+没，我没醉！[p]
+我……我是认真的……静江小姐不喜欢我吗[p
 [bg storage="lover/img25_18_02.png" time="1000"]
 #静江
 [playse storage="sizue/sz25_017.ogg" buf="0"]
-嫌いなわけないでしょ、嫌いなわけ………[r]
-だっ、だめなの！　ダ～メ[p]
+怎么可能讨厌，讨厌……[r]
+不，不行！ 啊~[p]
 [playse storage="sizue/sz25_017_1.ogg" buf="0"]
-お兄ちゃん、わかるでしょ！　だめなの！[p]
+你知道吧！ 不行的！[p]
 #
-わっ、分かりません[r]
-全然わかりません[p]
+不知道[r]
+我完全不知道[p]
 #静江
 [playse storage="sizue/sz25_018.ogg" buf="0"]
-も～、おばさんを困らせないで！　さあ、この手を放してちょうだい[p]
+真是的，别为难阿姨！ 来吧，放开我的手[p]
 #
-いやです、……離せません……本当に嫌ならキライだって言ってください……[p]
+不，不……不放开……如果你真的不愿意，就请告诉我你真的讨厌……[p]
 #静江
 [playse storage="sizue/sz25_019.ogg" buf="0"]
-何言ってるの、お兄ちゃん……[p]
+你在说什么啊……哥哥[p]
 #
-嫌いだって言ってくれたら……手を放して諦めます……[p]
+如果你说我讨厌的话……我就放手……[p]
 [bg storage="lover/img25_18_01.png" time="1000"]
 #静江
 [playse storage="sizue/sz25_020.ogg" buf="0"]
-……困った子ね……お兄ちゃん……もう[r]
-言える訳……ないでしょ[p]
+……真是个为难的孩子啊……哥哥，真是的[r]
+怎么能说出口呢……对吧？[p]
 #
 [bg storage="black.png" time="1000"]
 [cm]
@@ -554,27 +554,27 @@
 [bgmovie storage="mov_25_3.webm" time="1000" loop="true"]
 #
 [playse storage="sizue/sz25_024.ogg" buf="0" loop="true"]
-静江さんの胸、大きいです[p]
-柔らかくて……大きい……[p]
-静江さん……もっと、色々見せて……[p]
+静江小姐的胸部好大[p]
+太软了……大……[p]
+静江小姐……让我看看更多……[p]
 [stop_bgmovie time="1000"]
 [stopse buf="0"]
 [bgmovie storage="mov_25_4.webm" time="1000" loop="true"]
 #静江
 [playse storage="sizue/sz25_026.ogg" buf="0"]
-お兄ちゃん……そんなに見ちゃいや……こんな中年の体なんて[p]
+哥哥……不要那么看……这中年人的身体[p]
 #
-魅力的ですよ、静江さん……とても興奮します[p]
+很有魅力啊，静江小姐……我很兴奋。[p]
 [stop_bgmovie]
 [bgmovie storage="mov_25_5.webm" time="1000" loop="true"]
 #静江
 [playse storage="sizue/sz25_029.ogg" buf="0" loop="true"]
-あっ、んん[p]
+啊，嗯……[p]
 #
-静江さん……こんなに濡れてる[p]
+静江小姐……你已经这么湿了[p]
 #静江
 [playse storage="sizue/sz25_028.ogg" buf="0"]
-もう……お兄ちゃんの……いじわる[p]
+真是的……哥哥……欺负人[p]
 #
 [stop_bgmovie]
 [stopse buf="0"]
@@ -590,20 +590,20 @@
 [playse storage="sizue/sz25_035.ogg" buf="0" loop="true"]
 [playse storage="se/kutyu01.ogg" buf="3" loop="true"]
 #
-はぁ、はぁ、静江さん[p]
-静江さんの中……気持ちいいです[p]
+啊，啊，静江小姐[p]
+静江小姐里面……真舒服[p]
 [stop_bgmovie]
 [bgmovie storage="mov_25_8.webm" time="1000" loop="true"]
 [playse storage="sizue/sz25_036.ogg" buf="0" loop="true"]
 [playse storage="se/kutyu02.ogg" buf="3" loop="true"]
-静江さん！ああっ……気持ちいい！気持ちいです静江さん[p]
-静江さん……もういきそうです……[p]
+静江小姐！啊……好舒服！很舒服啊静江小姐[p]
+静江小姐……好像要射了……[p]
 #静江
 [playse storage="sizue/sz25_037.ogg" buf="0"]
-いいのよ、お兄ちゃん、いっぱい出して……いいのよ[p]
+没关系，哥哥……满满的射出来……可以哟[p]
 #
 [playse storage="sizue/sz25_036.ogg" buf="0" loop="true"]
-静江さん、好きです、はぁはぁ……大好きです！[p]
+静江小姐，我喜欢你，啊……啊……非常喜欢！[p]
 [cm]
 [clearfix]
 ;メッセージボックスは非表示
@@ -621,13 +621,13 @@
 [bgmovie storage="mov_25_13.webm" time="0"]
 #静江
 [playse storage="sizue/sz25_041.ogg" buf="0"]
-お兄ちゃん、今回だけだからね[r]
-今日の事は忘れるのよ[p]
+哥哥，至此一次下不为例。[r]
+今天的事情，忘了吧[p]
 #
-し、静江さん……僕は……[p]
+静江……我……[p]
 #静江
 [playse storage="sizue/sz25_042.ogg" buf="0"]
-だ～め、明日からはまたいつも通りよ！　わかった？[p]
+好了，明天开始还和往常一样哦! 明白了吗?[p]
 #
 ……[p]
 [stop_bgmovie time="2000"]
@@ -636,52 +636,52 @@
 
 [bg storage="room_night.png" time="1000"]
 #
-部屋に戻ってきた[p]
-静江さんとのエッチ……気持ちよかったな……[p]
-あんなこと言われたけど……[p]
-諦めきれるだろうか……[p]
-いや、やっぱり無理だよ……[p]
+返回了房间[p]
+和静江小姐的H……好舒服啊……[p]
+虽然被说了那种话……[p]
+要放弃吗……[p]
+不，不要……[p]
 ……[l]……[l]……[p]
 
-とりあえず、今日は寝ようかな[p]
+总之，今天先睡吧[p]
 
 [bg storage="black.png" time="1000"]
 [bgmovie storage="mov_67_1.webm" time="1000"]
 #
-静江さんの部屋にやってきた[p]
+来到静江小姐的房间[p]
 
 #
-静江さん、やっぱり僕……好きです、諦められません！[p]
+静江小姐，果然我……我喜欢你，我不能放弃！[p]
 #静江
 [playse storage="sizue/sz27_001.ogg" buf="0"]
-だめって言ったでしょ！お兄ちゃん[r]
-あれはあの時だけなの[p]
+我不是说了不行吗，哥哥[r]
+只有那一次，下不为例[p]
 #
-あの時だけなんて無理です！静江さんの事ばかり考えてるんです！[r]
-静江さん、好きだって言ってくれた！[p]
+下不为例做不到！我一直在想静江小姐的事[r]
+静江小姐，你说喜欢我的！[p]
 #静江
 [playse storage="sizue/sz27_002.ogg" buf="0"]
-も～、お兄ちゃん、困らせちゃだめ！[r]
-お兄ちゃんにはもっと若い子がいいのよ[p]
+真是的，哥哥，不要让我为难！[r]
+对哥哥来说更年轻的孩子比较好[p]
 #
-いやです、僕は静江さんがいいんです！　静江さんが好き！　大好きです！[p]
+不，我喜欢静江小姐！ 我喜欢静江小姐 非常喜欢！[p]
 #静江
 [playse storage="sizue/sz27_003.ogg" buf="0"]
-お兄ちゃんは、おばさんを困らせてばっかりなんだから……もう……悪い子[p]
+哥哥，总是让阿姨为难……所以……真是的……坏孩子[p]
 #
-静江さん……[p]
+静江小姐……[p]
 #静江
 [playse storage="sizue/sz27_004.ogg" buf="0"]
-おにいちゃん……おいで[p]
+……来吧[p]
 #静江
 [playse storage="sizue/sz27_005.ogg" buf="0"]
-お兄ちゃんに、好きな人が出来たら言うのよ[r]
-わかった？[p]
+哥哥，如果你有了喜欢的人，要告诉我哦。[r]
+明白了吗？[p]
 #
-出来ないです！　絶対に[p]
+不会的，绝对[p]
 #静江
 [playse storage="sizue/sz27_006.ogg" buf="0"]
-お兄ちゃん……好きよ[p]
+哥哥，喜欢你[p]
 [endreplay]
 ;***********************************************************************************************************************
 *rotor1
@@ -692,7 +692,7 @@
 *rotor_play
 [eval exp="tf.rotor = 0"]
 #
-ローターのスイッチを入れてみた！
+按下跳蛋的开关！
 
 [playse storage="sizue/sz54_004.ogg" buf="0" loop="true"]
 [playse storage="se/rotor.ogg" buf="3" loop="true"]
@@ -731,17 +731,17 @@ tf.rand = Math.floor( Math.random() * 3)
 [playse storage="se/rotor.ogg" buf="3" loop="true"]
 #静江
 [playse storage="sizue/sz54_005.ogg" buf="0"]
-お兄ちゃん、だめ！
+哥哥，不要！
 [endif]
 [if exp="tf.rand == 1"]
 #静江
 [playse storage="sizue/sz54_006.ogg" buf="0"]
-もう、お兄ちゃん！！
+已经……哥哥！！
 [endif]
 [if exp="tf.rand == 2"]
 #静江
 [playse storage="sizue/sz54_007.ogg" buf="0"]
-お兄ちゃん…それ以上は…
+哥哥…我就要…
 [endif]
 [eval exp="tf.rand_old = tf.rand"]
 ;---------------------------------------------------------
@@ -750,14 +750,14 @@ tf.rand = Math.floor( Math.random() * 3)
 *rotor_play2
 [eval exp="tf.button_y = 300"]
 [if exp="tf.rotor != 3"]
-[glink  color="pink" size="20"  x="950"  width="150"  y="&tf.button_y"  text="強くする"  target="*rotor_play1" exp="tf.rotor = tf.rotor + 1" ]
+[glink  color="pink" size="20"  x="950"  width="150"  y="&tf.button_y"  text="加强"  target="*rotor_play1" exp="tf.rotor = tf.rotor + 1" ]
 [eval exp="tf.button_y = tf.button_y + 100"]
 [endif]
 [if exp="tf.rotor != 0"]
-[glink  color="pink" size="20"  x="950"  width="150"  y="&tf.button_y"  text="弱くする"  target="*rotor_play1" exp="tf.rotor = tf.rotor - 1" ]
+[glink  color="pink" size="20"  x="950"  width="150"  y="&tf.button_y"  text="减弱"  target="*rotor_play1" exp="tf.rotor = tf.rotor - 1" ]
 [eval exp="tf.button_y = tf.button_y + 100"]
 [endif]
-[glink  color="pink" size="20"  x="950"  width="150"  y="&tf.button_y"  text="やめる"  target="*cafe_return"]
+[glink  color="pink" size="20"  x="950"  width="150"  y="&tf.button_y"  text="结束"  target="*cafe_return"]
 [s]
 *cafe_return
 ;カフェ帰宅
@@ -772,30 +772,30 @@ tf.rand = Math.floor( Math.random() * 3)
 
 [playse storage="sizue/sz52_008.ogg" buf="0"]
 #静江
-あらあら、お兄ちゃん[r]
-こんなに大きくなっちゃって[p]
+哎呀哎呀，哥哥[r]
+变得这么大了[p]
 #
-うぁぁ、し！静江さん……[p]
+哇，嘘！静江小姐……[p]
 #静江
 [playse storage="sizue/sz52_009.ogg" buf="0"]
-お兄ちゃん、気持ちいい？[r]
-お兄ちゃんの気持ちよさそうな顔、かわいい[p]
+哥哥，舒服吗？[r]
+哥哥那很舒服的表情，好可爱[p]
 #
-し、静江さん、だめですよ！　こんなところで[p]
+静江小姐，不行啊！ 在这种地方[p]
 #静江
 [playse storage="sizue/sz52_010.ogg" buf="0"]
-気持ちいいでしょ、お兄ちゃん！　周りはうるさいんだから[r]
-いっぱい声だしちゃって大丈夫よ[p]
+很舒服吧，哥哥，周围的人很吵[r]
+发出声音没事的[p]
 [playse storage="sizue/sz52_010_1.ogg" buf="0"]
-おばさんが気持ちよくしてあげる[p]
+阿姨让你舒服[p]
 #
-はぁ、はぁ、静江さん……気持ちいい[p]
+啊，啊，静江小姐……好舒服[p]
 #静江
 [playse storage="sizue/sz52_011.ogg" buf="0"]
-お兄ちゃん、かわいい、気持ちいいの？[r]
-いつでも出しちゃっていいのよ！ぴゅっぴゅって出しちゃっていいからね[p]
+哥哥，好可爱，舒服吗？[r]
+什么时候都可以射出来哦，好好地射出来就好了哦！。[p]
 #
-あぁぁ、静江さん！　だめ、でっ、出る！　あぁぁぁぁ[p]
+啊，静江小姐！ 不行，射，射了！ 啊啊啊[p]
 [stop_bgmovie]
 [stopse buf="0"]
 [movie storage="mov_52_6.webm" skip="true"]
@@ -803,7 +803,7 @@ tf.rand = Math.floor( Math.random() * 3)
 [stop_bgmovie time="1000"]
 [bg storage="karaoke.png" time="1000"]
 #
-静江さんに手抜いてもらった、気持ちよかったな[p]
+静江小姐用手帮我弄出来了，真舒服啊[p]
 [endreplay]
 ;***********************************************************************************************************************
 ;カラオケエッチ2
@@ -823,25 +823,25 @@ tf.rand = Math.floor( Math.random() * 3)
 [bgmovie storage="mov_53_1.webm" time="1000"]
 #静江
 [playse storage="sizue/sz53_007.ogg" buf="0"]
-お兄ちゃん、おっぱい好きだもんね！[r]
-おばさんのおっぱいでいっぱい気持ちよくしてあげる[p]
+哥哥，你很喜欢阿姨的胸部啊！[r]
+阿姨用奶子让你舒服起来[p]
 #
-おっぱい好きです！　静江さんのおっぱい大好きです[p]
+我喜欢胸部！ 我最喜欢静江小姐的胸部了[p]
 #静江
 [playse storage="sizue/sz53_008.ogg" buf="0"]
-お兄ちゃんのおちんちん、おっぱいに挟まれてビクンビクンしてるわよ[r]
-いいの？　お兄ちゃん、おっぱいがいいの？　おっぱい気持ちいい？[p]
+肉棒被胸部夹在中间一跳一跳的呢！？[r]
+怎么样？ 胸部舒服吗？[p]
 #
-静江さん！　いいです！　静江さんのおっぱい、きもちいいです[p]
+静江小姐！ 好棒！ 静江小姐的胸部，好舒服[p]
 #静江
 [playse storage="sizue/sz53_009.ogg" buf="0"]
-お兄ちゃん、気持ち良くなってる！[r]
-いい？　おっぱい、気持ちいい？[p]
+哥哥，你舒服起来了！[r]
+爽吗？　胸部，舒服吗？[p]
 [playse storage="sizue/sz53_009_1.ogg" buf="0"]
-うふふ、いいのよお兄ちゃん[r]
-またおちんちんからビュルル～って出しちゃっていいからね！[p]
+嘿嘿，可以哦[r]
+再一次从肉棒里biubiu~的射就好！[p]
 #
-静江さん！　あっあぁあああ！[p]
+静江小姐！ 啊啊啊啊啊啊[p]
 
 [stop_bgmovie time="1000"]
 [stopse buf="0"]
@@ -852,8 +852,8 @@ tf.rand = Math.floor( Math.random() * 3)
 [movie storage="mov_53_2.webm" skip="true"]
 [menuwindows]
 #
-静江さんのおっぱい大きかったな！[p]
-気持ちよくて大満足[p]
+静江的胸部真大啊！[p]
+很舒服，十分满足[p]
 [endreplay]
 ;***********************************************************************************************************************
 ;遊園地えっち2
@@ -864,17 +864,17 @@ tf.rand = Math.floor( Math.random() * 3)
 [menuwindows]
 #静江
 [playse storage="sizue/sz53_012.ogg" buf="0"]
-はぁ、はぁ、お兄ちゃん、おばさんのおまんこ、気持ちいい？[r]
-おにいちゃんの好きに出し入れしていいのよ……んっ、はぁ、はぁ……[p]
+啊，啊，哥哥，阿姨的小穴，舒服吗？[r]
+你可以随心所欲地放进去哦……嗯，哈，哈……[p]
 #
-静江さん、気持ちいいです、静江さんの中、とっても気持ちいいです！[p]
+静江小姐，很舒服，静江小姐里面非常舒服！[p]
 #静江
 [playse storage="sizue/sz53_013.ogg" buf="0"]
-んっ、あぁ、お兄ちゃん、気持ちよさそうな顔……はぁはぁ、かわいい[r]
-はぁはぁ、おばさんのおまんこで、いっぱい気持ちよくなってね……んっ、はぁ、はぁ[p]
+嗯，啊，哥哥，一脸舒服的表情……啊，好可爱啊[r]
+啊啊，阿姨的小穴，变得特别舒服起来了……。嗯，哈，哈[p]
 #
 [playse storage="sizue/sz53_014.ogg" buf="0" loop="true"]
-静江さん！　はぁ、はぁ、[p]
+静江小姐！ 啊，哈，哈[p]
 
 [stop_bgmovie time="1000"]
 [stopse buf="0"]
@@ -889,8 +889,8 @@ tf.rand = Math.floor( Math.random() * 3)
 [bg storage="amusement.png" time="1000"]
 [menuwindows]
 #
-静江さんと遊園地でいっぱい遊んで[r]
-観覧車であんなことまでしたから大満足[p]
+和静江小姐一起在游乐园玩得很尽兴[r]
+在游览车上做了那样的事情，感到非常满足[p]
 [endreplay]
 ;***********************************************************************************************************************
 ;お祭りえっち1
@@ -902,13 +902,13 @@ tf.rand = Math.floor( Math.random() * 3)
 [menuwindows]
 #静江
 [playse storage="sizue/sz55_005.ogg" buf="0"]
-こんなひとけの無いところに連れ来て[r]
-どうするつもり！　お兄ちゃん[p]
+带我到这样一个没有人的地方[r]
+怎么办？哥哥 [p]
 #
-えーと……それは……[p]
+这……这个嘛……[p]
 #静江
 [playse storage="sizue/sz55_006.ogg" buf="0"]
-うふふ、おいで、お兄ちゃん！　おばさんが気持ちよくしてあげる[p]
+嘿嘿，过来，哥哥！ 阿姨让你舒服[p]
 #
 [fadeoutbgm]
 [cm]
@@ -925,8 +925,8 @@ tf.rand = Math.floor( Math.random() * 3)
 
 [menuwindows]
 #
-静江さんとお祭りでいっぱい遊んで[r]
-浴衣でフェラまでしてくれたから大満足[p]
+和静江小姐一起在祭会上玩得很开心[r]
+穿着浴衣进行口交，我很满足[p]
 [endreplay]
 ;***********************************************************************************************************************
 ;お祭りえっち2
@@ -938,13 +938,13 @@ tf.rand = Math.floor( Math.random() * 3)
 [menuwindows]
 #静江
 [playse storage="sizue/sz55_009.ogg" buf="0"]
-またおばさんをひとけの無い場所に連れてきて[r]
-何しようとしてるのかな？[p]
+又把阿姨带到了没什么人的地方[r]
+要做什么呢？[p]
 #
-あ……あの[p]
+那……那个……[p]
 #静江
 [playse storage="sizue/sz55_010.ogg" buf="0"]
-いいのよ、お兄ちゃん、お兄ちゃんの好きなようにして[p]
+可以哟，哥哥，哥哥想做什么就做的[p]
 
 [fadeoutbgm]
 [cm]
@@ -965,8 +965,8 @@ tf.rand = Math.floor( Math.random() * 3)
 
 [menuwindows]
 #
-静江さんとお祭りでいっぱい遊んだ[r]
-浴衣姿でエッチってとても興奮するね[p]
+和静江小姐一起在祭会上玩得很开心[r]
+穿着浴衣H真让人兴奋啊[p]
 [endreplay]
 ;***********************************************************************************************************************
 ;ナース服1
@@ -976,54 +976,54 @@ tf.rand = Math.floor( Math.random() * 3)
 [menuwindows]
 #静江
 [playse storage="sizue/sz67_009.ogg"]
-お兄ちゃん、これ着てほしいの？[p]
+哥哥，想让我穿这个吗？[p]
 #
-は、はい……ぜひ[p]
+是，是的……请务必穿上[p]
 #静江
 [playse storage="sizue/sz67_010.ogg"]
-うふふ、ナース服なんて、おにいちゃんエッチね！　いいわよ！　着てあげる[p]
+嘿嘿，护士服吗，是个色鬼！好吧！穿给你看好了[p]
 #静江
 [playse storage="sizue/sz67_011.ogg"]
-お兄ちゃん、そんな後ろを向いてなくてもいいのよ～[p]
+哥哥，不用转过身去的啦～[p]
 [stop_bgmovie]
 [bgmovie storage="mov_67_11.webm"]
 #静江
 [playse storage="sizue/sz67_012.ogg"]
-お兄ちゃん、着替えたわよ！　で、どうするのかな？[p]
+哥哥，我换好了！怎么样？[p]
 #
-静江さんやばいです！　とりあえずこんなポーズとか！[p]
+静江小姐，太糟糕了！总之摆一个pose！[p]
 #静江
 [playse storage="sizue/sz67_013.ogg"]
-こんな感じかしら！[p]
+是这样吗！[p]
 #
-このポーズもおねがいします！[p]
+再来一个这样的姿势！[p]
 #静江
 [playse storage="sizue/sz67_014.ogg"]
-うふふ！　こう？[p]
+嘿嘿！这样？[p]
 #
-そうです、静江さん……エロいです！[p]
+是啊，静江小姐……好色情！[p]
 #静江
 [playse storage="sizue/sz67_015.ogg"]
-もう！お兄ちゃん！　お兄ちゃんが好きなのはおっぱいでしょ！[p]
+真是的！哥哥！哥哥喜欢的是胸部对吧！[p]
 [stop_bgmovie]
 [bgmovie storage="mov_67_12.webm"]
 #静江
 [playse storage="sizue/sz67_016.ogg"]
-先生！　私のおっぱい、こんなに腫れちゃってるの！　見てください！[p]
+医生！我的胸部，肿胀得很厉害！请帮我看看！[p]
 #
-たしかに……こんなに大きくはれてますね！[p]
+确实……肿胀得很大啊！[p]
 #静江
 [playse storage="sizue/sz67_017.ogg"]
-ほら！　もっとよく見てください、先生！　すごいドキドキしてるんですよ！　[p]
+快来！多仔细看看，医生！我心脏跳得非常厉害！[p]
 #静江
 [playse storage="sizue/sz67_018.ogg"]
-先生、触診してください！　大きく腫れたおっぱいを隅々まで診察してください[p]
+医生，请帮我触诊！请仔细检查胸部的每一个角落！[p]
 #静江
 [playse storage="sizue/sz67_019.ogg"]
-先生！　お注射の準備は整ってますか？　確認しますね！[p]
+医生！ 注射器准备好了吗？ 我已经准备好了！
 #静江
 [playse storage="sizue/sz67_020.ogg"]
-あらあら、こんな大きなお注射が！　しっかり消毒しますね！[p]
+哎呀哎呀，这么大的注射器！得好好消毒才行！[p]
 [cm]
 [clearfix]
 ;メッセージボックスは非表示
@@ -1037,8 +1037,8 @@ tf.rand = Math.floor( Math.random() * 3)
 [menuwindows]
 #静江
 [playse storage="sizue/sz67_022.ogg"]
-先生……早く……お注射ください……ほら！　ここに大きいお注射を……[r]
-でないと、もうがまんできないの……先生……お注射して！[p]
+医生……快点……快给我注射……你看！这么大的注射器……[r]
+否则，就要忍不住了……医生……快注射进来！[p]
 [cm]
 [clearfix]
 ;メッセージボックスは非表示
@@ -1053,7 +1053,7 @@ tf.rand = Math.floor( Math.random() * 3)
 
 [menuwindows]
 #
-ナース服とても興奮するね[p]
+穿着护士服做，太令人兴奋了[p]
 [endreplay]
 ;***********************************************************************************************************************
 ;バイブ
@@ -1064,7 +1064,7 @@ tf.rand = Math.floor( Math.random() * 3)
 [bgloop mov="mov_86_4.webm"  ti="2000"]
 [menuwindows]
 #
-静江さん気持ちよさそうだった[p]
+静江看起来很爽[p]
 [endreplay]
 ;***********************************************************************************************************************
 ;ホテル1
@@ -1075,8 +1075,8 @@ tf.rand = Math.floor( Math.random() * 3)
 [menuwindows]
 
 #
-静江さん、飲みすぎですよ！[p]
-それにもうこんな時間ですよ[p]
+静江小姐，你喝太多了！[p]
+而且时间已经很晚了[p]
 [cm]
 [clearfix]
 ;メッセージボックスは非表示
@@ -1084,8 +1084,8 @@ tf.rand = Math.floor( Math.random() * 3)
 [movie storage="mov_56_3.webm" skip="true"]
 [menuwindows]
 #
-いえいえ、そんな訳ではないですよ！[p]
-まだまだ一緒にいたいです[p]
+不不不，不是那样的！[p]
+我还想和你在一起[p]
 [cm]
 [clearfix]
 [bg storage="black.png" time="1000"]
@@ -1094,7 +1094,7 @@ tf.rand = Math.floor( Math.random() * 3)
 [movie storage="mov_56_4.webm" skip="true"]
 [bg storage="hotel/hotel.png" time="2000"]
 [menuwindows]
-ホテルにやってきた[p]
+来到了旅店[p]
 [bg storage="black.png" time="1000"]
 [cm]
 [clearfix]
@@ -1116,7 +1116,7 @@ tf.rand = Math.floor( Math.random() * 3)
 [bg storage="hotel/hotel.png" time="2000"]
 [menuwindows]
 #
-静江さんとホテルでエッチなんて夢のようだ[p]
+和静江在旅店做爱就像做梦一样[p]
 [endreplay]
 ;***********************************************************************************************************************
 ;絶頂エッチ1
@@ -1134,29 +1134,29 @@ tf.rand = Math.floor( Math.random() * 3)
 [bg storage="black.png" time="1000"]
  [bg storage="spa/spa01.png" time="1000"]
  [menuwindows]
- ひとり寂しく入るか…[p]
+一个人寂寞的进去吗…[p]
 [fadeinbgm storage="bass.ogg" time="2000" loop="true"]
 [bg storage="spa/spa02.png" time="1000"]
-ふむ[p]
-なかなか良い湯である[p]
-この壁の向こうに女湯が…[p]
-今こそ特殊能力の妄想を発揮する時かもしれない[p]
-は～[p]
+嗯嗯[p]
+这浴池真是不错啊[p]
+这面墙的另一面就是女浴池吧…[p]
+也许这正是发挥特殊能力——妄想的时候了[p]
+来吧～[p]
 [fadeinse storage="se/o_ra.ogg" buf="2" time="2000"]
 [bg storage="spa/img_38_10_6.png" time="4000"]
 ……[p]
-見えるぞ！女湯が見える！[p]
-静江さんが見えるぞ！[p]
-はぁ…はぁ…[p]
-まだだ！更に妄想力を解放だ！[p]
+看到了！看到女浴池了！[p]
+看到静江小姐了！[p]
+啊…啊…[p]
+还不够！还要进步一解放妄想力！[p]
 [fadeinse storage="se/o_ra.ogg" buf="2" time="2000"]
 [bg storage="spa/img_38_10_7.png" time="4000"]
-はぁはぁ…[p]
-我ながら素晴らしい妄想力だ[p]
+啊……啊…[p]
+我这美妙的妄想力啊[p]
 …[p]
 [stopse buf="2"]
-なんてことをしていたら、のぼせてきてしまった[p]
-そろそろあがるか[p]
+要泡到什么时候呢，感觉有点上火了[p]
+差不多该上去了[p]
 [bg storage="black.png" time="1000"]
 [endreplay]
 ;***********************************************************************************************************************
@@ -1166,15 +1166,15 @@ tf.rand = Math.floor( Math.random() * 3)
 [bgmovie storage="mov_57_4.webm" time="2000"]
 [menuwindows]
 #
-んっ……むぐ……し、静江さん！[p]
+嗯……啊……静，静江小姐！[p]
 #静江
 [playse storage="sizue/sz57_007.ogg" buf="0"]
-こ～ら！　お兄ちゃん、なに寝ちゃってるの！[p]
+喂喂！　哥哥，睡什么睡！[p]
 #
-は、はい、すいません！[p]
+好，好的，对不起！[p]
 #静江
 [playse storage="sizue/sz57_008.ogg" buf="0"]
-夜はこれからでしょ！　貸し切りのお風呂にいくわよ！[p]
+夜才刚刚开始！　我们去包租的浴池吧！[p]
 [stop_bgmovie time="1000"]
 [stopse]
 #
@@ -1187,44 +1187,44 @@ tf.rand = Math.floor( Math.random() * 3)
 [fadeinbgm storage="bass2.ogg" time="2000" loop="true"]
 [bgmovie storage="mov_57_6.webm" time="2000"]
 #
-静江さんと一緒のお風呂だ[p]
+和静江小姐一起进浴池了[p]
 [stop_bgmovie time="1000"]
 [bgmovie storage="mov_57_7.webm" time="2000"]
 
 #静江
 [playse storage="sizue/sz57_009.ogg" buf="0"]
-お兄ちゃんの体、おばさんが綺麗に洗ってあげる！[p]
+哥哥的身体，阿姨来帮你洗干净！[p]
 [stop_bgmovie time="1000"]
 [bgmovie storage="mov_57_8.webm" time="2000"]
 #
-静江さんおっぱい……きもちいいです[p]
+静江小姐的胸部……好舒服啊[p]
 #静江
 [playse storage="sizue/sz57_010.ogg" buf="0"]
-どう？お兄ちゃん、おばさんのおっぱい気持ちいい？[r]
-お兄ちゃんおっぱい好きだもんね、おっぱいでいっぱい洗ってあげる[p]
+怎么样？哥哥，阿姨的胸部很舒服吧？[r]
+哥哥很喜欢胸部呢，就用胸给你好好洗一洗吧[p]
 #
-静江さん！　あっ、ううう！[p]
+静江小姐！　啊，唔唔唔！[p]
 [stop_bgmovie time="1000"]
 [bgmovie storage="mov_57_9.webm" time="2000"]
 #静江
 [playse storage="sizue/sz57_012.ogg" buf="0"]
-お兄ちゃん、気持ちいい？[r]
-お兄ちゃんのオチンチン、ビクンビクンしてるわよ！[p]
+哥哥，舒服吗？[r]
+哥哥的肉棒，正在一跳一跳的呢！[p]
 #
-き、気持ちいいです！　静江さん……　[p]
+太，太舒服了！　静江小姐……　[p]
 #静江
 [playse storage="sizue/sz57_013.ogg" buf="0"]
-お兄ちゃん、気持ちよさそう！　うふふ、かわいい[r]
-でもダメよ！　まだいっちゃダメ！　おばさんも気持ちよくしてくれなきゃダ～メ！[p]
+哥哥，好像很舒服呢！　嘿嘿，好可爱[r]
+但是还不行哦！　还不能射哦！　在阿姨也舒服之前不～能～射！[p]
 [stop_bgmovie time="1000"]
 [bgmovie storage="mov_57_10.webm" time="2000"]
 #静江
 [playse storage="sizue/sz57_014.ogg" buf="0"]
-ほら見てお兄ちゃん！おばさんのココこんなになってるのよ！お兄ちゃんのオチンチンが[r]
-挿れたくてもうオマンコグチョグチョなの……お兄ちゃん、挿れていい？[p]
+看吧看吧，哥哥！阿姨的小穴已经变成这样了！哥哥的肉棒[r]
+还没插入就已经湿漉漉的了……哥哥，挿要插进来吗？[p]
 #
-い……挿れさせてください[r]
-静江さんのオマンコに挿れさせて下さい！[p]
+请……请让我插进去[r]
+请让我插进静江小姐的小穴里！[p]
 [stop_bgmovie time="1000"]
 [stopse]
 #
@@ -1256,28 +1256,28 @@ tf.rand = Math.floor( Math.random() * 3)
 [bgmovie storage="mov_60_2.webm" time="2000"]
 [menuwindows]
 #
-あ！　静江さん、どうしました[p]
+啊！　静江小姐，你怎么了[p]
 #静江
 [playse storage="sizue/sz60_001.ogg" buf="0"]
-お兄ちゃん、おばさんね……もう限界なの……[p]
+哥哥，阿姨……已经到极限了……[p]
 #
-ええ！　なにがですか？[p]
+诶诶！　什么意思？[p]
 #静江
 [playse storage="sizue/sz60_002.ogg" buf="0"]
-お兄ちゃん……もう……だめ……[p]
+哥哥……已经……不行了……[p]
 #
-静江さん！　どうしたんですか！[p]
+静江小姐！　到底怎么了！[p]
 #静江
 [playse storage="sizue/sz60_003.ogg" buf="0"]
-お兄ちゃん……エッチしよ！[p]
+哥哥……做爱吧！[p]
 #
-えっ！[p]
+诶诶！[p]
 [stop_bgmovie time="2000"]
 [bgmovie storage="mov_60_3.webm" time="2000"]
 #静江
 [playse storage="sizue/sz60_004.ogg" buf="0"]
-見て,おにいちゃん…おばさんのココ…もうこんななのよ!お兄ちゃんのが欲しくて[r]
-グチョグチョなの…もう！　お兄ちゃんのせいよ！　おばさんをこんなにしたんだから……[p]
+看着，哥哥…阿姨这里…已经变成这样了！ 想要哥哥的……[r]
+湿漉漉的…真是的！都怪哥哥！　阿姨变成了这样……[p]
 [stop_bgmovie time="1000"]
 [cm]
 [clearfix]

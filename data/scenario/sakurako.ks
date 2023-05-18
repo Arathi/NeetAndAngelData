@@ -1,4 +1,4 @@
-;桜子のシナリオ
+;樱子のシナリオ
 
 ;***********************************************************************************************************************
 ;-起床イベント
@@ -10,73 +10,73 @@
 ;1回目の朝
 [if exp="f.wakeup == undefined"]
 #
-ふ～、爽やかな朝だね、今日も頑張ろう！[p]
-#桜子
+嘿嘿，真是个清爽的早晨啊，今天也加油吧！[p]
+#樱子
 [chara_show name="sakurako" face="okori02" left=100]
 [playse storage="sakurako/sa71_011.ogg" buf="0"]
-このたわけが！何が爽やかじゃ！もう昼じゃろが！[p]
+才不是！什么清爽啊，已经是中午了！[p]
 #
-しょうがない、ずっと引きこもりだったんだから！[r]
-昼に起きただけでも偉いもんだ！[p]
-#桜子
+没办法，我一直都是家里蹲！[r]
+光是中午起床就很了不起了！[p]
+#樱子
 [chara_mod  name="sakurako" face="akireru" ]
 [playse storage="sakurako/sa71_012.ogg" buf="0"]
-は～……先が思いやられるわ！[p]
+哈~……真为你的未来担忧啊！[p]
 [eval exp="f.wakeup = true "]
 [return]
 [else]
 #
-ふあ～、目覚めたぞ……今日も昼過ぎだけど[p]
+啊~，醒来了……今天也睡过了中午[p]
 
 [chara_show name="sakurako" face="default" left=100 ]
 [endif]
 
-;桜子ランダム会話
+;樱子ランダム会話
 ;ランダム数値の取り出し
 [iscript]
 tf.rand = Math.floor( Math.random() * 6)
 [endscript]
 
 [if exp="tf.rand == 0"]
-#桜子
+#樱子
 [chara_mod  name="sakurako" face="niko" ]
 [playse storage="sakurako/sa71_013.ogg" buf="0"]
-今日は何をするんじゃ？[p]
+今天要做什么呢?[p]
 [endif]
 
 [if exp="tf.rand == 1"]
-#桜子
+#樱子
 [chara_mod  name="sakurako" face="niko" ]
 [playse storage="sakurako/sa71_014.ogg" buf="0"]
-やっと起きたか！[p]
+终于起来了啊！[p]
 [endif]
 
 [if exp="tf.rand == 2"]
-#桜子
+#樱子
 [chara_mod  name="sakurako" face="akubi" ]
 [playse storage="sakurako/sa71_015.ogg" buf="0"]
-ふむ、お目覚めか[p]
+嗯，你醒了吗？[p]
 [endif]
 
 [if exp="tf.rand == 3"]
-#桜子
+#樱子
 [chara_mod  name="sakurako" face="akireru02" ]
 [playse storage="sakurako/sa71_016.ogg" buf="0"]
-まったく弛んでおるの～[p]
+你真是太懒散了[p]
 [endif]
 
 [if exp="tf.rand == 4"]
-#桜子
+#樱子
 [chara_mod  name="sakurako" face="okori" ]
 [playse storage="sakurako/sa71_017.ogg" buf="0"]
-寝ぼけた顔しおってからに[p]
+一脸昏昏欲睡的表情啊[p]
 [endif]
 
 [if exp="tf.rand == 5"]
-#桜子
+#樱子
 [chara_mod  name="sakurako" face="okori02" ]
 [playse storage="sakurako/sa71_018.ogg" buf="0"]
-はやく顔洗ってこい[p]
+快把脸洗干净[p]
 [endif]
 
 [return]
@@ -85,45 +85,45 @@ tf.rand = Math.floor( Math.random() * 6)
 ;-休養
 *sakurako_break
 
-;桜子ランダム会話
+;樱子ランダム会話
 ;ランダム数値の取り出し
 [iscript]
 tf.rand = Math.floor( Math.random() * 5)
 [endscript]
 
 [if exp="tf.rand == 0"]
-#桜子
+#樱子
 [chara_mod  name="sakurako" face="niko" ]
 [playse storage="sakurako/sa71_019.ogg" buf="0"]
-今日はやすみか？[p]
+今天休息吗?[p]
 [endif]
 
 [if exp="tf.rand == 1"]
-#桜子
+#樱子
 [chara_mod  name="sakurako" face="niko" ]
 [playse storage="sakurako/sa71_020.ogg" buf="0"]
-まったくサボってばかりじゃのう[p]
+真是的，总是偷懒啊[p]
 [endif]
 
 [if exp="tf.rand == 2"]
-#桜子
+#樱子
 [chara_mod  name="sakurako" face="akubi" ]
 [playse storage="sakurako/sa71_021.ogg" buf="0"]
-なんじゃ、疲れたのか？[p]
+什么嘛，累了吗?[p]
 [endif]
 
 [if exp="tf.rand == 3"]
-#桜子
+#樱子
 [chara_mod  name="sakurako" face="akireru02" ]
 [playse storage="sakurako/sa71_022.ogg" buf="0"]
-また休みか？[p]
+又要休息吗？[p]
 [endif]
 
 [if exp="tf.rand == 4"]
-#桜子
+#樱子
 [chara_mod  name="sakurako" face="okori" ]
 [playse storage="sakurako/sa71_023.ogg" buf="0"]
-たまには休みも必要かのう[p]
+偶尔也需要休息[p]
 [endif]
 #
 [return]
@@ -134,72 +134,72 @@ tf.rand = Math.floor( Math.random() * 5)
 *sakurako_work
 ;1回目のバイト
 [if exp="f.work == undefined"]
-#桜子
+#樱子
 [chara_mod  name="sakurako" face="niko" ]
 [playse storage="sakurako/sa72_024.ogg" buf="0"]
-いよいよ働く気になったか？[p]
+你终于想工作了吗？[p]
 #
-いや、しかし……まだ怖いし……[p]
-#桜子
+不，但是……我还很害怕……[p]
+#樱子
 [playse storage="sakurako/sa72_025.ogg" buf="0"]
-大丈夫大丈夫！わしがついとる！[p]
+没事的没事的，我会跟着你！[p]
 #
-つ、ついてくる気かよ？[p]
-#桜子
+你，你要跟来吗？[p]
+#樱子
 [chara_mod  name="sakurako" face="panchi03" ]
 [playse storage="sakurako/sa72_026.ogg" buf="0"]
-あたりまえじゃ！しっかり監視せんとな！[r]
-もう観念しろ、男じゃろ！気合いれるのじゃ！！[p]
+当然了！我得好好监视你[r]
+认真起来，像个男子汉一点！鼓起精神来吧！！[p]
 
 [eval exp="f.work = true "]
-;桜子消去
+;樱子消去
 #
 [chara_hide name="sakurako"]
 [return]
 [endif]
 
-;桜子ランダム会話
+;樱子ランダム会話
 ;ランダム数値の取り出し
 [iscript]
 tf.rand = Math.floor( Math.random() * 5)
 [endscript]
 
 [if exp="tf.rand == 0"]
-#桜子
+#樱子
 [chara_mod  name="sakurako" face="niko" ]
 [playse storage="sakurako/sa72_027.ogg" buf="0"]
-おっ！バイトにいくのか！[p]
+哦！要去打工吗！[p]
 [endif]
 
 [if exp="tf.rand == 1"]
-#桜子
+#樱子
 [chara_mod  name="sakurako" face="niko" ]
 [playse storage="sakurako/sa72_028.ogg" buf="0"]
-ふむふむ、感心感心[p]
+嗯，关心关心[p]
 [endif]
 
 [if exp="tf.rand == 2"]
-#桜子
+#樱子
 [chara_mod  name="sakurako" face="panchi02" ]
 [playse storage="sakurako/sa72_029.ogg" buf="0"]
-今日も頑張るのじゃぞ！[p]
+今天也要加油哦![p]
 [endif]
 
 [if exp="tf.rand == 3"]
-#桜子
+#樱子
 [chara_mod  name="sakurako" face="kobusi01" ]
 [playse storage="sakurako/sa72_030.ogg" buf="0"]
-稼ぎにいくぞ～！[p]
+要去赚钱了[p]
 [endif]
 
 [if exp="tf.rand == 4"]
-#桜子
+#樱子
 [chara_mod  name="sakurako" face="okori" ]
 [playse storage="sakurako/sa72_031.ogg" buf="0"]
-お前もやれば出来るのじゃ！[p]
+你要做的话也是能做到的嘛[p]
 [endif]
 
-;桜子消去
+;樱子消去
 #
 [chara_hide name="sakurako"]
 [return]
@@ -209,33 +209,33 @@ tf.rand = Math.floor( Math.random() * 5)
 *sakurako_status
 ;所持金判別
 [if exp="f.money < 500"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori02" left=100 ]
 [playse storage="sakurako/sa79_002.ogg" buf="0"]
-金がないではないか！[p]
+不是没有钱吗！[p]
 [chara_hide name="sakurako"]
 #
 [return]
 [endif]
 
-;桜子ランダム会話
+;樱子ランダム会話
 ;ランダム数値の取り出し
 [iscript]
 tf.rand = Math.floor( Math.random() * 2)
 [endscript]
 
 [if exp="tf.rand == 0"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="niko" left=100 ]
 [playse storage="sakurako/sa79_001.ogg" buf="0"]
-占いをするのか！　はい５００円！[p]
+你要占卜吗？来，500日元[p]
 [endif]
 
 [if exp="tf.rand == 1"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="niko" left=100 ]
 [playse storage="sakurako/sa79_003.ogg" buf="0"]
-まいどあり！[p]
+谢谢惠顾![p]
 [endif]
 [eval exp="f.money = f.money - 500"]
 [uiwindows]
@@ -246,7 +246,7 @@ tf.rand = Math.floor( Math.random() * 2)
 ;コール占い画面
 [call storage="status.ks"]
 
-;桜子消去
+;樱子消去
 #
 [chara_hide name="sakurako"]
 
@@ -255,51 +255,51 @@ tf.rand = Math.floor( Math.random() * 2)
 ;***********************************************************************************************************************
 ;-過労
 *overwork
-;桜子ランダム会話
+;樱子ランダム会話
 ;ランダム数値の取り出し
 [iscript]
 tf.rand = Math.floor( Math.random() * 5)
 [endscript]
 
 [if exp="tf.rand == 0"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori" left=100 ]
 [playse storage="sakurako/sa71_001.ogg" buf="0"]
-ふん！貧弱な奴め！[r]
-こんな調子では先が思いやられるわ！[p]
+哼！你这个瘦弱的家伙！[r]
+这样下去，我真担心你的未来啊！[p]
 [endif]
 
 [if exp="tf.rand == 1"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori" left=100 ]
 [playse storage="sakurako/sa71_002.ogg" buf="0"]
-体が弱いの～！[r]
-引きこもってるからじゃ！[p]
+身体很弱啊！[r]
+老是闭门不出！[p]
 [endif]
 
 [if exp="tf.rand == 2"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori" left=100 ]
 [playse storage="sakurako/sa71_003.ogg" buf="0"]
-自己管理も出来んとは、情けない！[p]
+做不到自我管理，真是太丢人了！[p]
 [endif]
 
 [if exp="tf.rand == 3"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori" left=100 ]
 [playse storage="sakurako/sa71_004.ogg" buf="0"]
-なっとらん！まったくなっとらん！[p]
+不行啊！你真是不行啊！[p]
 [endif]
 
 [if exp="tf.rand == 4"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori" left=100 ]
 [playse storage="sakurako/sa71_005.ogg" buf="0"]
-ふ～、まったく！[r]
-体の弱いやつじゃのう！[p]
+哼，真是的！[r]
+真是个体弱的家伙啊[p]
 [endif]
 
-;桜子消去
+;樱子消去
 #
 [chara_hide name="sakurako"]
 
@@ -312,48 +312,48 @@ tf.rand = Math.floor( Math.random() * 5)
 @bg storage ="room_day.png" time=1000
 [menuwindows]
 #
-なんか……すごい夢をみたぞ……[p]
+真是，做了个不得了的梦啊……[p]
 
-;桜子ランダム会話
+;樱子ランダム会話
 ;ランダム数値の取り出し
 [iscript]
 tf.rand = Math.floor( Math.random() * 5)
 [endscript]
 
 [if exp="tf.rand == 0"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori" left=100 ]
 [playse storage="sakurako/sa71_006.ogg" buf="0"]
-まったく気持ち悪い顔して寝ておって[p]
+真是的，一副恶心的睡脸[p]
 [endif]
 
 [if exp="tf.rand == 1"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori" left=100 ]
 [playse storage="sakurako/sa71_007.ogg" buf="0"]
-はやく現実でエロいことをしてくるのじゃ[p]
+快在现实中做些色情的事来吧[p]
 [endif]
 
 [if exp="tf.rand == 2"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori" left=100 ]
 [playse storage="sakurako/sa71_008.ogg" buf="0"]
-パンツを自分で洗うのはどんな気分じゃ？[p]
+洗自己的内裤是种什么感觉？[p]
 [endif]
 
 [if exp="tf.rand == 3"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori" left=100 ]
 [playse storage="sakurako/sa71_009.ogg" buf="0"]
-いやらしい夢ばかり見おってからに[p]
+尽做些讨厌的梦啊[p]
 [endif]
 
 [if exp="tf.rand == 4"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori" left=100 ]
 [playse storage="sakurako/sa71_010.ogg" buf="0"]
-溜まっておるのか？わしが抜いてやろうか？[r]
-本気にするな！[p]
+积压太多了吗？要我来帮你释放掉吗？[r]
+别当真啊！[p]
 [endif]
 
 [return]
@@ -363,91 +363,91 @@ tf.rand = Math.floor( Math.random() * 5)
 *GoOut
 ;1回目の外出
 [if exp="f.goout == undefined"]
-#桜子
+#樱子
 [chara_mod  name="sakurako" face="niko" ]
 [playse storage="sakurako/sa73_032.ogg" buf="0"]
-よーし、外に行くぞ![p]
+好了，我们出门吧！[p]
 #
-やっぱり気が重いんだけど……[p]
-#桜子
+果然还是心情沉重啊……[p]
+#樱子
 [chara_mod  name="sakurako" face="okori03" ]
 [playse storage="sakurako/sa73_033.ogg" buf="0"]
-このゴミカスが！観念せい！お前はもう外に出るんじゃ！[r]
-これは決定事項！[p]
+你这个垃圾！都是观念的错！你不是已经决定要出门了吗！[r]
+这是决定事项！[p]
 #
-え～、やっぱやだ～！！[p]
-#桜子
+诶~果然还是不要~！！[p]
+#樱子
 [chara_mod  name="sakurako" face="keri01" ]
 [playse storage="sakurako/sa73_034.ogg" buf="0"]
-てい！
+走你！
 [playse storage="se/naguru.ogg" buf="2"]
 [quake count="1" time="300"]
 [p]
 #
-ぎゃふん！[p]
+啊！[p]
 [chara_mod  name="sakurako" face="mahou01" ]
 [playse storage="se/o_ra.ogg" buf="2" loop="true"]
 #
-うぁぁ！体が勝手にうごく！？[p]
+哇！身体自己动起来了！？[p]
 [fadeoutse buf="2"]
-#桜子
+#樱子
 [playse storage="sakurako/sa73_035.ogg" buf="0"]
-ふふふ、これでもう行くしかなくなったの！[p]
+嘿嘿，这样就不得不走了吧！[p]
 
 #
-ううう……やだよ～[p]
+呜呜……别啊~[p]
 
 
 [eval exp="f.goout = true "]
-;桜子消去
+;樱子消去
 ;#
 ;[chara_hide name="sakurako"]
 [return]
 
 [endif]
 
-;桜子ランダム会話
+;樱子ランダム会話
 ;ランダム数値の取り出し
 [iscript]
 tf.rand = Math.floor( Math.random() * 5)
 [endscript]
 
 [if exp="tf.rand == 0"]
-#桜子
+#樱子
 [chara_mod  name="sakurako" face="niko" ]
 [playse storage="sakurako/sa73_036.ogg" buf="0"]
-お！お出かけか？[p]
+哦！你要出去吗？[p]
 [endif]
 
 [if exp="tf.rand == 1"]
-#桜子
+#樱子
 [chara_mod  name="sakurako" face="niko" ]
 [playse storage="sakurako/sa73_037.ogg" buf="0"]
-ふむふむ！外出じゃ！[p]
+嗯~出去了！[p]
 [endif]
 
 [if exp="tf.rand == 2"]
-#桜子
+#樱子
 [chara_mod  name="sakurako" face="akubi" ]
 [playse storage="sakurako/sa73_038.ogg" buf="0"]
-今日はどこに行くのじゃ？[p]
+今天我们要去哪里？[p]
 [endif]
 
 [if exp="tf.rand == 3"]
-#桜子
+#樱子
 [chara_mod  name="sakurako" face="akireru02" ]
 [playse storage="sakurako/sa73_039.ogg" buf="0"]
-出発じゃ～！[p]
+出发吧！[p]
 [endif]
 
 [if exp="tf.rand == 4"]
-#桜子
+#樱子
 [chara_mod  name="sakurako" face="okori" ]
 [playse storage="sakurako/sa73_040.ogg" buf="0"]
-今日はお出かけじゃ！[p]
+今天出门了！[p]
 [endif]
 
-;桜子消去
+;樱子消去
 ;#
 ;[chara_hide name="sakurako"]
 [return]
@@ -456,45 +456,45 @@ tf.rand = Math.floor( Math.random() * 5)
 ;-図書館会話
 *sakurako_library
 
-;桜子ランダム会話
+;樱子ランダム会話
 ;ランダム数値の取り出し
 [iscript]
 tf.rand = Math.floor( Math.random() * 5)
 [endscript]
 
 [if exp="tf.rand == 0"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="niko" left=100 ]
 [playse storage="sakurako/sa80_001.ogg" buf="0"]
-ほう、図書館とは……お前が勉強でもするのか？[p]
+哦，图书馆……你要学习吗？[p]
 [endif]
 
 [if exp="tf.rand == 1"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori02" left=100 ]
 [playse storage="sakurako/sa80_002.ogg" buf="0"]
-うむ、感心じゃ！しっかり励め！[p]
+嗯，真佩服！好好努力！[p]
 [endif]
 
 [if exp="tf.rand == 2"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="default" left=100 ]
 [playse storage="sakurako/sa80_003.ogg" buf="0"]
-ここにエロい本はないぞ[p]
+这里可没有色情书哦[p]
 [endif]
 
 [if exp="tf.rand == 3"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="niya" left=100 ]
 [playse storage="sakurako/sa80_004.ogg" buf="0"]
-保健体育の本でも探しにきたのか？[p]
+你是来找保健体育书的吗？[p]
 [endif]
 
 [if exp="tf.rand == 4"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori02" left=100 ]
 [playse storage="sakurako/sa80_005.ogg" buf="0"]
-ブツブツしゃべっていると注意されるぞ[p]
+要是大声说话会被提醒的哦[p]
 [endif]
 
 [return]
@@ -508,21 +508,21 @@ tf.rand = Math.floor( Math.random() * 3)
 [endscript]
 [chara_show name="sakurako" face="tobi01" left=100 ]
 [if exp="tf.rand == 0"]
-#桜子
+#樱子
 [playse storage="sakurako/sa76_001.ogg" buf="0"]
-莉子がおるぞ！話しかけてこい！[p]
+莉子在哦，快去跟她说话！[p]
 [endif]
 [if exp="tf.rand == 1"]
-#桜子
+#樱子
 [playse storage="sakurako/sa76_002.ogg" buf="0"]
-むむ！あれは莉子じゃないか？[p]
+嗯！嗯！那不是莉子吗[p]
 [endif]
 [if exp="tf.rand == 2"]
-#桜子
+#樱子
 [playse storage="sakurako/sa76_003.ogg" buf="0"]
-莉子を発見！[p]
+发现莉子！[p]
 [endif]
-;桜子消去
+;樱子消去
 #
 [chara_hide name="sakurako"]
 [return]
@@ -535,21 +535,21 @@ tf.rand = Math.floor( Math.random() * 3)
 [endscript]
 [chara_show name="sakurako" face="tobi01" left=100 ]
 [if exp="tf.rand == 0"]
-#桜子
+#樱子
 [playse storage="sakurako/sa76_004.ogg" buf="0"]
-莉菜がおるぞ！いってこい！[p]
+莉菜在哦，快去吧！[p]
 [endif]
 [if exp="tf.rand == 1"]
-#桜子
+#樱子
 [playse storage="sakurako/sa76_005.ogg" buf="0"]
-莉菜じゃのう、何してるのかのう？[p]
+莉菜啊，在做什么呢？[p]
 [endif]
 [if exp="tf.rand == 2"]
-#桜子
+#樱子
 [playse storage="sakurako/sa76_006.ogg" buf="0"]
-あそこにいるのは莉菜ではないか？[p]
+那不是莉菜吗[p]
 [endif]
-;桜子消去
+;樱子消去
 #
 [chara_hide name="sakurako"]
 [return]
@@ -563,21 +563,21 @@ tf.rand = Math.floor( Math.random() * 3)
 [endscript]
 [chara_show name="sakurako" face="tobi01" left=100 ]
 [if exp="tf.rand == 0"]
-#桜子
+#樱子
 [playse storage="sakurako/sa76_007.ogg" buf="0"]
-静江じゃぞ！今じゃ、いけ！[p]
+是静江啊！现在，快去！[p]
 [endif]
 [if exp="tf.rand == 1"]
-#桜子
+#樱子
 [playse storage="sakurako/sa76_008.ogg" buf="0"]
-ふむふむ、静江がおるぞ！[p]
+嗯，静江在！[p]
 [endif]
 [if exp="tf.rand == 2"]
-#桜子
+#樱子
 [playse storage="sakurako/sa76_009.ogg" buf="0"]
-あれは静江じゃな！話してこい！[p]
+那是静江吧，去和她说话！[p]
 [endif]
-;桜子消去
+;樱子消去
 #
 [chara_hide name="sakurako"]
 [return]
@@ -586,50 +586,50 @@ tf.rand = Math.floor( Math.random() * 3)
 ;-本屋会話
 *sakurako_bookstore
 
-;桜子ランダム会話
+;樱子ランダム会話
 ;ランダム数値の取り出し
 [iscript]
 tf.rand = Math.floor( Math.random() * 5)
 [endscript]
 
 [if exp="tf.rand == 0"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="niko" left=100 ]
 [playse storage="sakurako/sa80_006.ogg" buf="0"]
-目的はエロい本じゃろう！[p]
+你的目的是色情书吧！[p]
 [endif]
 
 [if exp="tf.rand == 1"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="akireru02" left=100 ]
 [playse storage="sakurako/sa80_007.ogg" buf="0"]
-漫画ばかり読んでいるからだめなんじゃ[p]
+光看漫画可不行啊[p]
 [endif]
 
 [if exp="tf.rand == 2"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="akireru" left=100 ]
 [playse storage="sakurako/sa80_008.ogg" buf="0"]
-何か買いにきたのか？[p]
+要买些什么吗？[p]
 [endif]
 
 [if exp="tf.rand == 3"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori" left=100 ]
 [playse storage="sakurako/sa80_009.ogg" buf="0"]
-たまには小説とか読め！[p]
+偶尔读读小说！[p]
 [endif]
 
 [if exp="tf.rand == 4"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori02" left=100 ]
 [playse storage="sakurako/sa80_010.ogg" buf="0"]
-立ち読みばかりしていると怒られるぞ！[p]
+一直站着看的话会被骂的！[p]
 [endif]
 
 [if exp="f.money >= 1000"]
 #
-漫画でも買っていこうかな[p]
+去买漫画吧[p]
 
 ;所持金減少
 [eval exp="f.money = f.money - 1000"]
@@ -645,49 +645,49 @@ tf.rand = Math.floor( Math.random() * 5)
 ;-公園会話
 *sakurako_park
 
-;桜子ランダム会話
+;樱子ランダム会話
 ;ランダム数値の取り出し
 [iscript]
 tf.rand = Math.floor( Math.random() * 5)
 [endscript]
 
 [if exp="tf.rand == 0"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="niko" left=100 ]
 [playse storage="sakurako/sa80_021.ogg" buf="0"]
-お前も運動したらどうじゃ！[p]
+你也运动一下怎么样[p]
 [endif]
 
 [if exp="tf.rand == 1"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="akireru02" left=100 ]
 [playse storage="sakurako/sa80_022.ogg" buf="0"]
-ほら！走るぞ！だらしない腹しおって！[p]
+你瞧！我要跑了！肚子好饿！[p]
 [endif]
 
 [if exp="tf.rand == 2"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="akireru" left=100 ]
 [playse storage="sakurako/sa80_023.ogg" buf="0"]
-汗だくじゃのう、見苦しい！[p]
+汗流浃背啊，太难看了！[p]
 [endif]
 
 [if exp="tf.rand == 3"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori" left=100 ]
 [playse storage="sakurako/sa80_024.ogg" buf="0"]
-少しは日光にあたれ！不健康な見た目なんじゃから！[p]
+稍微晒晒日光吧！你的眼睛看起来很不健康啊！[p]
 [endif]
 
 [if exp="tf.rand == 4"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori02" left=100 ]
 [playse storage="sakurako/sa80_025.ogg" buf="0"]
-体を鍛えたらいいことがあるぞ[p]
+锻炼对身体会有好处[p]
 [endif]
 
 #
-桜子に無理やり運動させられた[p]
+樱子强迫我进行了运动[p]
 [eval exp="f.hp = f.hp - 10"]
 
 [return]
@@ -695,50 +695,50 @@ tf.rand = Math.floor( Math.random() * 5)
 ;-駄菓子屋会話
 *sakurako_store
 
-;桜子ランダム会話
+;樱子ランダム会話
 ;ランダム数値の取り出し
 [iscript]
 tf.rand = Math.floor( Math.random() * 5)
 [endscript]
 
 [if exp="tf.rand == 0"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="niko" left=100 ]
 [playse storage="sakurako/sa80_032.ogg" buf="0"]
-おっ！カード引くのか？[p]
+哦！要抽卡吗？[p]
 [endif]
 
 [if exp="tf.rand == 1"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="akireru02" left=100 ]
 [playse storage="sakurako/sa80_033.ogg" buf="0"]
-良さそうなのでたか？[p]
+看起来不错吗？[p]
 [endif]
 
 [if exp="tf.rand == 2"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="akireru" left=100 ]
 [playse storage="sakurako/sa80_034.ogg" buf="0"]
-なんじゃ外れか？[p]
+这是什么？[p]
 [endif]
 
 [if exp="tf.rand == 3"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori" left=100 ]
 [playse storage="sakurako/sa80_035.ogg" buf="0"]
-駄菓子でも買いにきたのか？[p]
+你是来买粗点心的吗？[p]
 [endif]
 
 [if exp="tf.rand == 4"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori02" left=100 ]
 [playse storage="sakurako/sa80_037.ogg" buf="0"]
-店のおばあさんは置物みたいじゃな[p]
+店里的老太太就像摆设一样[p]
 [endif]
 
 [if exp="f.money >= 1000"]
 #
-お菓子でも買っていこうかな[p]
+去买点点心吧[p]
 
 ;所持金減少
 [eval exp="f.money = f.money - 1000"]
@@ -754,54 +754,54 @@ tf.rand = Math.floor( Math.random() * 5)
 ;-ゲームセンター
 *sakurako_arcade
 
-;桜子ランダム会話
+;樱子ランダム会話
 ;ランダム数値の取り出し
 [iscript]
 tf.rand = Math.floor( Math.random() * 5)
 [endscript]
 
 [if exp="tf.rand == 0"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="niko" left=100 ]
 [playse storage="sakurako/sa80_011.ogg" buf="0"]
-クレーンゲームにフィギュアがいっぱいあるぞ！[r]
-イケメンフィギュアもいっぱいじゃ[p]
+吊娃娃机里有很多手办！[r]
+帅哥手办也有很多啊[p]
 [playse storage="sakurako/sa80_011_2.ogg" buf="0"]
-お前の部屋には女の子のフィギュアしかないからの……[p]
+因为你房间里只有女孩子的手办……[p]
 [endif]
 
 [if exp="tf.rand == 1"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="akireru02" left=100 ]
 [playse storage="sakurako/sa80_012.ogg" buf="0"]
-お前も女の子と仲良くなったらプリクラぐらい撮れるぞ！[p]
+你和女孩子关系好的话，也能拍大头贴哦[p]
 [endif]
 
 [if exp="tf.rand == 2"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="akireru" left=100 ]
 [playse storage="sakurako/sa80_013.ogg" buf="0"]
-ゲームでもやるのか！お前は下手そうじゃのう！[p]
+玩游戏吗！你看起来不太擅长啊[p]
 [endif]
 
 [if exp="tf.rand == 3"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori" left=100 ]
 [playse storage="sakurako/sa80_014.ogg" buf="0"]
-リズム感なさそうだから、ダンスとか出来なそうじゃの！[p]
+看起来没有节奏感，不要去跳舞啊！[p]
 [endif]
 
 [if exp="tf.rand == 4"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori02" left=100 ]
 [playse storage="sakurako/sa80_015.ogg" buf="0"]
-対戦じゃ、対戦ゲームをするぞ！[p]
+对战！我们玩对战游戏吧！[p]
 [endif]
 
 [if exp="f.money >= 1000"]
 #
-せっかく来たんだし[r]
-ゲームして遊んでいこうかな[p]
+好不容易来这里[r]
+玩个游戏吧[p]
 
 ;所持金減少
 [eval exp="f.money = f.money - 1000"]
@@ -810,51 +810,51 @@ tf.rand = Math.floor( Math.random() * 5)
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
 [endif]
-さて、次は[r]
+那么，接下来[r]
 [return]
 
 ;-商店街
 *sakurako_shoppingstreet
 
-;桜子ランダム会話
+;樱子ランダム会話
 ;ランダム数値の取り出し
 [iscript]
 tf.rand = Math.floor( Math.random() * 5)
 [endscript]
 
 [if exp="tf.rand == 0"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="niko" left=100 ]
 [playse storage="sakurako/sa80_038.ogg" buf="0"]
-あっちで福引をやっておるぞ[p]
+那边在做福引呢[p]
 [endif]
 
 [if exp="tf.rand == 1"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="akireru02" left=100 ]
 [playse storage="sakurako/sa80_039.ogg" buf="0"]
-お前は自炊とかできなそうじゃの[p]
+你好像不会自己做饭啊[p]
 [endif]
 
 [if exp="tf.rand == 2"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="akireru" left=100 ]
 [playse storage="sakurako/sa80_040.ogg" buf="0"]
-この商店街は元気じゃのう[p]
+这条商店街很活跃啊[p]
 [endif]
 
 [if exp="tf.rand == 3"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori" left=100 ]
 [playse storage="sakurako/sa80_041.ogg" buf="0"]
-ここの店主のオヤジどもは若い女に弱そうじゃのう[p]
+这里的店主们看起来对年轻女人很软弱啊[p]
 [endif]
 
 [if exp="tf.rand == 4"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori02" left=100 ]
 [playse storage="sakurako/sa80_042.ogg" buf="0"]
-買い物でもするのか？[p]
+你要买东西吗？[p]
 [endif]
 
 [return]
@@ -863,45 +863,45 @@ tf.rand = Math.floor( Math.random() * 5)
 ;-カフェ
 *sakurako_cafe
 
-;桜子ランダム会話
+;樱子ランダム会話
 ;ランダム数値の取り出し
 [iscript]
 tf.rand = Math.floor( Math.random() * 4)
 [endscript]
 
 [if exp="tf.rand == 0"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="niko" left=100 ]
 [playse storage="sakurako/sa80_016.ogg" buf="0"]
-なんじゃ、休憩か？[r]
-休憩するほど何もしてないじゃろうが！[p]
+什么嘛，要休息啊？[r]
+你什么都没做就要休息啊！[p]
 [endif]
 
 [if exp="tf.rand == 1"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="akireru02" left=100 ]
 [playse storage="sakurako/sa80_017.ogg" buf="0"]
-チョコレートパフェとか美味しいぞ[p]
+巧克力芭菲之类的很好吃[p]
 [endif]
 
 [if exp="tf.rand == 2"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="akireru" left=100 ]
 [playse storage="sakurako/sa80_019.ogg" buf="0"]
-休憩でもするか[p]
+要休息啊？[p]
 [endif]
 
 [if exp="tf.rand == 3"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori" left=100 ]
 [playse storage="sakurako/sa80_020.ogg" buf="0"]
-なかなかお洒落なところじゃな[p]
+真是个时髦的地方啊[p]
 [endif]
 
 [if exp="f.money >= 1000"]
 #
-疲れたから休憩でもしていこうかな[p]
-休憩して体力が回復した[p]
+累了，在这休息一下吧[p]
+休息后精力就恢复了[p]
 
 ;所持金減少
 [eval exp="f.money = f.money - 1000"]
@@ -923,62 +923,62 @@ tf.rand = Math.floor( Math.random() * 4)
 [if exp="f.sakurako_evening == undefined"]
 [eval exp="f.sakurako_evening = true"]
 [chara_show name="sakurako" face="niko" left=100 ]
-#桜子
+#樱子
 [playse storage="sakurako/sa77_001.ogg" buf="0"]
-よし、誰かに話しかけてこい！[p]
+好了，去跟谁搭话吧！[p]
 #
-ええ！今？[p]
-#桜子
+诶！现在？[p]
+#樱子
 [playse storage="sakurako/sa77_002.ogg" buf="0"]
-あほか！今話さずにいつ話すのじゃ！[p]
+你白痴啊！现在不聊什么时候聊？[p]
 #
-でも！何を話したらいいか……[p]
-#桜子
+但是！我该说什么才好……[p]
+#樱子
 [playse storage="sakurako/sa77_003.ogg" buf="0"]
-昨日あれほどレクチャーしたろうが！思い出すのじゃ！[r]
-とにかく何でもいいから話しかけてこい！[p]
+我昨天给你讲解了那么多！快想起来[r]
+总之什么都行，快去搭话吧！[p]
 [return]
 [endif]
 
-;桜子ランダム会話
+;樱子ランダム会話
 ;ランダム数値の取り出し
 [iscript]
 tf.rand = Math.floor( Math.random() * 5)
 [endscript]
 
 [if exp="tf.rand == 0"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="niko" left=100 ]
 [playse storage="sakurako/sa77_004.ogg" buf="0"]
-今日も行ってこい[p]
+今天也去吧[p]
 [endif]
 
 [if exp="tf.rand == 1"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="akireru02" left=100 ]
 [playse storage="sakurako/sa77_005.ogg" buf="0"]
-今日は誰と話すんじゃ？[p]
+今天要找谁搭话？[p]
 [endif]
 
 [if exp="tf.rand == 2"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="akireru" left=100 ]
 [playse storage="sakurako/sa77_006.ogg" buf="0"]
-ほら、話しかけてこい！[p]
+来吧，去搭话！[p]
 [endif]
 
 [if exp="tf.rand == 3"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori" left=100 ]
 [playse storage="sakurako/sa77_007.ogg" buf="0"]
-ほら！いまじゃ！[p]
+看！就是现在！[p]
 [endif]
 
 [if exp="tf.rand == 4"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori02" left=100 ]
 [playse storage="sakurako/sa77_008.ogg" buf="0"]
-今がチャンスじゃぞ！[p]
+现在是机会！[p]
 [endif]
 
 [return]
@@ -987,45 +987,45 @@ tf.rand = Math.floor( Math.random() * 5)
 ;-部屋会話
 *sakurako_room
 
-;桜子ランダム会話
+;樱子ランダム会話
 ;ランダム数値の取り出し
 [iscript]
 tf.rand = Math.floor( Math.random() * 5)
 [endscript]
 
 [if exp="tf.rand == 0"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="niko" left=100 ]
 [playse storage="sakurako/sa75_006.ogg" buf="0"]
-ん！もしかしてエロい事でもしにくのか！[p]
+嗯！难道是去做色情的事吗？[p]
 [endif]
 
 [if exp="tf.rand == 1"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="niko" left=100 ]
 [playse storage="sakurako/sa75_007.ogg" buf="0"]
-今日も頑張ってこい！[p]
+今天也加油吧[p]
 [endif]
 
 [if exp="tf.rand == 2"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="niko" left=100 ]
 [playse storage="sakurako/sa75_008.ogg" buf="0"]
-お前もやるのう！[p]
+你也要做啊[p]
 [endif]
 
 [if exp="tf.rand == 3"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="niko" left=100 ]
 [playse storage="sakurako/sa75_009.ogg" buf="0"]
-このドスケベが！[p]
+你这个色鬼！[p]
 [endif]
 
 [if exp="tf.rand == 4"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="niko" left=100 ]
 [playse storage="sakurako/sa75_010.ogg" buf="0"]
-順調じゃ！順調じゃ！[p]
+顺利！顺利！[p]
 [endif]
 
 [return]
@@ -1036,84 +1036,84 @@ tf.rand = Math.floor( Math.random() * 5)
 
 ;1回目のデート
 [if exp="f.date_sakurako == undefined"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="niya" left=100]
 [playse storage="sakurako/sa74_041.ogg" buf="0"]
-なんと、デートにいくのか！　でかした！　よくやったぞ、上出来じゃ！[p]
+竟然要去约会啊！太好了！干得不错嘛，快去干吧！[p]
 [playse storage="sakurako/sa74_041_2.ogg" buf="0"]
-これもわしの教育のおかげじゃのう……帰ってきたら細かく教えるんじゃぞ！[p]
+这也多亏了我的教育啊……回来后要详细地告诉我哦[p]
 #
-ええ！　付いてきてくれないの？[p]
-#桜子
+诶！你不来吗？[p]
+#樱子
 [chara_mod  name="sakurako" face="okori02" ]
 
 [playse storage="sakurako/sa74_042.ogg" buf="0"]
-なんでわしがイチャコラしてるのを見てなくちゃならんのじゃ！　あほか！[p]
+为什么要我看那些乱七八糟的啊！你白痴啊！[p]
 #
-いやっ……でも、不安で……[p]
-#桜子
+但是，我忐忑不安啊……[p]
+#樱子
 [chara_mod  name="sakurako" face="panchi01" ]
 
 [playse storage="sakurako/sa74_043.ogg" buf="0"]
-大丈夫！お前ならもういけるぞ！[r]
-はやくエロイことをして来い！[p]
+没事的！你已经做得很充分了！[r]
+快去做色色的事情吧！[p]
 #
-で、出来る訳ないだろ！[r]
-ただのデートだから！[p]
-#桜子
+怎么可能做得到！[r]
+只是约会而已！[p]
+#樱子
 [chara_mod  name="sakurako" face="okori" ]
 
 [playse storage="sakurako/sa74_044.ogg" buf="0"]
-分かっておるなだろうが、お前が金を出すんじゃぞ！[p]
+知道的吧，你要把钱带够啊！[p]
 
 [eval exp="f.date_sakurako = true "]
-;桜子消去
+;樱子消去
 #
 [chara_hide name="sakurako"]
 [return]
 [endif]
 
-;桜子ランダム会話
+;樱子ランダム会話
 ;ランダム数値の取り出し
 [iscript]
 tf.rand = Math.floor( Math.random() * 5)
 [endscript]
 
 [if exp="tf.rand == 0"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="niya" left=100 ]
 [playse storage="sakurako/sa74_045.ogg" buf="0"]
-おお！　今日はデートか！　頑張るんじゃぞ！[p]
+哦！ 今天是约会吗！ 加油啊！[p]
 [endif]
 
 [if exp="tf.rand == 1"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="kobusi01" left=100 ]
 [playse storage="sakurako/sa74_046.ogg" buf="0"]
-お前ならいける！　自信もて！[p]
+你能行！ 要有自信！[p]
 [endif]
 
 [if exp="tf.rand == 2"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="niya" left=100 ]
 [playse storage="sakurako/sa74_047.ogg" buf="0"]
-いっぱいエロイ事してくるんじゃぞ！[p]
+你要做很多色色的事啊！[p]
 [endif]
 
 [if exp="tf.rand == 3"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="niya" left=100 ]
 [playse storage="sakurako/sa74_048.ogg" buf="0"]
-お前もなかなかやりおるの！[p]
+你也干得不错啊[p]
 [endif]
 
 [if exp="tf.rand == 4"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="niko" left=100 ]
 [playse storage="sakurako/sa74_049.ogg" buf="0"]
-ヘマするんじゃないぞ！[p]
+别搞砸了！[p]
 [endif]
-;桜子消去
+;樱子消去
 #
 [chara_hide name="sakurako"]
 [return]
@@ -1121,15 +1121,15 @@ tf.rand = Math.floor( Math.random() * 5)
 ;-宅配便
 *sakurako_delivery
 [chara_show name="sakurako" face="niko" left=100 ]
-#桜子
+#樱子
 [playse storage="sakurako/sa75_001.ogg" buf="0"]
-おい！荷物が届いておるぞ[p]
+喂！有包裹送来了[p]
 [return]
 ;***********************************************************************************************************************
 ;-夜の会話
 *sakurako_talk
 
-;桜子ランダム会話
+;樱子ランダム会話
 ;ランダム数値の取り出し
 [iscript]
 tf.rand = Math.floor( Math.random() * 31)
@@ -1138,292 +1138,292 @@ tf.rand = Math.floor( Math.random() * 31)
 ;[eval exp="tf.rand = 15"]
 
 [if exp="tf.rand == 0"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="akireru03" left=100 ]
 [playse storage="sakurako/sa81_001.ogg" buf="0"]
-莉子は、あれはどＳじゃな。　そんな顔をしておる[p]
+莉子，她那是抖S吧？ 那样一副表情[p]
 #
-そんな感じだね[p]
+是有这种感觉[p]
 [endif]
 
 [if exp="tf.rand == 1"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="niko" left=100 ]
 [playse storage="sakurako/sa81_002.ogg" buf="0"]
-ゲーセンでよく莉子を見かけるぞ[p]
+在游戏厅经常能看到莉子[p]
 #
-ほうほう、いってみようかな[p]
+哦，到时去看看吧[p]
 [endif]
 
 [if exp="tf.rand == 2"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="akireru03" left=100 ]
 [playse storage="sakurako/sa81_005.ogg" buf="0"]
-莉菜はＭじゃな、わしにはわかる[p]
+莉菜是抖Ｍ吧，我知道的[p]
 #
-そ、そうなの？ふむふむ[p]
+是，是吗？嗯……[p]
 [endif]
 
 [if exp="tf.rand == 3"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="akireru03" left=100 ]
 [playse storage="sakurako/sa81_009.ogg" buf="0"]
-静江はあれはなかなか淫乱じゃぞ[r]
-わしはお見通しじゃ[p]
+静江是非常淫乱的[r]
+我早就预见到了[p]
 #
-確かにあのおっぱいは、そんな感じだ！[p]
+看到那胸部，确实有这种感觉！[p]
 [endif]
 
 [if exp="tf.rand == 4"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="niko" left=100 ]
 [playse storage="sakurako/sa81_011.ogg" buf="0"]
-静江は公園とかによくいそうじゃのう[r]
-ポチモン集めをしておるぞ[p]
+静江好像经常在公园里[r]
+收集口袋妖怪[p]
 #
-なるほど、いってみようかな[p]
+原来如此，去看看吧[p]
 [endif]
 
 [if exp="tf.rand == 5"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="akubi03" left=100 ]
 [playse storage="sakurako/sa81_012.ogg" buf="0"]
-美少女フィギュアだけじゃなくイケメンフィギュアも買ってくれんかのう[p]
+不只是美少女手办，能给我买帅哥的手办吗[p]
 #
-そんな金はない！[p]
+我没有那么多钱！[p]
 [endif]
 
 [if exp="tf.rand == 6"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="akireru" left=100 ]
 [playse storage="sakurako/sa81_013.ogg" buf="0"]
-おまえのＰＣの履歴はエロしかないではないか！[p]
+你的……电脑历史记录就只有色情了吗！[p]
 #
-それが健全な男のＰＣ履歴だと思う[p]
+这是一个健康的男人电脑的历史记录[p]
 [endif]
 
 [if exp="tf.rand == 7"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="kobusi03" left=100 ]
 [playse storage="sakurako/sa81_014.ogg" buf="0"]
-暇じゃ～、何かしろ！　物まねじゃ[p]
+好闲啊，做点什么吧！ 来玩模仿秀吧[p]
 #
-いきなり無茶ぶりするな～[p]
+不要突然这么乱来啊[p]
 [endif]
 
 [if exp="tf.rand == 8"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="kobusi03" left=100 ]
 [playse storage="sakurako/sa81_015.ogg" buf="0"]
-ちゃんとバイトしとるか？　さぼるんじゃないぞ[p]
+你有好好打工吗？ 不要偷懒哦[p]
 #
-もうやめたいんだけど……[p]
+我想放弃了……[p]
 [endif]
 
 [if exp="tf.rand == 9"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="akireru" left=100 ]
 [playse storage="sakurako/sa81_018.ogg" buf="0"]
-お前はわしが居ないと何もできそうにないのう[p]
+没有我你就什么都做不了[p]
 #
-そ……そうかな……[p]
+是……是这样吗……[p]
 [endif]
 
 [if exp="tf.rand == 10"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="talk01" left=100 ]
 [playse storage="sakurako/sa81_019.ogg" buf="0"]
-シュート！[p]
+射门![p]
 #
-サッカーして遊んでるのか[p]
+在踢足球吗[p]
 [endif]
 
 [if exp="tf.rand == 11"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="talk04" left=100]
 [playse storage="sakurako/sa81_020.ogg" buf="0"]
-桜子選手、華麗なるドリブル捌き！[p]
+樱子选手，华丽的运球动作！[p]
 #
-なかなかのフェイントじゃないか！[p]
+这不是很漂亮的假动作吗！[p]
 [endif]
 
 [if exp="tf.rand == 12"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="talk02" left=100 ]
 [playse storage="sakurako/sa81_021.ogg" buf="0"]
-アタ～ック！[p]
+攻~击！[p]
 #
-ぐはっ！[p]
+呜哇！[p]
 [endif]
 
 [if exp="tf.rand == 13"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="talk03" left=100 ]
 [playse storage="sakurako/sa81_022.ogg" buf="0"]
-メ～ン！　メン！　メン！[p]
+面~部！ 面部！ 面部！[p]
 #
-痛い痛い！[p]
+好痛好痛[p]
 [endif]
 
 [if exp="tf.rand == 14"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="akireru02" left=100 ]
 [playse storage="sakurako/sa81_023.ogg" buf="0"]
-今忙しいから！[p]
+我现在很忙！[p]
 #
-え～、何もしてないじゃないか！[p]
+诶，你什么都没做啊！[p]
 [endif]
 
 [if exp="tf.rand == 15"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="talk05" left=100]
 [playse storage="sakurako/sa81_024.ogg" buf="0"]
-あ～っと、桜子選手、予告ホームランだ！　カキ～ン！[p]
+啊~樱子选手，预告本垒打！ 咔咚~！[p]
 #
-こっちにボール打つな！[p]
+别往这边打球！[p]
 [endif]
 
 [if exp="tf.rand == 16"]
 #
-桜子、聞いてくれよ～！[r]
-今日、こんな事があって……[p]
-ごにょごにょごにょ……[p]
-#桜子
+樱子，听我说啊！[r]
+今天，发生这样的事……[p]
+这样那样……[p]
+#樱子
 [chara_show name="sakurako" face="akubi02" left=100 ]
 [playse storage="sakurako/sa81_025.ogg" buf="0"]
-細かいことは気にするな！[p]
+别在意细节！[p]
 [endif]
 
 [if exp="tf.rand == 17"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="talk00" left=100 ]
 [playse storage="sakurako/sa81_026.ogg" buf="0"]
-はっ、はい！　せい！　はいや～！[p]
+哈，哈咿！ 嘿！ 哈咿呀！[p]
 #
-痛い痛い痛い！[p]
+好痛好痛[p]
 [endif]
 
 [if exp="tf.rand == 18"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori02" left=100 ]
 [playse storage="sakurako/sa81_027.ogg" buf="0"]
-今テレビ見てるから後にしてくれるか[p]
+我现在在看电视，待会儿再说吧[p]
 #
-え～、相手してよ～[p]
+诶，和我说说话吧~[p]
 [endif]
 
 [if exp="tf.rand == 19"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori02" left=100 ]
 [playse storage="sakurako/sa81_028.ogg" buf="0"]
-今読書中じゃから後にせい[p]
+我现在正在读书，以后再说吧[p]
 #
-桜子、聞いてくれよ～[p]
+樱子，听我说啊~[p]
 [endif]
 
 [if exp="tf.rand == 20"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="okori" left=100 ]
 [playse storage="sakurako/sa81_029.ogg" buf="0"]
-体力には注意しろ[r]
-バイトやお出かけで消費するからな[p]
+注意你的体力[r]
+打工和出门时会消耗[p]
 #
-常に休憩中なのでご心配なく[p]
+我一直有休息，不用担心[p]
 [endif]
 
 [if exp="tf.rand == 21"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="akireru02" left=100 ]
 [playse storage="sakurako/sa81_030.ogg" buf="0"]
-溜めすぎるなよ[r]
-おまえはすぐにいやらしい夢をみるからな[p]
+别积攒太多了[r]
+否则你就会做很糟糕的梦[p]
 #
-それが健全な男子[p]
+这才是健康的男人[p]
 [endif]
 
 [if exp="tf.rand == 22"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="akireru03" left=100 ]
 [playse storage="sakurako/sa81_031.ogg" buf="0"]
-とにかくいっぱい話しかけて好感度をあげるのじゃ[p]
+总之多搭话就能提高好感度[p]
 #
-話しかけられるかな……[p]
+多搭话吗……[p]
 [endif]
 
 [if exp="tf.rand == 23"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="panchi03" left=100 ]
 [playse storage="sakurako/sa81_033.ogg" buf="0"]
-毎日暑いの～[r]
-何？　フィギュアでも暑いものは暑いんじゃ！[p]
+每天都很热~[r]
+什么？ 即使是人偶，热的时候也会感觉很热啊！[p]
 #
-ほうほう、あの服は脱げるのだろうか？[p]
+哦，那件衣服能脱下来的吗？[p]
 [endif]
 
 [if exp="tf.rand == 24"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="panchi03" left=100 ]
 [playse storage="sakurako/sa81_034.ogg" buf="0"]
-土日は給料ＵＰじゃぞ！[p]
+周末的工资会提高哦！[p]
 #
-休日くらいは休もうよ[p]
+休息日就让我休息吧[p]
 [endif]
 
 [if exp="tf.rand == 25"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="mahou01" left=100 ]
 [playse storage="sakurako/sa81_035.ogg" buf="0"]
-わしの霊力を使えば出来ないことはないのじゃ[p]
+用我的灵力就没有做不到的事了[p]
 #
-操って遊ぶのはやめてくれ！[p]
+别再操控我了！[p]
 [endif]
 
 [if exp="tf.rand == 26"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="kobusi04" left=100 ]
 [playse storage="sakurako/sa81_037.ogg" buf="0"]
-好感度を上げてデートに誘うのじゃ[p]
+提高好感度就能约会哦[p]
 #
-なんとか頑張るぞ～[p]
+我会努力的[p]
 [endif]
 
 [if exp="tf.rand == 27"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="akireru02" left=100 ]
 [playse storage="sakurako/sa81_038.ogg" buf="0"]
-精力が落ちてると肝心な時に役にたたんぞ[p]
+精力不济的话，关键时刻可派不上用场哟[p]
 #
-常に溜まっているから大丈夫[p]
+一直积压着，所以没问题的[p]
 [endif]
 
 [if exp="tf.rand == 28"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="talk06" left=100 ]
 [playse storage="sakurako/sa81_040.ogg" buf="0"]
-うぬぬぬ！　静まれ……しずまるのじゃ、わが左手よ！[p]
+呜呶呶！ 安静下来……停下来，我的左手！[p]
 #
-何の遊び?……[p]
+这是在玩什么？……[p]
 [endif]
 
 [if exp="tf.rand == 29"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="mahou01" left=100 ]
 [playse storage="sakurako/sa81_042.ogg" buf="0"]
-闇の炎に抱かれて消えろッ！[p]
+被黑暗的火焰包围消失吧！[p]
 #
-ぐは～！！[p]
+咕嘟~！！[p]
 [endif]
 
 [if exp="tf.rand == 30"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="talk07" left=100 ]
 [playse storage="sakurako/sa81_043.ogg" buf="0"]
-この眼は闇が……よくみえる……[p]
+这双眼睛中的黑暗……看得很清楚……[p]
 #
-何かやってる……そっとしておこう[p]
+在干嘛呢……还是当做没看见吧[p]
 [endif]
 
-;桜子消去
+;樱子消去
 #
 [chara_hide name="sakurako"]
 
@@ -1441,103 +1441,103 @@ tf.rand = Math.floor( Math.random() * 31)
 [if exp="f.sakurako_yakyuu_end == 0"]
 [chara_show name="sakurako" face="niko" left=100 ]
 #
-ねぇねぇ[p]
-桜子の服って脱げるんだよね[p]
-#桜子
+喂喂[p]
+樱子的衣服可以脱下来吧[p]
+#樱子
 [playse storage="sakurako/sa82_001.ogg" buf="0"]
-うむ、ちゃんと脱げるぞ[r]
-毎日綺麗にしておるからの[p]
+嗯，我有好好脱下来的[r]
+每天都清理得很干净[p]
 #
-まじで！ちょっと見せてよ[p]
-#桜子
+真的吗？给我看看吧[p]
+#樱子
 [chara_mod  name="sakurako" face="okori" ]
 [playse storage="sakurako/sa82_002.ogg" buf="0"]
-は！？[p]
+哈？[p]
 #
-どうなってるの？　超見たい[p]
-#桜子
+到底怎么样呢？ 我超想看[p]
+#樱子
 [playse storage="sakurako/sa82_003.ogg" buf="0"]
-あほか！　見せる訳なかろうが[p]
+你白痴啊！ 怎么可能给你看[p]
 #
-いいじゃん、いいじゃん！　ちょっとだけだから[p]
-#桜子
+没事的，没事的！ 只是稍微看一下[p]
+#樱子
 [chara_mod  name="sakurako" face="okori03" ]
 [playse storage="sakurako/sa82_004.ogg" buf="0"]
-このゴミクズめ[r]
-ふざけた事抜かしておると、またその顔に蹴りをぶちこむぞ！[p]
+你这个垃圾[r]
+乱开什么玩笑的话，我又要踢你脸了！[p]
 #
-そんなのずるい～[r]
-ずるい、ずるい～！[p]
-#桜子
+那太狡猾了[r]
+狡猾，狡猾~！[p]
+#樱子
 [chara_mod  name="sakurako" face="okori02" ]
 [playse storage="sakurako/sa82_005.ogg" buf="0"]
-はぁ？　ずるい？　何がじゃ[p]
+什么？ 狡猾吗？ [p]
 #
-そっちの一方的な都合を押し付けて色々させてるのに不公平だ[r]
-こっちのお願いだってちょっとぐらい聞いてくれてもいいじゃんか～[p]
-#桜子
+你单方面的强加给我，让我做各种各样事，这不公平。[r]
+我也有请求，你也可以稍微听一下吗[p]
+#樱子
 [playse storage="sakurako/sa82_006.ogg" buf="0"]
-ぐぬぬ！[p]
+嗯……[p]
 #
-もういい、やらない[r]
-ずっと引きこもってやる[p]
-#桜子
+算了，不干了[r]
+那我就一直闭门不出吧[p]
+#樱子
 [chara_mod  name="sakurako" face="akireru" ]
 [playse storage="sakurako/sa82_007.ogg" buf="0"]
-わ……わかった、わかった[p]
+我，我知道了，知道了[p]
 #
-え！　脱いでくれるの[p]
-#桜子
+诶！ 能脱掉吗[p]
+#樱子
 [chara_mod  name="sakurako" face="panchi03" ]
 [playse storage="sakurako/sa82_008.ogg" buf="0"]
-こうなったら勝負じゃ！　お前が勝ったら服を脱ごう[p]
+这样的话那就一决胜负吧 如果你赢了，我就把衣服脱了[p]
 #
-勝負？　何で勝負するの？[p]
-#桜子
+一决胜负？ 用什么决胜负？[p]
+#樱子
 [playse storage="sakurako/sa82_009.ogg" buf="0"]
-愚か者め！　服を賭けて勝負といったら野球拳じゃろうが[p]
+你个蠢货！ 赌上衣服的一决胜负那就是划拳啊[p]
 #
-何でそんなの知ってるんだ[p]
-#桜子
+这你怎么知道的[p]
+#樱子
 [playse storage="sakurako/sa82_010.ogg" buf="0"]
-お前が負けたらお前も脱ぐんじゃぞ！　わかっておるな[p]
+如果你输了，你也要脱了！ 你知道吗？[p]
 #
-の……のぞむところ[p]
-#桜子
+好吧[p]
+#樱子
 [chara_mod  name="sakurako" face="niya" ]
 [playse storage="sakurako/sa82_011.ogg" buf="0"]
-ふん、素っ裸にして泣かしてやるぞ！[r]
-ソチンを晒して後悔するな！[p]
+哼，你就等着赤裸的大声哭泣吧！[r]
+你可不要后悔！[p]
 [endif]
 ;***********************************************************************************************************************
 ;２回目会話
 [if exp="f.sakurako_yakyuu_end == 1"]
 [chara_show name="sakurako" face="niko" left=100 ]
 #
-桜子！　勝負だ！[p]
-#桜子
+樱子！ 来一决胜负吧！[p]
+#樱子
 [chara_mod  name="sakurako" face="okori02" ]
 [playse storage="sakurako/sa82_035.ogg" buf="0"]
-は？　お前が負けて素っ裸になって終わったではないか！[p]
+什么？ 你不是已经输了，赤裸裸地结束了吗！[p]
 #
-ふふ、負けるのが怖いんだろう[p]
-#桜子
+嘿嘿，是你害怕输吧[p]
+#樱子
 [chara_mod  name="sakurako" face="niya" ]
 [playse storage="sakurako/sa82_036.ogg" buf="0"]
-わしが負ける？　ありえんわ！[r]
-お前みたいなゴミクズに負ける訳なかろうが！[p]
+我输了？ 这是不可能的！[r]
+我怎么可能输给像你这样的垃圾！[p]
 #
-ならば勝負してみればいい[r]
-次は僕の勝ちだろうけどね[p]
-#桜子
+那就一决胜负吧[r]
+下次我会赢的[p]
+#樱子
 [chara_mod  name="sakurako" face="yakyuu00" ]
 [playse storage="sakurako/sa82_037.ogg" buf="0"]
-ふん！　この愚か者めが[r]
-またそのソチンに蹴りをぶち込んでやるわ[p]
+哼！ 你这个蠢货[r]
+看我再给你一脚[p]
 [endif]
 
 
-;桜子消去
+;樱子消去
 #
 [chara_hide name="sakurako"]
 [bg storage="yakyuu2_1.png" time="1000"]
@@ -1551,10 +1551,10 @@ tf.rand = Math.floor( Math.random() * 31)
 
 *select
 #
-何を出そうかな？
-[glink  color="pink" size="20"  x="100"  width="200"  y="110"  text="グー"  target="*syoubu" exp="tf.janken = 0"]
-[glink  color="pink" size="20"  x="100"  width="200"  y="170"  text="チョキ"  target="*syoubu" exp="tf.janken = 1" ]
-[glink  color="pink" size="20"  x="100"  width="200"  y="230"  text="パー"  target="*syoubu" exp="tf.janken = 2" ]
+要出什么呢？
+[glink  color="pink" size="20"  x="100"  width="200"  y="110"  text="石头"  target="*syoubu" exp="tf.janken = 0"]
+[glink  color="pink" size="20"  x="100"  width="200"  y="170"  text="剪刀"  target="*syoubu" exp="tf.janken = 1" ]
+[glink  color="pink" size="20"  x="100"  width="200"  y="230"  text="布"  target="*syoubu" exp="tf.janken = 2" ]
 [s]
 
 *round
@@ -1572,7 +1572,7 @@ tf.rand = Math.floor( Math.random() * 31)
 [movie storage=&tf.s_mov skip="true"]
 [call target="*jyanken"]
 [menuwindows]
-;■桜子グー
+;■樱子グー
 [if exp="tf.rand == 0 || tf.rand == 1 || tf.rand == 2"]
  [if exp="tf.s_fuku <=3"] 
   [bg storage="jyanken_00.png" time="0"]
@@ -1584,7 +1584,7 @@ tf.rand = Math.floor( Math.random() * 31)
   [bg storage="jyanken_06.png" time="0"]
  [endif]
 [endif]
-;■桜子チョキ
+;■樱子チョキ
 [if exp="tf.rand == 3 "]
  [if exp="tf.s_fuku <=3"] 
   [bg storage="jyanken_01.png" time="0"]
@@ -1596,7 +1596,7 @@ tf.rand = Math.floor( Math.random() * 31)
   [bg storage="jyanken_07.png" time="0"]
  [endif]
 [endif]
-;■桜子パー
+;■樱子パー
 [if exp="tf.rand == 4 || tf.rand == 5"]
  [if exp="tf.s_fuku <=3"] 
   [bg storage="jyanken_02.png" time="0"]
@@ -1612,13 +1612,13 @@ tf.rand = Math.floor( Math.random() * 31)
 
 #
 [if exp="tf.janken == 0"]  
-グーだ！[p]
+石头![p]
 [endif]
 [if exp="tf.janken == 1"]  
-チョキだ！[p]
+剪刀！[p]
 [endif]
 [if exp="tf.janken == 2"]  
-パーだ！[p]
+布！[p]
 [endif]
 
 [if exp="tf.result == 0"]
@@ -1662,13 +1662,13 @@ tf.rand = Math.floor( Math.random() * 31)
 [chara_show name="sakurako" face="yakyuu00" time="500"]
 [menuwindows]
 #
-やった！勝ったぞ！[p]
-#桜子
+太好了！我赢了！[p]
+#樱子
 [playse storage="sakurako/sa82_012.ogg" buf="0"]
-ま、まずは靴じゃ[p]
+不过，首先是鞋子[p]
 #
-靴は服じゃないだろう[p]
-;桜子消去
+鞋子不算衣服吧[p]
+;樱子消去
 #
 [chara_hide name="sakurako" time="500"]
 [cm]
@@ -1689,13 +1689,13 @@ tf.rand = Math.floor( Math.random() * 31)
 [chara_show name="sakurako" face="yakyuu00" time="500"]
 [menuwindows]
 #
-やった！勝ったぞ！[p]
-#桜子
+太好了！我赢了！[p]
+#樱子
 [playse storage="sakurako/sa82_015.ogg" buf="0"]
-次はニーソックスじゃ[p]
+接下来是袜子[p]
 #
-ほうほう……なかなかいいものだ[p]
-;桜子消去
+哦……真是不错啊[p]
+;樱子消去
 #
 [chara_hide name="sakurako" time="500"]
 [cm]
@@ -1715,8 +1715,8 @@ tf.rand = Math.floor( Math.random() * 31)
 [chara_show name="sakurako" face="yakyuu01" time="500"]
 [menuwindows]
 #
-ふふふ、次は上着ですなあ[p]
-;桜子消去
+嘿嘿，接下来是上衣啊[p]
+;樱子消去
 #
 [chara_hide name="sakurako" time="500"]
 [cm]
@@ -1736,10 +1736,10 @@ tf.rand = Math.floor( Math.random() * 31)
 [chara_show name="sakurako" face="yakyuu02" time="500"]
 [menuwindows]
 #
-よし、勝ったぞ！[p]
+好了，赢了！[p]
 #
-さあ、スカートを脱いでいただこう[p]
-;桜子消去
+来吧，把裙子脱了吧[p]
+;樱子消去
 #
 [chara_hide name="sakurako" time="500"]
 [cm]
@@ -1759,8 +1759,8 @@ tf.rand = Math.floor( Math.random() * 31)
 [chara_show name="sakurako" face="yakyuu03" time="500"]
 [menuwindows]
 #
-ふふふ、勝ちましたな[p]
-;桜子消去
+哈哈，我赢了[p]
+;樱子消去
 #
 [chara_hide name="sakurako" time="500"]
 [cm]
@@ -1773,8 +1773,8 @@ tf.rand = Math.floor( Math.random() * 31)
 [chara_show name="sakurako" face="yakyuu03" time="500"]
 [menuwindows]
 #
-あれ、天使様が嘘をつくのですか？[p]
-;桜子消去
+咦，天使大人在说谎吗？[p]
+;樱子消去
 #
 [chara_hide name="sakurako" time="500"]
 [bg storage="black.png" time="500"]
@@ -1791,19 +1791,19 @@ tf.rand = Math.floor( Math.random() * 31)
 [chara_show name="sakurako" face="yakyuu04" time="500"]
 [menuwindows]
 #
-よ～し！勝利だ！！[p]
-;桜子消去
+真棒，又胜利了！！[p]
+;樱子消去
 #
 [chara_hide name="sakurako" time="500"]
 [bg storage="black.png" time="500"]
 [bgmovie storage="mov_82_17.webm" skip="true"]
-#桜子
+#樱子
 [playse storage="sakurako/sa82_022.ogg" buf="0"]
-う……むぐぐ……[p]
+吧……嗯……[p]
 #
-な……なんか可哀そうになってきた[p]
-桜子ちゃん、もういいよ[r]
-ここまでで……[p]
+什么嘛……感觉变得可怜起来了[p]
+樱子，算了[r]
+到此为止……[p]
 [cm]
 [clearfix]
 ;メッセージボックスは非表示
@@ -1814,18 +1814,18 @@ tf.rand = Math.floor( Math.random() * 31)
 [bg storage="room_day.png" time="1000"]
 [menuwindows]
 #
-ふむ、堪能させていただきました[p]
-#桜子
+嗯，我已经感到满足了[p]
+#樱子
 [chara_show name="sakurako" face="yakyuu07" time="0" top=" 200"]
 [anim name="sakurako" top="-300" left="700"]
 [playse storage="sakurako/sa82_026.ogg" buf="0"]
-バカバカ、このド変態！　
-お父さんお母さんにいいつけてやるから！[p]
-;桜子消去
+笨蛋，你这个大变态！ 
+我要向爸爸妈妈告状[p]
+;樱子消去
 #
 [chara_hide name="sakurako" time="500"]
 #
-怒って行っちゃった！　ていうかお父さんお母さんがいるのか？[p]
+生气地走了 话说你有爸爸妈妈吗[p]
 [eval exp="f.sakurako_yakyuu_end = 2"]
 [return]
 
@@ -1861,16 +1861,16 @@ tf.rand = Math.floor( Math.random() * 31)
 ;***********************************************************************************************************************
 ;---１枚目
 [if exp="tf.p_fuku == 1"]
-#桜子
+#樱子
 [playse storage="sakurako/sa82_027.ogg" buf="0"]
-ふん、わしの勝ちじゃ！[p]
+哼，我赢了！[p]
 #
-くっ、まずは……靴下から[p]
-#桜子
+唔，首先……是袜子[p]
+#樱子
 [playse storage="sakurako/sa82_028.ogg" buf="0"]
-ふん、お前の勝ちなどありえんぞ[p]
+哼，你赢不了的[p]
 [eval exp="tf.p_fuku = tf.p_fuku + 1"]
-;桜子消去
+;樱子消去
 #
 [chara_hide name="sakurako"]
 [eval exp="tf.fuku_i = 'yakyuu2_' + tf.s_fuku + '.png'"]
@@ -1880,13 +1880,13 @@ tf.rand = Math.floor( Math.random() * 31)
 ;***********************************************************************************************************************
 ;---２枚目
 [if exp="tf.p_fuku == 2"]
-#桜子
+#樱子
 [playse storage="sakurako/sa82_029.ogg" buf="0"]
-あ～はははは、弱いのう、弱いのう[p]
+啊哈，弱啊，弱啊[p]
 #
-くっそ～、次は勝つぞ！[p]
+可恶，下次我会赢的！[p]
 [eval exp="tf.p_fuku = tf.p_fuku + 1"]
-;桜子消去
+;樱子消去
 #
 [chara_hide name="sakurako"]
 [eval exp="tf.fuku_i = 'yakyuu2_' + tf.s_fuku + '.png'"]
@@ -1896,15 +1896,15 @@ tf.rand = Math.floor( Math.random() * 31)
 ;***********************************************************************************************************************
 ;---３枚目
 [if exp="tf.p_fuku == 3"]
-#桜子
+#樱子
 [playse storage="sakurako/sa82_030.ogg" buf="0"]
-ふふふふ、次はズボンじゃのう[r]
-はよ脱げ、ゴミクズめ[p]
+嘿嘿，接下来就是裤子了[r]
+快脱掉，垃圾渣渣[p]
 #
-ま、まだ僕にはパンツが残っている！[r]
-パンツの力を見せてやるぞ[p]
+嘛，我还留着内裤！[r]
+我会给你看看内裤的力量[p]
 [eval exp="tf.p_fuku = tf.p_fuku + 1"]
-;桜子消去
+;樱子消去
 #
 [chara_hide name="sakurako"]
 [eval exp="tf.fuku_i = 'yakyuu2_' + tf.s_fuku + '.png'"]
@@ -1918,42 +1918,42 @@ tf.rand = Math.floor( Math.random() * 31)
 
 [if exp="f.sakurako_yakyuu_end == 0"]
 [chara_show name="sakurako" face="yakyuu00" time="500"]
-#桜子
+#樱子
 [playse storage="sakurako/sa82_031.ogg" buf="0"]
-ふあ～はははは、大天使桜子様の力を思い知ったか[r]
-醜いゴミクズを素っ裸にしてくれたわ！　はよ脱いでソチンを出してみろ！[p]
+哈哈，你知道大天使樱子大人的力量了吗？[r]
+你这个丑陋的赤裸的垃圾！ 快脱掉，把那毛骨悚然的东西拿出来看看[p]
 #
-くく、そこまで言われるならばお見せしましょう桜子様[p]
-はいどうぞ！[p]
+可恶，你这么说的话，我就给你看看吧[p]
+来，请看吧！[p]
 [chara_mod  name="sakurako" face="yakyuu05" ]
-#桜子
+#樱子
 [playse storage="sakurako/sa82_032.ogg" buf="0"]
-ひやっ！[p]
+太好了！[p]
 #
-見てください桜子様！　この私めの生まれたての姿を[p]
+请看，这是我出生时的样子[p]
 [chara_mod  name="sakurako" face="yakyuu06" ]
-#桜子
+#樱子
 [playse storage="sakurako/sa82_033.ogg" buf="0"]
-きゃ～～[p]
+哇~ ~[p]
 #
-なぜ逃げるんですか、もっとよく見てください桜子様[p]
+为什么要逃跑，请再仔细看一下[p]
 [chara_mod  name="sakurako" face="keri01" ]
 [playse storage="se/naguru.ogg" buf="2"]
 [quake count="1" time="300"]
-#桜子
+#樱子
 [playse storage="sakurako/sa82_034.ogg" buf="0"]
-このド変態！死んじまえ～[p]
+你这个大变态！去死吧！[p]
 
 [eval exp="f.sakurako_yakyuu_end = 1"]
 
-;桜子消去
+;樱子消去
 #
 [chara_hide name="sakurako" time="500"]
 [bg storage="black.png" time="1000"]
 #
 ……[l]……[l]……[p]
-桜子め……無防備の股間に蹴りをいれるとは……[p]
-次は負けないからな……[p]
+你……竟然踢到了我毫无防备的裤裆……[p]
+下次我不会输的……[p]
 @bg storage ="room_day.png" time=1000
 [chara_show name="sakurako" face="default" left=100 ]
 [uiwindows]
@@ -1963,25 +1963,25 @@ tf.rand = Math.floor( Math.random() * 31)
 [if exp="f.sakurako_yakyuu_end == 1"]
 #
 [chara_show name="sakurako" face="yakyuu00" time="500"]
-くく……、また負けた……しょうがない！[r]
-さあ見てください桜子様！[p]
+可恶……又输了……没办法！[r]
+来看啊[p]
 [chara_mod  name="sakurako" face="keri01" ]
 [playse storage="se/naguru.ogg" buf="2"]
 [quake count="1" time="300"]
-#桜子
+#樱子
 [playse storage="sakurako/sa82_038.ogg" buf="0"]
-懲りないド変態めが！　叩き潰すぞ！[p]
+你这死不悔改的变态！ 我要打死你！[p]
 #
-も……もう潰れそうです[p]
-;桜子消去
+我已经要崩溃了[p]
+;樱子消去
 #
 [chara_hide name="sakurako" time="500"]
 [bg storage="black.png" time="1000"]
 #
 ……[l]……[l]……[p]
-しかし、攻略法をつかんだぞ[p]
-桜子はグーを出す確率が高い！[p]
-ふふふ、次は勝てる！[p]
+但我已经掌握了攻略[p]
+樱子出石头的概率很高！[p]
+嘿嘿，下次能赢！[p]
 [cm]
 @bg storage ="room_day.png" time=1000
 [uiwindows]
@@ -1998,7 +1998,7 @@ tf.rand = Math.floor( Math.random() * 31)
 [bg storage=&tf.fuku_i time="500"]
 [menuwindows]
 #
-あいこだった[p]
+打平了[p]
 [jump target="*select"]
 
 
@@ -2011,7 +2011,7 @@ tf.rand = Math.floor( Math.random() * 31)
 tf.rand = Math.floor( Math.random() * 6)
 [endscript]
 
-;■桜子グー
+;■樱子グー
 [if exp="tf.rand == 0 || tf.rand == 1 || tf.rand == 2"]
  ;アイコ
  [if exp="tf.janken ==0"]
@@ -2026,7 +2026,7 @@ tf.rand = Math.floor( Math.random() * 6)
   [eval exp="tf.result = 2"]
  [endif]
 [endif]
-;■桜子チョキ
+;■樱子チョキ
 [if exp="tf.rand == 3"]
  ;アイコ
  [if exp="tf.janken ==1"]
@@ -2041,7 +2041,7 @@ tf.rand = Math.floor( Math.random() * 6)
   [eval exp="tf.result = 2"]
  [endif]
 [endif]
-;■桜子パー
+;■樱子パー
 [if exp="tf.rand == 4 || tf.rand == 5"]
  ;アイコ
  [if exp="tf.janken ==2"]
@@ -2068,89 +2068,89 @@ tf.rand = Math.floor( Math.random() * 6)
 [chara_show name="sakurako" face="default" ]
 [menuwindows]
 #
-桜子！どこにいって……[p]
-#桜子
+樱子！你到哪里去了？……[p]
+#樱子
 [playse storage="sakurako/sa83_001.ogg" buf="0"]
-もう帰る時間みたい……[p]
+已经到回家的时间了……[p]
 #
-えっ、ちょっと待ってよ[r]
-そんな急に……本当に帰るの？[p]
-#桜子
+诶，等一下啊[r]
+那么突然……你真的要回家吗？[p]
+#樱子
 [playse storage="sakurako/sa83_002.ogg" buf="0"]
-お迎えがきたからね[p]
+已经来接我了[p]
 #
-ニ……ニート脱出計画はどうなるの！[r]
-全人類をまだやってないだろう？　地上には居るんだよね？[p]
-#桜子
+死……死宅重生计划怎么样？[r]
+全人类都还有很多没做过的吧？ 你是住在地上的吗？[p]
+#樱子
 [playse storage="sakurako/sa83_003.ogg" buf="0"]
-もう私が居なくても大丈夫だよね……にいちゃん[p]
+就算我不在也没问题了吧……哥哥[p]
 #
-にいちゃん……にいちゃんって……[p]
-;桜子消去
+哥哥？什么哥哥啊……[p]
+;樱子消去
 #
 [chara_hide name="sakurako"]
 [bg storage="ending.png" time="2000"]
-#桜子
+#樱子
 [playse storage="sakurako/sa83_004.ogg" buf="0"]
-わ～ははは、我こそは全能なる神桜子なるぞ！　愚民ども跪け～！[p]
+哈哈，我是全能的神樱子！ 愚民们跪下！[p]
 #
-桜子……おまえ中二病か[r]
-何のテレビ見たんだ[p]
-#お母さん
-出発するわよ[r]
-お兄ちゃんは本当にいかないの？[p]
+樱子……你中有二病吗[r]
+你看了什么电视节目[p]
+#母亲
+要出发了[r]
+哥哥真的不去吗？[p]
 #
-友達の家にいくからいいよ[p]
+我会去朋友家的[p]
 [bg storage="ending2.png" time="2000"]
 #
-桜子……僕は……なんで……[r]
-思い出した……桜子は僕の……妹[p]
-父さん母さんとお前は……あの時事故で……[p]
-だから僕は……すべてを忘れるように……引きこもって……[p]
+樱子……我……怎么回事？[r]
+我想起来了……樱子是我的……妹妹[p]
+爸爸妈妈和你……当时在事故中……[p]
+所以我……就像忘记一切……每天闭门不出……[p]
 
 [bg storage="room_day.png" time="1000"]
 [chara_show name="sakurako" face="default" ]
-#桜子
+#樱子
 [playse storage="sakurako/sa83_005.ogg" buf="0"]
-にいちゃんはもう大丈夫[r]
-大切な人が出来たでしょ[p]
+哥哥已经没事了[r]
+你有了重要的人[p]
 #
-ぼ、僕はあの家族に会った事がある……そうだ！[p]
-;桜子消去
+哦，我见过那家人……没错！[p]
+;樱子消去
 #
 [chara_hide name="sakurako"]
 [bg storage="ending3.png" time="1000"]
-昔よく一緒に遊んでたじゃないか……隣に住んでたんだ……[p]
+以前不是经常一起玩吗……我住在隔壁……[p]
 [bg storage="room_day.png" time="1000"]
 [chara_show name="sakurako" face="default" ]
-お前の力じゃなくて本当に知り合いだったんだな……[p]
-#桜子
+不是你的力量，而是真的认识你啊……[p]
+#樱子
 [chara_mod  name="sakurako" face="panchi04" ]
 [playse storage="sakurako/sa83_006.ogg" buf="0"]
-そうだよ、全部兄ちゃんの力だよ[r]
-私は何にもしてないの[p]
+是啊，都是哥哥的力量啊[r]
+我什么都没做[p]
 #
-本当にいっちゃうのか……[p]
-#桜子
+真的要离开吗……[p]
+#樱子
 [chara_mod  name="sakurako" face="akireru02" ]
 [playse storage="sakurako/sa83_007.ogg" buf="0"]
-お父さんお母さんが待ってるから……[r]
-お兄ちゃんにセクハラされたことも言いつけるからね[p]
+因为爸爸妈妈在等我……[r]
+我会告诉他们我被哥哥性骚扰了[p]
 #
-まっ……まってくれ、それは[p]
-#桜子
+等……等一下，那就有点……[p]
+#樱子
 [chara_mod  name="sakurako" face="tobi04" ]
 [playse storage="sakurako/sa83_008.ogg" buf="0"]
-ふふ、言わないよ[r]
-じゃあね、お兄ちゃん元気でね[p]
+哼哼，我不会说的[r]
+再见，哥哥保重哦[p]
 #
-さ、桜子！　まってくれ！[p]
+樱子，樱子！ 等一下！[p]
 [chara_hide name="sakurako"]
 [bg storage="white.png" time="1000"]
 [fadeoutse]
 [bg storage="ending4.png" time="1000"]
 #
-桜子……[p]
+樱子……[p]
 [cm]
 [clearfix]
 [bg storage="black.png" time="500"]
@@ -2159,8 +2159,8 @@ tf.rand = Math.floor( Math.random() * 6)
 [bgmovie storage="mov_ending3.webm" loop="true" ]
 [menuwindows]
 #
-うん、食べるよ莉子ちゃん[r]
-朝ごはんは久しぶりだね[p]
+嗯，吃饭了，莉子[r]
+好久没吃早饭了[p]
 [stop_bgmovie]
 [cm]
 [clearfix]
@@ -2169,30 +2169,30 @@ tf.rand = Math.floor( Math.random() * 6)
 [bg storage="ending5.png" time="1000"]
 ……[p]
 [bg storage="ending6.png" time="1000"]
-#桜子
+#樱子
 [playse storage="sakurako/sa83_009.ogg" buf="0"]
-あ……あれ？帰れない……どうしよう[r]
-まっ、いいか……[p]
+啊……咦？回不去……怎么办[r]
+算了，就这样吧……[p]
 #
 [bg storage="black.png" time="1000"]
 [bg storage="room_day.png" time="1000"]
 [chara_show name="sakurako" face="niko" left="100"]
-#桜子
+#樱子
 [playse storage="sakurako/sa83_010.ogg" buf="0"]
-あ～はははは、我こそは全能なる大天使桜子様なるぞ[r]
-恐れおののけ愚民ども！[p]
+啊哈，我才是全能的大天使樱子大人啊[r]
+胆战心惊的愚民们！[p]
 #
-……なぜ居る……また中二病みたいなしゃべり方してるし……[p]
-#桜子
+为什么你还在？而且还在像中二病一样说话……[p]
+#樱子
 [playse storage="sakurako/sa83_011.ogg" buf="0"]
-ま、まだわしの霊力は回復しとらんのじゃ！[r]
-クソニートのお前をビシバシ鍛えてやるから覚悟しろ！[p]
+嘛，我的灵力还没恢复啊！[r]
+我会继续训练你的，你要做好心理准备！[p]
 #
-ふふふ……そうだな……もっともっと鍛えてもらわないとな[p]
+呼呼呼……说的也是啊，必须要多锻炼[p]
 [eval exp="f.ending = 1"]
 [playse storage="se/fanfare.ogg" buf="2"]
-フリーモードが解放されました[r]
-今後は全員と付き合えるようになります[p]
+【自由模式开启】[r]
+【今后就可以攻略其他角色了】[p]
 [return]
 
 
@@ -2203,9 +2203,9 @@ tf.rand = Math.floor( Math.random() * 6)
 [chara_show name="sakurako" face="default" left=100]
 [menuwindows]
 #
-今日は温泉旅行だ！[p]
-まさか福引で一等が当たるなんて…[p]
-混浴なんて入っちゃったりして[p]
+今天是去温泉旅行的日子！[p]
+没想到居然中了一等奖…[p]
+去进行混浴吧[p]
 [cm]
 [clearfix]
 ;メッセージボックスは非表示
@@ -2213,7 +2213,7 @@ tf.rand = Math.floor( Math.random() * 6)
 [movie storage="mov_80_1.webm" skip="true" ]
 [menuwindows]
 #
-ついてくる気か？[p]
+你要跟着去吗？[p]
 [chara_mod  name="sakurako" face="okori03" ]
 [cm]
 [clearfix]
@@ -2222,56 +2222,56 @@ tf.rand = Math.floor( Math.random() * 6)
 [movie storage="mov_80_3.webm" skip="true" ]
 [menuwindows]
 #
-いや…別にいいけど[p]
-;桜子消去
+不…我是无所谓啦[p]
+;樱子消去
 #
 [chara_hide name="sakurako"]
 [return]
 ;***********************************************************************************************************************
 ;-PC
 *pc_sakurako
-;桜子ランダム会話
+;樱子ランダム会話
 ;ランダム数値の取り出し
 [iscript]
 tf.rand = Math.floor( Math.random() * 5)
 [endscript]
 
 [if exp="tf.rand == 0"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="default" left=100 ]
 [playse storage="sakurako/sa78_001.ogg" buf="0"]
-何か買うのか？[p]
+要买点什么吗？[p]
 [endif]
 
 [if exp="tf.rand == 1"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="akireru02" left=100 ]
 [playse storage="sakurako/sa78_002.ogg" buf="0"]
-無駄遣いするなよ[p]
+不许浪费[p]
 [endif]
 
 [if exp="tf.rand == 2"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="akubi03" left=100 ]
 [playse storage="sakurako/sa78_003.ogg" buf="0"]
-何があるのじゃ？[p]
+有什么呢？[p]
 [endif]
 
 [if exp="tf.rand == 3"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="niko" left=100 ]
 [playse storage="sakurako/sa78_004.ogg" buf="0"]
-ほしいものでもあるのか？[p]
+有什么想要的吗？[p]
 [endif]
 
 [if exp="tf.rand == 4"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="niya" left=100 ]
 [playse storage="sakurako/sa78_005.ogg" buf="0"]
-エロい物でも買うのか[p]
+买了色情物品吗[p]
 [endif]
 
-;桜子消去
+;樱子消去
 #
 [chara_hide name="sakurako"]
 
@@ -2280,35 +2280,35 @@ tf.rand = Math.floor( Math.random() * 5)
 ;***********************************************************************************************************************
 ;-おねだり
 *orgasm_sakurako
-;桜子ランダム会話
+;樱子ランダム会話
 ;ランダム数値の取り出し
 [iscript]
 tf.rand = Math.floor( Math.random() * 3)
 [endscript]
 
 [if exp="tf.rand == 0"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="yakyuu05" left=100 ]
 [playse storage="sakurako/sa75_009.ogg" buf="0"]
-このドスケベが！[p]
+你这个大色鬼！[p]
 [endif]
 
 [if exp="tf.rand == 1"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="yakyuu05" left=100 ]
 [playse storage="sakurako/sa74_048.ogg" buf="0"]
-お前もなかなかやりおるの！[p]
+你也是相当能干啊！[p]
 [endif]
 
 [if exp="tf.rand == 2"]
-#桜子
+#樱子
 [chara_show name="sakurako" face="yakyuu05" left=100 ]
 [playse storage="sakurako/sa75_008.ogg" buf="0"]
-お前もやるのう！[p]
+你也去干吧！[p]
 [endif]
-;桜子消去
+;樱子消去
 #
 [chara_hide name="sakurako"]
 #
-どうしようかな
+该怎么办呢
 [return]

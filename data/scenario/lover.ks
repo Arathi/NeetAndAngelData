@@ -56,42 +56,42 @@
 [bg storage="black.png" time="1000"]
 #
 ……[l]……[l]……[p]
-#桜子
+#樱子
 [playse storage="sakurako/sa75_011.ogg" buf="0"]
-莉子ちゃんとエッチ,莉子ちゃんとエッチ、莉子ちゃんとエッチ、莉子ちゃんとエッチ、[p]
+和莉子做爱，和莉子做爱，和莉子做爱，和莉子做爱，[p]
 #
 [bg storage="room_night.png" time="1000"]
 [chara_show name="sakurako" face="akubi03" left=100]
-何を騒いでるんだ！[p]
-早く寝て！！[p]
+你在吵什么？[p]
+快去睡觉！！[p]
 [fadeoutse]
-;桜子消去
+;樱子消去
 #
 [chara_hide name="sakurako"]
 [bg storage="black.png" time="1000"]
 #
 ……[l]……[l]……[l]
-変な事言うからすごい気になってきたぞ……[p]
-もしかして僕は莉子ちゃんの事を……[p]
-[glink  color="pink" size="20"  x="400"  width="400"  y="250"  text="莉子ちゃんを好きかも"  target="*riko_lover_1"]
-[glink  color="pink" size="20"  x="400"  width="400"  y="350"  text="いや、気のせいか……"  target="*riko_lover_2"]
+被说了奇怪的话， 所以变得特别在意……[p]
+难道我对莉子……[p]
+[glink  color="pink" size="20"  x="400"  width="400"  y="250"  text="我喜欢莉子"  target="*riko_lover_1"]
+[glink  color="pink" size="20"  x="400"  width="400"  y="350"  text="不，只是错觉……"  target="*riko_lover_2"]
 [s]
 
 ;--莉子ちゃん好きかも
 *riko_lover_1
 #
-僕は莉子ちゃんの事が好きだったんだ……[p]
+我喜欢莉子……[p]
 [eval exp="f.riko_lover = 1"]
-明日から気になっちゃったらどうしよう……[p]
+如果明天开始在意了怎么办……[p]
 ……[l]……[l]……[l]
-す～す～……[p]
+呼~呼~……[p]
 [return]
 
 ;--そんなことはなかった
 *riko_lover_2
 #
-いやいや、そんなことはないだろう……[p]
-もう寝ようかな[p]
+不不，应该不会吧……[p]
+睡吧[p]
 [eval exp="f.riko_f = 80"]
 [return]
 
@@ -100,43 +100,43 @@
 [bg storage="black.png" time="1000"]
 #
 ……[l]……[l]……[p]
-#桜子
+#樱子
 [playse storage="sakurako/sa75_012.ogg" buf="0"]
-莉菜ちゃんとあんなことやこんなこと！莉菜ちゃんとあんなことやこんなこと！[r]
-莉菜ちゃんとあんなことやこんなこと！莉菜ちゃんとあんなことやこんなこと！[p]
+和莉菜做那种事啊这种事！和莉菜做那种事啊这种事！[r]
+和莉菜做那种事啊这种事！和莉菜做那种事啊这种事！[p]
 #
 [bg storage="room_night.png" time="1000"]
 [chara_show name="sakurako" face="akubi03" left=100]
-何を騒いでるんだ！[p]
-早く寝て！！[p]
+你在吵什么？[p]
+快去睡觉！！[p]
 [fadeoutse]
-;桜子消去
+;樱子消去
 #
 [chara_hide name="sakurako"]
 [bg storage="black.png" time="1000"]
 #
 ……[l]……[l]……[l]
-変な事言うからすごい気になってきたぞ……[p]
-もしかして僕は莉菜ちゃんの事を……[p]
-[glink  color="pink" size="20"  x="400"  width="400"  y="250"  text="莉菜ちゃんを好きかも"  target="*rina_lover_1"]
-[glink  color="pink" size="20"  x="400"  width="400"  y="350"  text="いや、気のせいか……"  target="*rina_lover_2"]
+被说了奇怪的话， 所以变得特别在意……[p]
+难道我对莉菜……[p]
+[glink  color="pink" size="20"  x="400"  width="400"  y="250"  text="我喜欢莉菜吗?"  target="*rina_lover_1"]
+[glink  color="pink" size="20"  x="400"  width="400"  y="350"  text="不，只是错觉……"  target="*rina_lover_2"]
 [s]
 
 ;--莉菜ちゃん好きかも
 *rina_lover_1
 #
-僕は莉菜ちゃんの事が好きだったんだ……[p]
+我喜欢莉菜……[p]
 [eval exp="f.rina_lover = 1"]
-明日から気になっちゃったらどうしよう……[p]
+如果明天开始在意了怎么办……[p]
 ……[l]……[l]……[l]
-す～す～……[p]
+嗯~嗯~……[p]
 [return]
 
 ;--そんなことはなかった
 *rina_lover_2
 #
-いやいや、そんなことはないだろう……[p]
-もう寝ようかな[p]
+不，应该不会吧……[p]
+睡吧[p]
 [eval exp="f.rina_f = 80"]
 [return]
 
@@ -145,42 +145,42 @@
 [bg storage="black.png" time="1000"]
 #
 ……[l]……[l]……[p]
-#桜子
+#樱子
 [playse storage="sakurako/sa75_013.ogg" buf="0"]
-静江さんのおっぱい！静江さんのおっぱい！静江さんのおっぱい！静江さんのおっぱい！[p]
+静江小姐的胸部！静江小姐的胸部！静江小姐的胸部！静江小姐的胸部！[p]
 #
 [bg storage="room_night.png" time="1000"]
 [chara_show name="sakurako" face="akubi03" left=100]
-何を騒いでるんだ！[p]
-早く寝て！！[p]
+你在吵什么？[p]
+快去睡觉！！[p]
 [fadeoutse]
-;桜子消去
+;樱子消去
 #
 [chara_hide name="sakurako"]
 [bg storage="black.png" time="1000"]
 #
 ……[l]……[l]……[l]
-変な事言うからすごい気になってきたぞ……[p]
-もしかして僕は静江さんの事を……[p]
-[glink  color="pink" size="20"  x="400"  width="400"  y="250"  text="静江さんを好きかも"  target="*sizue_lover_1"]
-[glink  color="pink" size="20"  x="400"  width="400"  y="350"  text="いや、気のせいか……"  target="*sizue_lover_2"]
+被说了奇怪的话， 所以变得特别在意……[p]
+难道我对静江小姐……[p]
+[glink  color="pink" size="20"  x="400"  width="400"  y="250"  text="可能喜欢静江小姐"  target="*sizue_lover_1"]
+[glink  color="pink" size="20"  x="400"  width="400"  y="350"  text="不，只是错觉……"  target="*sizue_lover_2"]
 [s]
 
 ;--静江さん好きかも
 *sizue_lover_1
 #
-僕は静江さんの事が好きだったんだ……[p]
+我喜欢静江小姐……[p]
 [eval exp="f.sizue_lover = 1"]
-明日から気になっちゃったらどうしよう……[p]
+如果明天开始在意了的话怎么办……[p]
 ……[l]……[l]……[l]
-す～す～……[p]
+嗯~嗯~……[p]
 [return]
 
 ;--そんなことはなかった
 *sizue_lover_2
 #
-いやいや、そんなことはないだろう……[p]
-もう寝ようかな[p]
+不，应该不会吧……[p]
+我们睡吧[p]
 [eval exp="f.sizue_f = 80"]
 [return]
 ;***********************************************************************************************************************
@@ -192,7 +192,7 @@
  [return]
 [endif]
 
-;パートナー判別桜子以外延期
+;パートナー判別樱子以外延期
 [if exp="f.partner > 0"]
  [eval exp="tf.enki = 1"]
  [return]
@@ -204,55 +204,55 @@
 [freeimage layer="2" time="0"]
 [bg storage="entrance.png" time="1000"]
 #
-家に帰ってきた[p]
+回到家了[p]
 [bg storage="black.png" time="1000"]
 [bgmovie storage="mov_23_1.webm" time="1000" loop="true"]
-莉子ちゃんただいま[p]
-莉菜ちゃんと静江さんはまだ帰ってないのかな[p]
+莉子我回来了[p]
+莉菜和静江还没回来吗[p]
 #莉子
 [playse storage="riko/rk23_001.ogg" buf="0"]
-お姉ちゃんは友達と勉強会で遅くなるって言ってたよ[r]
-お母さんは飲み会だって[p]
+姐姐说要和朋友在学习，会晚回来哦[r]
+妈妈说是有酒会[p]
 #
-（莉子ちゃん、パンツ見えてる！）[p]
-（相変わらずのナイスアングル！）[p]
-（いかに気づかれない様にばっちり見るか、腕の見せ所である！）[p]
-夕飯の準備はしてあるんだ！さすが莉菜ちゃん（チラッ！）[p]
+（莉子，看到内裤了！）[p]
+（一如既往的走光！）[p]
+（如何在不被发现的情况下仔细地看，这就是手臂发挥作用之处！）[p]
+晚饭已经准备好了，不愧是莉菜（瞥！）[p]
 #莉子
 [playse storage="riko/rk23_002.ogg" buf="0"]
-おじさんゲームしよ！[p]
+大叔来玩游戏吧！[p]
 #
-おっ、いいよ！今度は負けないぞ（チラッ！）[p]
+哦，可以啊！这次我不会输的（瞥！）[p]
 [stop_bgmovie time="1000"]
 [bgmovie storage="mov_23_2.webm" time="1000" loop="true"]
-だめだ、全然歯がたたない！[p]
-莉子ちゃんは強いな～！[p]
+不行，根本打不过！[p]
+莉子真强啊[p]
 #莉子
 [playse storage="riko/rk23_003.ogg" buf="0"]
-おじさんさ～[p]
+大叔啊~[p]
 #
-ん？[p]
+嗯？[p]
 #莉子
 [playse storage="riko/rk23_004.ogg" buf="0"]
-いつも莉子のパンツ見てるでしょ！[p]
+你一直都在看莉子的内裤吧[p]
 #
-！！[p]
-み……見てないよ！[p]
+! ![p]
+那个……没看见啊![p]
 #莉子
 [playse storage="riko/rk23_005.ogg" buf="0"]
-見てないの？[p]
+没……我没看到！[p]
 #
-えっ……あ……え～と……み、見てないことも……ないかな[p]
+诶……啊……嗯……没，没看到……没有啊[p]
 #莉子
 [playse storage="riko/rk23_006.ogg" buf="0"]
-ふ～ん、じゃあ……見たい？[p]
+嗯，那……你想看吗？[p]
 #
-えっ……あ……莉子ちゃん……[p]
+诶……啊……莉子……[p]
 #莉子
 [playse storage="riko/rk23_007.ogg" buf="0"]
-莉子のパンツ、見たい？[p]
+你想看莉子的内裤吗？[p]
 #
-み……見たい……かな[p]
+想……我想看……大概[p]
 [stop_bgmovie time = "0"]
 [cm]
 [clearfix]
@@ -266,20 +266,20 @@
 [menuwindows]
 #莉子
 [playse storage="riko/rk23_009.ogg" buf="0"]
-どう？莉子のパンツ[r]
-こんなに近くで見れて興奮するでしょ！[p]
+怎么样？莉子的内裤[r]
+这么近的地方看起来很兴奋吧！[p]
 #
-莉子ちゃん……こんな……まずいよ[p]
+莉子……这样……不妙啊[p]
 #莉子
 [playse storage="riko/rk23_010.ogg" buf="0"]
-おじさん、莉子の事好きでしょ？[p]
+大叔，你喜欢莉子吧?[p]
 #
-えっ……す、好き……だけど……[p]
+诶……嗯，喜欢……但是……[p]
 #莉子
 [playse storage="riko/rk23_011.ogg" buf="0"]
-うわ～……ロリコンだ……きもっ！[p]
+哇……萝莉控……恶心![p]
 #
-り……莉子ちゃんは？[p]
+那么……莉子呢?[p]
 [stop_bgmovie time = "0"]
 [cm]
 [clearfix]
@@ -291,33 +291,33 @@
 [menuwindows]
 #莉子
 [playse storage="riko/rk23_013.ogg" buf="0" loop="true"]
-ん……[p]
+嗯……[p]
 [playse storage="riko/rk23_014.ogg" buf="0"]
-莉子のファーストキスだったんだけど、どうしてくれるの？[p]
+这是莉子的初吻，怎么样？[p]
 #
-どうしよう……じゃぁ、莉子ちゃんの召使になろうかな[p]
-莉子ちゃん……莉子ちゃんのおっぱいも見たいな[p]
+怎么样呢？那就当莉子的仆人吧[p]
+还想看看莉子的胸部啊[p]
 #莉子
 [playse storage="riko/rk23_015.ogg" buf="0"]
-おじさんロリコンだから、ぺったんこが好きなんでしょ？[p]
+大叔，你是萝莉控，所以你喜欢贫乳的吧？[p]
 #
-はい、大好きです[p]
+是的，最喜欢了[p]
 [stop_bgmovie time="0"]
 [bgmovie storage="mov_23_7.webm" time="2000" loop="true"]
 #莉子
 [playse storage="riko/rk23_016.ogg" buf="0"]
-でも莉子、あと何年かしたらお姉ちゃんみたいに巨乳になっちゃうよ[p]
+但是莉子，再过几年就会变成像姐姐一样的巨乳哦[p]
 #
-莉子ちゃんのおっぱいなら、どっちも大好きだよ[p]
+只要是莉子的胸部，我都很喜欢哦[p]
 [stop_bgmovie time="0"]
 [bgmovie storage="mov_23_8.webm" time="0" loop="true"]
 #
 [playse storage="riko/rk23_017.ogg" buf="0" loop="true"]
-莉子ちゃんの可愛いおっぱい[p]
-膨らみかけのおっぱい！[p]
-こんなの触っちゃったらもうどうにかなっちゃうよ！[p]
-やばいよ……莉子ちゃん……おじさん、もう止まらない[p]
-莉子ちゃんの大切な所も……見せてね！[p]
+莉子可爱的胸部[p]
+快要成长的胸部！[p]
+这么模下去的话会变成什么状况！[p]
+不妙啊……莉子……大叔，已经停不下来了[p]
+莉子的重要的地方也……给我看看！[p]
 [stop_bgmovie time = "500"]
 [cm]
 [clearfix]
@@ -329,31 +329,31 @@
 [menuwindows]
 [playse storage="riko/rk23_027.ogg" buf="0" loop="true"]
 #
-（莉子ちゃんの可愛いアソコが目の前に）[p]
+（莉子可爱的小穴就在眼前。）[p]
 [stopse buf="0"]
 #莉子
 [playse storage="riko/rk23_025.ogg" buf="0"]
-おじさん、何か人に触られると……変な感じ[p]
+大叔，如果被这么抚摸的话……奇怪的感觉[p]
 #
 [playse storage="riko/rk23_027.ogg" buf="0" loop="true"]
-自分ではよくさわるの？[p]
+你自己经常摸吗？[p]
 #莉子
 [playse storage="riko/rk23_026.ogg" buf="0" clear="true"]
-し、知らない……[p]
+不，不知道……[p]
 [stop_bgmovie time="0"]
 [bgmovie storage="mov_23_11.webm" time="1000" loop="true"]
 [playse storage="riko/rk23_027.ogg" buf="0" loop="true"]
 #
-莉子ちゃんのオマンコがこんな目の前にある[p]
+莉子的小穴就在眼前[p]
 #莉子
 [playse storage="riko/rk23_028.ogg" buf="0"]
-おじさん、恥ずかしい……[p]
+大叔，这样好害羞……[p]
 #
 [playse storage="riko/rk23_027.ogg" buf="0" loop="true"]
-莉子ちゃん……もう……我慢できないよ……[p]
+莉子……已经……无法忍受啊……[p]
 #莉子
 [playse storage="riko/rk23_029.ogg" buf="0"]
-うん……痛くしないでね[p]
+嗯……不要弄疼我哦[p]
 [cm]
 [clearfix]
 ;メッセージボックスは非表示
@@ -366,23 +366,23 @@
 #莉子
 [playse storage="se/kutyu00.ogg" buf="3" loop="true"]
 [playse storage="riko/rk26_013.ogg" buf="0"]
-おじさん……痛い……これ、気持ちよくなるの？[p]
+大叔……好痛……这个，会变的舒服吗?[p]
 #
 [playse storage="riko/rk26_014.ogg" buf="0" loop="true"]
-慣れればどんどん気持ちよくなるよ、莉子ちゃん！[p]
-ゆっくり動かすからね[p]
-はぁ……はぁ……気持ちいいよ、莉子ちゃん[p]
-莉子ちゃん……気持ちいい、もっとしたい……もう我慢できない[p]
+习惯了会越来越舒服的，莉子！[p]
+我会慢慢来的[p]
+哈……哈……好舒服啊，莉子[p]
+莉子……舒服，想再更多……已经忍不住了[p]
 [stop_bgmovie time="0"]
 [bgmovie storage="mov_23_16.webm" time="1000" loop="true"]
 [playse storage="se/kutyu01.ogg" buf="3" loop="true"]
 #莉子
-うっ！あぁ！んん……[p]
+啊!啊!嗯……[p]
 #
-莉子ちゃん、ごめんね……我慢できないんだ[p]
-莉子ちゃんの奥までおじさんのおちんちんが入ってるよ！[p]
-はぁ……はぁ……莉子ちゃん、気持ちいい……[p]
-莉子ちゃん！莉子ちゃん！うっ……あぁぁ！[p]
+莉子，对不起……我忍不住了[p]
+莉子里面插进了大叔的肉棒哦[p]
+哈……哈……莉子，真舒服啊……[p]
+莉子！莉子！唔……啊！[p]
 [stop_bgmovie time = "0"]
 [stopse buf="0"]
 [stopse buf="3"]
@@ -398,26 +398,26 @@
 [bgmovie storage="mov_23_17.webm" time="2000" loop="true"]
 #莉子
 [playse storage="riko/rk26_018.ogg" buf="0"]
-おじさん、痛かった！[p]
+大叔，疼死了![p]
 #
-うう……ごめんよ、莉子ちゃん[p]
-我慢できなくて……何でもするから許して[p]
+唔……对不起，莉子[p]
+我忍不住了……让我做什么都行，请原谅我[p]
 #莉子
 [playse storage="riko/rk26_019.ogg" buf="0"]
-何でも？ふ～ん、どうしよっかな～[r]
-今度までに考えとこ！[p]
+什么都行？嗯，该怎么办呢？[r]
+容我考虑一下！[p]
 #
-ああ……しまった……余計な事を言ってしまった[p]
+啊……糟了……说了多余的话[p]
 [stop_bgmovie time="2000"]
 [stopse buf="0"]
-;パートナー桜子変更
+;パートナー樱子変更
 [eval exp="f.partner = 0"]
 
 [bg storage="room_night.png" time="1000"]
 #
-部屋に戻ってきた[p]
-莉子ちゃんとのエッチの余韻にひたりながら[r]
-今日は寝ようかな[p]
+返回了房间[p]
+沉浸在和莉子的做爱余韵中[r]
+今天睡吧[p]
 
 ;莉子恋人ステータス
 [eval exp="f.riko_lover = 2"]
@@ -433,71 +433,71 @@
 [freeimage layer="2" time="0"]
 [bg storage="entrance.png" time="1000"]
 #
-家に帰ってきた[p]
+回到家了[p]
 [bg storage="black.png" time="1000"]
 [bg storage="lover/img24_00.png" time="1000"]
-ただいま～[p]
+我回来了~[p]
 #莉菜
 [playse storage="rina/rn24_001.ogg" buf="0"]
-お兄さん、お帰りなさい[r]
-今日は莉子ちゃんもお母さんもいないですよ[p]
+哥哥，欢迎回家[r]
+今天莉子和妈妈都不在哦[p]
 #
-そうなんだ[p]
+是这样啊[p]
 #莉菜
 [playse storage="rina/rn24_002.ogg" buf="0"]
-お母さん、仕事でトラブルがあったみたいで遅くなるって言ってました[r]
-莉子ちゃんはお友達の家にみんなでお泊りです[p]
+妈妈说工作上好像出了问题，所以会迟点回来[r]
+莉子住在了朋友家[p]
 #
-じゃあ、今日は莉菜ちゃんと二人きりだね！[p]
+那今天就和莉菜两个人了吧！[p]
 [bg storage="lover/img24_01.png" time="1000"]
 #莉菜
 [playse storage="rina/rn24_003.ogg" buf="0"]
 ……[p]
 #
-（やばっ、きもいことを言ってしまった）[p]
+（哎呀，说了不太好的话）[p]
 [bg storage="lover/img24_02.png" time="1000"]
 #莉菜
 [playse storage="rina/rn24_004.ogg" buf="0"]
-今日はせっかくなのでお料理がんばっちゃいました[r]
-もう少しで出来ますので待ってて下さい[p]
-#	
-は～い[p]
+今天很难得，所以很努力的做了饭菜[r]
+马上就能做好了，请稍等[p]
+#
+恩~恩[p]
 [bg storage="lover/img24_03.png" time="1000"]
 #莉菜
 [playse storage="rina/rn24_005.ogg" buf="0"]
-お兄さん、お待たせしました！　出来ましたよ[r]
-お口に合うか心配ですけど[p]
+哥哥，让你久等了！ 我做好了[r]
+我很担心能不能合您的口味[p]
 #
-莉菜ちゃんが作ったのは何でも美味しいよ！[p]
-おお！　なんかレストランみたいだよ莉菜ちゃん！　[p]
+莉菜做的什么都很好吃哦[p]
+哦哦！ 仿佛餐馆一样的体验啊，莉菜 [p]
 
 #
-莉子ちゃん超おいしそう！　毎日二人きりだったらいいのにな！[p]
+莉菜看起来超好吃 要是每天只有两个人就好了！[p]
 [bg storage="lover/img24_04.png" time="1000"]
 #莉菜
 [playse storage="rina/rn24_007.ogg" buf="0"]
 ……[p]
 #
-（しまった！　またキモイことを……）[p]
+（糟了！ 又说了恶心的话……）[p]
 #
-じゃ、じゃあ、頂こうかな！　いただきま～す[p]
+那，那么，来吧！ 我开动了[p]
 [bg storage="lover/img24_05.png" time="1000"]
 #
-莉菜ちゃん、おいしいよ！　いや～莉菜ちゃん来てくれてよかったな～[p]
+莉菜，很好吃哦！ 哎呀莉菜能来真是太好了[p]
 #
-ずっとインスタントとかばっかりだったから、まともな料理なんて何年ぶりか……[p]
+因为一直都是速食之类的东西，所以几年没做过像样的料理了……[p]
 #
-ん？　どうしたの莉菜ちゃん、何かついてる？[p]
+嗯？ 莉菜怎么了，你有什么事吗？[p]
 [bg storage="lover/img24_06.png" time="1000"]
 #莉菜
 [playse storage="rina/rn24_008.ogg" buf="0"]
-いっ、いえ……何でもないですよ……[p]
+不，不……没什么……[p]
 #
 [bg storage="black.png" time="1000"]
 [bg storage="lover/img24_07.png" time="1000"]
 #莉菜
 [playse storage="rina/rn24_009.ogg" buf="0"]
-お兄さん、テレビでも見ててください[p]
+哥哥，请看电视。[p]
 [stopse buf="0"]
 [cm]
 [clearfix]
@@ -516,24 +516,24 @@
 
 #莉菜
 [playse storage="rina/rn24_014.ogg" buf="0"]
-あっ……あの……[p]
+啊……那个……[p]
 #
-（やばい！　どうしよう……意識してしまって、もう止まらない……）[p]
-（もういいや！　だめもとで……）[p]
-僕……莉菜ちゃんが……好きだ……[p]
+（糟了！ 该怎么办？回过神来，发行已经停不下来……）[p]
+（好了不管了！ 不管行不行都要上……）[p]
+我……我喜欢……莉菜……[p]
 #莉菜
 ……[p]
 #
-ごめん……迷惑だった？　[p]
+对不起……给你添麻烦了吗?[p]
 #莉菜
 [playse storage="rina/rn24_016.ogg" buf="0"]
-ち！　違います……私も……私もお兄さん……好き……私もお兄さん好きです！[p]
+不！ 不是的……我也是我也是，哥哥……喜欢……我也喜欢哥哥！[p]
 #
-莉菜ちゃん……[p]
+莉菜……[p]
 #莉菜
 [playse storage="rina/rn24_017.ogg" buf="0"]
-ずっと……好きで……でも、振られて気まずくなったら……[r]
-私……どうしたらいいか……不安で……[p]
+一直……喜欢……不过，如果被拒绝就会变得尴尬……[p]
+我……我该怎么办……如此不安着……[p]
 [stop_bgmovie]
 [stopse buf="0"]
 
@@ -546,11 +546,11 @@
 [menuwindows]
 #莉菜
 [playse storage="rina/rn24_019.ogg" buf="0" loop="true"]
-ん……[p]
+我……[p]
 #
-（莉菜ちゃんの唇……柔らかい……）[p]
-（こんなのもう我慢できないよ……）[p]
-莉菜ちゃん……僕……もう[p]
+（莉菜的嘴唇……柔软的……）[p]
+（我再也忍不住了……）[p]
+莉菜……我……已经[p]
 [stopse buf="0"]
 [cm]
 [clearfix]
@@ -562,10 +562,10 @@
 [bgmovie storage="mov_24_4_1.webm" time="1000" loop="true"]
 #
 [playse storage="rina/rn24_024_1.ogg" buf="0" loop="true"]
-莉菜ちゃんのおっぱい、大きい！[p]
+莉菜的胸部，好大！[p]
 #莉菜
 [playse storage="rina/rn24_022.ogg" buf="0"]
-そんなに見られたら……恥ずかしい……[p]
+被这么盯着看……好害羞……[p]
 [playse storage="rina/rn24_024_2.ogg" buf="0" loop="true"]
 [cm]
 [clearfix]
@@ -578,15 +578,15 @@
 [stopse buf="0"]
 #莉菜
 [playse storage="rina/rn24_026.ogg" buf="0" loop="true"]
-お、お兄さん！　……そんな所……きたないから……ん！[p]
+哦，哥哥！ ……那种地方……不要……嗯！[p]
 #
-（莉菜ちゃんのオマンコがこんな目の前に……）[p]
-（だめだ……もう入れたい）[p]
+（莉菜的小穴就在我眼前……）[p]
+（不行……我想插进去）[p]
 #
-莉菜ちゃん……いいよね[p]
+莉菜……可以吧[p]
 #莉菜
 [playse storage="rina/rn24_027.ogg" buf="0"]
-は……初めてなので……優しくしてください……[p]
+是……因为是第一次……请温柔一点……[p]
 [cm]
 [clearfix]
 ;メッセージボックスは非表示
@@ -597,31 +597,31 @@
 [bgmovie storage="mov_24_8.webm" time="1000" loop="true"]
 #
 [playse storage="rina/rn24_024_2.ogg" buf="0" loop="true"]
-ごめん！莉菜ちゃん、痛かった？[p]
+对不起！莉菜，痛吗?[p]
 #莉菜
 [playse storage="rina/rn24_029.ogg" buf="0"]
-大丈夫です……大丈夫ですよ、お兄さん[p]
+没关系……没关系，哥哥。[p]
 [playse storage="rina/rn24_024_2.ogg" buf="0" loop="true"]
 #
-もっと優しくするね[p]
-莉菜ちゃん、動かすよ[p]
+我会再轻点[p]
+莉菜我要开始动了[p]
 [stop_bgmovie time="0"]
 [stopse buf="0"]
 [bgmovie storage="mov_24_9.webm" time="1000" loop="true"]
 #
 [playse storage="rina/rn24_032.ogg" buf="0" loop="true"]
 [playse storage="se/kutyu00.ogg" buf="3" loop="true"]
-はぁ……はぁ……気持ちいい……[p]
-莉菜ちゃんの中が気持ちよすぎて……[p]
-もう……止まらない……[p]
+啊……啊……真舒服……[p]
+莉菜里面太舒服了……[p]
+已经……停不下来……[p]
 [stop_bgmovie time="0"]
 [bgmovie storage="mov_24_10.webm" time="1000" loop="true"]
 #
 [playse storage="rina/rn24_033.ogg" buf="0" loop="true"]
-莉菜ちゃん！莉菜ちゃん！[p]
-気持ちいい……莉菜ちゃん！気持ちいいよ！[p]
-あぁ……莉菜ちゃん、だめだ！いきそう！[p]
-莉菜ちゃん！うっ！あぅ！[p]
+莉菜酱！莉菜酱！[p]
+真舒服……莉菜酱！很舒服哦！[p]
+啊……莉菜，不行！好像要去了！[p]
+莉菜酱！啊！啊！[p]
 [cm]
 [clearfix]
 ;メッセージボックスは非表示
@@ -641,15 +641,15 @@
 [stopse buf="3"]
 [menuwindows]
 
-;パートナー桜子変更
+;パートナー樱子変更
 [eval exp="f.partner = 0"]
 
 [bg storage="room_night.png" time="1000"]
 #
-部屋に戻ってきた[p]
-まさか莉菜ちゃんと付き合えるなんて……[p]
-あのおっぱいを想像してたら、また元気になってきちゃいそうだ[p]
-今日はおとなしく寝ようかな[p]
+返回了房间[p]
+没想到能和莉菜交往……[p]
+想象着那个胸部，好像又要恢复精神了。[p]
+今天就老老实实地睡吧[p]
 
 
 ;莉菜恋人ステータス
@@ -666,69 +666,69 @@
 [freeimage layer="2" time="0"]
 [bg storage="entrance.png" time="1000"]
 #
-家に帰ってきた[p]
+回到家了[p]
 [bg storage="black.png" time="1000"]
 [bgmovie storage="mov_25_15.webm" time="1000" loop="true"]
 #静江
 [playse storage="sizue/sz25_001.ogg" buf="0"]
-ただいま～、お兄ちゃん！[p]
+我回来了~哥哥！[p]
 #
-お帰りなさい、静江さん。　[p]
+欢迎回来，静江小姐。 [p]
 #静江
 [playse storage="sizue/sz25_002.ogg" buf="0"]
-あっ、そっか！　莉菜ちゃんも莉子ちゃんも今日は遅いんだっけ[p]
+啊，对了！ 莉菜和莉子今天都要晚点才回来[p]
 #
-莉菜ちゃんは勉強会とかいってました[r]
-莉子ちゃんはお友達の家に泊まるっていってましたよ[p]
-莉菜ちゃん、夕食の準備が出来なくてごめんなさいって[p]
+莉菜说要参加学习会[r]
+莉子说要住在朋友家[p]
+莉菜说今天她不能准备晚餐了[p]
 #静江
 [playse storage="sizue/sz25_003.ogg" buf="0"]
-ということは、今日は……[p]
+也就是说，今天……[p]
 #
-え？……[p]
+啊……[p]
 #静江
 [playse storage="sizue/sz25_004.ogg" buf="0"]
-ピザとか出前しちゃいましょう！[p]
+叫外卖披萨吧[p]
 #
-あっ……はい[p]
+啊……好的[p]
 #静江
 [playse storage="sizue/sz25_005.ogg" buf="0"]
-莉菜ちゃんの料理はおいしいけど、やっぱりたまにはね～！[r]
-ジャンクフードとか無性に食べたくなるのよね～！[p]
+莉菜的料理虽然很好吃，但偶尔还是要这样啊！[r]
+你也会想无节制地吃垃圾食品吧[p]
 #
-帰ってきたら怒られそうですね！　[p]
+回来后会被骂的！ [p]
 #静江
 [playse storage="sizue/sz25_006.ogg" buf="0"]
-おいしい日本酒があったはず！　莉菜ちゃんの隠し場所なんてすぐわかるんだから！[r]
-お兄ちゃん、今日家にいたのが運の尽きよ。[p]
+应该有美味的日本酒！ 我早就知道被莉菜藏在什么地方[r]
+今天呆在家里真是太走运了。[p]
 #
-いえいえ[r]
-もう、喜んで付き合いますよ[p]
+哪里哪里[r]
+我很乐意陪你[p]
 [stop_bgmovie time="2000"]
 [bgmovie storage="mov_25_16.webm" time="1000" loop="true"]
 #静江
 [playse storage="sizue/sz25_007.ogg" buf="0"]
-ほらほら、お兄ちゃん！　ちゃんと飲んでるの～[p]
+喂喂，哥哥！ 你有好好喝吗？[p]
 #
-は、はい……何とか[p]
+好，好的……尽量[p]
 #静江
 [playse storage="sizue/sz25_008.ogg" buf="0"]
-お兄ちゃん！　ポチモンは捕まえてる？[r]
-遊びじゃないんだからね！人生そのものよ！[p]
+你抓到宝可梦了吗？[r]
+这可不是在玩哟！这就是人生！[p]
 #
-はい！静江さんに教わった通りに集めてます[p]
+是！是按照静江小姐教的那样收集了[p]
 #静江
 [playse storage="sizue/sz25_009.ogg" buf="0"]
-うふふ、お兄ちゃんいい子いい子[r]
-なでなでしてあげる[p]
+嘿嘿，哥哥真是个好孩子，好孩子[r]
+抚摸着头[p]
 [playse storage="sizue/sz25_010.ogg" buf="0"]
-あっ、そうそう！カップメンも隠してあるのよ～[r]
-今こそ食べるとき！[p]
+啊，对了！杯面也被藏起来了[r]
+现在正是拿出来吃的时候！[p]
 #
-たっ、食べすぎですよ！[p]
+你吃得太多了！[p]
 #静江
 [playse storage="sizue/sz25_011.ogg" buf="0"]
-また明日からダイエット頑張らなくちゃ！[p]
+明天就要努力减肥了[p]
 [cm]
 [clearfix]
 ;メッセージボックスは非表示
@@ -737,61 +737,61 @@
 [stop_bgmovie time="2000"]
 [movie storage="mov_25_17.webm" skip="true"]
 [menuwindows]
-あっ！あぶない[p]
+啊!危险[p]
 …………[p]
 [bg storage="lover/img25_18_00.png" time="1000"]
 #静江
 [playse storage="sizue/sz25_012.ogg" buf="0"]
-お兄ちゃん、ありがとう[r]
-飲みすぎちゃったかしら？[p]
+哥哥，谢谢你[r]
+喝多了吗？[p]
 [playse storage="sizue/sz25_013.ogg" buf="0"]
-お兄ちゃん？……[p]
+嗯？……[p]
 #
-静江さん……僕……[p]
+静江小姐……我……[p]
 #静江
 [playse storage="sizue/sz25_014.ogg" buf="0"]
-どうしたの？　お兄ちゃん[p]
+怎么了？ 哥哥[p]
 #
-僕は……静江さんのことが、好きです！[p]
+我……我喜欢静江小姐！[p]
 #静江
 [playse storage="sizue/sz25_015.ogg" buf="0"]
-うふふ、お兄ちゃんありがとう[r]
-おばさんもお兄ちゃんのこと大好きよ[p]
+嘿嘿，谢谢你[r]
+阿姨也最喜欢哥哥了[p]
 #
-ち、違います！　そうじゃなくて本当に大好きなんです……[r]
-ずっと静江さんの事ばかり考えてます！[p]
+不，不是！ 不是那样，我真的很喜欢……[r]
+我一直在想静江小姐的事[p]
 #静江
 [playse storage="sizue/sz25_016.ogg" buf="0"]
-こらっ！　おばさんをからかっちゃだめよ[r]
-お兄ちゃん、酔っちゃったのかな？　[p]
+喂喂！ 你可不要开你阿姨的玩笑[r]
+哥哥，是喝醉了吗？ [p]
 #
-よ、酔ってません！[p]
-僕は……僕は真剣です……静江さんは僕の事が嫌いですか？[p]
+没，我没醉！[p]
+我……我是认真的……静江小姐不喜欢我吗[p]
 [bg storage="lover/img25_18_02.png" time="1000"]
 #静江
 [playse storage="sizue/sz25_017.ogg" buf="0"]
-嫌いなわけないでしょ、嫌いなわけ………[r]
-だっ、だめなの！　ダ～メ[p]
+怎么可能讨厌，讨厌……[r]
+不，不行！ 啊~[p]
 [playse storage="sizue/sz25_017_1.ogg" buf="0"]
-お兄ちゃん、わかるでしょ！　だめなの！[p]
+你知道吧！ 不行的！[p]
 #
-わっ、分かりません[r]
-全然わかりません[p]
+不知道[r]
+我完全不知道[p]
 #静江
 [playse storage="sizue/sz25_018.ogg" buf="0"]
-も～、おばさんを困らせないで！　さあ、この手を放してちょうだい[p]
+真是的，别为难阿姨！ 来吧，放开我的手[p]
 #
-いやです、……離せません……本当に嫌ならキライだって言ってください……[p]
+不，不……不放开……如果你真的不愿意，就请告诉我你真的讨厌……[p]
 #静江
 [playse storage="sizue/sz25_019.ogg" buf="0"]
-何言ってるの、お兄ちゃん……[p]
+你在说什么啊……哥哥[p]
 #
-嫌いだって言ってくれたら……手を放して諦めます……[p]
+如果你说我讨厌的话……我就放手……[p]
 [bg storage="lover/img25_18_01.png" time="1000"]
 #静江
 [playse storage="sizue/sz25_020.ogg" buf="0"]
-……困った子ね……お兄ちゃん……もう[r]
-言える訳……ないでしょ[p]
+……真是个为难的孩子啊……哥哥，真是的[r]
+怎么能说出口呢……对吧？[p]
 #
 [bg storage="black.png" time="1000"]
 [cm]
@@ -809,27 +809,27 @@
 [bgmovie storage="mov_25_3.webm" time="1000" loop="true"]
 #
 [playse storage="sizue/sz25_024.ogg" buf="0" loop="true"]
-静江さんの胸、大きいです[p]
-柔らかくて……大きい……[p]
-静江さん……もっと、色々見せて……[p]
+静江小姐的胸部好大[p]
+太软了……大……[p]
+静江小姐……让我看看更多……[p]
 [stop_bgmovie time="1000"]
 [stopse buf="0"]
 [bgmovie storage="mov_25_4.webm" time="1000" loop="true"]
 #静江
 [playse storage="sizue/sz25_026.ogg" buf="0"]
-お兄ちゃん……そんなに見ちゃいや……こんな中年の体なんて[p]
+哥哥……不要那么看……这中年人的身体[p]
 #
-魅力的ですよ、静江さん……とても興奮します[p]
+很有魅力啊，静江小姐……我很兴奋。[p]
 [stop_bgmovie]
 [bgmovie storage="mov_25_5.webm" time="1000" loop="true"]
 #静江
 [playse storage="sizue/sz25_029.ogg" buf="0" loop="true"]
-あっ、んん[p]
+啊，嗯……[p]
 #
-静江さん……こんなに濡れてる[p]
+静江小姐……你已经这么湿了[p]
 #静江
 [playse storage="sizue/sz25_028.ogg" buf="0"]
-もう……お兄ちゃんの……いじわる[p]
+真是的……哥哥……欺负人[p]
 #
 [stop_bgmovie]
 [stopse buf="0"]
@@ -845,20 +845,20 @@
 [playse storage="sizue/sz25_035.ogg" buf="0" loop="true"]
 [playse storage="se/kutyu01.ogg" buf="3" loop="true"]
 #
-はぁ、はぁ、静江さん[p]
-静江さんの中……気持ちいいです[p]
+啊，啊，静江小姐[p]
+静江小姐里面……真舒服[p]
 [stop_bgmovie]
 [bgmovie storage="mov_25_8.webm" time="1000" loop="true"]
 [playse storage="sizue/sz25_036.ogg" buf="0" loop="true"]
 [playse storage="se/kutyu02.ogg" buf="3" loop="true"]
-静江さん！ああっ……気持ちいい！気持ちいです静江さん[p]
-静江さん……もういきそうです……[p]
+静江小姐！啊……好舒服！很舒服啊静江小姐[p]
+静江小姐……好像要射了……[p]
 #静江
 [playse storage="sizue/sz25_037.ogg" buf="0"]
-いいのよ、お兄ちゃん、いっぱい出して……いいのよ[p]
+没关系，哥哥……满满的射出来……可以哟[p]
 #
 [playse storage="sizue/sz25_036.ogg" buf="0" loop="true"]
-静江さん、好きです、はぁはぁ……大好きです！[p]
+静江小姐，我喜欢你，啊……啊……非常喜欢！[p]
 [cm]
 [clearfix]
 ;メッセージボックスは非表示
@@ -876,31 +876,31 @@
 [bgmovie storage="mov_25_13.webm" time="0"]
 #静江
 [playse storage="sizue/sz25_041.ogg" buf="0"]
-お兄ちゃん、今回だけだからね[r]
-今日の事は忘れるのよ[p]
+哥哥，至此一次下不为例。[r]
+今天的事情，忘了吧[p]
 #
-し、静江さん……僕は……[p]
+静江……我……[p]
 #静江
 [playse storage="sizue/sz25_042.ogg" buf="0"]
-だ～め、明日からはまたいつも通りよ！　わかった？[p]
+好了，明天开始还和往常一样哦! 明白了吗?[p]
 #
 ……[p]
 [stop_bgmovie time="2000"]
 [stopse buf="0"]
 [stopse buf="3"]
-;パートナー桜子変更
+;パートナー樱子変更
 [eval exp="f.partner = 0"]
 
 [bg storage="room_night.png" time="1000"]
 #
-部屋に戻ってきた[p]
-静江さんとのエッチ……気持ちよかったな……[p]
-あんなこと言われたけど……[p]
-諦めきれるだろうか……[p]
-いや、やっぱり無理だよ……[p]
+返回了房间[p]
+和静江小姐的H……好舒服啊……[p]
+虽然被说了那种话……[p]
+要放弃吗……[p]
+不，不要……[p]
 ……[l]……[l]……[p]
 
-とりあえず、今日は寝ようかな[p]
+总之，今天先睡吧[p]
 
 
 ;静江恋人ステータス

@@ -13,14 +13,14 @@
 ;メッセージウィンドウの表示
 [menuwindows]
 
-さて、自分は……[l][r][er]
-桜子が睨んでいる……[r]
-誰かを手伝えって感じかな……[p]
-どうしようか？
+那么，我……[l][r][er]
+樱子在瞪着我……[r]
+应该帮谁呢……[p]
+怎么办？
 
-[glink  color="pink" size="20"  x="400"  width="400"  y="150"  text="莉子ちゃんとお掃除"  target="*riko"  ]
-[glink  color="pink" size="20"  x="400"  width="400"  y="250"  text="莉菜ちゃんとお買い物"  target="*rina"  ]
-[glink  color="pink" size="20"  x="400"  width="400"  y="350"  text="静江さんとお風呂掃除"  target="*sizue"  ]
+[glink  color="pink" size="20"  x="400"  width="400"  y="150"  text="帮莉子打扫卫生"  target="*riko"  ]
+[glink  color="pink" size="20"  x="400"  width="400"  y="250"  text="跟莉菜去购物"  target="*rina"  ]
+[glink  color="pink" size="20"  x="400"  width="400"  y="350"  text="帮静江清扫浴室"  target="*sizue"  ]
 [s]
 
 *riko
@@ -79,110 +79,110 @@
 ;メッセージウィンドウの表示
 [menuwindows]
 
-自分の部屋に戻ってきた[p]
-部屋は余っているのでそれぞれに案内してきたが
-莉菜ちゃん莉子ちゃんは2階の部屋[l][r]
-静江さんは1階の和室を使ってもらうことにした[p]
-お風呂は最後に入ったけど……
-なんかドキドキしたな……[p]
+回到了自己房间[p]
+因为我家有多余的房间，我带她们去了各自的房间[p]
+莉菜，莉子住在2楼[l][r]
+静江小姐住在一楼的日式房间[p]
+最后去洗澡了……
+心跳加速……[p]
 
 [chara_show name="sakurako" face="niko" left=100 ]
-#桜子
+#樱子
 [playse storage="sakurako/sa07_001.ogg" buf="0"]
-もうエロイ事したか？[p]
+你已经做过色色的事了吗[p]
 #
-は？はぁ！なにが？[p]
-#桜子
+哈？什么！说什么呢？[p]
+#樱子
 [chara_mod  name="sakurako" face="akireru" ]
 [playse storage="sakurako/sa07_002.ogg" buf="0"]
-なんじゃ、まだか……使えんやつじゃの[p]
+什么嘛，还没啊……真是个不中用的家伙啊[p]
 #
-(何を言ってるんだ？この天使は……)[p]
-#桜子
+(说什么啊？你这个天使……)[p]
+#樱子
 [chara_mod  name="sakurako" face="default" ]
 [playse storage="sakurako/sa07_003.ogg" buf="0"]
-あっ、そうそう,お前は一応金はあるみたいだけど[r]
-生活費以外は使うことは禁止じゃ[p]
+啊，对了，你好像挺有钱的样子[r]
+但除了生活费以外禁止使用[p]
 #
-えっ！なんで？[p]
-#桜子
+诶！为什么？[p]
+#樱子
 [chara_mod  name="sakurako" face="okori" ]
 [playse storage="sakurako/sa07_004.ogg" buf="0"]
-あたりまえじゃ！これはニート更生計画なんだから[r]
-お前には働いてもらう[p]
+这是当然的！因为这是死宅重生计划[r]
+你必须给我出去工作[p]
 #
-ええ～働く！[r]
-そ……それは……[p]
-#桜子
+诶诶~工作！[r]
+这……这就有点……[p]
+#樱子
 [playse storage="sakurako/sa07_005.ogg" buf="0"]
-ん？なんじゃ[p]
+嗯？怎么了[p]
 #
-いや、家の格言に　”働いたら負け”ってのがありまして[p]
-#桜子
+不，“工作就输了”是我的家训[p]
+#樱子
 [playse storage="sakurako/sa07_006.ogg" buf="0"]
-そんなものあるか！　あるとしたら働かざる者食うべからずじゃろう[p]
+有那种东西吗！ 如果有的话，不工作的人不就都饿死了吗[p]
 #
-むぐぐ……[p]
-#桜子
+咕……[p]
+#樱子
 [chara_mod  name="sakurako" face="default" ]
 [playse storage="sakurako/sa07_007.ogg" buf="0"]
-バイト先は見つけておいたから安心せい[p]
+我已经找到打工的地方，放心吧[p]
 #
-主人公の選択肢にバイトが追加されました[p]
-土日に働くと賃金がＵＰします[r]
-体力を消耗しすぎると倒れてしまうのでご注意を！[p]
-#桜子
+在主角的选择中添加了打工。[p]
+双休日工作的话工资更多[r]
+体力消耗过多就会病倒，还请注意！[p]
+#樱子
 [playse storage="sakurako/sa07_008.ogg" buf="0"]
-これからは毎日、夜に私がステータスを占ってやるからの[p]
+从现在开始我每天晚上都可以占卜你的状态[p]
 #
-ステータス？[p]
-#桜子
+状态？[p]
+#樱子
 [playse storage="sakurako/sa07_009.ogg" buf="0"]
-家族とどれだけなかよくなったかとかじゃ！[p]
+看看你与那一家人的关系有多好啊[p]
 #
-おお！それは便利だ[p]
-#桜子
+哦！这很方便啊[p]
+#樱子
 [chara_mod  name="sakurako" face="niya" ]
 [playse storage="sakurako/sa07_010.ogg" buf="0"]
-1回５００円じゃ！[p]
+一次500日元[p]
 #
-金取るのかよ！[r]
-ていうか何に使うんだよ！[p]
-#桜子
+还要收钱的吗！[r]
+话说你要钱有什么用啊[p]
+#樱子
 [playse storage="sakurako/sa07_011.ogg" buf="0"]
-初回は出血サービスでタダでやってやろう[p]
+第一次就免费出血大放送，赶紧试试吧[p]
 
 ;占いステータス画面コール
 [call storage="status.ks"]
 
-#桜子
+#樱子
 [chara_mod  name="sakurako" face="panchi02" ]
 [playse storage="sakurako/sa07_013.ogg" buf="0"]
-このステータスを参考に家族とエロい……、仲良くなるんじゃぞ![p]
+这个用来给你参考与那一家人的H度……要和她们搞好关系啊！[p]
 
 #
-は……はぁ[p]
+好……好的[p]
 
-#桜子
+#樱子
 [playse storage="sakurako/sa07_015.ogg" buf="0"]
-一日の締め括りは日記を書いてもらう[p]
+一天结束时要写日记[p]
 
 #
-日記？　そんなの書いたことないよ！[p]
+日记？ 我没写过那种东西[p]
 
-#桜子
+#樱子
 [chara_mod  name="sakurako" face="okori" ]
 [playse storage="sakurako/sa07_016.ogg" buf="0"]
-これも更生計画の一環じゃ！しっかり書いてもらうからの！[p]
+这也是重生计划的一环，给我好好写！[p]
 
 #
-一日の終わりに日記を書くことによりゲームのセーブが出来ます[p]
+在一天结束时写日记可以保存游戏[p]
 
 
 [chara_mod  name="sakurako" face="akubi" ]
-（この天使はずっと僕の部屋にいるのか？[r]
-……抜きたくなったらどうしよう……）[p]
-とりあえず日記でも書いて寝るかな[p]
+（这位天使一直在我的房间里吗？[r]
+……突然有点想逃怎么办……）[p]
+总之先写日记然后睡觉吧[p]
 
 ;セーブ画面移動
 [showsave]

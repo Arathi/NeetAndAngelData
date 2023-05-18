@@ -8,7 +8,7 @@
 @bg storage ="room_day.png" time=1000
 [menuwindows]
 #
-あれ？……クラクラする……[p]
+咦？……眼冒金光……[p]
 [playse storage="se/butukaru.ogg" buf="2"]
 [quake count="1" time="300"]
 [mask time="500"]
@@ -131,7 +131,7 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png"
 [mask_off time="500"]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 [endif]
 
 [return]
@@ -143,16 +143,16 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png"
 [mask_off time="500"]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 @bg storage ="nursing/img08_02.png" time=1000
 #
-莉子ちゃん？[p]
+莉子？[p]
 [playse storage="riko/rk08_005.ogg" buf="0"]
-おじさん、おかゆだよ！食べられる？[r]
-あ～んしてあげようか？[p]
+大叔，这是粥！你能吃吗？[p]
+啊～把嘴张开我喂你？[p]
 @bg storage ="room_evening.png" time=1000
 #
-莉子ちゃんが看病してくれたから元気が出たぞ！[p]
+因为莉子的照顾，打起精神起来了！[p]
 [return]
 [endif]
 
@@ -161,15 +161,15 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png"
 [mask_off time="500"]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 @bg storage ="nursing/img08_01.png" time=1000
 #
-莉子ちゃん？[p]
+莉子？[p]
 [playse storage="riko/rk08_004.ogg" buf="0"]
-大丈夫、おじさん？熱は？[p]
+你没事吧，大叔？发烧了吗？[p]
 @bg storage ="room_evening.png" time=1000
 #
-莉子ちゃんが看病してくれたから元気が出たぞ！[p]
+因为莉子的照顾，打起精神来了！[p]
 
 [return]
 [endif]
@@ -179,15 +179,15 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png"
 [mask_off time="500"]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 @bg storage ="nursing/img08_00.png" time=1000
 #
-莉子ちゃん？[p]
+莉子？[p]
 [playse storage="riko/rk08_003.ogg" buf="0"]
-おじさん、大丈夫？何か欲しいものある？[p]
+大叔，你没事吧？有什么想要的吗？[p]
 @bg storage ="room_evening.png" time=1000
 #
-莉子ちゃんが看病してくれたから元気が出たぞ！[p]
+因为莉子的照顾，打起精神来了！[p]
 
 [return]
 [endif]
@@ -199,18 +199,18 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png"
 [mask_off time="500"]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 @bg storage ="nursing/img09_01.png" time=1000
 #
-莉菜ちゃん？[p]
+莉菜？[p]
 [playse storage="rina/rn09_005.ogg" buf="0"]
-お兄さんお粥用意しましたよ[r]
-食べられますか？[p]
+哥哥，粥准备好了[r]
+你能吃吗？[p]
 [playse storage="rina/rn09_005_1.ogg" buf="0"]
-辛そうですね、……私が食べさせてあげます[p]
+可能会很烫……我来喂你吃吧[p]
 @bg storage ="room_evening.png" time=1000
 #
-莉菜ちゃんが看病してくれたから元気が出たぞ！[p]
+因为莉菜的照顾，打起精神来了！[p]
 
 [return]
 [endif]
@@ -220,16 +220,16 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png"
 [mask_off time="500"]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 @bg storage ="nursing/img09_02.png" time=1000
 #
-莉菜ちゃん？[p]
+莉菜？[p]
 [playse storage="rina/rn09_004.ogg" buf="0"]
-お兄さん、熱はどうですか？[r]
-あ～まだ、熱いですね[p]
+哥哥，发烧好点了吗？[r]
+啊~还是很烫啊[p]
 @bg storage ="room_evening.png" time=1000
 #
-莉菜ちゃんが看病してくれたから元気が出たぞ！[p]
+因为莉菜的照顾，打起精神来了！[p]
 
 [return]
 [endif]
@@ -239,16 +239,16 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png"
 [mask_off time="500"]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 @bg storage ="nursing/img09_00.png" time=1000
 #
-莉菜ちゃん？[p]
+莉菜？[p]
 [playse storage="rina/rn09_001.ogg" buf="0"]
-お兄さん、おかゆつくりました[r]
-よかったら食べてください[p]
+哥哥，我做了粥[r]
+如果可以的话请吃吧[p]
 @bg storage ="room_evening.png" time=1000
 #
-莉菜ちゃんが看病してくれたから元気が出たぞ！[p]
+因为莉菜的照顾，打起精神来了！[p]
 
 [return]
 [endif]
@@ -260,18 +260,18 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png"
 [mask_off time="500"]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 @bg storage ="nursing/img10_00.png" time=1000
 #
-静江さん？[p]
+静江小姐？[p]
 [playse storage="sizue/sz10_003.ogg" buf="0"]
-あらあら、お兄ちゃん！お粥食べられる？[r]
-おばさんが食べさせてあげようか？[p]
+哎呀哎呀，能吃粥吗？[r]
+阿姨喂你吃吧？[p]
 [playse storage="sizue/sz10_003_1.ogg" buf="0"]
-はい！あ～ん[p]
+来！啊~[p]
 @bg storage ="room_evening.png" time=1000
 #
-静江さんが看病してくれたから元気が出たぞ！[p]
+因为静江小姐的照顾，打起精神来了！[p]
 
 [return]
 [endif]
@@ -281,16 +281,16 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png"
 [mask_off time="500"]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 @bg storage ="nursing/img10_01.png" time=1000
 #
-静江さん？[p]
+静江小姐？[p]
 [playse storage="sizue/sz10_004.ogg" buf="0"]
-お兄ちゃん、まだ熱があるわね～[r]
-ちゃんと寝てないとだめよ！[p]
+还在发烧呢~[r]
+不好好躺着可不行啊！[p]
 @bg storage ="room_evening.png" time=1000
 #
-静江さんが看病してくれたから元気が出たぞ！[p]
+因为静江小姐的照顾，打起精神来了！[p]
 
 [return]
 [endif]
@@ -300,16 +300,16 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png"
 [mask_off time="500"]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 @bg storage ="nursing/img10_02.png" time=1000
 #
-静江さん？[p]
+静江小姐？[p]
 [playse storage="sizue/sz10_001.ogg" buf="0"]
-お兄ちゃん、どうしたの？[r]
-風邪ひいちゃったのね[p]
+哥哥，你怎么样了？[r]
+看样子是感冒了呢[p]
 @bg storage ="room_evening.png" time=1000
 #
-静江さんが看病してくれたから元気が出たぞ！[p]
+因为静江小姐的照顾，打起精神来了！[p]
 
 [return]
 [endif]
@@ -323,7 +323,7 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png"
 [mask_off time="500"]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 ;メッセージボックスは非表示
 @layopt layer="message" visible=false
 [cm]
@@ -338,7 +338,7 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png" time=1000
 [menuwindows]
 #
-莉子ちゃんのパンツ見て元気が出てきたぞ！[p]
+看了莉子的内裤，就打起精神来了[p]
 
 ;お見舞い胸見せフラグ
 [eval exp="f.nursing_riko = 2"]
@@ -352,7 +352,7 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png"
 [mask_off time="500"]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 ;メッセージボックスは非表示
 @layopt layer="message" visible=false
 [cm]
@@ -365,7 +365,7 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png" time=1000
 [menuwindows]
 #
-莉子ちゃんのおっぱい見たら力が出てきたぞ！[p]
+看到莉子的胸部就有力气了[p]
 
 ;お見舞い胸見せフラグ
 [eval exp="f.nursing_riko = 3"]
@@ -379,7 +379,7 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png"
 [mask_off time="500"]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 ;メッセージボックスは非表示
 @layopt layer="message" visible=false
 [cm]
@@ -392,7 +392,7 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png" time=1000
 [menuwindows]
 #
-莉子ちゃんのおかげで別の所が元気になってきた？[p]
+多亏了莉子，某个地方变得精神起来了？[p]
 
 ;お見舞いクパァフラグ
 [eval exp="f.nursing_riko = 4"]
@@ -406,7 +406,7 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png"
 [mask_off time="500"]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 ;メッセージボックスは非表示
 @layopt layer="message" visible=false
 [cm]
@@ -424,7 +424,7 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png" time=1000
 [menuwindows]
 #
-莉子ちゃんが看病してくれたから元気が出た……のかな？[p]
+因为莉子的照顾，所以打起精神来了……是吗？[p]
 
 ;お見舞い足コキ１回目フラグ
 [eval exp="f.nursing_riko = 5"]
@@ -440,7 +440,7 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png"
 [mask_off time="500"]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 ;メッセージボックスは非表示
 @layopt layer="message" visible=false
 [cm]
@@ -458,7 +458,7 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png" time=1000
 [menuwindows]
 #
-莉子ちゃんが看病してくれたから元気が出た……のかな？[p]
+因为莉子的照顾，所以打起精神来了……是吗？[p]
 
 ;お見舞いフェラ１回目フラグ
 [eval exp="f.nursing_riko = 6"]
@@ -474,7 +474,7 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png"
 [mask_off time="500"]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 ;メッセージボックスは非表示
 @layopt layer="message" visible=false
 [cm]
@@ -489,7 +489,7 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png" time=1000
 [menuwindows]
 #
-莉子ちゃんが看病してくれたから元気が出た……のかな？[p]
+因为莉子的照顾，所以打起精神来了……是吗？[p]
 
 ;主人公精力減少
 [eval exp="f.energy = f.energy - 30"]
@@ -506,28 +506,28 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png"
 [mask_off time="500"]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 [bg storage ="nursing/img09_04.png" time="1000"]
 #莉菜
 [playse storage="rina/rn09_008.ogg" buf="0"]
-風邪はどうですか？お兄さん[r]
-なんか心配です[p]
+感冒怎么样了？哥哥[r]
+我很担心你[p]
 #
-大丈夫だよ、莉菜ちゃん[r]
-安静にしていればすぐに元気になるさ[p]
-でも、もっと早く元気になる方法があるんだけど……[p]
+没事的莉菜[r]
+只要保持静养，很快就会好起来的[p]
+不过，我有办法更快的恢复精神……[p]
 #莉菜
 [playse storage="rina/rn09_009.ogg" buf="0"]
-どんな方法ですか？[p]
+是什么方法？[p]
 #
-それはね……[p]
-莉菜ちゃんのおっぱいかな！[r]
-莉菜ちゃんのおっぱいが見られればすぐに元気になるよ！[p]
+那是啊……[p]
+是莉菜的胸部啊[r]
+只要看到莉菜的胸部马上就会好起来的[p]
 [bg storage ="nursing/img09_05.png" time="500"]
 #莉菜
 [playse storage="rina/rn09_010.ogg" buf="0"]
-ええ！[r]
-……もう……お兄さんのエッチ……[p]
+诶！[r]
+……真是的……哥哥是色鬼……[p]
 ;メッセージボックスは非表示
 @layopt layer="message" visible=false
 [cm]
@@ -542,7 +542,7 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png" time=1000
 [menuwindows]
 #
-莉菜ちゃんのおっぱいのおかげで元気だ！！[p]
+多亏了莉菜的胸部，打起精神来了！！[p]
 
 ;お見舞い胸見せフラグ
 [eval exp="f.nursing_rina = 2"]
@@ -556,33 +556,33 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png"
 [mask_off time="500"]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 [bg storage ="nursing/img09_06.png" time="1000"]
 #莉菜
 [playse storage="rina/rn09_012.ogg" buf="0"]
-お兄さん、あんまり無理しないで下さいね[r]
-体調はどうですか？[p]
+哥哥，请不要太勉强哦[r]
+身体状况怎么样？[p]
 #
-うーん……いまいち元気が出ないんだ[p]
+嗯……没什么精神了[p]
 #莉菜
 [playse storage="rina/rn09_013.ogg" buf="0"]
-お薬もってきましょうか？[p]
+要给您拿药来吗？[p]
 #
-いや……元気になる方法はわかっているんだ[p]
-あそこが元気になれば心も元気になる！[p]
-あそこを元気にするためにも莉菜ちゃん、お願い！[r]
-莉菜ちゃんの大事な所を見せて！[p]
+不……我知道怎么能恢复精神[p]
+如果那里精神好了，心也会好起来的！[p]
+为了让那里变得健康莉菜，拜托了！[r]
+让我看看莉菜的重要之处[p]
 [bg storage ="nursing/img09_07.png" time="500"]
 #莉菜
 [playse storage="rina/rn09_014.ogg" buf="0"]
-な！……なんでそうなるんですか！[p]
+什！……为什么会变成这样啊[p]
 #
-莉菜ちゃんのあそこが見れれば僕のあそこも元気になって風邪も一発で治るんだよ[r]
-莉菜ちゃん、お願い！[p]
+只要看到莉菜那里我就能恢复精神，一发感冒就好了[r]
+莉菜，拜托了！[p]
 #莉菜
 [playse storage="rina/rn09_015.ogg" buf="0"]
-も～、お兄さんそんなことばっかり考えているんだから[r]
-こ……今回だけですよ……[p]
+真是的~，哥哥你一直想着这种事[r]
+下，下不为例哦……[p]
 #
 ;メッセージボックスは非表示
 @layopt layer="message" visible=false
@@ -596,8 +596,8 @@ tf.rand = Math.floor( Math.random() * 3)
 [menuwindows]
 [bg storage ="nursing/img09_03.png" time="500"]
 
-ありがとう、莉菜ちゃん[r]
-速く元気になって莉菜ちゃんの中に挿れたい！[p]
+谢谢你莉菜[r]
+想快点打起精神，插入莉菜的体内！[p]
 
 ;メッセージボックスは非表示
 @layopt layer="message" visible=false
@@ -611,7 +611,7 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png" time=1000
 [menuwindows]
 #
-莉子ちゃんのあそこが見れたから満足[p]
+看了莉子的那里，我很满足[p]
 
 ;お見舞い下見せフラグ
 [eval exp="f.nursing_rina = 3"]
@@ -625,30 +625,30 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png"
 [mask_off time="500"]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 
 [bg storage ="nursing/img09_08.png" time="1000"]
 #莉菜
 [playse storage="rina/rn09_017.ogg" buf="0"]
-お兄さん、風邪の時は暖かくしていっぱい寝たほうがいいですよ[p]
+哥哥，感冒的时候最好多睡一觉[p]
 #
-いや……莉菜ちゃん、僕も寝たいんだけどね……[r]
-こまったことがあって[p]
+不……莉菜，我也想睡一觉……[r]
+有一件糟糕的事[p]
 #莉菜
 [playse storage="rina/rn09_018.ogg" buf="0"]
-なんですか？[p]
+什么事？[p]
 #
-ほら！これ、[r]
-ここがこんなに元気だから全然眠れないんだよ[p]
+看！这个，[r]
+这里这么有精神我根本睡不着[p]
 [bg storage ="nursing/img09_09.png" time="1000"]
 #莉菜
 [playse storage="rina/rn09_019.ogg" buf="0"]
-お兄さんは風邪の時もそんなことばっかりなんだから[p]
+哥哥怎么连感冒的时候也这样[p]
 #
-莉菜ちゃん！お願い！手でいいから、ねっ！[p]
+莉菜啊！求你了用手就行了，好吧！[p]
 #莉菜
 [playse storage="rina/rn09_020.ogg" buf="0"]
-しょうがないな……[p]
+真拿你没办法啊……[p]
 
 ;メッセージボックスは非表示
 @layopt layer="message" visible=false
@@ -663,7 +663,7 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png" time=1000
 [menuwindows]
 #
-莉菜ちゃんのおかげで元気になった？[p]
+多亏了莉菜精神恢复了……吗？[p]
 
 ;お見舞いテコキフラグ
 [eval exp="f.nursing_rina = 4"]
@@ -680,22 +680,22 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png"
 [mask_off time="500"]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 
 [bg storage ="nursing/img09_10.png" time="1000"]
 #莉菜
 [playse storage="rina/rn09_023.ogg" buf="0"]
-お兄さん、また体調崩したんですか？[r]
-って本当は元気なんじゃないんですか？[p]
+哥哥，你又身体不适了吗？[r]
+话说你是真的身体不适吗？[p]
 #
-そうなんだよ莉菜ちゃん！いっぱい休んで早く治したいんだけど[r]
-こいつが言うことを聞いてくれないんだ[p]
-お願い！莉菜ちゃん[r]
-お口でこいつを鎮めてくれないかな[p]
+是啊，莉菜我想多休息一下早点治好[r]
+这家伙是不会听我说的[p]
+求你了！莉菜酱[r]
+你能用嘴把这家伙镇住吗？[p]
 [bg storage ="nursing/img09_11.png" time="1000"]
 #莉菜
 [playse storage="rina/rn09_024.ogg" buf="0"]
-は～もう、お兄さんはそればっかりなんだから！[p]
+真是的，哥哥总是这样！[p]
 
 ;メッセージボックスは非表示
 @layopt layer="message" visible=false
@@ -711,7 +711,7 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png" time=1000
 [menuwindows]
 #
-莉菜ちゃんのおかげで元気が出た……のかな？[p]
+多亏了莉菜才有精神……吗?[p]
 
 ;お見舞いフェラフラグ
 [eval exp="f.nursing_rina = 4"]
@@ -731,13 +731,13 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png"
 [mask_off time="500"]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 
 [bg storage ="nursing/img10_03.png" time="1000"]
 #静江
 [playse storage="sizue/sz10_005.ogg" buf="0"]
-お兄ちゃん大丈夫？[r]
-元気が出るおまじないしてあげる[p]
+你没事吧[r]
+给你健康的咒语[p]
 
 ;メッセージボックスは非表示
 @layopt layer="message" visible=false
@@ -751,7 +751,7 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png" time=1000
 [menuwindows]
 #
-静江さんのキスでばっちり元気！[p]
+静江小姐的吻让我精神十足！[p]
 
 ;お見舞いキスフラグ
 [eval exp="f.nursing_sizue = 2"]
@@ -765,13 +765,13 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png"
 [mask_off time="500"]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 
 [bg storage ="nursing/img10_04.png" time="1000"]
 #静江
 [playse storage="sizue/sz10_007.ogg" buf="0"]
-あらあら、お兄ちゃん、元気ないの？[r]
-これで元気になるかな？[p]
+哎呀哎呀，你还好吗？[r]
+这样就好起了吗？[p]
 
 ;メッセージボックスは非表示
 @layopt layer="message" visible=false
@@ -784,7 +784,7 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png" time=1000
 [menuwindows]
 #
-静江さんのおっぱい最高！[p]
+静江小姐的胸部太棒了！[p]
 
 ;お見舞い胸みせフラグ
 [eval exp="f.nursing_sizue = 3"]
@@ -798,15 +798,15 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png"
 [mask_off time="500"]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 
 [bg storage ="nursing/img10_05.png" time="1000"]
 #静江
 [playse storage="sizue/sz10_009.ogg" buf="0"]
-かわいそう……お兄ちゃん、辛そうね[r]
-でも～おばさんも辛いのよ[p]
+可怜的……哥哥，好像很痛苦啊[r]
+但是这样阿姨也很痛苦呢[p]
 [playse storage="sizue/sz10_009_1.ogg" buf="0"]
-ほら、見て[p]
+来吧，看[p]
 
 ;メッセージボックスは非表示
 @layopt layer="message" visible=false
@@ -822,7 +822,7 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png" time=1000
 [menuwindows]
 #
-静江さんのおかげで別の所が元気になってしまった[p]
+多亏了静江小姐，某个地方恢复了精神[p]
 
 ;お見舞いあそこフラグ
 [eval exp="f.nursing_sizue = 4"]
@@ -836,14 +836,14 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png"
 [mask_off time="500"]
 #
-どうやら疲れすぎて倒れてしまったみたいだ[p]
+看来因为太累而晕倒了[p]
 ?[p]
-静江さん！[p]
+静江小姐！[p]
 
 [bg storage ="nursing/img10_06.png" time="1000"]
 #静江
 [playse storage="sizue/sz10_017.ogg" buf="0"]
-お兄ちゃんを元気にするには、これが一番ね[p]
+要让你振作起来，这是最好的办法[p]
 
 ;メッセージボックスは非表示
 @layopt layer="message" visible=false
@@ -858,7 +858,7 @@ tf.rand = Math.floor( Math.random() * 3)
 @bg storage ="room_evening.png" time=1000
 [menuwindows]
 #
-静江さんのおかげで元気になった？[p]
+多亏了静江小姐，身体好起来了……吗？[p]
 
 ;主人公精力減少
 [eval exp="f.energy = f.energy - 30"]

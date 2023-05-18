@@ -10,9 +10,9 @@
 [call target="*replay_release"]
 [endif]
 ;***********************************************************************************************************************
-;バージョン表記　メインシナリオ、タイトル,回想とリプレイも同じバージョンに修正
-;[eval exp="f.version_dl = 'fanza'"]
-[eval exp="f.version_dl = 'dlsite'"]
+;バージョン表記　メインシナリオ，回想とリプレイも同じバージョンに修正
+[eval exp="f.version_dl = 'fanza'"]
+;[eval exp="f.version_dl = 'dlsite'"]
 ;***********************************************************************************************************************
 ;-設定シナリオコール
 [call storage="setting.ks"]
@@ -21,7 +21,6 @@
 [cm]
 [clearfix]
 [freeimage layer="0" page="fore"]
-[freeimage layer="1"]
 [layopt layer=0 visible=false]
 [fadeoutbgm time="1000"]
 [stop_bgmovie time="1000"]
@@ -143,13 +142,13 @@
 [replay_image_button name="riko_onsen2" graphic="rp/onsen2.png" no_graphic="rp/noimage.png" x=350 y=530 width=300 height=75 folder="bgimage"]
 [replay_image_button name="riko_onedari1" graphic="rp/onedari1.png" no_graphic="rp/noimage.png" x=800 y=130 width=300 height=75 folder="bgimage"]
 ;fanza特典
-[if exp="f.version_dl == 'fanza'"]
+;[if exp="f.version_dl == 'fanza'"]
  [replay_image_button name="riko_taisougi1" graphic="rp/taisougi1.png" no_graphic="rp/noimage.png" x=800 y=230 width=300 height=75 folder="bgimage"]
-[endif]
+;[endif]
 ;dlsite特典
-[if exp="f.version_dl == 'dlsite'"]
- [replay_image_button name="riko_randoseru1" graphic="rp/randoseru.png" no_graphic="rp/noimage.png" x=800 y=230 width=300 height=75 folder="bgimage"]
-[endif]
+;[if exp="f.version_dl == 'dlsite'"]
+ [replay_image_button name="riko_randoseru1" graphic="rp/randoseru.png" no_graphic="rp/noimage.png" x=800 y=330 width=300 height=75 folder="bgimage"]
+;[endif]
 ;[replay_image_button name="riko_taisougi1" graphic="rp/taisougi1.png" no_graphic="rp/noimage.png" x=800 y=430 width=300 height=75 folder="bgimage"]
 ;[replay_image_button name="riko_randoseru1" graphic="rp/randoseru.png" no_graphic="rp/noimage.png" x=800 y=530 width=300 height=75 folder="bgimage"]
 

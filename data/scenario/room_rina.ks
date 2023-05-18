@@ -5,7 +5,7 @@
 [bg storage="black.png" time="1000"]
 [bgmovie storage="mov_66_1.webm" time="1000"]
 #
-莉菜ちゃんの部屋にやってきた[p]
+来到了莉菜的房间[p]
 
 ;ランダム数値の取り出し
 [iscript]
@@ -15,38 +15,38 @@ tf.rand = Math.floor( Math.random() * 5)
 [if exp="tf.rand == 0"]
 #莉菜
 [playse storage="rina/rn66_001.ogg" buf="0"]
-お兄さん！　どうぞ入ってください[p]
+哥哥！ 请进来吧[p]
 [endif]
 
 [if exp="tf.rand == 1"]
 #莉菜
 [playse storage="rina/rn66_002.ogg" buf="0"]
-お兄さん何します？　あっ、変な事想像しないでくださいね！[p]
+哥哥，你要做什么？ 啊，别想象奇怪的事啊！[p]
 [endif]
 
 [if exp="tf.rand == 2"]
 #莉菜
 [playse storage="rina/rn66_004.ogg" buf="0"]
-宿題は今終わったので大丈夫ですよ[p]
+作业现在做完了，没问题哦[p]
 [endif]
 
 [if exp="tf.rand == 3"]
 #莉菜
 [playse storage="rina/rn66_005.ogg" buf="0"]
-あ～、何かお兄さんエッチな目してる[p]
+啊，哥哥你眼神看起来色色的[p]
 [endif]
 
 [if exp="tf.rand == 4"]
 #莉菜
 [playse storage="rina/rn66_003.ogg" buf="0"]
-お兄さんと一緒だと何か嬉しい[p]
+能和哥哥在一起很开心呢[p]
 [endif]
 
 
 ;■主人公選択肢
 #
-さて、どうしようかな[p]
-[glink  color="pink" size="20"  x="800"  width="300"  y="200"  text="莉菜ちゃんとエッチ"  target="*rina_room_h"]
+接下来干嘛呢？[p]
+[glink  color="pink" size="20"  x="800"  width="300"  y="200"  text="和莉菜做爱"  target="*rina_room_h"]
 [s]
 
 ;***********************************************************************************************************************
@@ -65,19 +65,19 @@ tf.rand = Math.floor( Math.random() * 5)
  [if exp="tf.rand == 0"]
 #莉菜
 [playse storage="rina/rn69_001.ogg" buf="0"]
-痛くしないで下さいね……[p]
+请不要弄痛我……[p]
  [endif]
  [if exp="tf.rand == 1"]
 #莉菜
 [playse storage="rina/rn69_002.ogg" buf="0"]
-お兄さん、優しくしてください[p]
+哥哥，请温柔一点[p]
  [endif]
  [if exp="tf.rand == 2"]
 #莉菜
 [playse storage="rina/rn69_003.ogg" buf="0"]
-お兄さん……いいですよ……[p]
+哥哥……可以哦……[p]
  [endif]
- [eval exp="tf.taii= 450"]
+ [eval exp="tf.taii= 300"]
 [endif]
 ;***********************************************************************************************************************
 ;***********************************************************************************************************************
@@ -90,20 +90,20 @@ tf.rand = Math.floor( Math.random() * 5)
  [if exp="tf.rand == 0"]
 #莉菜
 [playse storage="rina/rn69_004.ogg" buf="0"]
-お兄さん、恥ずかしです……
+哥哥，好害羞……
 [p]
  [endif]
  [if exp="tf.rand == 1"]
 #莉菜
 [playse storage="rina/rn69_005.ogg" buf="0"]
-お兄さんがしたいなら……いいですよ[p]
+如果哥哥想要的……可以哦[p]
  [endif]
  [if exp="tf.rand == 2"]
 #莉菜
 [playse storage="rina/rn69_006.ogg" buf="0"]
-お兄さん……私……[p]
+哥哥……我……[p]
  [endif]
- [eval exp="tf.taii= 350"]
+ [eval exp="tf.taii= 300"]
 [endif]
 ;***********************************************************************************************************************
 ;***********************************************************************************************************************
@@ -116,17 +116,17 @@ tf.rand = Math.floor( Math.random() * 5)
  [if exp="tf.rand == 0"]
 #莉菜
 [playse storage="rina/rn69_007.ogg" buf="0"]
-私……エッチなのかな……[p]
+我……是不是淫荡呢……[p]
  [endif]
  [if exp="tf.rand == 1"]
 #莉菜
 [playse storage="rina/rn69_008.ogg" buf="0"]
-お兄さん……エッチ……したいです……[p]
+哥哥……我想要……H……[p]
  [endif]
  [if exp="tf.rand == 2"]
 #莉菜
 [playse storage="rina/rn69_009.ogg" buf="0"]
-私、いやらしい事ばかり……考えちゃって[p]
+我尽是想着一些……下流的事情[p]
  [endif]
  [eval exp="tf.taii= 300"]
 [endif]
@@ -141,24 +141,24 @@ tf.rand = Math.floor( Math.random() * 5)
  [if exp="tf.rand == 0"]
 #莉菜
 [playse storage="rina/rn69_010.ogg" buf="0"]
-お兄さんのが……欲しいです……[p]
+哥哥的……我想要……[p]
  [endif]
  [if exp="tf.rand == 1"]
 #莉菜
 [playse storage="rina/rn69_011.ogg" buf="0"]
-挿れて下さい……[p]
+请插入……[p]
  [endif]
  [if exp="tf.rand == 2"]
 #莉菜
 [playse storage="rina/rn69_012.ogg" buf="0"]
-お兄さん、してください………[p]
+哥哥，请……[p]
  [endif]
  [if exp="tf.rand == 3"]
 #莉菜
 [playse storage="rina/rn69_013.ogg" buf="0"]
-お兄さん、もう……こんなになってます……[p]
+哥哥，已经……变成这样了……[p]
  [endif]
- [eval exp="tf.taii= 50"]
+ [eval exp="tf.taii= 0"]
 [endif]
 #
 ;***********************************************************************************************************************
@@ -166,21 +166,21 @@ tf.rand = Math.floor( Math.random() * 5)
 ;■精力判別　20以下だと不能
 [if exp="f.energy < 20"]
 ……[l]……[l]……[p]
-あっ……あれ？……[p]
-おかしいな……[p]
-た……立たない……[p]
-…………[p]
+啊……咦？……[p]
+真奇怪啊……[p]
+怎么回事？无法勃起……[p]
+……[p]
 [bg storage="black.png" time="0"]
 [stop_bgmovie time="2000"]
 [bgmovie storage="mov_66_2.webm"]
 #莉菜
 [playse storage="rina/rn69_062.ogg" buf="0"]
-お兄さん、気にしないで下さい[p]
+哥哥，请不要在意[p]
 #
 [stop_bgmovie]
 [bg storage="room_night.png" time="1000"]
 [uiwindows]
-部屋に戻ってきた[p]
+回到了房间[p]
 
 [jump storage="main.ks" target="*night_choice"]
 [endif]
@@ -197,7 +197,7 @@ tf.rand = Math.floor( Math.random() * 5)
 ;■80以上　騎乗位2
 ;■85以上  騎乗位3 後背位4
 
-;■一時変数 tf.posture [体位動画、射精動画、遅いレート、普通レート、早いレート]
+;■一時変数 tf.posture [体位動画，射精動画，遅いレート，普通レート，早いレート]
 [eval exp="tf.rina_posture = []"]
 ;■0　正常位１
 [eval exp="tf.rina_posture[0] = ['mov_69_10.webm','mov_69_30.webm',0.7,0.8,1,'mov_69_40.webm']"]
@@ -247,60 +247,60 @@ tf.rand = Math.floor( Math.random() * 5)
 [endif]
 
 ;■側位１
-[glink  color="pink" size="15"  x="20"  width="150"  y="&tf.taii"  text="側位１"  target="*rina_room_movie" exp="tf.posture = 2"]
+[glink  color="pink" size="15"  x="20"  width="150"  y="&tf.taii"  text="侧位１"  target="*rina_room_movie" exp="tf.posture = 2"]
 [eval exp="tf.taii = tf.taii + 35"]
 
 ;■測位２
 [if exp="f.rina_h >= 30"]
- [glink  color="pink" size="15"  x="70"  width="150"  y="&tf.taii"  text="側位２"  target="*rina_room_movie" exp="tf.posture = 3"]
+ [glink  color="pink" size="15"  x="70"  width="150"  y="&tf.taii"  text="侧位２"  target="*rina_room_movie" exp="tf.posture = 3"]
  [eval exp="tf.taii = tf.taii + 35"]
 [endif]
 
 ;■測位3
 [if exp="f.rina_h >= 50"]
- [glink  color="pink" size="15"  x="120"  width="150"  y="&tf.taii"  text="側位３"  target="*rina_room_movie" exp="tf.posture = 11"]
+ [glink  color="pink" size="15"  x="120"  width="150"  y="&tf.taii"  text="侧位３"  target="*rina_room_movie" exp="tf.posture = 11"]
  [eval exp="tf.taii = tf.taii + 35"]
 [endif]
 
 ;■後背位１
 [if exp="f.rina_h >= 20"]
- [glink  color="pink" size="15"  x="20"  width="150"  y="&tf.taii"  text="後背位１"  target="*rina_room_movie" exp="tf.posture = 4"]
+ [glink  color="pink" size="15"  x="20"  width="150"  y="&tf.taii"  text="后背位１"  target="*rina_room_movie" exp="tf.posture = 4"]
  [eval exp="tf.taii = tf.taii + 35"]
 [endif]
 
 ;■後背位２　　
 [if exp="f.rina_h >= 40"]
- [glink  color="pink" size="15"  x="70"  width="150"  y="&tf.taii"  text="後背位２"  target="*rina_room_movie" exp="tf.posture = 5"]
+ [glink  color="pink" size="15"  x="70"  width="150"  y="&tf.taii"  text="后背位２"  target="*rina_room_movie" exp="tf.posture = 5"]
  [eval exp="tf.taii = tf.taii + 35"]
 [endif]
 
 ;■後背位3　　
 [if exp="f.rina_h >= 60"]
- [glink  color="pink" size="15"  x="120"  width="150"  y="&tf.taii"  text="後背位3"  target="*rina_room_movie" exp="tf.posture = 9"]
+ [glink  color="pink" size="15"  x="120"  width="150"  y="&tf.taii"  text="后背位3"  target="*rina_room_movie" exp="tf.posture = 9"]
  [eval exp="tf.taii = tf.taii + 35"]
 [endif]
 
 ;■後背位4　　
 [if exp="f.rina_h >= 85"]
- [glink  color="pink" size="15"  x="170"  width="150"  y="&tf.taii"  text="後背位4"  target="*rina_room_movie" exp="tf.posture = 13"]
+ [glink  color="pink" size="15"  x="170"  width="150"  y="&tf.taii"  text="后背位4"  target="*rina_room_movie" exp="tf.posture = 13"]
  [eval exp="tf.taii = tf.taii + 35"]
 [endif]
 
 ;■騎乗位
 [if exp="f.rina_h >= 50"]
- [glink  color="pink" size="15"  x="20"  width="150"  y="&tf.taii"  text="騎乗位"  target="*rina_room_movie" exp="tf.posture = 6"]
+ [glink  color="pink" size="15"  x="20"  width="150"  y="&tf.taii"  text="乘骑位"  target="*rina_room_movie" exp="tf.posture = 6"]
  [eval exp="tf.taii = tf.taii + 35"]
 [endif]
 
 ;■騎乗位2
 [if exp="f.rina_h >= 80"]
- [glink  color="pink" size="15"  x="70"  width="150"  y="&tf.taii"  text="騎乗位2"  target="*rina_room_movie" exp="tf.posture = 10"]
+ [glink  color="pink" size="15"  x="70"  width="150"  y="&tf.taii"  text="乘骑位2"  target="*rina_room_movie" exp="tf.posture = 10"]
  [eval exp="tf.taii = tf.taii + 35"]
 [endif]
 
 ;■騎乗位3
 [if exp="f.rina_h >= 85"]
- [glink  color="pink" size="15"  x="120"  width="150"  y="&tf.taii"  text="騎乗位3"  target="*rina_room_movie" exp="tf.posture = 12"]
+ [glink  color="pink" size="15"  x="120"  width="150"  y="&tf.taii"  text="乘骑位3"  target="*rina_room_movie" exp="tf.posture = 12"]
  [eval exp="tf.taii = tf.taii + 35"]
 [endif]
 
@@ -491,7 +491,7 @@ pic.style.webkitFilter = "saturate(600%)";
  [cm]
  [clearfix]
  [layopt layer="message0" visible="true"]
-うっ……あっ、いっ……いく！
+唔……啊，射……射了！
  [wait time="2000"]
  [jump target="*syasei"]
 [endif]
@@ -743,7 +743,7 @@ pic.style.webkitFilter = "saturate(600%)";
   [eval exp="tf.aegi_old = tf.aegi"]
   [playse storage="se/kutyu03.ogg" buf="3" loop="true"]
  [endif] 
- ;快感300下回ったら喘ぎを戻す
+ ;快感300下回ったら喘ぎを戻す 
  [if exp="tf.kaikan < 300"]
   [eval exp="tf.ikisou = 0"]
   [playse storage="rina/rn69_026_1.ogg" buf="0" loop="true"]
@@ -786,22 +786,22 @@ tf.rand = Math.floor( Math.random() * 2)
 [if exp="tf.rand == 0"]
 #莉菜
 [playse storage="rina/rn69_050.ogg" buf="0"]
-ちょっと、痛かったです[p]
+有点疼。[p]
 #
-ごめんね莉菜ちゃん[r]
-もっとゆっくりやるね[p]
+对不起莉菜啊[r]
+下次我会更小心一点[p]
 [endif]
 [if exp="tf.rand == 1"]
 #莉菜
 [playse storage="rina/rn69_052.ogg" buf="0"]
-ごめんなさい、まだ慣れてなくて[p]
+对不起我还没习惯[p]
 #
-莉菜ちゃん、もうすこしゆっくりするからね[p]
+莉菜，下次我会更小心一点。[p]
 [endif]
 [if exp="tf.rand == 2"]
 #莉菜
 [playse storage="rina/rn69_051.ogg" buf="0"]
-もう少し優しくお願いします[p]
+请更温柔一点[p]
 [endif]
 ;●莉菜エッチ度増加
 [eval exp="f.rina_h = f.rina_h + 4 "]
@@ -816,17 +816,17 @@ tf.rand = Math.floor( Math.random() * 3)
 [if exp="tf.rand == 0"]
 #莉菜
 [playse storage="rina/rn69_053.ogg" buf="0"]
-お兄さん、どうでした？[p]
+哥哥，怎么样?[p]
 [endif]
 [if exp="tf.rand == 1"]
 #莉菜
 [playse storage="rina/rn69_054.ogg" buf="0"]
-気持ちよかったですか？[p]
+感觉很舒服吗？[p]
 [endif]
 [if exp="tf.rand == 2"]
 #莉菜
 [playse storage="rina/rn69_055.ogg" buf="0"]
-お兄さんが気持ちよければ私は大丈夫です[p]
+如果哥哥舒服的话我就没问题[p]
 [endif]
 ;●莉菜エッチ度増加
 [eval exp="f.rina_h = f.rina_h + 5 "]
@@ -841,17 +841,17 @@ tf.rand = Math.floor( Math.random() * 3)
 [if exp="tf.rand == 0"]
 #莉菜
 [playse storage="rina/rn69_059.ogg" buf="0"]
-あんなに乱れて……恥ずかしい……[p]
+我如此的淫乱……好难为情啊[p]
 [endif]
 [if exp="tf.rand == 1"]
 #莉菜
 [playse storage="rina/rn69_060.ogg" buf="0"]
-お兄さんのが……よかったです……[p]
+哥哥的……太棒了……[p]
 [endif]
 [if exp="tf.rand == 2"]
 #莉菜
 [playse storage="rina/rn69_061.ogg" buf="0"]
-お兄さん……好き……[p]
+哥哥……喜欢……[p]
 [endif]
 ;●莉菜エッチ度増加
 [eval exp="f.rina_h = f.rina_h + 7 "]
@@ -866,17 +866,17 @@ tf.rand = Math.floor( Math.random() * 3)
 [if exp="tf.rand == 0"]
 #莉菜
 [playse storage="rina/rn69_056.ogg" buf="0"]
-ちょっと、気持ちよかったです[p]
+有点……感觉很舒服[p]
 [endif]
 [if exp="tf.rand == 1"]
 #莉菜
 [playse storage="rina/rn69_057.ogg" buf="0"]
-なんか……よくなってきました……[p]
+感觉……变得好起来了……[p]
 [endif]
 [if exp="tf.rand == 2"]
 #莉菜
 [playse storage="rina/rn69_058.ogg" buf="0"]
-き……気持ちよかったです……[p]
+太……太舒服了……[p]
 [endif]
 ;●莉菜エッチ度増加
 [eval exp="f.rina_h = f.rina_h + 6 "]
@@ -891,12 +891,12 @@ tf.rand = Math.floor( Math.random() * 2)
 [if exp="tf.rand == 0"]
 #莉菜
 [playse storage="rina/rn69_063.ogg" buf="0"]
-もっと私が頑張ります[p]
+我会更努力的[p]
 [endif]
 [if exp="tf.rand == 1"]
 #莉菜
 [playse storage="rina/rn69_064.ogg" buf="0"]
-お兄さんが興奮できるようにがんばります[p]
+我会尽我所能让哥哥兴奋起来[p]
 [endif]
 
 ;●莉菜エッチ度増加
@@ -906,7 +906,7 @@ tf.rand = Math.floor( Math.random() * 2)
 
 
 ;***********************************************************************************************************************
-;愛情、エッチ度増加
+;愛情，エッチ度増加
 *rina_room_end
 [rina_i]
 
@@ -929,6 +929,6 @@ tf.rand = Math.floor( Math.random() * 2)
 #
 [bg storage="room_night.png" time="1000"]
 [uiwindows]
-部屋に戻ってきた[p]
+回到了房间[p]
 
 [jump storage="main.ks" target="*night_choice"]

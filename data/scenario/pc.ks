@@ -19,26 +19,26 @@
 ;[endif]
 ;[glink  color="pink" size="20"  x="700"  width="400"  y="&tf.y_iti"  text="やめる"  target="*return"]
 
-色々売っているな[p]
-[glink  color="pink" size="20"  x="500"  width="200"  y="150"  text="スクール水着"  target="*swimwear"]
-[glink  color="pink" size="20"  x="800"  width="200"  y="150"  text="メイド服"  target="*maid"]
-[glink  color="pink" size="20"  x="500"  width="200"  y="220"  text="ナース服"  target="*narse"]
-[glink  color="pink" size="20"  x="800"  width="200"  y="220"  text="バイブ　Ｓ"  target="*vibrator_s"]
-[glink  color="pink" size="20"  x="500"  width="200"  y="290"  text="バイブ　Ｍ"  target="*vibrator_m"]
-[glink  color="pink" size="20"  x="800"  width="200"  y="290"  text="バイブ　Ｌ"  target="*vibrator_l"]
-[glink  color="pink" size="20"  x="500"  width="200"  y="360"  text="ローター"  target="*rotor"]
+有各种各样的商品啊[p]
+[glink  color="pink" size="20"  x="500"  width="200"  y="150"  text="校泳衣"  target="*swimwear"]
+[glink  color="pink" size="20"  x="800"  width="200"  y="150"  text="女仆服"  target="*maid"]
+[glink  color="pink" size="20"  x="500"  width="200"  y="220"  text="护士服"  target="*narse"]
+[glink  color="pink" size="20"  x="800"  width="200"  y="220"  text="振动棒 S"  target="*vibrator_s"]
+[glink  color="pink" size="20"  x="500"  width="200"  y="290"  text="振动棒 M"  target="*vibrator_m"]
+[glink  color="pink" size="20"  x="800"  width="200"  y="290"  text="振动棒 L"  target="*vibrator_l"]
+[glink  color="pink" size="20"  x="500"  width="200"  y="360"  text="跳蛋"  target="*rotor"]
 ;***********************************************************************************************************************
 ;fanza特典
-[if exp="f.version_dl == 'fanza'"]
-[glink  color="pink" size="20"  x="800"  width="200"  y="360"  text="体操着"  target="*training_wear"]
-[endif]
+;[if exp="f.version_dl == 'fanza'"]
+[glink  color="pink" size="20"  x="800"  width="200"  y="360"  text="体操服"  target="*training_wear"]
+;[endif]
 ;***********************************************************************************************************************
 ;DLsite特典
-[if exp="f.version_dl == 'dlsite'"]
-[glink  color="pink" size="20"  x="800"  width="200"  y="360"  text="ランドセル"  target="*school_bag"]
-[endif]
+;[if exp="f.version_dl == 'dlsite'"]
+[glink  color="pink" size="20"  x="500"  width="200"  y="430"  text="书包"  target="*school_bag"]
+;[endif]
 ;***********************************************************************************************************************
-[glink  color="pink" size="20"  x="650"  width="200"  y="500"  text="やめる"  target="*return"]
+[glink  color="pink" size="20"  x="650"  width="200"  y="500"  text="算了"  target="*return"]
 [s]
 ;***********************************************************************************************************************
 ;-スクール水着
@@ -47,11 +47,11 @@
 [jump target="*have"]
 [endif]
 [eval exp="f.goods = 0"]
-[eval exp="f.goods_name = 'スクール水着'"]
+[eval exp="f.goods_name = '　校泳衣　'"]
 [eval exp="f.goods_price = 20000"]
 [cm]
-旧スクール水着か……[p]
-お値段は２００００円……どうしようかな？
+旧的校泳装吗……[p]
+价格是20000日元……怎么办？[p]
 [jump target="*select"]
 ;***********************************************************************************************************************
 ;-メイド服
@@ -60,11 +60,11 @@
 [jump target="*have"]
 [endif]
 [eval exp="f.goods = 1"]
-[eval exp="f.goods_name = '　メイド服　'"]
+[eval exp="f.goods_name = '　女仆服　'"]
 [eval exp="f.goods_price = 18000"]
 [cm]
-メイド服か……[p]
-お値段は１８０００円……どうしようかな？
+女仆服吗……[p]
+价格是18000日元……怎么办？[p]
 [jump target="*select"]
 ;***********************************************************************************************************************
 ;-ナース服
@@ -73,11 +73,11 @@
 [jump target="*have"]
 [endif]
 [eval exp="f.goods = 2"]
-[eval exp="f.goods_name = '　ナース服　'"]
+[eval exp="f.goods_name = '　护士服　'"]
 [eval exp="f.goods_price = 16000"]
 [cm]
-ナース服か……[p]
-お値段は１６０００円……どうしようかな？
+护士服吗……[p]
+价格是16000日元……怎么办？[p]
 [jump target="*select"]
 ;***********************************************************************************************************************
 ;***********************************************************************************************************************
@@ -87,11 +87,11 @@
 [jump target="*have"]
 [endif]
 [eval exp="f.goods = 3"]
-[eval exp="f.goods_name = 'バイブ　Ｓ'"]
+[eval exp="f.goods_name = '　振动棒 Ｓ　'"]
 [eval exp="f.goods_price = 20000"]
 [cm]
-バイブか……[p]
-お値段は２００００円……どうしようかな？
+震动棒 S型号吗……[p]
+价格是20000日元……怎么办？かな？
 [jump target="*select"]
 ;***********************************************************************************************************************
 ;-バイブM
@@ -100,11 +100,11 @@
 [jump target="*have"]
 [endif]
 [eval exp="f.goods = 4"]
-[eval exp="f.goods_name = 'バイブ　Ｍ'"]
+[eval exp="f.goods_name = '　振动棒 Ｍ　'"]
 [eval exp="f.goods_price = 20000"]
 [cm]
-バイブか……[p]
-お値段は２００００円……どうしようかな？
+震动棒 M型号吗……[p]
+价格是20000日元……怎么办？
 [jump target="*select"]
 ;***********************************************************************************************************************
 ;-バイブL
@@ -113,11 +113,11 @@
 [jump target="*have"]
 [endif]
 [eval exp="f.goods = 5"]
-[eval exp="f.goods_name = 'バイブ　Ｌ'"]
+[eval exp="f.goods_name = '　振动棒 Ｌ'　"]
 [eval exp="f.goods_price = 20000"]
 [cm]
-バイブか……[p]
-お値段は２００００円……どうしようかな？
+震动棒 L型号吗……[p]
+价格是20000日元……怎么办？
 [jump target="*select"]
 ;***********************************************************************************************************************
 ;-ローター
@@ -126,11 +126,11 @@
 [jump target="*have"]
 [endif]
 [eval exp="f.goods = 6"]
-[eval exp="f.goods_name = '  ローター '"]
+[eval exp="f.goods_name = '　跳蛋　'"]
 [eval exp="f.goods_price = 20000"]
 [cm]
-ローターか……[p]
-お値段は２００００円……どうしようかな？
+跳蛋吗……[p]
+价格是20000日元……怎么办？
 [jump target="*select"]
 ;***********************************************************************************************************************
 ;体操着
@@ -139,11 +139,11 @@
 [jump target="*have"]
 [endif]
 [eval exp="f.goods = 7"]
-[eval exp="f.goods_name = '  体操着 '"]
+[eval exp="f.goods_name = '　体操服　'"]
 [eval exp="f.goods_price = 18000"]
 [cm]
-体操着か……[p]
-お値段は１８０００円……どうしようかな？
+体操服吗……[p]
+价格是18000日元……怎么办？
 [jump target="*select"]
 ;***********************************************************************************************************************
 ;ランドセル
@@ -152,24 +152,24 @@
 [jump target="*have"]
 [endif]
 [eval exp="f.goods = 8"]
-[eval exp="f.goods_name = '  ランドセル '"]
+[eval exp="f.goods_name = '　书包　'"]
 [eval exp="f.goods_price = 22000"]
 [cm]
-ランドセルか……[p]
-お値段は２２０００円……どうしようかな？
+书包吗……[p]
+价格是22000日元……怎么办？
 [jump target="*select"]
 ;***********************************************************************************************************************
 *have
-これはもう持っている[p]
+这个已经有了[p][p]
 [jump target="*product"]
 ;***********************************************************************************************************************
 ;確認ダイアログ
 *select
 [layopt layer="1" visible="true"]
 [image storage="window_02.png" layer="1" x="575" y="250" width="350" height="192" ]
-[ptext layer="1" text="&f.goods_name+'を購入しますか？'" x="610" y="300" vertical="" size="20" shadow="0x000000" ]
-[glink  color="pink" size="20"  x="600"  width="60"  y=360  text="はい"  target="*select2"]
-[glink  color="pink" size="20"  x="750"  width="60"  y=360  text="いいえ"  target="*select_clear"]
+[ptext layer="1" text="'是否要买'+&f.goods_name+'？'" x="610" y="300" vertical="" size="20" shadow="0x000000" ]
+[glink  color="pink" size="20"  x="600"  width="60"  y=360  text="是"  target="*select2"]
+[glink  color="pink" size="20"  x="750"  width="60"  y=360  text="否"  target="*select_clear"]
 [s]
 *select_clear
 [freeimage layer="1"]
@@ -179,17 +179,17 @@
 ;***********************************************************************************************************************
 ;金額チェック
 [if exp="f.money < f.goods_price"]
-お金が足りなかった……[p]
+钱不够……[p]
 [jump target="*product"]
 [endif]
-購入した[r]
+买好了[r]
 [eval exp="f.money = f.money - f.goods_price"]
 [eval exp="f.delivery = f.goods"]
 [uiwindows]
 [playse storage="se/money.ogg" buf="2"]
 [kanim name="money" keyframe="money_a" time ="300"]
 [stop_kanim]
-商品は明日届くみたいだ[p]
+商品好像明天就能送到[p]
 
 *return
 [return]

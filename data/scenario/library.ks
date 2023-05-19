@@ -1,6 +1,7 @@
 ;図書館
 
 *start
+[update_title]
 
 [cm]
 [clearfix]

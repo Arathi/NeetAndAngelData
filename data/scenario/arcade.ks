@@ -1,6 +1,7 @@
 ;游戏中心
 
 *start
+[update_title]
 
 [cm]
 [clearfix]

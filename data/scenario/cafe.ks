@@ -1,6 +1,7 @@
 ;カフェ
 
 *start
+[update_title]
 
 [cm]
 [clearfix]

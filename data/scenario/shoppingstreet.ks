@@ -1,6 +1,7 @@
 ;商店街
 
 *start
+[update_title]
 
 [cm]
 [clearfix]

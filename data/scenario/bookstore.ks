@@ -1,6 +1,7 @@
 ;本屋
 
 *start
+[update_title]
 
 [cm]
 [clearfix]

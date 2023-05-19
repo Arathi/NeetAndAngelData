@@ -1,6 +1,7 @@
 ;駄菓子屋
 
 *start
+[update_title]
 
 [cm]
 [clearfix]

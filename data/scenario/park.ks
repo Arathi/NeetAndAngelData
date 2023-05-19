@@ -1,6 +1,7 @@
 ;公園
 
 *start
+[update_title]
 
 [cm]
 [clearfix]
